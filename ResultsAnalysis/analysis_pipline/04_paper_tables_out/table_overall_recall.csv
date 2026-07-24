@@ -1,0 +1,14 @@
+Factor,Level,Recall (%),Successes,Observations
+Model,Llama,85.52,821,960
+Model,Qwen,65.83,632,960
+Prompt,Evidence,87.34,559,640
+Prompt,Guided,74.22,475,640
+Prompt,Label,65.47,419,640
+Parser,P1,81.04,778,960
+Parser,P2,70.31,675,960
+Collection year,2023,82.81,795,960
+Collection year,2025,68.54,658,960
+Dataset,Nazario,82.48,673,816
+Dataset,SpamAssassin,70.65,780,1104
+Obfuscation,No,72.19,693,960
+Obfuscation,Yes,79.17,760,960

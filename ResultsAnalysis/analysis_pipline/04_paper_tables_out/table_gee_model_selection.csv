@@ -1,0 +1,18 @@
+Model,Converged,Rows,Clusters,QIC,QICu
+Combined key interactions,True,1920,160,1703.22,1727.59
+Year × Dataset,True,1920,160,1757.65,1766.28
+Parser × Obfuscation,True,1920,160,1772.08,1781.34
+Model × Obfuscation,True,1920,160,1782.51,1791.91
+Parser × Dataset,True,1920,160,1783.45,1792.94
+Prompt × Parser,True,1920,160,1788.81,1800.21
+Prompt × Dataset,True,1920,160,1788.88,1800.34
+Year × Obfuscation,True,1920,160,1789.72,1797.9
+Model × Year,True,1920,160,1790.7,1800.22
+Model × Parser,True,1920,160,1791.61,1800.96
+Model × Prompt,True,1920,160,1791.84,1803.34
+Parser × Year,True,1920,160,1792.1,1801.54
+Model × Dataset,True,1920,160,1792.62,1802.13
+Dataset × Obfuscation,True,1920,160,1793.49,1801.63
+Main effects,True,1920,160,1794.7,1802.49
+Prompt × Year,True,1920,160,1796.36,1807.66
+Prompt × Obfuscation,True,1920,160,1796.58,1808.03

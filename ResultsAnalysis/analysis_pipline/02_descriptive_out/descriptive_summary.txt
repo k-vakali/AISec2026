@@ -1,0 +1,56 @@
+DESCRIPTIVE ANALYSIS SUMMARY\n======================================================================\nRows: 1,920\nUnique underlying emails: 160\n\nIMPORTANT\n----------------------------------------------------------------------\nThese are observed descriptive differences. They are not yet cluster-adjusted statistical tests.\nWilson intervals in the CSV files are descriptive only when summaries pool repeated rows from the same email.\n\nMAIN EFFECTS\n----------------------------------------------------------------------\n\nMODEL\nmodel  successes  observations recall_pct
+Llama        821           960      85.52
+ Qwen        632           960      65.83\n\nPROMPT\n  prompt  successes  observations recall_pct
+evidence        559           640      87.34
+  guided        475           640      74.22
+   label        419           640      65.47\n\nPARSER\nparser  successes  observations recall_pct
+    P1        778           960      81.04
+    P2        675           960      70.31\n\nYEAR_NUM\n year_num  successes  observations recall_pct
+     2023        795           960      82.81
+     2025        658           960      68.54\n\nDATASET_CLEAN\ndataset_clean  successes  observations recall_pct
+      nazario        673           816      82.48
+spam_assassin        780          1104      70.65\n\nOBFUSCATION_CLEAN\nobfuscation_clean  successes  observations recall_pct
+               no        693           960      72.19
+              yes        760           960      79.17\n\nTOP CONFIGURATIONS\n----------------------------------------------------------------------\n observed_rank model   prompt parser  successes  observations recall_pct
+             1 Llama evidence     P1        155           160      96.88
+             2 Llama evidence     P2        153           160      95.62
+             3 Llama    label     P1        136           160      85.00
+             4  Qwen evidence     P1        136           160      85.00
+             5 Llama   guided     P1        131           160      81.88
+             6 Llama   guided     P2        130           160      81.25
+             7 Llama    label     P2        116           160      72.50
+             8  Qwen   guided     P1        116           160      72.50
+             9  Qwen evidence     P2        115           160      71.88
+            10  Qwen    label     P1        104           160      65.00
+            11  Qwen   guided     P2         98           160      61.25
+            12  Qwen    label     P2         63           160      39.38\n\nOBSERVED PATTERNS FLAGGED AT >= 5.0 PP\n----------------------------------------------------------------------\n                   analysis_scope        factor  level_a       level_b difference_percentage_points model   prompt parser  year_num dataset_clean obfuscation_clean
+             prompt_within_parser        prompt evidence         label                        27.81   NaN      NaN     P2       NaN           NaN               NaN
+           prompt_within_year_num        prompt evidence         label                        27.50   NaN      NaN    NaN    2025.0           NaN               NaN
+              model_within_prompt         model    Llama          Qwen                        26.56   NaN    label    NaN       NaN           NaN               NaN
+  prompt_within_obfuscation_clean        prompt evidence         label                        26.56   NaN      NaN    NaN       NaN           NaN                no
+              prompt_within_model        prompt evidence         label                        26.25  Qwen      NaN    NaN       NaN           NaN               NaN
+              model_within_parser         model    Llama          Qwen                        25.63   NaN      NaN     P2       NaN           NaN               NaN
+    year_num_within_dataset_clean      year_num     2023          2025                        25.00   NaN      NaN    NaN       NaN spam_assassin               NaN
+    dataset_clean_within_year_num dataset_clean  nazario spam_assassin                        24.45   NaN      NaN    NaN    2025.0           NaN               NaN
+   model_within_obfuscation_clean         model    Llama          Qwen                        22.92   NaN      NaN    NaN       NaN           NaN               yes
+      prompt_within_dataset_clean        prompt evidence         label                        22.06   NaN      NaN    NaN       NaN       nazario               NaN
+                          overall        prompt evidence         label                        21.88   NaN      NaN    NaN       NaN           NaN               NaN
+      prompt_within_dataset_clean        prompt evidence         label                        21.74   NaN      NaN    NaN       NaN spam_assassin               NaN
+            model_within_year_num         model    Llama          Qwen                        20.42   NaN      NaN    NaN    2025.0           NaN               NaN
+       model_within_dataset_clean         model    Llama          Qwen                        20.29   NaN      NaN    NaN       NaN spam_assassin               NaN
+                          overall         model    Llama          Qwen                        19.69   NaN      NaN    NaN       NaN           NaN               NaN
+           year_num_within_prompt      year_num     2023          2025                        19.69   NaN    label    NaN       NaN           NaN               NaN
+      dataset_clean_within_parser dataset_clean  nazario spam_assassin                        19.66   NaN      NaN     P2       NaN           NaN               NaN
+year_num_within_obfuscation_clean      year_num     2023          2025                        19.17   NaN      NaN    NaN       NaN           NaN               yes
+             parser_within_prompt        parser       P1            P2                        19.06   NaN    label    NaN       NaN           NaN               NaN
+            model_within_year_num         model    Llama          Qwen                        18.96   NaN      NaN    NaN    2023.0           NaN               NaN
+       model_within_dataset_clean         model    Llama          Qwen                        18.87   NaN      NaN    NaN       NaN       nazario               NaN
+              model_within_prompt         model    Llama          Qwen                        17.81   NaN evidence    NaN       NaN           NaN               NaN
+              prompt_within_model        prompt evidence         label                        17.50 Llama      NaN    NaN       NaN           NaN               NaN
+  parser_within_obfuscation_clean        parser       P1            P2                        17.50   NaN      NaN    NaN       NaN           NaN               yes
+      parser_within_dataset_clean        parser       P1            P2                        17.39   NaN      NaN    NaN       NaN spam_assassin               NaN
+      dataset_clean_within_prompt dataset_clean  nazario spam_assassin                        17.34   NaN   guided    NaN       NaN           NaN               NaN
+  prompt_within_obfuscation_clean        prompt evidence         label                        17.19   NaN      NaN    NaN       NaN           NaN               yes
+              parser_within_model        parser       P1            P2                        16.67  Qwen      NaN    NaN       NaN           NaN               NaN
+      prompt_within_dataset_clean        prompt evidence        guided                        16.58   NaN      NaN    NaN       NaN spam_assassin               NaN
+   model_within_obfuscation_clean         model    Llama          Qwen                        16.46   NaN      NaN    NaN       NaN           NaN                no\n\nNEXT STEP\n----------------------------------------------------------------------\nUse patterns_worth_testing.csv to choose effects for targeted McNemar, GEE, and email-cluster bootstrap analyses.\nDo not select findings using p-values at this stage; select them using substantive size, consistency, and relevance.

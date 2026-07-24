@@ -1,0 +1,27 @@
+                               GEE Regression Results                              
+===================================================================================
+Dep. Variable:                    detected   No. Observations:                 1920
+Model:                                 GEE   No. clusters:                      160
+Method:                        Generalized   Min. cluster size:                  12
+                      Estimating Equations   Max. cluster size:                  12
+Family:                           Binomial   Mean cluster size:                12.0
+Dependence structure:         Exchangeable   Num. iterations:                    14
+Date:                     Sun, 12 Jul 2026   Scale:                           1.000
+Covariance type:                    robust   Time:                         19:07:23
+=======================================================================================================================================================================
+                                                                                                          coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                                                               3.7258      0.389      9.590      0.000       2.964       4.487
+C(model, Treatment(reference='Llama'))[T.Qwen]                                                         -1.2569      0.125    -10.033      0.000      -1.502      -1.011
+C(prompt, Treatment(reference='evidence'))[T.guided]                                                   -0.8993      0.150     -5.987      0.000      -1.194      -0.605
+C(prompt, Treatment(reference='evidence'))[T.label]                                                    -1.2931      0.153     -8.452      0.000      -1.593      -0.993
+C(parser, Treatment(reference='P1'))[T.P2]                                                             -0.6917      0.128     -5.411      0.000      -0.942      -0.441
+C(year_num, Treatment(reference=2023))[T.2025]                                                         -0.6162      0.333     -1.848      0.065      -1.270       0.037
+C(dataset_clean, Treatment(reference='nazario'))[T.spam_assassin]                                      -0.7297      0.266     -2.743      0.006      -1.251      -0.208
+C(obfuscation_clean, Treatment(reference='no'))[T.yes]                                                  0.2077      0.251      0.828      0.408      -0.284       0.700
+C(prompt, Treatment(reference='evidence'))[T.guided]:C(year_num, Treatment(reference=2023))[T.2025]    -0.1110      0.211     -0.526      0.599      -0.525       0.303
+C(prompt, Treatment(reference='evidence'))[T.label]:C(year_num, Treatment(reference=2023))[T.2025]     -0.2724      0.240     -1.136      0.256      -0.742       0.197
+==============================================================================
+Skew:                         -0.9360   Kurtosis:                      -0.1368
+Centered skew:                -0.4861   Centered kurtosis:              0.2999
+==============================================================================

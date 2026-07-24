@@ -1,0 +1,59 @@
+RESULTS NUMBERS SUMMARY
+========================================================================
+
+OVERALL RECALL
+         Factor        Level  Recall (%)  Successes  Observations
+          Model        Llama       85.52        821           960
+          Model         Qwen       65.83        632           960
+         Prompt     Evidence       87.34        559           640
+         Prompt       Guided       74.22        475           640
+         Prompt        Label       65.47        419           640
+         Parser           P1       81.04        778           960
+         Parser           P2       70.31        675           960
+Collection year         2023       82.81        795           960
+Collection year         2025       68.54        658           960
+        Dataset      Nazario       82.48        673           816
+        Dataset SpamAssassin       70.65        780          1104
+    Obfuscation           No       72.19        693           960
+    Obfuscation          Yes       79.17        760           960
+
+TOP AND BOTTOM CONFIGURATIONS
+ Rank Model   Prompt Parser  Successes  Observations  Recall (%)
+    1 Llama Evidence     P1        155           160       96.88
+    2 Llama Evidence     P2        153           160       95.62
+    3 Llama    Label     P1        136           160       85.00
+
+ Rank Model Prompt Parser  Successes  Observations  Recall (%)
+   10  Qwen  Label     P1        104           160       65.00
+   11  Qwen Guided     P2         98           160       61.25
+   12  Qwen  Label     P2         63           160       39.38
+
+BEST GEE MODEL
+                    Model  Converged  Rows  Clusters     QIC    QICu
+Combined key interactions       True  1920       160 1703.22 1727.59
+
+FINAL GEE MAIN EFFECTS
+            Variable   OR     95% CI    Raw p   Holm p    FDR p
+                Qwen 0.18 0.10--0.33 $<0.001$ $<0.001$ $<0.001$
+       Guided prompt 0.15 0.08--0.27 $<0.001$ $<0.001$ $<0.001$
+        Label prompt 0.22 0.12--0.42 $<0.001$ $<0.001$ $<0.001$
+           Parser P2 2.10 1.23--3.57    0.007    0.066    0.013
+Collection year 2025 1.15 0.45--2.92    0.769    1.000    0.814
+        SpamAssassin 1.88 0.82--4.30    0.133    0.638    0.160
+    Obfuscated email 2.56 1.43--4.58    0.002    0.018    0.004
+
+FINAL GEE INTERACTIONS
+                         Interaction   OR     95% CI    Raw p   Holm p    FDR p  Raw p numeric  Holm p numeric  FDR p numeric
+            Parser P2 × SpamAssassin 0.38 0.24--0.58 $<0.001$ $<0.001$ $<0.001$       0.000009        0.000120       0.000031
+        Parser P2 × Obfuscated email 0.36 0.23--0.58 $<0.001$ $<0.001$ $<0.001$       0.000017        0.000221       0.000051
+                Qwen × Guided prompt 3.00 1.76--5.12 $<0.001$ $<0.001$ $<0.001$       0.000057        0.000679       0.000145
+ Collection year 2025 × SpamAssassin 0.24 0.08--0.69    0.009    0.077    0.015       0.008535        0.076813       0.015363
+            Label prompt × Parser P2 0.63 0.44--0.92    0.017    0.136    0.028       0.016994        0.135949       0.027808
+                    Qwen × Parser P2 0.61 0.38--0.97    0.038    0.268    0.058       0.038338        0.268368       0.057507
+                 Qwen × Label prompt 1.70 0.89--3.22    0.106    0.638    0.140       0.106344        0.638062       0.139759
+           Guided prompt × Parser P2 1.31 0.94--1.83    0.109    0.638    0.140       0.108702        0.638062       0.139759
+ Label prompt × Collection year 2025 0.72 0.44--1.18    0.190    0.638    0.214       0.190423        0.638062       0.214226
+Guided prompt × Collection year 2025 0.97 0.64--1.47    0.896    1.000    0.896       0.896284        1.000000       0.896284
+
+INTERPRETATION NOTE
+With interactions in the model, main-effect coefficients are conditional on the reference levels. Do not describe them as unconditional overall effects.

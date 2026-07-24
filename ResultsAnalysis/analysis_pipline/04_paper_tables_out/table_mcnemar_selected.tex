@@ -1,0 +1,34 @@
+\begin{table}[t]
+\caption{Valid condition-specific McNemar comparisons.}
+\label{tab:mcnemar_selected}
+\begin{tabular}{lllrrrrllll}
+\toprule
+Factor & Comparison & Fixed condition & Pairs & Recall A (\%) & Recall B (\%) & Difference (pp) & Discordant A/B & Raw p & Holm p & FDR p \\
+\midrule
+model & Llama vs Qwen & prompt=evidence; parser=P1 & 160 & 96.880000 & 85.000000 & 11.880000 & 20/1 & $<0.001$ & $<0.001$ & $<0.001$ \\
+model & Llama vs Qwen & prompt=evidence; parser=P2 & 160 & 95.620000 & 71.880000 & 23.750000 & 39/1 & $<0.001$ & $<0.001$ & $<0.001$ \\
+model & Llama vs Qwen & prompt=guided; parser=P2 & 160 & 81.250000 & 61.250000 & 20.000000 & 36/4 & $<0.001$ & $<0.001$ & $<0.001$ \\
+model & Llama vs Qwen & prompt=label; parser=P1 & 160 & 85.000000 & 65.000000 & 20.000000 & 40/8 & $<0.001$ & $<0.001$ & $<0.001$ \\
+model & Llama vs Qwen & prompt=label; parser=P2 & 160 & 72.500000 & 39.380000 & 33.120000 & 61/8 & $<0.001$ & $<0.001$ & $<0.001$ \\
+model & Llama vs Qwen & prompt=guided; parser=P1 & 160 & 81.880000 & 72.500000 & 9.380000 & 22/7 & 0.008 & 0.008 & 0.008 \\
+parser & P1 vs P2 & model=Llama; prompt=label & 160 & 85.000000 & 72.500000 & 12.500000 & 26/6 & $<0.001$ & 0.002 & 0.001 \\
+parser & P1 vs P2 & model=Qwen; prompt=evidence & 160 & 85.000000 & 71.880000 & 13.120000 & 27/6 & $<0.001$ & 0.002 & $<0.001$ \\
+parser & P1 vs P2 & model=Qwen; prompt=label & 160 & 65.000000 & 39.380000 & 25.630000 & 49/8 & $<0.001$ & $<0.001$ & $<0.001$ \\
+parser & P1 vs P2 & model=Qwen; prompt=guided & 160 & 72.500000 & 61.250000 & 11.250000 & 28/10 & 0.005 & 0.015 & 0.008 \\
+parser & P1 vs P2 & model=Llama; prompt=evidence & 160 & 96.880000 & 95.620000 & 1.250000 & 4/2 & 0.688 & 1.000 & 0.825 \\
+parser & P1 vs P2 & model=Llama; prompt=guided & 160 & 81.880000 & 81.250000 & 0.620000 & 15/14 & 1.000 & 1.000 & 1.000 \\
+prompt & evidence vs guided & model=Llama; parser=P1 & 160 & 96.880000 & 81.880000 & 15.000000 & 25/1 & $<0.001$ & $<0.001$ & $<0.001$ \\
+prompt & evidence vs label & model=Llama; parser=P1 & 160 & 96.880000 & 85.000000 & 11.880000 & 20/1 & $<0.001$ & $<0.001$ & $<0.001$ \\
+prompt & evidence vs guided & model=Llama; parser=P2 & 160 & 95.620000 & 81.250000 & 14.380000 & 23/0 & $<0.001$ & $<0.001$ & $<0.001$ \\
+prompt & evidence vs label & model=Llama; parser=P2 & 160 & 95.620000 & 72.500000 & 23.130000 & 37/0 & $<0.001$ & $<0.001$ & $<0.001$ \\
+prompt & evidence vs guided & model=Qwen; parser=P1 & 160 & 85.000000 & 72.500000 & 12.500000 & 20/0 & $<0.001$ & $<0.001$ & $<0.001$ \\
+prompt & evidence vs label & model=Qwen; parser=P1 & 160 & 85.000000 & 65.000000 & 20.000000 & 33/1 & $<0.001$ & $<0.001$ & $<0.001$ \\
+prompt & evidence vs guided & model=Qwen; parser=P2 & 160 & 71.880000 & 61.250000 & 10.620000 & 18/1 & $<0.001$ & $<0.001$ & $<0.001$ \\
+prompt & evidence vs label & model=Qwen; parser=P2 & 160 & 71.880000 & 39.380000 & 32.500000 & 52/0 & $<0.001$ & $<0.001$ & $<0.001$ \\
+prompt & guided vs label & model=Qwen; parser=P2 & 160 & 61.250000 & 39.380000 & 21.880000 & 37/2 & $<0.001$ & $<0.001$ & $<0.001$ \\
+prompt & guided vs label & model=Llama; parser=P2 & 160 & 81.250000 & 72.500000 & 8.750000 & 18/4 & 0.004 & 0.013 & 0.005 \\
+prompt & guided vs label & model=Qwen; parser=P1 & 160 & 72.500000 & 65.000000 & 7.500000 & 21/9 & 0.043 & 0.086 & 0.047 \\
+prompt & guided vs label & model=Llama; parser=P1 & 160 & 81.880000 & 85.000000 & -3.120000 & 4/9 & 0.267 & 0.267 & 0.267 \\
+\bottomrule
+\end{tabular}
+\end{table}
