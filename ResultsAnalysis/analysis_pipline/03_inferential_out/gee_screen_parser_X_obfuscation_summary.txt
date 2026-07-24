@@ -17,7 +17,7 @@ C(prompt, Treatment(reference='evidence'))[T.guided]                            
 C(prompt, Treatment(reference='evidence'))[T.label]                                                  -1.4771      0.130    -11.352      0.000      -1.732      -1.222
 C(parser, Treatment(reference='P1'))[T.P2]                                                           -0.2329      0.133     -1.745      0.081      -0.495       0.029
 C(year_num, Treatment(reference=2023))[T.2025]                                                       -0.8181      0.264     -3.096      0.002      -1.336      -0.300
-C(dataset_clean, Treatment(reference='nazario'))[T.spam_assassin]                                    -0.7078      0.271     -2.608      0.009      -1.240      -0.176
+C(dataset_clean, Treatment(reference='nazario'))[T.spam_archive]                                    -0.7078      0.271     -2.608      0.009      -1.240      -0.176
 C(obfuscation_clean, Treatment(reference='no'))[T.yes]                                                1.0026      0.316      3.174      0.002       0.383       1.622
 C(parser, Treatment(reference='P1'))[T.P2]:C(obfuscation_clean, Treatment(reference='no'))[T.yes]    -1.0645      0.249     -4.273      0.000      -1.553      -0.576
 ==============================================================================

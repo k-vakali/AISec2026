@@ -9,7 +9,7 @@ evidence        559           640      87.34
      2023        795           960      82.81
      2025        658           960      68.54\n\nDATASET_CLEAN\ndataset_clean  successes  observations recall_pct
       nazario        673           816      82.48
-spam_assassin        780          1104      70.65\n\nOBFUSCATION_CLEAN\nobfuscation_clean  successes  observations recall_pct
+spam_archive        780          1104      70.65\n\nOBFUSCATION_CLEAN\nobfuscation_clean  successes  observations recall_pct
                no        693           960      72.19
               yes        760           960      79.17\n\nTOP CONFIGURATIONS\n----------------------------------------------------------------------\n observed_rank model   prompt parser  successes  observations recall_pct
              1 Llama evidence     P1        155           160      96.88
@@ -30,17 +30,17 @@ spam_assassin        780          1104      70.65\n\nOBFUSCATION_CLEAN\nobfuscat
   prompt_within_obfuscation_clean        prompt evidence         label                        26.56   NaN      NaN    NaN       NaN           NaN                no
               prompt_within_model        prompt evidence         label                        26.25  Qwen      NaN    NaN       NaN           NaN               NaN
               model_within_parser         model    Llama          Qwen                        25.63   NaN      NaN     P2       NaN           NaN               NaN
-    year_num_within_dataset_clean      year_num     2023          2025                        25.00   NaN      NaN    NaN       NaN spam_assassin               NaN
-    dataset_clean_within_year_num dataset_clean  nazario spam_assassin                        24.45   NaN      NaN    NaN    2025.0           NaN               NaN
+    year_num_within_dataset_clean      year_num     2023          2025                        25.00   NaN      NaN    NaN       NaN spam_archive               NaN
+    dataset_clean_within_year_num dataset_clean  nazario spam_archive                        24.45   NaN      NaN    NaN    2025.0           NaN               NaN
    model_within_obfuscation_clean         model    Llama          Qwen                        22.92   NaN      NaN    NaN       NaN           NaN               yes
       prompt_within_dataset_clean        prompt evidence         label                        22.06   NaN      NaN    NaN       NaN       nazario               NaN
                           overall        prompt evidence         label                        21.88   NaN      NaN    NaN       NaN           NaN               NaN
-      prompt_within_dataset_clean        prompt evidence         label                        21.74   NaN      NaN    NaN       NaN spam_assassin               NaN
+      prompt_within_dataset_clean        prompt evidence         label                        21.74   NaN      NaN    NaN       NaN spam_archive               NaN
             model_within_year_num         model    Llama          Qwen                        20.42   NaN      NaN    NaN    2025.0           NaN               NaN
-       model_within_dataset_clean         model    Llama          Qwen                        20.29   NaN      NaN    NaN       NaN spam_assassin               NaN
+       model_within_dataset_clean         model    Llama          Qwen                        20.29   NaN      NaN    NaN       NaN spam_archive               NaN
                           overall         model    Llama          Qwen                        19.69   NaN      NaN    NaN       NaN           NaN               NaN
            year_num_within_prompt      year_num     2023          2025                        19.69   NaN    label    NaN       NaN           NaN               NaN
-      dataset_clean_within_parser dataset_clean  nazario spam_assassin                        19.66   NaN      NaN     P2       NaN           NaN               NaN
+      dataset_clean_within_parser dataset_clean  nazario spam_archive                        19.66   NaN      NaN     P2       NaN           NaN               NaN
 year_num_within_obfuscation_clean      year_num     2023          2025                        19.17   NaN      NaN    NaN       NaN           NaN               yes
              parser_within_prompt        parser       P1            P2                        19.06   NaN    label    NaN       NaN           NaN               NaN
             model_within_year_num         model    Llama          Qwen                        18.96   NaN      NaN    NaN    2023.0           NaN               NaN
@@ -48,9 +48,9 @@ year_num_within_obfuscation_clean      year_num     2023          2025          
               model_within_prompt         model    Llama          Qwen                        17.81   NaN evidence    NaN       NaN           NaN               NaN
               prompt_within_model        prompt evidence         label                        17.50 Llama      NaN    NaN       NaN           NaN               NaN
   parser_within_obfuscation_clean        parser       P1            P2                        17.50   NaN      NaN    NaN       NaN           NaN               yes
-      parser_within_dataset_clean        parser       P1            P2                        17.39   NaN      NaN    NaN       NaN spam_assassin               NaN
-      dataset_clean_within_prompt dataset_clean  nazario spam_assassin                        17.34   NaN   guided    NaN       NaN           NaN               NaN
+      parser_within_dataset_clean        parser       P1            P2                        17.39   NaN      NaN    NaN       NaN spam_archive               NaN
+      dataset_clean_within_prompt dataset_clean  nazario spam_archive                        17.34   NaN   guided    NaN       NaN           NaN               NaN
   prompt_within_obfuscation_clean        prompt evidence         label                        17.19   NaN      NaN    NaN       NaN           NaN               yes
               parser_within_model        parser       P1            P2                        16.67  Qwen      NaN    NaN       NaN           NaN               NaN
-      prompt_within_dataset_clean        prompt evidence        guided                        16.58   NaN      NaN    NaN       NaN spam_assassin               NaN
+      prompt_within_dataset_clean        prompt evidence        guided                        16.58   NaN      NaN    NaN       NaN spam_archive               NaN
    model_within_obfuscation_clean         model    Llama          Qwen                        16.46   NaN      NaN    NaN       NaN           NaN                no\n\nNEXT STEP\n----------------------------------------------------------------------\nUse patterns_worth_testing.csv to choose effects for targeted McNemar, GEE, and email-cluster bootstrap analyses.\nDo not select findings using p-values at this stage; select them using substantive size, consistency, and relevance.

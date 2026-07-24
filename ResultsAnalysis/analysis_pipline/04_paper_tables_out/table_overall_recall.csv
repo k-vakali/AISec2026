@@ -9,6 +9,6 @@ Parser,P2,70.31,675,960
 Collection year,2023,82.81,795,960
 Collection year,2025,68.54,658,960
 Dataset,Nazario,82.48,673,816
-Dataset,SpamAssassin,70.65,780,1104
+Dataset,SpamArchive,70.65,780,1104
 Obfuscation,No,72.19,693,960
 Obfuscation,Yes,79.17,760,960

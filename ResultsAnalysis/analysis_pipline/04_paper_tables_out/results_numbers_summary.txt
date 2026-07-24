@@ -13,7 +13,7 @@ OVERALL RECALL
 Collection year         2023       82.81        795           960
 Collection year         2025       68.54        658           960
         Dataset      Nazario       82.48        673           816
-        Dataset SpamAssassin       70.65        780          1104
+        Dataset SpamArchive       70.65        780          1104
     Obfuscation           No       72.19        693           960
     Obfuscation          Yes       79.17        760           960
 
@@ -39,15 +39,15 @@ FINAL GEE MAIN EFFECTS
         Label prompt 0.22 0.12--0.42 $<0.001$ $<0.001$ $<0.001$
            Parser P2 2.10 1.23--3.57    0.007    0.066    0.013
 Collection year 2025 1.15 0.45--2.92    0.769    1.000    0.814
-        SpamAssassin 1.88 0.82--4.30    0.133    0.638    0.160
+        SpamArchive 1.88 0.82--4.30    0.133    0.638    0.160
     Obfuscated email 2.56 1.43--4.58    0.002    0.018    0.004
 
 FINAL GEE INTERACTIONS
                          Interaction   OR     95% CI    Raw p   Holm p    FDR p  Raw p numeric  Holm p numeric  FDR p numeric
-            Parser P2 × SpamAssassin 0.38 0.24--0.58 $<0.001$ $<0.001$ $<0.001$       0.000009        0.000120       0.000031
+            Parser P2 × SpamArchive 0.38 0.24--0.58 $<0.001$ $<0.001$ $<0.001$       0.000009        0.000120       0.000031
         Parser P2 × Obfuscated email 0.36 0.23--0.58 $<0.001$ $<0.001$ $<0.001$       0.000017        0.000221       0.000051
                 Qwen × Guided prompt 3.00 1.76--5.12 $<0.001$ $<0.001$ $<0.001$       0.000057        0.000679       0.000145
- Collection year 2025 × SpamAssassin 0.24 0.08--0.69    0.009    0.077    0.015       0.008535        0.076813       0.015363
+ Collection year 2025 × SpamArchive 0.24 0.08--0.69    0.009    0.077    0.015       0.008535        0.076813       0.015363
             Label prompt × Parser P2 0.63 0.44--0.92    0.017    0.136    0.028       0.016994        0.135949       0.027808
                     Qwen × Parser P2 0.61 0.38--0.97    0.038    0.268    0.058       0.038338        0.268368       0.057507
                  Qwen × Label prompt 1.70 0.89--3.22    0.106    0.638    0.140       0.106344        0.638062       0.139759

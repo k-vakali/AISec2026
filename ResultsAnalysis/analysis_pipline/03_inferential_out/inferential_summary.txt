@@ -22,18 +22,18 @@ varying_factor  level_a level_b   subgroup_factor subgroup_level difference_perc
         prompt evidence   label               all            all                        23.13                 37                  0 1.455e-11 1.601e-10       Llama          NaN           P2
          model    Llama    Qwen               all            all                        33.12                 61                  8 3.243e-11 1.946e-10         NaN        label           P2
          model    Llama    Qwen               all            all                        23.75                 39                  1 7.458e-11 3.729e-10         NaN     evidence           P2
-        parser       P1      P2     dataset_clean  spam_assassin                        41.30                 39                  1 7.458e-11 8.949e-10        Qwen        label          NaN
+        parser       P1      P2     dataset_clean  spam_archive                        41.30                 39                  1 7.458e-11 8.949e-10        Qwen        label          NaN
          model    Llama    Qwen obfuscation_clean            yes                        42.50                 34                  0 1.164e-10 1.397e-09         NaN        label           P2
         prompt evidence   label obfuscation_clean             no                        40.00                 32                  0 4.657e-10 1.118e-08        Qwen          NaN           P2
-        prompt evidence   label     dataset_clean  spam_assassin                        33.70                 31                  0 9.313e-10 2.235e-08        Qwen          NaN           P2
+        prompt evidence   label     dataset_clean  spam_archive                        33.70                 31                  0 9.313e-10 2.235e-08        Qwen          NaN           P2
         prompt   guided   label               all            all                        21.88                 37                  2 2.841e-09 2.841e-08        Qwen          NaN           P2
         prompt evidence   label               all            all                        20.00                 33                  1 4.075e-09 3.667e-08        Qwen          NaN           P1
         parser       P1      P2               all            all                        25.63                 49                  8 2.717e-08  1.63e-07        Qwen        label          NaN
-         model    Llama    Qwen     dataset_clean  spam_assassin                        36.96                 37                  3 1.947e-08 2.336e-07         NaN        label           P2
+         model    Llama    Qwen     dataset_clean  spam_archive                        36.96                 37                  3 1.947e-08 2.336e-07         NaN        label           P2
         prompt evidence   label          year_num           2023                        33.75                 27                  0  1.49e-08 3.576e-07        Qwen          NaN           P2
          model    Llama    Qwen obfuscation_clean            yes                        35.00                 29                  1 5.774e-08 6.352e-07         NaN     evidence           P2
          model    Llama    Qwen               all            all                        20.00                 36                  4 1.857e-07 7.428e-07         NaN       guided           P2
-         model    Llama    Qwen     dataset_clean  spam_assassin                        29.35                 28                  1 1.118e-07 1.229e-06         NaN     evidence           P2
+         model    Llama    Qwen     dataset_clean  spam_archive                        29.35                 28                  1 1.118e-07 1.229e-06         NaN     evidence           P2
         prompt evidence   label          year_num           2025                        31.25                 25                  0  5.96e-08 1.371e-06        Qwen          NaN           P2
         parser       P1      P2 obfuscation_clean            yes                        36.25                 31                  2 1.309e-07  1.57e-06        Qwen        label          NaN
         prompt evidence  guided               all            all                        14.38                 23                  0 2.384e-07 1.907e-06       Llama          NaN           P2
@@ -42,26 +42,26 @@ varying_factor  level_a level_b   subgroup_factor subgroup_level difference_perc
 TOP HOLM-ADJUSTED BETWEEN-EMAIL RESULTS
 ------------------------------------------------------------------------
 varying_factor level_a       level_b conditioning_factor conditioning_level difference_percentage_points          test_used   p_value    p_holm fixed_model fixed_prompt fixed_parser
- dataset_clean nazario spam_assassin            year_num               2025                        54.86 Pearson chi-square 1.145e-06 2.748e-05        Qwen       guided           P2
- dataset_clean nazario spam_assassin            year_num               2025                        45.52 Pearson chi-square 2.442e-05 0.0005616        Qwen     evidence           P2
- dataset_clean nazario spam_assassin                none                all                        31.59 Pearson chi-square 5.034e-05  0.000604        Qwen       guided           P2
-      year_num    2023          2025       dataset_clean      spam_assassin                        34.78 Pearson chi-square 2.611e-05 0.0006267       Llama        label           P1
+ dataset_clean nazario spam_archive            year_num               2025                        54.86 Pearson chi-square 1.145e-06 2.748e-05        Qwen       guided           P2
+ dataset_clean nazario spam_archive            year_num               2025                        45.52 Pearson chi-square 2.442e-05 0.0005616        Qwen     evidence           P2
+ dataset_clean nazario spam_archive                none                all                        31.59 Pearson chi-square 5.034e-05  0.000604        Qwen       guided           P2
+      year_num    2023          2025       dataset_clean      spam_archive                        34.78 Pearson chi-square 2.611e-05 0.0006267       Llama        label           P1
       year_num    2023          2025                none                all                        30.00 Pearson chi-square 6.951e-05 0.0008341        Qwen        label           P1
-      year_num    2023          2025       dataset_clean      spam_assassin                        36.96 Pearson chi-square 9.931e-05  0.002284        Qwen        label           P1
- dataset_clean nazario spam_assassin   obfuscation_clean                yes                        42.46 Pearson chi-square 0.0001611  0.003867        Qwen       guided           P2
- dataset_clean nazario spam_assassin            year_num               2025                        35.42 Pearson chi-square 0.0003714  0.008171       Llama       guided           P2
-      year_num    2023          2025       dataset_clean      spam_assassin                        34.78 Pearson chi-square 0.0005485   0.01207        Qwen     evidence           P2
+      year_num    2023          2025       dataset_clean      spam_archive                        36.96 Pearson chi-square 9.931e-05  0.002284        Qwen        label           P1
+ dataset_clean nazario spam_archive   obfuscation_clean                yes                        42.46 Pearson chi-square 0.0001611  0.003867        Qwen       guided           P2
+ dataset_clean nazario spam_archive            year_num               2025                        35.42 Pearson chi-square 0.0003714  0.008171       Llama       guided           P2
+      year_num    2023          2025       dataset_clean      spam_archive                        34.78 Pearson chi-square 0.0005485   0.01207        Qwen     evidence           P2
       year_num    2023          2025   obfuscation_clean                yes                        37.50 Pearson chi-square 0.0005766   0.01384        Qwen        label           P2
- dataset_clean nazario spam_assassin                none                all                        19.82 Pearson chi-square  0.001496   0.01646       Llama       guided           P2
-      year_num    2023          2025       dataset_clean      spam_assassin                        34.78 Pearson chi-square 0.0008396   0.01763        Qwen       guided           P2
+ dataset_clean nazario spam_archive                none                all                        19.82 Pearson chi-square  0.001496   0.01646       Llama       guided           P2
+      year_num    2023          2025       dataset_clean      spam_archive                        34.78 Pearson chi-square 0.0008396   0.01763        Qwen       guided           P2
       year_num    2023          2025                none                all                        17.50 Pearson chi-square  0.001937   0.02131       Llama        label           P1
-      year_num    2023          2025       dataset_clean      spam_assassin                        28.26 Pearson chi-square  0.001241   0.02483       Llama       guided           P1
- dataset_clean nazario spam_assassin                none                all                        23.59 Pearson chi-square  0.002532   0.02532        Qwen        label           P2
- dataset_clean nazario spam_assassin            year_num               2025                        31.07 Pearson chi-square  0.001244   0.02612       Llama        label           P1
- dataset_clean nazario spam_assassin                none                all                        20.78 Pearson chi-square  0.003852   0.03467        Qwen     evidence           P2
+      year_num    2023          2025       dataset_clean      spam_archive                        28.26 Pearson chi-square  0.001241   0.02483       Llama       guided           P1
+ dataset_clean nazario spam_archive                none                all                        23.59 Pearson chi-square  0.002532   0.02532        Qwen        label           P2
+ dataset_clean nazario spam_archive            year_num               2025                        31.07 Pearson chi-square  0.001244   0.02612       Llama        label           P1
+ dataset_clean nazario spam_archive                none                all                        20.78 Pearson chi-square  0.003852   0.03467        Qwen     evidence           P2
       year_num    2023          2025   obfuscation_clean                 no                        35.00 Pearson chi-square  0.001654   0.03803        Qwen        label           P1
       year_num    2023          2025   obfuscation_clean                yes                        25.00 Pearson chi-square  0.001741   0.03831       Llama       guided           P2
-      year_num    2023          2025       dataset_clean      spam_assassin                        28.26 Pearson chi-square  0.002314   0.04396       Llama       guided           P2
+      year_num    2023          2025       dataset_clean      spam_archive                        28.26 Pearson chi-square  0.002314   0.04396       Llama       guided           P2
 
 GEE MODEL STATUS
 ------------------------------------------------------------------------

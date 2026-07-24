@@ -230,7 +230,7 @@ def build_overall_recall(descriptive_dir: Path, output_dir: Path) -> pd.DataFram
         "guided": "Guided",
         "label": "Label",
         "nazario": "Nazario",
-        "spam_assassin": "SpamAssassin",
+        "spam_archive": "SpamArchive",
         "no": "No",
         "yes": "Yes",
     })
@@ -331,11 +331,11 @@ def build_condition_tables(descriptive_dir: Path, output_dir: Path) -> dict[str,
         "dataset_clean",
         rename_columns={
             "nazario": "Nazario",
-            "spam_assassin": "SpamAssassin",
+            "spam_archive": "SpamArchive",
         },
     )
-    parser_dataset["Difference (Nazario-SpamAssassin, pp)"] = (
-        parser_dataset["Nazario"] - parser_dataset["SpamAssassin"]
+    parser_dataset["Difference (Nazario-SpamArchive, pp)"] = (
+        parser_dataset["Nazario"] - parser_dataset["SpamArchive"]
     ).round(2)
     parser_dataset = parser_dataset.reset_index().rename(columns={"parser": "Parser"})
     save_csv_and_tex(
@@ -353,7 +353,7 @@ def build_condition_tables(descriptive_dir: Path, output_dir: Path) -> dict[str,
         "year_num",
         rename_index={
             "nazario": "Nazario",
-            "spam_assassin": "SpamAssassin",
+            "spam_archive": "SpamArchive",
         },
     )
     year_columns = list(dataset_year.columns)
@@ -422,7 +422,7 @@ def clean_term(term: str) -> str:
         (r".*prompt.*\[T\.label\]$", "Label prompt"),
         (r".*parser.*\[T\.P2\]$", "Parser P2"),
         (r".*year_num.*\[T\.2025\]$", "Collection year 2025"),
-        (r".*dataset_clean.*\[T\.spam_assassin\]$", "SpamAssassin"),
+        (r".*dataset_clean.*\[T\.spam_archive\]$", "SpamArchive"),
         (r".*obfuscation_clean.*\[T\.yes\]$", "Obfuscated email"),
     ]
     for pattern, label in mappings:

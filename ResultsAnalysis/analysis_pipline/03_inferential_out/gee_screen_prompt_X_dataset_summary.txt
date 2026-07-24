@@ -17,10 +17,10 @@ C(prompt, Treatment(reference='evidence'))[T.guided]                            
 C(prompt, Treatment(reference='evidence'))[T.label]                                                                       -1.7742      0.242     -7.328      0.000      -2.249      -1.300
 C(parser, Treatment(reference='P1'))[T.P2]                                                                                -0.6994      0.130     -5.378      0.000      -0.954      -0.445
 C(year_num, Treatment(reference=2023))[T.2025]                                                                            -0.8322      0.258     -3.221      0.001      -1.339      -0.326
-C(dataset_clean, Treatment(reference='nazario'))[T.spam_assassin]                                                         -1.0025      0.382     -2.624      0.009      -1.751      -0.254
+C(dataset_clean, Treatment(reference='nazario'))[T.spam_archive]                                                         -1.0025      0.382     -2.624      0.009      -1.751      -0.254
 C(obfuscation_clean, Treatment(reference='no'))[T.yes]                                                                     0.2101      0.250      0.842      0.400      -0.279       0.699
-C(prompt, Treatment(reference='evidence'))[T.guided]:C(dataset_clean, Treatment(reference='nazario'))[T.spam_assassin]    -0.1339      0.244     -0.549      0.583      -0.612       0.344
-C(prompt, Treatment(reference='evidence'))[T.label]:C(dataset_clean, Treatment(reference='nazario'))[T.spam_assassin]      0.4769      0.283      1.685      0.092      -0.078       1.032
+C(prompt, Treatment(reference='evidence'))[T.guided]:C(dataset_clean, Treatment(reference='nazario'))[T.spam_archive]    -0.1339      0.244     -0.549      0.583      -0.612       0.344
+C(prompt, Treatment(reference='evidence'))[T.label]:C(dataset_clean, Treatment(reference='nazario'))[T.spam_archive]      0.4769      0.283      1.685      0.092      -0.078       1.032
 ==============================================================================
 Skew:                         -0.9223   Kurtosis:                      -0.1109
 Centered skew:                -0.4844   Centered kurtosis:              0.2931

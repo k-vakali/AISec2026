@@ -17,9 +17,9 @@ C(prompt, Treatment(reference='evidence'))[T.guided]                            
 C(prompt, Treatment(reference='evidence'))[T.label]                                                                 -1.4620      0.129    -11.297      0.000      -1.716      -1.208
 C(parser, Treatment(reference='P1'))[T.P2]                                                                          -0.6956      0.129     -5.384      0.000      -0.949      -0.442
 C(year_num, Treatment(reference=2023))[T.2025]                                                                      -0.8091      0.260     -3.109      0.002      -1.319      -0.299
-C(dataset_clean, Treatment(reference='nazario'))[T.spam_assassin]                                                   -1.0514      0.344     -3.054      0.002      -1.726      -0.377
+C(dataset_clean, Treatment(reference='nazario'))[T.spam_archive]                                                   -1.0514      0.344     -3.054      0.002      -1.726      -0.377
 C(obfuscation_clean, Treatment(reference='no'))[T.yes]                                                               0.2046      0.252      0.813      0.416      -0.289       0.698
-C(model, Treatment(reference='Llama'))[T.Qwen]:C(dataset_clean, Treatment(reference='nazario'))[T.spam_assassin]     0.3656      0.292      1.251      0.211      -0.207       0.939
+C(model, Treatment(reference='Llama'))[T.Qwen]:C(dataset_clean, Treatment(reference='nazario'))[T.spam_archive]     0.3656      0.292      1.251      0.211      -0.207       0.939
 ==============================================================================
 Skew:                         -0.9250   Kurtosis:                      -0.1471
 Centered skew:                -0.4810   Centered kurtosis:              0.2920
