@@ -1,0 +1,779 @@
+email_id,parser_id,model_name,context_limit,prompt_id,input_tokens,fits,overflow_tokens,status,raw_output,parse_ok,pred_label
+1736548149.965513_1_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,24594,True,0,ok,LABEL: 0,True,0
+1736548149.965513_1_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,24633,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link in the ""CHECKOUT NOW!"" button, which may be a phishing attempt to redirect the user to a malicious website.
+- The email contains a suspicious link in the ""here"" link at the bottom of the email, which may be a phishing attempt to redirect the user to a malicious website.
+- The email is trying to create a sense of urgency by stating ""Last chance to add to your order!"" and ""BEFORE YOU GO!"", which is a common tactic used by phishing emails to trick users into taking action without thinking.",True,1
+1736548149.965513_1_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,24700,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is from a legitimate company, Canva Pty Ltd, with a valid address and ABN.
+- The email content is promotional and informative, with no suspicious links or requests for personal information.
+- The email does not use urgent language or pressure tactics to prompt the recipient into taking action.
+- The email is well-formatted and free of spelling, grammar, or formatting issues.
+- The email does not impersonate a brand or use mismatched identities.
+- The email does not contain any authentication information that could be used for phishing.
+SUMMARY: The email is a promotional email from Canva Pty Ltd, with no signs of phishing or malicious activity.",True,0
+1740508632.3036187_41_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,15462,True,0,ok,LABEL: 0,True,0
+1740508632.3036187_41_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,15501,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""https://forms.gle/J4YQoKZQCxQqhyRe8"" which may be a phishing link.
+- The email asks the recipient to register for a webinar and provides a link to a Google Forms page, which may be a phishing attempt.
+- The email contains a call-to-action to ""Join Now Pay Later Promo"" which may be a phishing attempt to get the recipient to provide sensitive information.",True,1
+1740508632.3036187_41_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,15568,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is from a legitimate sender (JANE TEJADA <jane@skillsph.com>) and has a clear subject line.
+- The email contains a list of training programs with links to registration, which are not suspicious.
+- The email does not contain any urgent language or pressure tactics.
+- The email does not request any login, payment, verification, or personal information.
+- The email has proper spelling, grammar, and formatting.
+- The email is from a legitimate company (PMX Training) and does not impersonate any other brand.
+- The email contains authentication information (a link to manage preferences and unsubscribe).
+SUMMARY: The email is a legitimate newsletter from PMX Training with information about upcoming training programs.",True,0
+1741139387.3370424_35_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,16434,True,0,ok,LABEL: 0,True,0
+1741139387.3370424_35_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,16473,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is well-formatted and has a clear subject line, indicating it is a legitimate email.
+- The email contains a detailed description of a training program, including the speaker, topics, and registration information.
+- The email includes a clear call-to-action (CTA) to register for the training program, with a link to the registration page.
+- The email does not contain any suspicious links or attachments.
+- The email is addressed to a specific recipient, indicating it is a targeted email rather than a mass phishing email.
+- The email includes a clear unsubscribe link, indicating it is a legitimate email and the sender respects the recipient's preferences.",True,0
+1741139387.3370424_35_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,16540,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is from a legitimate sender (jane@skillsph.com) and has a clear subject line.
+- The email content is well-structured and informative, with a clear purpose of promoting a training program.
+- There are no suspicious links or domains in the email.
+- The email does not contain any urgent language or pressure tactics.
+- The email does not request any login, payment, verification, or personal information.
+- The email does not contain any spelling, grammar, or formatting issues.
+- The email does not impersonate any brand or identity.
+- The email does not contain any authentication information.
+SUMMARY: The email is a legitimate promotional email for a training program.",True,0
+1741785857.M144393P3734937_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,9772,True,0,ok,LABEL: 0,True,0
+1741785857.M144393P3734937_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,9811,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is from a legitimate company, RisingWave, and is inviting the recipient to a real event.
+- The email contains a clear subject line and a descriptive body that explains the purpose of the event.
+- The email includes a link to save a spot at the event, but it is a legitimate link and not a phishing attempt.
+- The email also includes unsubscribe and manage preferences links, which suggests that the sender is a legitimate company that respects the recipient's email preferences.
+- The email does not contain any suspicious language or attachments that could indicate a phishing attempt.",True,0
+1741785857.M144393P3734937_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,9878,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address is a legitimate email address from RisingWave.
+- The email content appears to be a genuine invitation to a conference or event.
+- The email does not contain any suspicious links or domains.
+- There is no urgent language or pressure tactics used in the email.
+- The email does not request any login, payment, verification, or personal information.
+- The spelling, grammar, and formatting of the email are correct.
+- The brand identity is consistent throughout the email.
+- There is no authentication information present in the email.
+SUMMARY: The email appears to be a legitimate invitation to a conference or event.",True,0
+1759341862.276578_1_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,5750,True,0,ok,LABEL: 1,True,1
+1759341862.276578_1_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,5789,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from a suspicious sender ""DocuSign Notification <noreply@shioserver.icu>"" which may be a phishing attempt to impersonate a legitimate company.
+- The email contains a link ""ACCESS DOCUMENT"" which redirects to a suspicious URL ""https://eu2.contabostorage.com/e368802bb4614b66b45e4a83694f2ccf:hlee100/fr3bygr8/verify.html#bruce@untroubled.org"" that may be used to phish sensitive information.
+- The email contains a generic greeting and does not address the recipient by name, which is unusual for a legitimate DocuSign notification.",True,1
+1759341862.276578_1_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,5856,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""DocuSign Notification <noreply@shioserver.icu>"", which is a suspicious domain.
+- The email contains a link to a suspicious domain ""https://eu2.contabostorage.com/e368802bb4614b66b45e4a83694f2ccf:hlee100/fr3bygr8/verify.html#bruce@untroubled.org"" which may be a phishing link.
+- The email requests the recipient to review and sign a document to confirm payment processing, which is a common tactic used by phishing emails.
+- The email contains a mismatched identity, as the sender claims to be from DocuSign, but the domain is not a legitimate DocuSign domain.
+- The email contains a request for the recipient to click on a link to access a document, which is a common tactic used by phishing emails.
+SUMMARY: This email is likely a phishing email due to its suspicious sender address, links, and requests for action.",True,1
+1759341862.276578_3_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,5813,True,0,ok,LABEL: 1,True,1
+1759341862.276578_3_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,5852,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from a sender with a suspicious domain name ""shioserver.icu"", which may be a phishing domain.
+- The email contains a link to a suspicious URL ""https://eu2.contabostorage.com/e368802bb4614b66b45e4a83694f2ccf:hlee100/fr3bygr8/verify.html#bruce@untroubled.org"" that may be a phishing link.
+- The email contains a link to unsubscribe, but the link is also suspicious and may be a phishing link.",True,1
+1759341862.276578_3_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,5919,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""DocuSign Notification <noreply@shioserver.icu>"", which is a suspicious domain.
+- The email contains a link to a suspicious domain ""https://eu2.contabostorage.com/e368802bb4614b66b45e4a83694f2ccf:hlee100/fr3bygr8/verify.html#bruce@untroubled.org"" that may be used for phishing.
+- The email uses urgent language, stating ""Action Required on bruce@untroubled.org"" and ""Please review and sign your document to confirm payment processing.""
+- The email requests the recipient to review and sign a document, which may be a phishing attempt to obtain sensitive information.
+- The email contains a mismatched identity, as the sender claims to be from DocuSign, but the domain is not a legitimate DocuSign domain.
+- The email contains a long and complex unsubscribe link, which may be a phishing attempt to track the recipient's actions.
+SUMMARY: This email is likely a phishing attempt to obtain sensitive information from the recipient.",True,1
+1759341863.276578_17_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,638,True,0,ok,LABEL: 0,True,0
+1759341863.276578_17_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,677,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is from a legitimate sender (doreen@stoneinc.ltd) and recipient (bruce@untroubled.org) domains.
+- The email content appears to be a genuine inquiry about a product (quartz stone slabs) and does not contain any suspicious links or attachments.
+- The language used is professional and polite, which is consistent with a legitimate business communication.",True,0
+1759341863.276578_17_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,744,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address is doreen@stoneinc.ltd, which seems to be a legitimate email address from a company called Stone Inc.
+- The email content appears to be a genuine inquiry about quartz stone slabs, with a price quote and a picture.
+- There is no urgent language or pressure tactics used in the email.
+- The email does not request any login, payment, verification, or personal information.
+- The spelling, grammar, and formatting of the email are correct.
+- The email does not impersonate any brand or use mismatched identities.
+- There is no authentication information present in the email.
+
+SUMMARY: The email appears to be a legitimate business inquiry about quartz stone slabs.",True,0
+1759341863.276578_7_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,5892,True,0,ok,LABEL: 1,True,1
+1759341863.276578_7_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,5931,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unverified sender ""DocuSign Sharing"" with a suspicious email address ""auth.n0reply@bangda99.net"".
+- The email contains a link to an external website ""https://eu2.contabostorage.com/e368802bb4614b66b45e4a83694f2ccf:hlee100/fr3bygr8/verify.html#bruce@untroubled.org"" which may be a phishing attempt.
+- The email contains a link to unsubscribe, but the link is also external and may be a phishing attempt.",True,1
+1759341863.276578_7_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,5998,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""auth.n0reply@bangda99.net"", which is not a legitimate DocuSign email address.
+- The email contains a suspicious link ""https://eu2.contabostorage.com/e368802bb4614b66b45e4a83694f2ccf:hlee100/fr3bygr8/verify.html#bruce@untroubled.org"" that may be used for phishing.
+- The email requests the recipient to review and sign a document to confirm payment processing, which is a common tactic used by phishing emails.
+- The email contains a mismatched identity, as the sender claims to be from DocuSign but the email address is not a legitimate DocuSign email address.
+SUMMARY: This email is a phishing attempt to trick the recipient into revealing sensitive information.",True,1
+1759430349.342747_9_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2447,True,0,ok,LABEL: 1,True,1
+1759430349.342747_9_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2486,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is promoting a product (SpyRec Pro) with a limited-time offer, which is a common tactic used in phishing emails to create a sense of urgency.
+- The email contains a suspicious link in the unsubscribe section, which could be a phishing link.
+- The email is trying to sell a product, but it's not clear if the sender is a legitimate company or a scammer, which raises suspicions about the email's authenticity.",True,1
+1759430349.342747_9_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2553,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is securevision1@copesay.shop, which is not a typical email address for a well-known company like SpyRec Pro.
+- The reply-to address is not specified in the email.
+- The email contains suspicious links, such as https://www.copesay.shop/pngnpu/hiewaihmm20828luioo/QTGfzxp1nBRKjJZh66-IGF76X9x3cs7O_KYblOm4ci8/523NUPmxktLnAluMoI9DIRV39dUsxgqLi_Y6Bqdba_HTyIDmSSh8GDThNI8GXs4G, which may be used for phishing or malware distribution.
+- The email uses urgent language, such as ""Limited Time Only"" and ""Don't Miss Out"", to create a sense of pressure.
+- The email requests no sensitive information, but it is promoting a product and may be trying to trick the recipient into clicking on the suspicious links.
+- The email has a professional layout and design, which may be an attempt to make it look legitimate.
+- The email contains a link to unsubscribe, which may be a legitimate feature, but it could also be a way to harvest email addresses.
+SUMMARY: This email is likely a phishing attempt due to its suspicious links and urgent language.",True,1
+1759443164.351623_9_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,1484,True,0,ok,LABEL: 0,True,0
+1759443164.351623_9_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1523,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is promoting a product (VacuumGo Pro) and offering a special promotion, which is a common tactic used in phishing emails to lure victims into clicking on a link or providing sensitive information.
+- The email contains a suspicious link (""https://www.formmenu.shop/keiucb/dlqx20945soejpmfp/opzwg0RUCuJfLu_1wHfLBrvsWpGFSJh-bCcrooMJUhc/z0iglU0pi-suTcoOoZIsuoQCCCzZ5co8_o5EIl_S8RH4YGw_XUAROg_3gZ_SxwUM"") that may be used to download malware or steal sensitive information.
+- The email is sent from a domain (""formmenu.shop"") that may be a phishing domain, as it is not a well-known or reputable domain.",True,1
+1759443164.351623_9_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1590,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address is ""vacuumgopro@formmenu.shop"", which is a legitimate-looking email address, but the domain ""formmenu.shop"" is not a well-known brand.
+- The email contains a promotional offer with a link to a review and availability, but it does not request any sensitive information.
+- The email is well-formatted and free of spelling and grammar issues.
+- The brand ""VacuumGo Pro"" is not a well-known brand, but it is not a clear impersonation of a well-known brand either.
+- The email does not contain any urgent language or pressure tactics.
+- The email contains a clear unsubscribe link.
+SUMMARY: The email appears to be a legitimate promotional email from a lesser-known brand.",True,0
+1759504564.390099_17_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,8493,True,0,ok,LABEL: 1,True,1
+1759504564.390099_17_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,8532,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link in the form of a long URL that is not clearly visible, which is a common tactic used in phishing emails to trick users into clicking on malicious links.
+- The email is trying to create a sense of urgency and scarcity by stating that ""another 119 men have just said goodbye to ED forever"" and that the recipient should act quickly to take advantage of a ""foolproof method"" to cure ED.
+- The email is trying to create a sense of trust by using a fake news article and a fake author, which is a common tactic used in phishing emails to make the email appear legitimate.
+- The email contains a call-to-action to ""Watch The Video Proof"" which is likely a link to a malicious website or a phishing page.
+- The email is trying to sell a product or service to the recipient, which is a common tactic used in phishing emails to make money.",True,1
+1759504564.390099_17_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,8599,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""info@curlsoup.shop"", which is a suspicious domain that may be used for phishing.
+- The email contains multiple links to the same domain ""https://www.curlsoup.shop"", which may be a phishing attempt to collect user data or install malware.
+- The email uses urgent language and pressure tactics, such as ""119 men have just said goodbye to ED forever"" and ""Don't Be a Victim of ED - Let Your Johnson Do The Talking Using THIS Method"", to create a sense of urgency and encourage the recipient to click on the links.
+- The email requests the recipient to click on a link to watch a video proof, which may be a phishing attempt to collect user data or install malware.
+- The email contains spelling, grammar, and formatting issues, which is a common characteristic of phishing emails.
+- The email is trying to sell a product or service, which is a common tactic used by phishing emails.
+- The email contains a link to unsubscribe, but it is not a legitimate unsubscribe link and may be a phishing attempt to collect user data.
+SUMMARY: This email is a phishing attempt to collect user data or install malware, and it should be treated with caution.",True,1
+1759504564.390099_31_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,3568,True,0,ok,LABEL: 0,True,0
+1759504564.390099_31_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,3607,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a link to a suspicious website (""sunperp-cloudflare003.vercel.app"") that may be a phishing site.
+- The email promises an ""instant $250 SUN bonus"" to new users, which is a common tactic used by phishing scams to lure victims into providing sensitive information.
+- The email does not provide any clear information about the sender or the company, and the ""unsubscribe"" link points to the same suspicious website, which may be an attempt to harvest email addresses.",True,1
+1759504564.390099_31_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,3674,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""sunperp-cloudflare003.vercel.app"" which could be a phishing link.
+- The email is promoting a cryptocurrency exchange and offering a bonus, which is a common tactic used in phishing emails.
+- The email is trying to create a sense of urgency by stating that the bonus is available for a limited time.
+- The email is asking the recipient to click on a link to claim the bonus, which could lead to a phishing website.
+- The email is not from a trusted source, and the sender's address ""fabiobenedettisup@tiscali.it"" does not match the domain of the cryptocurrency exchange.
+- The email contains a lot of marketing language and is trying to create a sense of excitement, which is a common tactic used in phishing emails.
+SUMMARY: The email is likely a phishing email trying to trick the recipient into clicking on a suspicious link to claim a cryptocurrency bonus.",True,1
+1759504564.390099_3_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,1826,True,0,ok,LABEL: 1,True,1
+1759504564.390099_3_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1865,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is asking for confirmation to send a confidential letter, which is a common tactic used in phishing emails to trick the recipient into revealing sensitive information.
+- The email is using a vague and urgent tone, stating that it is ""very important"" to get back to them as soon as possible, which is a characteristic of phishing emails.
+- The email is using a fake email address (graciela@bukito.com) and a fake sender name (Nicholas Lam(Esq)), which is a common trait of phishing emails.",True,1
+1759504564.390099_3_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1932,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""graciela@bukito.com"", which does not match the name ""Nicholas Lam"" in the email.
+- The email contains a request for the recipient to confirm whether they can send a confidential letter, which could be a tactic to gain trust and access to the recipient's email.
+- The email contains a sense of urgency, stating that it is ""very important"" to get back to the sender as soon as possible.
+- The email contains a suspicious link in the form of an image, which could be a phishing attempt.
+- The email contains a mismatched identity, as the sender claims to be ""Nicholas Lam(Esq)"" but the sender address is not a typical email address for a lawyer.
+SUMMARY: This email is likely a phishing attempt due to its suspicious sender address, urgent language, and request for confirmation.",True,1
+1759986918.705667_1_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,5874,True,0,ok,LABEL: 1,True,1
+1759986918.705667_1_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,5913,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an untrusted sender ""info@sornaxgroup.com"" which is not a legitimate DHL email address.
+- The email contains a suspicious link ""https://u46509964.ct.sendgrid.net/ls/click?..."" which may be a phishing link.
+- The email asks the recipient to download an attachment ""LHER000776994.PDF.html"" which may contain malware.
+- The email contains a warning that if the recipient does not open the attachment, their account will be suspended.
+- The email contains a suspicious statement ""This is an automated email and is not monitored for responses."" which may be a phishing tactic.
+- The email contains a link to download Adobe Acrobat Reader which may be a phishing tactic to install malware.",True,1
+1759986918.705667_1_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,5980,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address ""info@sornaxgroup.com"" does not match the expected sender address for DHL, which is typically ""info@dhl.com"".
+- The email contains a suspicious link ""https://u46509964.ct.sendgrid.net/ls/click?..."" which may be used for phishing.
+- The email requests the recipient to download an attachment ""LHER000776994.PDF.html"" which may contain malware.
+- The email contains urgent language and pressure tactics, such as ""Please find attached your current invoice in PDF format, dated 6 Oct 2025"" and ""If you are unable to open any of these attachments, please contact DHL Billing Support"".
+- The email contains a request for login information, specifically ""Please contact 1113545222 if you have any questions"".
+- The email contains spelling, grammar, and formatting issues, such as ""THIS IS AN AUTOMATED MESSAGE, DO NOT REPLY"" and ""If you have any questions, please contact DHL Billing Support"".
+- The email contains a request for payment information, specifically ""We look forward to receiving your payment within the agreed credit terms as stated on your invoice"".
+- The email contains a request for personal information, specifically ""You can also view your invoice/payments history and review your account details"".
+- The email contains a mismatched identity, specifically ""The DHL MyBill Team"" which does not match the expected sender address.
+SUMMARY: This email is a phishing attempt from a spoofed DHL account, attempting to trick the recipient into downloading malware or providing sensitive information.",True,1
+1760016058.M175198P708518_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,241,True,0,ok,LABEL: 0,True,0
+1760016058.M175198P708518_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,280,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email contains a generic greeting (""Hey 👋"") which is not suspicious.
+- The email does not contain any links, attachments, or urgent requests for action.
+- The sender's email address (""bemterkuma6@gmail.com"") is a personal email address, not a suspicious or generic one often used in phishing attempts.",True,0
+1760016058.M175198P708518_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,347,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address is a personal Gmail account (bemterkuma6@gmail.com), which is not a typical domain for a company or organization.
+- The email subject and content are simple and do not contain any urgent language or pressure tactics.
+- There are no suspicious links or domains in the email.
+- The email does not request any login, payment, verification, or personal information.
+- The email content is well-formatted and does not contain any spelling or grammar issues.
+- There is no brand impersonation or mismatched identities in the email.
+- There is no authentication information present in the email.
+
+SUMMARY: The email appears to be a harmless greeting from a personal account.",True,0
+1760070405.762746_25_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,5207,True,0,ok,LABEL: 1,True,1
+1760070405.762746_25_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,5246,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link with a long and complex URL, which may be a phishing attempt to trick the recipient into clicking on it.
+- The email is trying to create a sense of urgency by stating that the link will only last for 48 hours, which is a common tactic used by phishers to prompt the recipient into taking action quickly.
+- The email is trying to impersonate a legitimate company (DocuSign) by using their logo and branding, which is a common tactic used by phishers to make the email appear legitimate.",True,1
+1760070405.762746_25_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,5313,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""File.ShareNotification_via_UntroubledE-DocuRelay_27770100aed06e13911b5faf44bffa94"" <postmaster@intrercos.com>, which is a suspicious and generic address.
+- The email contains a link to a document, which may be a phishing attempt to trick the recipient into clicking on it.
+- The email uses urgent language, stating that the link will only last for 48 hours, which is a common tactic used by phishers to create a sense of urgency.
+- The email is trying to get the recipient to click on a link to view a document, which may be a phishing attempt to steal sensitive information.
+- The email is trying to impersonate a legitimate company, DocuSign, by using their logo and branding.
+- The email contains a request for the recipient to take action, which is a common tactic used by phishers to trick the recipient into clicking on a link or providing sensitive information.
+- The email contains a request for the recipient to verify their identity, which is a common tactic used by phishers to steal sensitive information.
+- The email contains a request for the recipient to provide their email address, which is a common tactic used by phishers to steal sensitive information.
+
+SUMMARY: This email is a phishing attempt to trick the recipient into clicking on a link to view a document, which may be a phishing attempt to steal sensitive information.",True,1
+1760154835.825557_29_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,1008,True,0,ok,LABEL: 1,True,1
+1760154835.825557_29_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1047,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is attempting to mimic a legitimate email from the Untroubled Mail Server, but the link in the email is suspicious and may be a phishing attempt.
+- The link ""https://schaefer.za.com/whvrvv/q25wqt.shtml?eta=YnJ1Y2VAdW50cm91YmxlZC5vcmc="" is encoded and may be malicious.
+- The email is trying to create a sense of urgency by stating that there are 3 incoming messages waiting for processing, which may be an attempt to trick the recipient into clicking on the suspicious link.",True,1
+1760154835.825557_29_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1114,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""no-reply@untroubled.org"", which is not the same as the recipient's email address, suggesting a potential phishing attempt.
+- The email contains a link to a suspicious domain ""https://schaefer.za.com/whvrvv/q25wqt.shtml?eta=YnJ1Y2VAdW50cm91YmxlZC5vcmc="" with encoded parameters, which could be a phishing attempt.
+- The email uses urgent language by stating that ""delivery of incoming messages was temporarily paused"" and that there are ""3 incoming messages waiting for processing"", which could be an attempt to create a sense of urgency.
+- The email requests the recipient to ""Review pending messages"" by clicking on the link, which could be a phishing attempt.
+- The email contains spelling, grammar, and formatting issues, which is uncommon for legitimate emails from a mail server.
+- The email impersonates a mail server and uses a generic ""Mail Administrator"" signature, which could be a phishing attempt.
+- The email contains authentication information, but it is not clear if it is legitimate or not.
+
+SUMMARY: This email is likely a phishing attempt due to its suspicious sender address, link, and language.",True,1
+1760614205.M957015P1157880_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2489,True,0,ok,LABEL: 1,True,1
+1760614205.M957015P1157880_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2528,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""https://send7902382.page.link/moke"" that asks the recipient to pay customs fees, which is a common phishing tactic.
+- The email is trying to create a sense of urgency by stating that the package cannot be delivered due to unpaid customs fees, which is a common phishing technique.
+- The email is trying to trick the recipient into clicking on the suspicious link by providing a fake tracking number and a sense of importance, which is a common phishing tactic.",True,1
+1760614205.M957015P1157880_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2595,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""https://send7902382.page.link/moke"" that is not a standard bpost.be link.
+- The email requests payment for customs fees, which is a common tactic used in phishing emails.
+- The email uses urgent language, stating that the package cannot be delivered due to unpaid customs fees.
+- The email contains a mismatched identity, as the sender address ""noreply@bpost.be"" is not a standard bpost.be address.
+- The email contains a request for personal information, as it asks the recipient to pay customs fees.
+- The email contains a spelling and grammar issue, as the French text is not perfectly translated.
+- The email contains a formatting issue, as the HTML code is not properly formatted.
+SUMMARY: This email is a phishing attempt to trick the recipient into paying customs fees for a non-existent package.",True,1
+1761079142.1483004_37_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,1084,True,0,ok,LABEL: 1,True,1
+1761079142.1483004_37_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1123,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from a sender with a suspicious email address (glrcete@hot-bbc-book.ru), which may be a phishing attempt.
+- The email contains a link to a suspicious website (https:////////////////t.topddcbook.ru///////////////56fj6fghrtgj/////////////////////g6h6tr9m6y6.html) with a long and complex URL, which may be a phishing attempt.
+- The email is promoting a sale with a very low price ($200) for luxury items, which may be a phishing attempt to lure the recipient into clicking on the link.",True,1
+1761079142.1483004_37_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1190,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is glrcete@hot-bbc-book.ru, which is not a legitimate Louis Vuitton email address.
+- The reply-to address is not specified in the email.
+- The email contains suspicious links with a long string of characters, which may be a phishing attempt.
+- The email uses urgent language, stating ""Don't miss your chance to own luxury at an incredible value.""
+- The email requests no login, payment, or personal information, but it does ask the recipient to click on a suspicious link.
+- The email contains spelling and formatting issues, such as the use of &#65533; and /////////////////.
+- The email impersonates the Louis Vuitton brand, but the sender address and links do not match the legitimate Louis Vuitton website.
+- Authentication information is not present in the email.
+SUMMARY: This email is a phishing attempt impersonating Louis Vuitton, with suspicious links and urgent language.",True,1
+1761333036.1668955_101_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,926,True,0,ok,LABEL: 0,True,0
+1761333036.1668955_101_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,965,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious attachment ""APUS VESSEL PARTICULARS.zip"" which is a zip file. This could be a malicious file containing malware or a phishing payload.
+- The email asks the recipient to provide their class certificate asap, which could be a phishing attempt to obtain sensitive information.
+- The email contains a link to an external email address ""rasel.shipping@gmail.com"" which is not the same domain as the sender's email address. This could be a phishing attempt to redirect the recipient to a malicious website.",True,1
+1761333036.1668955_101_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1032,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address and reply-to address seem legitimate, as they match the domain mentioned in the email content.
+- The email content does not contain any suspicious links or domains.
+- The language used is professional and does not contain any urgent or pressure tactics.
+- The email requests a service (thickness measurement) and a quotation, but it does not ask for login, payment, verification, or personal information.
+- The email content is well-formatted and does not contain any spelling, grammar, or formatting issues.
+- The brand identity seems to be consistent, with the company name and logo (image) provided.
+- There is no authentication information present in the email.
+- The email contains a zip file attachment, but it is not a red flag as it is a legitimate attachment related to the service requested.
+
+SUMMARY: The email appears to be a legitimate business communication from Atlas Shipping Lines Limited.",True,0
+1761333036.1668955_65_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,5025,True,0,ok,LABEL: 0,True,0
+1761333036.1668955_65_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,5064,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a warning not to reply to the email, which is a common tactic used by phishing emails to prevent the recipient from reporting the email as suspicious.
+- The email is an auto-generated email, which is a common characteristic of phishing emails.
+- The email contains a zip attachment, which could potentially contain malware or other malicious content.",True,1
+1761333036.1668955_65_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,5131,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is sent from a legitimate HSBC email address (advising.service@advising.hsbc.com).
+- The email content is formal and professional, with a clear subject line and a polite greeting.
+- The email does not contain any suspicious links or attachments that could be used for phishing.
+- The email does not request any sensitive information, such as login credentials or payment details.
+- The email is addressed to a specific recipient (bruce@untroubled.org) and does not appear to be a mass email.
+- The email contains a clear statement that it is an auto-generated email and that replies will be disregarded.
+SUMMARY: This email appears to be a legitimate payment advice from HSBC, with no signs of phishing.",True,0
+1761333036.1668955_97_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,5321,True,0,ok,LABEL: 0,True,0
+1761333036.1668955_97_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,5360,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link to a Google account recovery page, which is a common tactic used in phishing attacks.
+- The email is trying to create a sense of urgency by stating that the recipient's account has been compromised, which is a classic phishing technique.
+- The email is trying to trick the recipient into clicking on a link to a fake Google account recovery page, which could lead to the installation of malware or the theft of sensitive information.",True,1
+1761333036.1668955_97_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,5427,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is trying to impersonate Google by using a similar logo and language, but the sender address is not a legitimate Google address.
+- The email contains a suspicious link to a Google account recovery page, which could be a phishing attempt.
+- The email is trying to create a sense of urgency by stating that there has been a new connection to the account from a Windows device, which could be a tactic to trick the recipient into taking action without verifying the authenticity of the email.
+- The email contains a request for the recipient to click on a link to ""consulter l'activité"" (view activity), which could be a phishing attempt.
+- The email contains a request for the recipient to click on a link to view notifications, which could be a phishing attempt.
+- The email contains a suspicious tracking pixel.
+- The email contains a mismatched identity, as the sender address is not a legitimate Google address.
+- The email contains a request for the recipient to click on a link to ""shop now"" which could be a phishing attempt.
+SUMMARY: This email is a phishing attempt to trick the recipient into revealing sensitive information or clicking on malicious links.",True,1
+1761926079.2140821_27_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,1239,True,0,ok,LABEL: 1,True,1
+1761926079.2140821_27_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1278,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an untrusted sender address ""info.lmjshl@service.hyftw.cn"" which does not match the typical Mastercard email address.
+- The email contains a suspicious link ""https://eadress.jauvywf.cn/features-benefits/"" which is not a legitimate Mastercard URL.
+- The email is trying to trick the recipient into clicking on the link by providing a fake security page, which is a common phishing tactic.",True,1
+1761926079.2140821_27_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1345,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is info.lmjshl@service.hyftw.cn, which does not match the official Mastercard domain (mastercard.com).
+- The links provided in the email (https://eadress.jauvywf.cn/features-benefits/ and https://eadress.jauvywf.cn/features-benefits/) are suspicious and do not match the official Mastercard domain.
+- The email contains urgent language and pressure tactics, asking the recipient to check their account information.
+- The email requests the recipient to click on a link to verify their account information, which is a common phishing tactic.
+- The email contains spelling, grammar, and formatting issues, which is unusual for an official company email.
+- The email is impersonating Mastercard, but the sender address and links do not match the official Mastercard domain.
+SUMMARY: The email is a phishing attempt impersonating Mastercard, with suspicious links and sender address.",True,1
+1736548149.965513_1_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,477,True,0,ok,LABEL: 1,True,1
+1736548149.965513_1_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,516,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a sense of urgency (""Last chance to add to your order!"") which is a common phishing tactic.
+- The email asks the recipient to ""CHECKOUT NOW!"" without providing a clear link or instructions, which is suspicious.
+- The email includes a link to ""click here to remove yourself from our emails list"", which is likely a phishing link designed to collect sensitive information.",True,1
+1736548149.965513_1_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,583,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address and reply-to address are not provided, but the domain ""1552412-safefire.com"" seems suspicious and does not match any well-known fire safety brands.
+- The email contains a suspicious link ""click here to remove yourself from our emails list"" which could be a phishing link to collect email addresses or spread malware.
+- The email uses urgent language and pressure tactics, such as ""Last chance to add to your order!"" and ""Avoid becoming a statistic.."", to create a sense of panic and encourage the recipient to take action without verifying the authenticity of the email.
+- The email requests no login, payment, or personal information, but it does ask the recipient to ""CHECKOUT NOW!"" which could be a phishing attempt to collect payment information.
+- The email contains spelling, grammar, and formatting issues, such as repeated text and mismatched bullet points.
+- The email brand impersonates a fire safety company, but the domain and sender address do not match any well-known fire safety brands.
+- There is no authentication information present in the email.
+SUMMARY: This email appears to be a phishing attempt to sell a fire safety product and collect email addresses.",True,1
+1740508632.3036187_41_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,1698,True,0,ok,LABEL: 0,True,0
+1740508632.3036187_41_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1737,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link https://forms.gle/ J4YQoKZQCxQqhyRe8 which is a Google Forms link, often used in phishing attacks to collect sensitive information.
+- The email asks the recipient to register for a webinar and pay a fee, which is a common tactic used by scammers to steal money from victims.
+- The email contains a generic greeting ""You are receiving this email because you have opted into one of our sites or attended one of our events."" which is a common phishing tactic to make the email appear legitimate.",True,1
+1740508632.3036187_41_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1804,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is jane@skillsph.com, which does not match the content of the email, which appears to be from a legitimate company (SGV and Company).
+- The email contains multiple links to Google Forms, which could be used to collect sensitive information.
+- The email uses urgent language, stating that the recipient should ""Get ahead on payroll accounting and withholding taxes"" and that they should ""Don't miss this opportunity to learn from an expert in the field.""
+- The email requests registration for a webinar, which could be used to collect sensitive information.
+- The email contains spelling and grammar issues, such as the use of multiple exclamation points and the incorrect use of commas.
+- The email contains a request for payment, which could be a phishing attempt.
+- The email contains a request for the recipient to contact a person (Ms. Jhie) via email or phone, which could be a phishing attempt.
+- The email contains a link to a Facebook page, which could be used to collect sensitive information.
+- The email contains a request to ""manage preference"" or ""unsubscribe,"" which could be a phishing attempt.
+- The email contains a link to a Google Form that is not clearly labeled as a registration link, which could be a phishing attempt.
+- The email contains a request for the recipient to pay a fee (Php 1,899.00 + VAT) to attend a webinar, which could be a phishing attempt.
+- The email contains a request for the recipient to provide proof of birthdate, which could be a phishing attempt.
+- The email contains a request for the recipient to pay a fee (Php 2,099.00 + VAT) after 30 days, which could be a phishing attempt.
+- The email contains a request for the recipient to contact a person (Ms. Jhie) via phone or text, which could be a phishing attempt.
+- The email contains a request for the recipient to visit a Facebook page, which could be a phishing attempt.
+- The email contains a request for the recipient to provide sensitive information (such as their email address or phone number) in order to receive more information about the webinar.
+- The email contains a request for the recipient to pay a fee (Php 1,199.00 + VAT) for a ""Super Group Rate,"" which could be a phishing attempt.
+- The email contains a request for the recipient to provide sensitive information (such as their email address or phone number) in order to receive more",True,1
+1741139387.3370424_35_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,1706,True,0,ok,LABEL: 0,True,0
+1741139387.3370424_35_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1745,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link (https://forms.gle/) that is not a standard link, but rather a Google Forms link. This could be a phishing attempt to collect sensitive information.
+- The email asks the recipient to register for a webinar using a link that may be malicious. The link is not a standard link, but rather a Google Forms link.
+- The email contains a sense of urgency, with a ""JOIN NOW PAY LATER PROMO"" that may be an attempt to trick the recipient into making a hasty decision.",True,1
+1741139387.3370424_35_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1812,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address is jane@skillsph.com, which seems to be a legitimate email address.
+- The email content appears to be a promotional message for a training program, and the links provided are for registration.
+- There is no urgent language or pressure tactics used in the email.
+- The email does not request any login, payment, verification, or personal information.
+- The spelling, grammar, and formatting of the email are correct.
+- The email does not impersonate any brand or use mismatched identities.
+- The authentication information is not present in the email.
+- The email provides a clear and transparent way to register for the training program.
+SUMMARY: The email appears to be a legitimate promotional message for a training program.",True,0
+1741785857.M144393P3734937_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,385,True,0,ok,LABEL: 0,True,0
+1741785857.M144393P3734937_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,424,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is from a legitimate company, RisingWave, and includes specific details about the event, such as the date, time, location, and speakers.
+- The email is well-written and includes a clear call to action (CTA) to ""Save Your Spot Here,"" but the CTA is a link to a legitimate event registration page.
+- The email does not contain any suspicious links, attachments, or language that would indicate a phishing attempt.",True,0
+1741785857.M144393P3734937_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,491,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address and reply-to address are consistent (jovana@risingwave.com).
+- The email contains a link to ""Save Your Spot Here,"" but the link is not suspicious and appears to be a legitimate event registration link.
+- The language is not urgent, and there are no pressure tactics used.
+- There is no request for login, payment, verification, or personal information.
+- The email has proper spelling, grammar, and formatting.
+- The brand identity appears to be consistent, with the sender address matching the event organizer's name (RisingWave).
+- There is no authentication information present.
+SUMMARY: The email appears to be a legitimate invitation to a data engineering and AI event.",True,0
+1759341862.276578_1_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,203,True,0,ok,LABEL: 1,True,1
+1759341862.276578_1_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,242,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from a suspicious sender address 'noreply@shioserver.icu', which may be a phishing domain.
+- The email contains a generic greeting and does not address the recipient by name, which is unusual for a legitimate DocuSign notification.
+- The email contains a link 'ACCESS DOCUMENT' which could be a phishing link, and the recipient is asked to review and sign a document without any further context.",True,1
+1759341862.276578_1_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,309,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address 'noreply@shioserver.icu' which may be a phishing domain.
+- Presence of a link 'ACCESS DOCUMENT' which could be a phishing link.
+- Urgent language and pressure tactics to review and sign the document.
+- Request for action on a payment confirmation which may be a phishing attempt.
+- Spelling and formatting issues in the email content.
+- Brand impersonation as the email claims to be from DocuSign but the sender address does not match the official DocuSign domain.
+SUMMARY: The email appears to be a phishing attempt due to suspicious sender address, links, and language.",True,1
+1759341862.276578_3_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,203,True,0,ok,LABEL: 1,True,1
+1759341862.276578_3_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,242,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from a suspicious sender address 'noreply@shioserver.icu', which may be a phishing domain.
+- The email contains a generic greeting and does not address the recipient by name, which is unusual for a legitimate DocuSign notification.
+- The email contains a link 'ACCESS DOCUMENT' which could be a phishing link, and the recipient is asked to review and sign a document without any further context.",True,1
+1759341862.276578_3_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,309,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address 'noreply@shioserver.icu' which may be a phishing domain.
+- Presence of a link 'ACCESS DOCUMENT' which could be a phishing link.
+- Urgent language and pressure tactics to review and sign the document.
+- Request for action on a payment confirmation which may be a phishing attempt.
+- Spelling and formatting issues in the email content.
+- Brand impersonation as the email claims to be from DocuSign but the sender address does not match the official DocuSign domain.
+SUMMARY: The email appears to be a phishing attempt due to suspicious sender address, links, and language.",True,1
+1759341863.276578_17_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,203,True,0,ok,LABEL: 0,True,0
+1759341863.276578_17_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,242,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is addressed to a specific recipient, indicating a personal or business relationship.
+- The content is related to a specific product (quartz stone slabs) and a legitimate business inquiry.
+- The language and tone are professional and polite, without any suspicious or urgent requests.",True,0
+1759341863.276578_17_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,309,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address is doreen@stoneinc.ltd, which seems to be a legitimate business email address.
+- The email content is professional and does not contain any urgent language or pressure tactics.
+- There are no suspicious links or requests for login, payment, verification, or personal information.
+- The email does not contain any spelling, grammar, or formatting issues.
+- The email does not impersonate any brand or mismatch identities.
+SUMMARY: The email appears to be a legitimate business inquiry from a professional sender.",True,0
+1759341863.276578_7_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,201,True,0,ok,LABEL: 1,True,1
+1759341863.276578_7_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,240,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unverified sender ""DocuSign Sharing"" with a suspicious email address ""auth.n0reply@bangda99.net"".
+- The email contains a link ""ACCESS DOCUMENT"" which could be a phishing link to steal sensitive information.
+- The email asks the recipient to ""review and sign your document to confirm payment processing"" which is a common tactic used by scammers to trick victims into revealing financial information.",True,1
+1759341863.276578_7_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,307,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address 'auth.n0reply@bangda99.net' does not match the typical DocuSign format.
+- Presence of a link 'ACCESS DOCUMENT' which could be a phishing link.
+- Request for login or verification through 'Payment Confirmation' which is a common phishing tactic.
+- Urgent language 'Please review and sign your document to confirm payment processing' to create a sense of pressure.
+- Spelling and formatting issues in the email body.
+- Brand impersonation as the email claims to be from DocuSign but the sender address does not match.
+SUMMARY: The email appears to be a phishing attempt due to suspicious sender address, potential phishing link, and urgent language.",True,1
+1759430349.342747_9_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,356,True,0,ok,LABEL: 0,True,0
+1759430349.342747_9_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,395,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is promoting a product (SpyRec Pro) with a sense of urgency (""Limited Time Only"") and a call to action (""Secure Your Deal Today"").
+- The email contains a suspicious link (""Secure Your Deal Today →"") that may lead to a phishing website.
+- The email is from an unverified sender (""securevision1@copesay.shop"") and does not provide a clear reason for contacting the recipient.",True,1
+1759430349.342747_9_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,462,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is securevision1@copesay.shop, which is not a typical domain for a well-known brand like SpyRec Pro. Copesay.shop seems to be a suspicious domain.
+- The email contains a link ""Secure Your Deal Today →"" which is likely a phishing link, as it's trying to create a sense of urgency and encourage the recipient to click on it without verifying the authenticity of the link.
+- The email is using urgent language (""Limited Time Only"", ""Don't Miss Out"") to pressure the recipient into taking action.
+- The email is trying to sell a product, but it's not clear if it's a legitimate product or a scam.
+- The email contains a suspicious unsubscribe link, which could be used to harvest email addresses.
+- The email is missing any authentication information, such as a valid return address or a clear indication of the sender's identity.
+- The email contains a mismatched identity, as the sender address is securevision1@copesay.shop, but the copyright information is from ""SpyRec Team"" with a different address.
+- The email contains a suspicious reply-to address, which is not provided in the email.
+
+SUMMARY: This email appears to be a phishing attempt due to its suspicious sender address, urgent language, and lack of authentication information.",True,1
+1759443164.351623_9_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,327,True,0,ok,LABEL: 0,True,0
+1759443164.351623_9_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,366,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is promoting a product (VacuumGo Pro) with a suspiciously high discount (50% off) and free shipping, which is a common tactic used in phishing emails to create a sense of urgency.
+- The email is trying to create a sense of fear by mentioning ""hidden dust"" and ""spots in your home that can make you sick,"" which is an attempt to grab the recipient's attention and make them more susceptible to the promotion.
+- The email does not address the recipient by their name, but instead uses a generic greeting, which is unusual for a legitimate marketing email.",True,1
+1759443164.351623_9_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,433,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address is ""vacuumgopro@formmenu.shop"", which is a suspicious domain, as it is not a well-known brand domain.
+- The email contains a promotional offer with a sense of urgency (""For a limited time""), but it does not appear to be a phishing attempt, as it is a legitimate product promotion.
+- The email does not request any login, payment, verification, or personal information.
+- The email has proper formatting and grammar.
+- The brand identity is consistent throughout the email.
+- There is no authentication information present.
+
+SUMMARY: The email appears to be a legitimate product promotion from VacuumGo Pro, despite the suspicious domain.",True,0
+1759504564.390099_17_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,409,True,0,ok,LABEL: 1,True,1
+1759504564.390099_17_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,448,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is promoting a product to treat erectile dysfunction (ED), which is a sensitive and personal topic often targeted by phishing scams.
+- The email contains a sense of urgency and a claim that 119 men have said goodbye to ED forever, which is an exaggerated and suspicious statement.
+- The email asks the recipient to watch a video proof, which could be a link to a malicious website or a phishing site.",True,1
+1759504564.390099_17_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,515,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""info@curlsoup.shop"", which is a suspicious domain that does not match the content of the email, which appears to be from a health-related company.
+- The email contains a request to watch a video, which is a common tactic used in phishing emails to trick users into clicking on malicious links.
+- The email uses urgent language and pressure tactics, stating that ""another 119 men have just said goodbye to ED forever"" and implying that the reader is running out of time.
+- The email requests the user to click on a link to watch a video, which could potentially lead to a phishing website or malware download.
+- The email contains spelling and formatting issues, such as the use of ellipses and inconsistent capitalization.
+- The email does not provide any authentication information, such as a legitimate website or contact details.
+- The email contains a request to unsubscribe, which is a common tactic used in phishing emails to trick users into clicking on malicious links.
+
+SUMMARY: This email appears to be a phishing email attempting to sell a product related to erectile dysfunction, using suspicious tactics and language to trick the user into clicking on a malicious link.",True,1
+1759504564.390099_31_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,443,True,0,ok,LABEL: 0,True,0
+1759504564.390099_31_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,482,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a link to a ""SUNPERP app"" which could be a phishing attempt to redirect users to a malicious website.
+- The email promises an ""instant $250 SUN bonus"" with the option for ""immediate withdrawal"" which sounds too good to be true and may be a phishing attempt to trick users into revealing their financial information.
+- The email does not address the recipient by their name, but instead uses a generic greeting, which is unusual for a legitimate email.",True,1
+1759504564.390099_31_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,549,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address 'fabiobenedettisup@tiscali.it' does not match the brand identity of SUNPERP, which is likely a legitimate brand.
+- The email contains a request for the recipient to connect their Tron-compatible wallet and claim a bonus, which could be a phishing attempt to obtain sensitive information.
+- The email uses urgent language, stating that the recipient is eligible for a bonus and that they should act quickly to claim it.
+- The email contains a link to the SUNPERP app, but it is not clear if this link is legitimate or a phishing attempt.
+- The email contains a request for the recipient to verify their wallet address, which could be a phishing attempt to obtain sensitive information.
+- The email contains a link to unsubscribe, but it is not clear if this link is legitimate or a phishing attempt.
+- The email contains a request for the recipient to click on a button to claim their bonus, which could be a phishing attempt to obtain sensitive information.
+- The email contains a warning that crypto assets involve risk, but this warning is not sufficient to mitigate the phishing risks present in the email.
+- The email does not contain any authentication information that would suggest it is legitimate.
+- The email contains a request for the recipient to opt-in to updates from SUNPERP, but this request is not sufficient to mitigate the phishing risks present in the email.
+- The email contains a link to the SUNPERP terms and privacy policy, but it is not clear if this link is legitimate or a phishing attempt.
+- The email contains a request for the recipient to click on a button to claim their bonus, which could be a phishing attempt to obtain sensitive information.
+
+SUMMARY: This email appears to be a phishing attempt to obtain sensitive information from the recipient, as it contains multiple red flags and does not provide sufficient authentication information to suggest it is legitimate.",True,1
+1759504564.390099_3_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,270,True,0,ok,LABEL: 1,True,1
+1759504564.390099_3_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,309,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is asking for confirmation to send a confidential letter, which could be a tactic to gain trust and obtain sensitive information.
+- The sender is claiming to be a lawyer (Mr. Nicholas Lam(Esq)) and is asking for a confidential discussion, which could be a red flag for phishing.
+- The email contains a vague and urgent request to ""get back to me as soon as possible,"" which is a common phishing tactic to create a sense of urgency and prompt the recipient into taking action without verifying the authenticity of the email.",True,1
+1759504564.390099_3_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,376,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address 'graciela@bukito.com' does not match the claimed identity 'Nicholas Lam(Esq)' and 'Head of the Legal Department' at 'Pawlus Life Insurance'.
+- Urgent language and pressure tactics ('Please get back to me as soon as possible. It is very important.') are used to create a sense of urgency.
+- Request for confirmation to send confidential information ('Please get back to me as soon as possible') may be a tactic to obtain sensitive information.
+- Spelling, grammar, or formatting issues are not present in this email.
+- Brand impersonation is suspected as the email claims to be from 'Pawlus Life Insurance' but the sender address does not match.
+- Authentication information is not present in this email.
+SUMMARY: This email appears to be a phishing attempt due to suspicious sender address and urgent language.",True,1
+1759986918.705667_1_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,1348,True,0,ok,LABEL: 1,True,1
+1759986918.705667_1_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1387,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from a sender claiming to be ""DHL.ebilling"" but the email address is ""info@sornaxgroup.com"", which does not match the typical DHL email format.
+- The email contains a warning not to reply to the email, which is a common tactic used by phishing emails to avoid detection.
+- The email contains a link to download Adobe Acrobat Reader, which is a suspicious link that may be used to download malware or other malicious software.",True,1
+1759986918.705667_1_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1454,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address ""info@sornaxgroup.com"" does not match the claimed sender ""DHL.ebilling"".
+- The email contains a suspicious link ""DHL MyBill"" which may be a phishing attempt to download a malicious file.
+- The email uses urgent language and pressure tactics by stating that the payment is due within the agreed credit terms.
+- The email requests the user to download Adobe Acrobat Reader from a suspicious link.
+- The email contains spelling, grammar, and formatting issues.
+- The email is an automated message and does not provide a clear way to contact DHL.
+- The email contains a mismatched identity as the sender address does not match the claimed sender.
+- The email contains a request for login or payment information.
+- The email contains a request for verification or personal information.
+- The email contains a request to download a file from a suspicious link.
+- The email contains a request to visit a suspicious link to download a file.
+- The email contains a request to view invoice/payment history and review account details.
+- The email contains a request to contact a suspicious phone number.
+- The email contains a request to download a file from a suspicious link.
+- The email contains a request to view invoice/payment history and review account details.
+- The email contains a request to contact a suspicious email address.
+- The email contains a request to download a file from a suspicious link.
+- The email contains a request to view invoice/payment history and review account details.
+- The email contains a request to contact a suspicious phone number.
+- The email contains a request to download a file from a suspicious link.
+- The email contains a request to view invoice/payment history and review account details.
+- The email contains a request to contact a suspicious email address.
+- The email contains a request to download a file from a suspicious link.
+- The email contains a request to view invoice/payment history and review account details.
+- The email contains a request to contact a suspicious phone number.
+- The email contains a request to download a file from a suspicious link.
+- The email contains a request to view invoice/payment history and review account details.
+- The email contains a request to contact a suspicious email address.
+- The email contains a request to download a file from a suspicious link.
+- The email contains a request to view invoice/payment history and review account details.
+- The email contains a request to contact a suspicious phone number.
+- The email contains a request to download a file from a suspicious link.
+- The email",True,1
+1760016058.M175198P708518_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,145,True,0,ok,LABEL: 0,True,0
+1760016058.M175198P708518_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,184,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is addressed to a specific recipient (bruce@untroubled.org), suggesting a personal or known relationship.
+- The sender's email address (bemterkuma6@gmail.com) is a personal Gmail account, which is less likely to be a phishing attempt.
+- The subject and greeting are informal and friendly, indicating a personal or social message rather than a phishing attempt.",True,0
+1760016058.M175198P708518_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,251,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address is a personal Gmail account, which is not a typical domain for a company or organization.
+- The subject and body of the email are brief and do not contain any urgent language or pressure tactics.
+- There are no suspicious links or requests for login, payment, verification, or personal information.
+- The email does not contain any spelling, grammar, or formatting issues.
+- The email does not impersonate any brand or use mismatched identities.
+SUMMARY: The email appears to be a casual greeting from an individual.",True,0
+1760070405.762746_25_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,250,True,0,ok,LABEL: 1,True,1
+1760070405.762746_25_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,289,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from a suspicious sender with a long and complex email address, which may be a spoofed or fake email address.
+- The email contains a link to a document (""VIEW DOCUMENT"") which may be a malicious link attempting to download malware or steal sensitive information.
+- The email creates a sense of urgency by stating that the link will only last for 48 hours, which is a common tactic used by phishing emails to prompt the recipient into taking action without verifying the authenticity of the email.",True,1
+1760070405.762746_25_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,356,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address and reply-to address: The sender address contains a long, random-looking string, and the reply-to address is a generic postmaster address.
+- Suspicious link: The email contains a link to view a document, but the link is not explicitly stated, and the note about the link expiring in 48 hours is a pressure tactic.
+- Urgent language or pressure tactics: The note about the link expiring in 48 hours creates a sense of urgency.
+- Requests for action: The email requests the recipient to review and sign a document.
+- Brand impersonation: The email appears to be from Untroubled, but the sender address and reply-to address do not match the expected format.
+- Spelling, grammar, or formatting issues: The email is well-formatted, but the use of underscores and hyphens in the sender address is unusual.
+SUMMARY: This email is likely a phishing attempt due to its suspicious sender address, pressure tactics, and request for action.",True,1
+1760154835.825557_29_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,212,True,0,ok,LABEL: 0,True,0
+1760154835.825557_29_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,251,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is from a legitimate-sounding sender (""Mail delivery failure"" and ""Mail Administrator"") which could be a genuine notification from the email service provider.
+- The email content is straightforward and does not contain any suspicious links or attachments.
+- The email is informing the recipient about a temporary pause in incoming messages, which is a plausible reason for a notification.",True,0
+1760154835.825557_29_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,318,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address is ""no-reply@untroubled.org"", which is a legitimate sender address for a mail delivery failure notification.
+- The email is from the same domain as the recipient's email address (""untroubled.org""), which suggests a legitimate source.
+- The email does not contain any suspicious links, urgent language, or requests for personal information.
+- The email is a standard notification about mail delivery failure, which is a common and legitimate use case.
+- The email does not contain any spelling, grammar, or formatting issues.
+- The email does not impersonate any brand or use mismatched identities.
+SUMMARY: This email appears to be a legitimate notification about mail delivery failure from the recipient's own email server.",True,0
+1760614205.M957015P1157880_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,533,True,0,ok,LABEL: 0,True,0
+1760614205.M957015P1157880_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,572,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link to pay the customs fees, which could be a phishing attempt to steal sensitive information.
+- The email asks for personal data to be used for delivery and service evaluation, which could be a pretext to collect sensitive information.
+- The email contains a generic greeting and does not address the recipient by name, which is unusual for a legitimate delivery notification.",True,1
+1760614205.M957015P1157880_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,639,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address is noreply@bpost.be, which is a legitimate email address for the Belgian postal service bpost.
+- The email contains a clear and detailed explanation of the issue with the delivery, including a tracking number and a link to pay the customs fees.
+- The email does not contain any suspicious links or requests for personal information.
+- The email is well-formatted and free of spelling and grammar issues.
+- The email is consistent with the brand identity of bpost, including the use of their logo and contact information.
+SUMMARY: The email appears to be a legitimate notification from bpost regarding an issue with a delivery.",True,0
+1761079142.1483004_37_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,219,True,0,ok,LABEL: 1,True,1
+1761079142.1483004_37_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,258,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from a suspicious sender email address ""glrcete@hot-bbc-book.ru"", which is not a legitimate Louis Vuitton email address.
+- The email contains a generic and overly promotional subject line and content, which is typical of phishing emails.
+- The email contains a sense of urgency (""Don't miss your chance"") and a low price point ($200) for a luxury brand like Louis Vuitton, which is likely to be a scam.",True,1
+1761079142.1483004_37_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,325,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address and reply-to address (glrcete@hot-bbc-book.ru is not a legitimate Louis Vuitton email address).
+- Brand impersonation (the email is pretending to be from Louis Vuitton but has a suspicious sender address).
+- Urgent language or pressure tactics (""Don't miss your chance to own luxury at an incredible value"").
+- Request for payment or purchase (""Prices start at $200. Shop Now"").
+- Spelling, grammar, or formatting issues (the email has inconsistent formatting and uses informal language).
+- Suspicious link or domain (the email is trying to entice the user to ""Shop Now"" without providing a legitimate link).
+SUMMARY: This email is likely a phishing attempt from an impersonator of Louis Vuitton.",True,1
+1761333036.1668955_101_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,365,True,0,ok,LABEL: 0,True,0
+1761333036.1668955_101_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,404,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is addressed to a specific person, ""bruce@untroubled.org"", indicating a personal or business relationship.
+- The content of the email is related to a specific vessel and a legitimate business activity (thickness measurement for a class surveyor's witness).
+- The email includes a clear subject line and a formal greeting, which is typical of a legitimate business communication.",True,0
+1761333036.1668955_101_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,471,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address and reply-to address appear to be legitimate, with a clear domain name and a physical address provided.
+- The email does not contain any suspicious links or domains.
+- The language used is professional and polite, without any urgent or pressure tactics.
+- The email requests a service (thickness measurement) and a quotation, but does not ask for login, payment, verification, or personal information.
+- The email is well-formatted and free of spelling, grammar, or formatting issues.
+- The brand identity appears to be consistent, with multiple company names and a physical address provided.
+- There is no authentication information present in the email.
+
+SUMMARY: The email appears to be a legitimate business inquiry from a shipping company.",True,0
+1761333036.1668955_65_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,246,True,0,ok,LABEL: 0,True,0
+1761333036.1668955_65_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,285,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a generic greeting (""Dear Sir/Madam"") which may indicate a lack of personalization.
+- The email instructs the recipient not to reply, which is a common tactic used by phishers to avoid detection.
+- The email is auto-generated, which may suggest that it is part of a mass phishing campaign.",True,1
+1761333036.1668955_65_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,352,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address is from a legitimate HSBC domain (advising.service@advising.hsbc.com).
+- The email does not contain any suspicious links or domains.
+- The language used is formal and professional, without any urgent or pressure tactics.
+- The email does not request any login, payment, verification, or personal information.
+- The email is well-formatted and free of spelling, grammar, or formatting issues.
+- The brand identity is consistent, with the sender address and content matching the HSBC brand.
+- There is no authentication information present in the email.
+SUMMARY: The email appears to be a legitimate notification from HSBC regarding a payment advice.",True,0
+1761333036.1668955_97_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,296,True,0,ok,LABEL: 1,True,1
+1761333036.1668955_97_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,335,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unverified sender (𝐓𝐄𝐌𝐔 <Temu@bestselections.click>) with a suspicious email address.
+- The email contains multiple links to ""Shop Now"" which could be malicious links.
+- The email uses sensational language (""Top trending items"", ""amazing prices!"", ""🔥🔥"") and a sense of urgency (""last days"") to create a sense of FOMO (fear of missing out), which is a common phishing tactic.",True,1
+1761333036.1668955_97_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,402,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""Temu@bestselections.click"", which is a suspicious domain that may be used for phishing.
+- The email contains multiple links to ""Shop Now"" without specifying the actual URL, which could be a phishing tactic to trick the user into clicking on a malicious link.
+- The email uses urgent language and pressure tactics with the use of ""Top trending items  last days for *amazing prices!* 🔥🔥"" and ""⚡ See All Top-Selling Deals of the Month! – Click Here"", which is an attempt to create a sense of urgency and encourage the user to click on the links without verifying their authenticity.
+- The email requests the user to click on links without specifying the actual URL, which could be a phishing tactic to trick the user into revealing sensitive information or downloading malware.
+- The email contains spelling, grammar, or formatting issues, such as the use of non-standard characters (e.g. 𝐓𝐄𝐌𝐔) and excessive use of emojis.
+- The email is impersonating a brand or retailer, but the authenticity of the sender cannot be verified.
+
+SUMMARY: The email appears to be a phishing attempt due to its suspicious sender address, lack of transparency in links, and use of pressure tactics.",True,1
+1761926079.2140821_27_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,530,True,0,ok,LABEL: 0,True,0
+1761926079.2140821_27_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,569,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an untrusted sender domain ""info.lmjshl@service.hyftw.cn"", which does not match the official Mastercard domain.
+- The email contains a suspicious link ""https://www.mastercard.co.jp/ja-jp/personal/bpwcbxn/security.html"" and ""https://www.mastercard.co.jp/ja-jp/safe/dmdwljc/security.html"", which may be used to phish for sensitive information.
+- The email contains a generic message and does not address the recipient by name, which is unusual for a legitimate communication from a financial institution like Mastercard.",True,1
+1761926079.2140821_27_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,636,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is info.lmjshl@service.hyftw.cn, which does not match the typical Mastercard email address format.
+- The email contains suspicious links: https://www.mastercard.co.jp/ja-jp/personal/bpwcbxn/security.html and https://www.mastercard.co.jp/ja-jp/safe/dmdwljc/security.html. Although they appear to be legitimate Mastercard URLs, the context and the fact that they are linked from a suspicious email raises concerns.
+- The email uses urgent language, stating that the recipient should check their account status, but it does not provide a clear reason for the urgency.
+- The email requests the recipient to visit the provided links, which could potentially be phishing sites.
+- The email contains spelling and formatting issues, such as the use of non-standard characters (e.g., 【,】, ※) and inconsistent formatting.
+- The email appears to be a brand impersonation, as it uses the Mastercard logo and branding, but the sender address and the content of the email are suspicious.
+SUMMARY: The email is likely a phishing attempt due to its suspicious sender address, links, and content.",True,1

@@ -1,0 +1,751 @@
+email_id,parser_id,model_name,context_limit,prompt_id,input_tokens,fits,overflow_tokens,status,raw_output,parse_ok,pred_label
+1672634036.2920601_13_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2372,True,0,ok,LABEL: 1,True,1
+1672634036.2920601_13_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2411,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious URL in the anchor tag: `http://www.igeaiac.com/2c34J2395YHI8617W210rvRj4W0U6be1x21pFv4GIf4rxvs4FhIHEsvZ8KRVoKmRQ7n10howN6WXcYOJ/caught-engraver`
+- Use of ""Press here to exit"" as a way to encourage clicking on a link rather than providing a clear unsubscribe method.
+- Presence of multiple images with large dimensions that seem irrelevant to the email's content, potentially used to mask malicious code.",True,1
+1672634036.2920601_13_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2478,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address and reply-to address (huusk-knives-offer@igeaiac.com)
+- Presence of a link with a long, complex URL that includes random characters (http://www.igeaiac.com/2c34J2395YHI8617W210rvRj4W0U6be1x21pFv4GIf4rxvs4FhIHEsvZ8KRVoKmRQ7n10howN6WXcYOJ/caught-engraver)
+- Urgent language and pressure tactics (""Wolrd Best Chef Knife Take 50% OFF"")
+- Spelling and grammar issues (""Wolrd Best Chef Knife"", ""Press here to exit"")
+- Mismatched identities (the email is about kitchen knives but contains unrelated text about UCN and conservation of nature)
+
+SUMMARY: The email is likely phishing due to the suspicious link, urgent language, and mismatched content.",True,1
+1672634036.2920601_35_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,4839,True,0,ok,LABEL: 1,True,1
+1672634036.2920601_35_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,4878,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains a URL that is suspicious and does not match the domain in the From field (aspirecreditcard.rest vs Translator@aspirecreditcard.rest).
+- The email includes a misleading offer of a 50% discount, which is often a tactic used in phishing attempts to prompt immediate action.
+- The email uses a generic greeting (""Order Now To Get A Special 5O% OFF"") and lacks any personalized information that would typically be present in legitimate communications.
+- The email content is mixed with irrelevant text about Space Science Fiction, which seems out of place and could be an attempt to distract from the main message or to appear more legitimate.",True,1
+1672634036.2920601_35_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,4945,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is promoting a product (MUAMA Enence Translator) and offering a discount.
+- The content is written in a neutral tone and does not use urgent language or pressure tactics.
+- The email contains a long block of text that appears to be unrelated to the main message (about the translator).
+- There are no requests for login, payment, verification, or personal information.
+- The links provided do not seem to be malicious; they are related to the product being advertised.
+- The sender and reply-to addresses are suspiciously formatted and could be spoofed.
+- The email includes a signature from someone named Janet, which adds a personal touch but does not provide any additional evidence of phishing.
+- The content is mostly promotional and informative, lacking any clear indication of malicious intent.
+
+SUMMARY: The email appears to be a promotional message for a language translation device and does not contain any clear evidence of phishing.",True,0
+1672682850.3021556_15_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2437,True,0,ok,LABEL: 1,True,1
+1672682850.3021556_15_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2476,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains multiple suspicious links that are not clearly explained and could be redirecting to malicious sites.
+- The links include encoded parameters that may be used to track user activity or deliver malware.
+- The content of the email appears to be a mix of irrelevant historical information and a call to action, which is a common tactic in phishing emails to distract and confuse the recipient.",True,1
+1672682850.3021556_15_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2543,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address ""Good News <GoodNews@ymmyfoods.shop>""
+- Mismatched domain in URLs (e.g., `http://www.ymmyfoods.shop` vs. `http://microsoft.com/**0drZpCmfJwjcNvm**`)
+- Urgent language and pressure tactics (""Ready to get your surprise?"")
+- Suspicious links containing encoded parameters
+- Brand impersonation (using a domain that looks similar to legitimate businesses but is not)
+- Poor spelling and grammar (""tPrivate housing"", ""As the large dwellings at Ai-Khanoum, including those in the palace, have little in common with the traditional Greek oikos, scholars have theorised as to their origin."")
+- Authentication information is missing or misleading
+
+SUMMARY: The email is highly suspicious due to its sender address, domain inconsistencies, urgent language, and poor grammar, indicating it is likely a phishing attempt.",True,1
+1672682850.3021556_3_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2330,True,0,ok,LABEL: 1,True,1
+1672682850.3021556_3_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2369,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email uses a suspicious sender address (Metformin recall @ ymmyfoods.shop).
+- The subject line contains a misleading claim about a common vitamin causing health issues.
+- There are multiple links embedded in the HTML content, some of which contain unusual URL structures and potential tracking mechanisms (e.g., `http://microsoft.com/**0drZpCmfJwjcNvm**`).
+- The content includes irrelevant and unrelated text about Adisesha and Balarama, which seems out of place and could be an attempt to distract from the main message.",True,1
+1672682850.3021556_3_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2436,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address (Metforminrecall@ymmyfoods.shop) is suspicious and does not match a legitimate pharmaceutical company domain.
+- There are multiple suspicious links with encoded parameters (e.g., `http://www.ymmyfoods.shop/10890-167-5122-33995/bruce/tindex13.html`).
+- The email uses urgent language and pressure tactics (""Click below to find out... The answer may surprise you!"").
+- The content includes irrelevant and unrelated text about Hindu mythology, which is a red flag for phishing attempts.
+- The URL structure is unusual and points to a non-standard domain (ymmyfoods.shop), which is not a known or trusted source.
+- The email contains spelling and grammatical errors (""THIS vitamin has been #1ed to high blood sugar and heart problems!"").
+
+SUMMARY: The email is highly suspicious due to its sender address, multiple suspicious links, urgent language, irrelevant content, and poor grammar.",True,1
+1672699633.3209251_1_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2235,True,0,ok,LABEL: 0,True,0
+1672699633.3209251_1_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2274,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email contains a generic greeting with no personalization.
+- The email includes multiple links and contact information (Skype, WhatsApp, and Gmail), which is common in phishing attempts to gather personal data.
+- The use of bright colors and images without clear relevance to the text may be an attempt to distract or manipulate the recipient into clicking on suspicious links.",True,0
+1672699633.3209251_1_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2341,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email uses a generic greeting and does not address the recipient by name.
+- The email contains no suspicious links or domains.
+- There is no urgent language or pressure tactics used.
+- The email does not request any login, payment, verification, or personal information.
+- The sender address and reply-to address appear to be legitimate (though they are not provided, the email structure suggests it is from a business).
+- The content seems to be a standard sales pitch and does not contain any obvious spelling, grammar, or formatting issues.
+- The email does not impersonate any known brands or mismatch identities.
+
+SUMMARY: This email appears to be a standard sales pitch and does not exhibit typical phishing characteristics.",True,0
+1672770825.3417097_41_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,3126,True,0,ok,LABEL: 1,True,1
+1672770825.3417097_41_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,3165,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a generic greeting (""Shopper"") and claims you have been selected for a prize, which is a common tactic in phishing emails.
+- The URLs in the email are suspicious and contain random characters (e.g., `http://www.statefarmz.us/l/lt19RE10896U2PX/5126WJ9128QS8806HW14Y33995YK392149198`), which could be a sign of phishing.
+- The email contains a misleading image link with a random URL (`http://www.statefarmz.us/im/L10896QG2O/5126IO9128XL8806G14A33995JO392149198/img025126387.png`).
+- The email includes a fake Microsoft link (`http://microsoft.com/**0ddsfgdfrggwjchgNvm**) which is not a legitimate Microsoft URL.
+- The content about the half dollar coin seems irrelevant and is likely added to make the email appear more legitimate, but it does not change the phishing nature of the email.",True,1
+1672770825.3417097_41_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,3232,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious domain (statefarmz.us)
+- Urgent language (""URGENT Notification"")
+- Suspicious links or domains (multiple links with ""http://microsoft.com/**0ddsfgdfrggwjchgNvm**"")
+- Brand impersonation (State Farm is a well-known insurance company, not associated with Delta Airlines offers)
+- Mismatched identities (links are not from a legitimate airline or financial service provider)
+- Formatting issues (use of HTML and inline styles, which is common in phishing emails to bypass basic filters)
+
+SUMMARY: The email is highly suspicious due to the presence of multiple red flags including a suspicious domain, urgent language, and brand impersonation.",True,1
+1672770825.3417097_45_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,7229,True,0,ok,LABEL: 1,True,1
+1672770825.3417097_45_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,7268,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a sensational and misleading subject line suggesting a serious health issue (hidden toxin causing permanent ED).
+- The email uses a fake unsubscribe link, which is a common tactic in phishing emails to trick recipients into clicking malicious links.
+- The email includes multiple irrelevant and nonsensical sentences, which are often used to distract from the main message and make the email appear more legitimate.",True,1
+1672770825.3417097_45_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,7335,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious and urgent language: The email uses sensational and urgent language, claiming that men are suffering from a hidden toxin in their testicles that can cause permanent ED and infertility.
+- Suspicious links: The email contains multiple suspicious links, including ""http://www.pollinfinite.shop/Kawrflravak/rhhpeblwp2757kqxfoomt/6VeNY0xmbBfRU4yAaA-Ok3IEDMVZ--qKGzm73UMg1Wk/1prrusi4TvEAeL-e2d4zDokmVgiuPuHZ_bYh3WfO2PpQIP_fFc1FRFBvr262zaxpOiirHdAYn95_YjseQyB6l1q1NwLM5BLDZI7u2xEEi8HtqGQyoxf75w_e84UYToV3MPOw-ZWcWfTy_22kE-T5dA"".
+- Brand impersonation: The email appears to impersonate a legitimate health or medical organization, using a domain that looks similar to ""atinterest.shop"" but is actually ""pollinfinite.shop"", which is likely a phishing site.
+- Requests for action: The email encourages the recipient to click on a link to learn more about removing the toxin, which is a common tactic used in phishing attempts to trick users into visiting malicious websites.
+- Unusual subject line: The subject line is inappropriate and uses a misspelled word (""pen!s""), which is often a sign of spam or phishing emails.
+- Formatting issues: The email contains excessive whitespace and unnecessary HTML code, which is typical of phishing emails designed to bypass basic filters.
+
+SUMMARY: The email is highly suspicious and appears to be a phishing attempt due to its urgent language, suspicious links, and brand impersonation.",True,1
+1674193987.407179_151_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,3920,True,0,ok,LABEL: 1,True,1
+1674193987.407179_151_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,3959,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender email address (ace-dwalts.info)
+- Misspelled company name (""Shur"" instead of ""Shoppers"")
+- Unusual URL in the image link (http://www.ace-dwalts.info/6475l23J95v8X6x12r4_70bT10f4p21SFv4GIf4rxvs4FhIHEsvZ7tQPdSmd5bJU105DBwWD/pourers-destinations)
+- Use of non-standard characters in the email content (e.g., `<em>ACE</em>`, `<span style=""font-size: 0pt"">`) which could be a sign of phishing attempts to bypass certain filters.",True,1
+1674193987.407179_151_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,4026,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address (ace_tools_loyalty@ace-dwalts.info) does not match a legitimate ACE Hardware email address.
+- The subject line promises a ""free gift"" which is often a tactic used in phishing emails to entice recipients.
+- There is a suspicious link in the email: `http://www.ace-dwalts.info/6475l23J95v8X6x12r4_70bT10f4p21SFv4GIf4rxvs4FhIHEsvZ7tQPdSmd5bJU105DBwWD/pourers-destinations`.
+- The email uses poor grammar and misspellings, such as ""Sh<span style=""font-size: 0pt"">ur</span>op<span style=""font-size: 0pt"">afg</span>per"" instead of ""Shopper"".
+- The domain in the suspicious link (ace-dwalts.info) is different from the official ACE Hardware domain.
+- The email contains a call to action to start a survey, which is a common phishing technique to gather personal information.
+SUMMARY: The email exhibits multiple phishing indicators including a suspicious domain, poor grammar, and a call to action for a survey.",True,1
+1674193987.407179_27_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,6353,True,0,ok,LABEL: 1,True,1
+1674193987.407179_27_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,6392,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is sent from a suspicious domain ""now_on_lowes_hardware@lows-stnaley.info"" which does not match the official Lowe's domain.
+- The email contains a URL that is obfuscated and redirects to ""http://www.lows-stnaley.info/proselytize-fidelity/6845Q23N95s8i6p12i4D70fG10f5z21uFv4GIf4rxvs4FhIHEsvZ7cQadSmQ7WVP10_Q5d1JwD"", which is likely a phishing attempt to trick the user into clicking.
+- The email uses a misspelled name ""Shuropafgper"" instead of the recipient's actual name, which is a common tactic used in phishing emails to make them seem less personalized and more suspicious.",True,1
+1674193987.407179_27_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,6459,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is suspicious, using a domain that closely mimics ""Lowe's Hardware"" but is actually ""lows-stnaley.info"".
+- The email contains a link (http://www.lows-stnaley.info/proselytize-fidelity/6845Q23N95s8i6p12i4D70fG10f5z21uFv4GIf4rxvs4FhIHEsvZ7cQadSmQ7WVP10_Q5d1JwD) that redirects to a domain with a misspelling of ""Lowe's"".
+- There is an urgent language element encouraging the recipient to ""Don't miss out!"" and complete a survey quickly.
+- The email uses a generic greeting (""Dear Lowe's Shuropper"") instead of a personalized one.
+- There are multiple instances of placeholder content and style tags that do not contribute to the readability of the email, which can be a sign of phishing attempts.
+- The footer includes a suspicious link (http://www.lows-stnaley.info/proselytize-fidelity/ef44S2395r86hR11j4710j10f5T21CFv4GIf4rxvs4FhIHEsvZ7eQadSmQ5Y10zz6PTPjwD).
+
+SUMMARY: The email is likely phishing due to the suspicious sender address, urgent language, and presence of misleading links.",True,1
+1674931819.1633280_117_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,4164,True,0,ok,LABEL: 1,True,1
+1674931819.1633280_117_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,4203,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is sent from a suspicious domain (fcires.monster) which does not match the claimed company name (ServicePlus Home Warranty).
+- The subject line promises a ""Free Home Protection Act Now,"" which is a common phishing tactic to entice recipients with free offers.
+- The email contains a large image link with a long, complex URL (http://www.fcires.monster/22d5fp2395uF8W613E2A182ck6d56B21qFv4GIf4rxvs4FhIHEsvZ8qR3oKdQS6vj1Zp05KlzcY/devoured-Mindanao), which is often used to hide malicious links.
+- The unsubscribe and preferences links also contain suspicious URLs (http://www.fcires.monster/6dd5v2Z395v8o6U17k218Ww2wXxdF6d56n21WFv4GIf4rxvs4FhIHEsvZ8jR3oKdQS5i10uU6sq@cqY/devoured-Mindanao), which could be used to track user behavior or redirect to malicious sites.",True,1
+1674931819.1633280_117_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,4270,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is suspicious and does not match a legitimate company domain.
+- The URL in the link is unusual and contains random characters, indicating it might be malicious.
+- The email uses urgent language (""Act Now"") and pressure tactics to prompt immediate action.
+- There is no clear indication of who the email is from or why they are sending it.
+- The email contains formatting issues and unnecessary elements like the ""vitally"" title tag.
+- The domain in the URL is not recognized as belonging to a reputable company.
+SUMMARY: The email is likely phishing due to the suspicious sender, urgent language, and unusual URL.",True,1
+1679367868.1264511_13_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2471,True,0,ok,LABEL: 1,True,1
+1679367868.1264511_13_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2510,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email is sent from an unusual domain (ace_hardware_innovation@toolach.autos) which does not match a typical ACE Hardware email address.
+- The subject line contains a sense of urgency with ""Hurry and take advantage of the offer.""
+- The email uses a suspicious URL (http://www.toolach.autos/...) that does not appear to be related to ACE Hardware.
+- There are spelling and formatting errors (""oly"", ""glo"", ""ifi"", etc.) in the company name, which is a common tactic in phishing emails.
+- The email asks the recipient to fill out a survey as a way to obtain a free tool set, which is often a phishing ploy to gather personal information.",True,1
+1679367868.1264511_13_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2577,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious sender address (contains unusual characters and misspellings)
+- Mismatched domain in the image source URL (http://www.toolach.autos/reproductions-inflammation/cf66Om23u95W7aSs11v50pi91l12d5u21VFv4GIf4rxvs4FhIHEsvZ7BQDQned7H10HSXR6s@l3wD/Winnipesaukee-customers)
+- Urgent language (""Hurry and take advantage of the offer"")
+- Suspicious link in the image and button (http://www.toolach.autos/5574l2395w86qP12i508fAq12d5Z21bFv4GIf4rxvs4FhIHEsvZ7pQDQned5WVu105FjLwD/challenges-Fitchburg)
+- Brand impersonation (Mentioning ACE Hardware but using a suspicious domain)
+- Misspelled company name (ACE Hardware Innovation instead of ACE Hardware)
+- Unusual use of HTML tags and inline styles
+
+SUMMARY: The email is likely phishing due to the suspicious sender address, mismatched domain in the image URL, urgent language, and brand impersonation.",True,1
+1679367869.1264511_29_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2244,True,0,ok,LABEL: 1,True,1
+1679367869.1264511_29_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2283,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is sent from a suspicious domain (lowes-gift-card-chance@lwsstan.click) which does not match a legitimate Lowe's email address.
+- The subject line suggests urgency (""Today is the final day""), which is a common tactic used in phishing emails to prompt immediate action.
+- The email contains a link with a long, complex URL (http://www.lwsstan.click/pitfall-autonomously/5d04q2395Oyo8611i508as12d4F21DFv4GIf4rxvs4FhIHEsvZ7SQTQne96IFF10B6u2WwqD), which could be leading to a malicious website.",True,1
+1679367869.1264511_29_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2350,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is suspicious and does not match a legitimate Lowe's email domain.
+- The subject line uses urgent language (""act quickly"") to prompt immediate action.
+- There is a request to fill out a survey, which is often a tactic used in phishing to gather personal information.
+- The email contains a mismatched brand identity (the email mentions ""Lo<span style=""font-size: 0%; color: #000; vertical-align: top;"">for</span><span style=""font-size: 0%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; vertical-align: top;"">nee</span>we<span style=""font-size: 0%; vertical-align: top;"">pct</span>'s"" and ""The Lo<span style=""font-size: 0%; color: #000;"">for</span><span style=""font-size: 0%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"">nee</span>we<span style=""font-size: 0%;"">prot</span>'s Survey Team"").
+- The email contains a link with a suspicious domain (http://www.lwsstan.click).
+- There are multiple spelling and formatting errors throughout the email.
+
+SUMMARY: The email is highly suspicious due to its use of a fake sender, urgent language, and brand impersonation, along with multiple typographical errors.",True,1
+1679367869.1264511_31_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2143,True,0,ok,LABEL: 1,True,1
+1679367869.1264511_31_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2182,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email uses a suspicious and generic sender address (costco-gift-card-chance@revcstc.autos).
+- The subject line promises a prize (brand new iPhone 14 Pro) which is often a tactic used in phishing emails.
+- The URL in the image and button link contains unusual characters and appears to be obfuscated (http://www.revcstc.autos/...), which is a common technique to hide malicious links.",True,1
+1679367869.1264511_31_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2249,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is suspicious and does not match a legitimate Costco domain.
+- The URL in the image link contains unusual characters and does not appear to be a legitimate Costco domain.
+- The email uses urgent language (""Today is the last day to take advantage of the offer"").
+- The email requests that the user fill out a survey, which could be a tactic to gather personal information.
+- There are multiple instances of strange and inconsistent text (e.g., ""Co<span style=""font-size: 0px; color: #fff; vertical-align: top; font-weight: 0;"">gru</span>st<span style=""font-size: 0px; color: #fff; vertical-align: top; font-weight: 0;"">tico</span>co"", ""position-Spanish"") that may indicate brand impersonation.
+- The email contains poor spelling and formatting issues, such as the use of ""pull the plug on notices"" instead of ""unsubscribe"" and the presence of multiple `<font>` and `<style>` tags without any actual styling applied.
+
+SUMMARY: The email is highly suspicious due to its sender address, URL, urgent language, potential for gathering personal information, and poor formatting and spelling.",True,1
+1693149230.153195_1_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,4098,True,0,ok,LABEL: 1,True,1
+1693149230.153195_1_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,4137,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is sent from an unusual and suspicious domain (staples-print-survey@adtnst.bond).
+- The subject line encourages immediate action with ""Act Fast,"" which is a common tactic in phishing emails.
+- The email contains a link with a long, complex URL (http://www.adtnst.bond/5b15aA2395eW86k12K25720_78d2K21DFv4GIf4rxvs4FhIHEsvZ8SRh9oRmK5g1mT06jk3cYj/monitored-detriment), which could be masking malicious activity.
+- The email uses poor grammar and spelling (""St<span style=""font-size: 1px; color: #fff; letter-spacing: -5px"">vu</span>ap<span style=""font-size: 1px; color: #fff; letter-spacing: -5px"">re</span>les"" instead of ""Staples"").
+- The email includes a request for personal information through a survey, which is a common phishing technique.",True,1
+1693149230.153195_1_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,4204,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is suspicious and does not match a legitimate Staples email domain.
+- The subject line uses urgent language (""Act Fast"") and promises a free gift, which is often a phishing tactic.
+- The email contains a link to a suspicious domain (""http://www.adtnst.bond/"").
+- The email includes a misspelling in the company name ""Stvuapreles"" instead of ""Staples"".
+- The use of poor formatting and multiple style tags within the HTML, which can be indicative of phishing attempts.
+SUMMARY: The email is likely phishing due to the suspicious sender, urgent language, and other red flags.",True,1
+1693368842.255676_1_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,3759,True,0,ok,LABEL: 1,True,1
+1693368842.255676_1_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,3798,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is promoting a free gift (Ninja Air Fryer) in exchange for filling out a survey, which is a common tactic used in phishing scams.
+- The email contains suspicious links with long, complex URLs that may be obfuscating the true destination.
+- The email uses a generic greeting (""We wanted to take a moment to thank you"") without any personalization, which is often a sign of a phishing attempt.",True,1
+1693368842.255676_1_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,3865,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address and reply-to address do not match the domain in the URL (fryerbykhls.com vs. kohishlsmi's).
+- Suspicious link: `http://www.fryerbykhls.com/probability-strangler/3f05qz2395B86iZ12rx5c7eR16d2T21JFv4GIf4rxvs4FhIHEsvZ7MQYRo9o7h1UN0TY5hXOwD/recall-guessing`.
+- Urgent language: ""Don't Miss Out on a Brand New Kitchen Appliance"".
+- Request for action: The email asks the recipient to click on a button to access the survey.
+- Spelling and formatting issues: The word ""Koats""hlsmi's"" is incorrectly formatted and contains unusual characters.
+- Brand impersonation: The email appears to be from a culinary or kitchen appliance company but uses a suspicious domain name and misspelled brand name.
+
+SUMMARY: The email is likely phishing due to the mismatched addresses, suspicious URL, urgent language, request for action, and brand impersonation.",True,1
+1693909975.597695_25_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2254,True,0,ok,LABEL: 1,True,1
+1693909975.597695_25_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2293,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email address is suspicious and contains misspellings (e.g., ""walgreens_reviewing_corner@wlgrensgvaway.bond"").
+- The domain in the image and link URLs is unusual and does not match Walgreens' official domain (e.g., ""http://www.wlgrensgvaway.bond"").
+- The offer seems too good to be true, promising a free iPad Pro with a survey.
+- The email uses poor grammar and formatting, such as the incorrect use of ""stop here"" in the title tag.
+- There is a link in the email that appears to be obfuscated or incorrectly formatted, which could be a phishing attempt.",True,1
+1693909975.597695_25_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2360,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is suspicious and does not match Walgreens' official domain.
+- There is a request for action (filling out a survey) which may lead to providing personal information.
+- The URL in the link is suspicious and does not appear to be from a legitimate Walgreens domain.
+- There are multiple spelling and grammatical errors (""Wa<span style=""color:darkkhaki; font-weight: bold; text-align: center; vertical-align: top; font-family: sans-serif; font-size: 0px;"">blu</span>lgree<span style=""color:darkkhaki; font-weight: bold; text-align: center; vertical-align: top; font-family: sans-serif; font-size: 0px;"">eto</span>ns"", ""in case of emergency exit"").
+- The offer seems too good to be true and is likely an attempt to entice the recipient with a free product.
+SUMMARY: The email is highly suspicious due to its sender address, potential for personal information collection, and numerous spelling and grammatical errors.",True,1
+1693909975.597695_27_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,1976,True,0,ok,LABEL: 1,True,1
+1693909975.597695_27_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2015,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email address is suspicious and does not match Kohl's official domain.
+- The subject line is misleading and does not reflect any known promotion or request from Kohl's.
+- The URL in the image link is obfuscated and points to a domain that does not belong to Kohl's (urkohlsshop.live instead of kohls.com).",True,1
+1693909975.597695_27_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2082,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is suspicious, using ""Kohls Retail Delight"" but with a domain ""urkohlsshop.live"" which does not match Kohl's official domain (kohls.com).
+- There is a request for action via clicking on a link to fill out a survey.
+- The URL in the link is suspicious and contains encoded characters that could be used to hide the true destination of the link.
+- The email uses urgent language (""As a token of our appreciation, we would like to give you a FREE Ninja Air Fryer..."").
+- There are formatting and typographical issues, such as the use of ""ko<span style=""color:black; font-weight: bold; text-align: center; vertical-align: top; font-family: Arial,sans-serif; font-size: 0px;"">are</span>hl<span style=""color:black; font-weight: bold; text-align: center; vertical-align: top; font-family: Arial,sans-serif; font-size: 0px;"">vis</span>'s"" instead of ""Karehls"".
+- The subject line is misleading and does not clearly indicate the purpose of the email.
+
+SUMMARY: The email is likely phishing due to the suspicious sender domain, request for action through a potentially malicious link, urgent language, and formatting issues.",True,1
+1693909975.597695_43_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,1819,True,0,ok,LABEL: 1,True,1
+1693909975.597695_43_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,1858,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link with a long, randomized string (e.g., ""http://www.advantagecvs.live/9ad4k2395Mr8S612j5ld2fQ16eeN21GFv4GIf4rxvs4FhIHEsvZ7iQLRoRR7XSW1Zr06IpBPwD/breachers-beeps"").
+- The email uses a generic greeting and offers a gift upon completion of a survey, which is a common tactic in phishing attempts.
+- The email includes an image with a misleading alt tag (""23DFS"" and ""cause""), which could be used to trick recipients into clicking on the link.",True,1
+1693909975.597695_43_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,1925,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is requesting feedback rather than login, payment, or verification information.
+- The sender address and reply-to address do not match official CVS email addresses (e.g., no @cvs.com domain).
+- There are no suspicious links or domains in the email.
+- The email uses a generic message and does not create a sense of urgency or pressure.
+- The email contains a spelling error (""C<span style=""font-size: 1px; color: #fff; letter-spacing: -5px"">mat</span>V<span style=""font-size: 1px; color: #fff; letter-spacing: -5px"">ure</span>S"" instead of ""Cares"").
+- The email includes a link that appears to be part of a phishing attempt but is not directly actionable within the context provided.
+- The email ends with a nonsensical message about showing an exit, which is unusual and suspicious.
+
+SUMMARY: The email is likely benign as it primarily seeks customer feedback, but there are several red flags that suggest it may be attempting to mislead the recipient.",True,0
+1693909975.597695_5_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,1932,True,0,ok,LABEL: 1,True,1
+1693909975.597695_5_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,1971,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is sent from a suspicious domain name ""starbucks-coffeehouse@strbuckhouse.bond"".
+- The subject line mentions a ""special gift"" which is a common tactic used in phishing emails to entice recipients to click.
+- The URL in the email contains unusual characters and is likely malicious (""http://www.strbuckhouse.bond/numbering-jumble/..."").",True,1
+1693909975.597695_5_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2038,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Sender address and reply-to address do not match official Starbucks domain (starbucks.com).
+- Suspicious link in the header: `http://www.strbuckhouse.bond/numbering-jumble/1986p2G3U95S8h6y12b5d3Yak16f0K21RFv4GIf4rxvs4FhIHEsvZ7rQ0RoRe7g10RCA_6WUwDOl`.
+- Urgent language and pressure tactics: ""Your feedback is incredibly important"" and ""Upon Completion of the Survey you might have a choice between different gifts! ""
+- Brand impersonation: The email uses ""St<span style=""font-size: 1px; color: #fff; letter-spacing: -5px"">moc</span>ar<span style=""font-size: 1px; color: #fff; letter-spacing: -5px"">cof</span>bu<span style=""font-size: 1px; color: #fff; letter-spacing: -5px"">frap</span>ck<span style=""font-size: 1px; color: #fff; letter-spacing: -5px"">lem</span>s"" instead of ""Starbucks"".
+- Mismatched identities: The email claims to be from Starbucks but uses a domain that does not belong to them.
+- Suspicious image URLs: The images used in the email have URLs that do not match known Starbucks domains.
+SUMMARY: The email is phishing due to the use of a suspicious domain, brand impersonation, and pressure tactics.",True,1
+1694289981.744325_23_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2429,True,0,ok,LABEL: 1,True,1
+1694289981.744325_23_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2468,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is sent from an unusual domain (starbucks.caf@coffeshp.bond) that does not match Starbucks' official domain.
+- The email contains suspicious links (e.g., http://www.coffeshp.bond/7af4D2395HW8O612j2595bH7930k21bFv4GIf4rxvs4FhIHEsvZ8eRx9oSnm6c1n0pV6eTBMcY/sixgun-freezer) that could be used to steal information.
+- The email uses poor grammar and formatting (""your choice of Stevanubarnuck is greatly appreciated"") which is inconsistent with professional communication from a well-known company like Starbucks.",True,1
+1694289981.744325_23_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2535,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address (starbucks.caf@coffeshp.bond) does not match a legitimate Starbucks email domain.
+- Suspicious link in the email (http://www.coffeshp.bond/7af4D2395HW8O612j2595bH7930k21bFv4GIf4rxvs4FhIHEsvZ8eRx9oSnm6c1n0pV6eTBMcY/sixgun-freezer).
+- Urgent language and pressure tactics (""Get Ready to Be Surprised, Our Gift Awaits!"" and ""Once you've completed the survey, you'll have the opportunity to receive a $100 gift!"").
+- Mismatched branding and formatting issues (use of ""St<span style=""font-size: 1px; color: #fff; letter-spacing: -5px"">veb</span>ar<span style=""font-size: 1px; color: #fff; letter-spacing: -5px"">nui</span>bu<span style=""font-size: 1px; color: #fff; letter-spacing: -5px"">car</span>ck<span style=""font-size: 1px; color: #fff; letter-spacing: -5px"">lem</span>s"" instead of ""Starbucks"").
+- Spelling and grammatical errors (""reloadings"" instead of ""reloadings"", ""US 10010 126 E 23rd St New York, NY,"" which looks like a typo).
+
+SUMMARY: The email is likely phishing due to the suspicious sender address, urgent language, and formatting issues.",True,1
+1694514089.821887_7_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2185,True,0,ok,LABEL: 1,True,1
+1694514089.821887_7_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2224,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is sent from an unusual and suspicious domain (cvs.opinions.place@lovecvscustomer.bond).
+- The subject line suggests congratulations on being selected for a gift, which is often a tactic used in phishing emails to entice the recipient.
+- The email contains a link with a long, complex URL that could be hiding malicious content (http://www.lovecvscustomer.bond/3b35M2i395k86Yv11K5ddeo170eV21qFv4GIf4rxvs4FhIHEsvZ7jQjRoKK5oO1s06vB2wzD/headset-commercial).",True,1
+1694514089.821887_7_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2291,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address (cvs.opinions.place@lovecvscustomer.bond) does not match a legitimate CVS email domain.
+- There are suspicious links in the email that direct to ""http://www.lovecvscustomer.bond/"", which is not a known CVS domain.
+- The email uses urgent language and pressure tactics by suggesting a special thank-you and offering gifts upon completion of a survey.
+- The email contains brand impersonation, as it appears to be from CVS but uses a non-standard and suspicious domain name.
+- There are formatting issues, such as the use of unusual font sizes and styles, and the presence of images with misleading alt tags.
+- The email ends abruptly with an image and a poorly formatted message about showing the exit, which is out of context and suspicious.
+
+SUMMARY: The email is phishing due to the mismatched domain, suspicious links, urgent language, brand impersonation, and formatting issues.",True,1
+1694680484.99986_11_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2247,True,0,ok,LABEL: 1,True,1
+1694680484.99986_11_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2286,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender email address (join.the.cvs.savings.squad@pharmatoptier.bond)
+- Unusual URL in the image and link source (http://www.pharmatoptier.bond/)
+- Use of poor grammar and spelling (""upon completion of the survey"", ""time to show you the exit"")",True,1
+1694680484.99986_11_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2353,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address: `join.the.cvs.savings.squad@pharmatoptier.bond` (domain does not match CVS)
+- Suspicious link: `http://www.pharmatoptier.bond/d134V2395n8YW611X5e34Q171ds21mFv4GIf4rxvs4FhIHEsvZ7tQjR9nQ7DhJ1Y0W5pXlwD/falsify-stings`
+- Urgent language: ""Grab Your Chance: Win $100 CVS Gift Cards Now!""
+- Brand impersonation: The email uses the name ""CVS"" but the domain in the link is `pharmatoptier.bond`, which is not a legitimate CVS domain.
+- Formatting issues: The email contains unusual spacing and styling, such as the use of `font-size: 1px` and `letter-spacing: -5px` to hide parts of the word ""CVS"".
+- Spelling and grammar issues: The phrase ""We' d like to express our gratitude"" is incorrectly written as ""We' d"" instead of ""We'd"".
+
+SUMMARY: The email is phishing due to the suspicious sender address, the presence of a malicious link, urgent language, brand impersonation, and formatting/spelling/grammar issues.",True,1
+1695341502.370811_3_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,1644,True,0,ok,LABEL: 1,True,1
+1695341502.370811_3_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,1683,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email uses a suspicious and generic sender address that does not match the official domain of Advance Auto Parts.
+- The subject line and body contain grammatical errors and misspellings (""Makita Drill Set"", ""Final Notification"", ""Act Now ?"").
+- The URL in the email link contains unusual characters and appears to be obfuscated (e.g., ""be86O239KD5Aw86q11L5f1bh1749I21qFv4GIf4rxvs4FhIHEsvZ7YQsR9Rn6k1DL0h6wy3kwD""), which is often a sign of phishing.
+- The email includes a fake sense of urgency with a deadline of September 21st to secure the items.
+- The image alt text contains a suspicious phrase ""goingin"" which could be part of a phishing attempt.",True,1
+1695341502.370811_3_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,1750,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address and domain (gift-card-giveaway-at-advance-auto-parts@advancetools.live) do not match the official Advance Auto Parts domain.
+- There is a suspicious link in the email (http://www.advancetools.live/troublesomely-thief/be86O239KD5Aw86q11L5f1bh1749I21qFv4GIf4rxvs4FhIHEsvZ7YQsR9Rn6k1DL0h6wy3kwD).
+- The email uses urgent language and pressure tactics (""Act Now ? Don't Let This Opportunity Slip Away!"").
+- The email contains a misspelled word ""Makita"" which is likely intentional to avoid spam filters.
+- The email includes a broken image link (alt=""goingin"") which could be used to track if the email was opened.
+- The URL in the image source also appears suspicious (http://www.advancetools.live/interferometer-superintendent/e226b239KV5pt85B12i5ft1fQ1749D21EFv4GIf4rxvs4FhIHEsvZ7eQsR9Rn7z1FSu0s5p@wUD).
+
+SUMMARY: The email is highly suspicious due to its use of a fake domain, urgent language, and potential tracking mechanisms.",True,1
+1672634036.2920601_13_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,592,True,0,ok,LABEL: 0,True,0
+1672634036.2920601_13_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,631,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The email contains a subject line that is overly promotional and suspicious (""Wolrd Best Chef Knife Take 50% OFF"").
+- The body of the email includes irrelevant and lengthy information about the UCN (International Union for Conservation of Nature), which seems out of place and is likely added to make the email appear more legitimate.
+- There is a call-to-action to press a link to exit, which is a common phishing tactic to gather user information or redirect to malicious sites.",True,0
+1672634036.2920601_13_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,698,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The email uses a generic greeting and does not address the recipient by name.
+- The subject line is misleading and unrelated to the content of the email.
+- The email contains a suspicious link or domain for exiting.
+- The content of the email is irrelevant to the recipient's profession or interests.
+- There are no requests for login, payment, verification, or personal information.
+- The text appears to be a mix of unrelated information and promotional content.
+- The spelling and grammar are poor, with multiple typos and incorrect words (e.g., ""Wolrd"" instead of ""World"", ""Press here to exit"" which seems out of place).
+SUMMARY: The email is likely benign as it does not request any sensitive information and the content is inconsistent and poorly written.",True,0
+1672634036.2920601_35_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,777,True,0,ok,0,True,0
+1672634036.2920601_35_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,816,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email contains a spelling error (""5O% OFF"" instead of ""50% OFF"").
+- The subject line is misleading, as it promises a discount but does not relate to the content of the email.
+- The email includes irrelevant information about a translator device, which seems to be a distractor from the main message.",True,0
+1672634036.2920601_35_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,883,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email contains a spelling error (""MUAMA Enence Translator"" instead of ""MUMAAM Encoder Translator"").
+- The subject line uses urgent language and pressure tactics (""Order Now To Get A Special 5O% OFF"").
+- There is no clear request for login, payment, verification, or personal information.
+- The body of the email is unrelated to the subject and appears to be a mix of promotional content and historical information about a magazine.
+- The content does not contain any suspicious links or domains.
+- The email seems to be a mix of promotional and irrelevant text, possibly indicating it is a spam or promotional message rather than a phishing attempt.
+SUMMARY: The email is likely benign as it appears to be a promotional message with mixed content, and there are no clear indicators of a phishing attempt.",True,0
+1672682850.3021556_15_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,638,True,0,ok,LABEL: 0,True,0
+1672682850.3021556_15_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,677,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email contains no urgent requests or threats that would typically pressure the recipient into immediate action.
+- The subject line and body of the email do not mention any personal information or specific actions required from the recipient.
+- The content appears to be about historical archaeology and does not include any links or attachments that could be used for malicious purposes.",True,0
+1672682850.3021556_15_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,744,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email does not contain any requests for login, payment, verification, or personal information.
+- There are no suspicious links or domains mentioned in the email.
+- The content appears to be about historical archaeology and does not use urgent language or pressure tactics.
+- The email does not ask the recipient to take any immediate action.
+- The text contains numerous references to archaeological sites and does not show any spelling, grammar, or formatting issues that are typical of phishing emails.
+- The email does not impersonate any known brand or identity.
+
+SUMMARY: The email is about historical archaeology and does not contain any phishing indicators.",True,0
+1672682850.3021556_3_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,522,True,0,ok,LABEL: 0,True,0
+1672682850.3021556_3_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,561,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email is sent from a suspicious domain name (Metforminrecall@ymmyfoods.shop) which does not match the subject matter.
+- It contains a misleading claim about vitamins causing health issues, which is a common tactic used in phishing to create urgency and fear.
+- The email includes irrelevant and lengthy text about Adisesha and his incarnations, which seems out of place and is likely an attempt to distract from the main message or to appear more legitimate.",True,1
+1672682850.3021556_3_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,628,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The subject line and body of the email contain no clear request for login, payment, verification, or personal information.
+- The email does not appear to have any suspicious links or domains.
+- The language used is not urgent or pressuring; it is more informative and curious.
+- The content about vitamins and health is unrelated to the religious and mythological text at the end, which seems out of place and irrelevant to the email's main message.
+- There are no obvious spelling, grammar, or formatting issues.
+- The sender address is suspicious and does not match a legitimate pharmaceutical or health organization domain.
+
+SUMMARY: The email appears to be a benign health-related newsletter or promotional content, though the sender's domain is suspicious.",True,0
+1672699633.3209251_1_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,217,True,0,ok,LABEL: 0,True,0
+1672699633.3209251_1_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,256,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The email contains multiple contact methods (Skype, WhatsApp) which is common in legitimate business communications.
+- The email does not request any personal or financial information.
+- The email mentions a product (Connector & Adapter) without any urgent action required from the recipient.",True,0
+1672699633.3209251_1_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,323,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The email does not request any login, payment, verification, or personal information.
+- There are no suspicious links or domains mentioned in the email.
+- The language used is not urgent or pressuring.
+- The contact information provided (Skype and WhatsApp) is not typically associated with phishing attempts.
+- The email appears to be a standard sales pitch and does not contain obvious spelling, grammar, or formatting issues.
+- The sender address (bruce@untroubled.org) seems legitimate and matches the content of the email.
+
+SUMMARY: The email appears to be a benign sales pitch for Connector & Adapter products.",True,0
+1672770825.3417097_41_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,609,True,0,ok,0,True,0
+1672770825.3417097_41_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,648,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email contains a special offer and a request to complete a survey, which is a common tactic used in phishing attempts to gather personal information.
+- There is no clear indication of who sent the email or why the recipient was chosen, which is unusual for legitimate offers.
+- The content about the half dollar coin design is irrelevant to the email's subject and appears to be inserted to make the email seem more official and less suspicious, a technique known as ""spamouflage.""",True,0
+1672770825.3417097_41_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,715,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is sent from a suspicious domain (statefarmz.us instead of statefarm.com).
+- There is no mention of any link or request for personal information in the email body.
+- The content does not appear urgent or use pressure tactics.
+- The email seems to be about numismatics rather than a phishing attempt.
+- The subject line and body do not request any action related to logging in, paying, or verifying information.
+- There are no obvious spelling, grammar, or formatting issues.
+- The email does not impersonate any specific brand or identity.
+
+SUMMARY: The email appears to be about numismatics and does not contain typical phishing indicators.",True,0
+1672770825.3417097_45_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,2140,True,0,ok,LABEL: 0,True,0
+1672770825.3417097_45_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2179,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email contains a suspicious and sensational subject line that uses humor and shock tactics to grab attention.
+- The email includes a link with a suspicious URL (confirmation@atinterest.shop) that may be used to direct the recipient to a malicious website.
+- The email appears to be spammy and is likely sent in bulk to a wide range of recipients, which is a common tactic for phishing attacks.",True,0
+1672770825.3417097_45_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,2246,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email subject line uses sensational and misleading language (""The Most Harmful Toxin For Your Pen!s"").
+- The email contains a suspicious link that is not clearly explained or necessary.
+- The email is sent from a generic address rather than a recognized domain (confirmation@atinterest.shop).
+- There is no clear brand identity or context related to the sender's organization.
+- The email uses poor grammar and spelling throughout (e.g., ""pen!s,"" ""leaking"" inside their testicles, ""ed to"").
+- The email includes an unsubscribe and report abuse option, which is common in phishing attempts to gather email addresses.
+- The content of the email appears to be unrelated to the apparent identity of the sender (CSNY).
+
+SUMMARY: The email is likely benign but contains elements that are commonly used in phishing attempts, such as sensationalism, poor grammar, and a suspicious link.",True,0
+1674193987.407179_151_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,223,True,0,ok,LABEL: 1,True,1
+1674193987.407179_151_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,262,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains unusual and jumbled text (""ACE"", ""Sh"", ""op"", ""afg"", ""per"") which is often a sign of phishing attempts.
+- The sender's email address is suspicious and does not match a legitimate company domain (e.g., it uses ""dwalts.info"" instead of ""deawalt.com"").
+- The email encourages the recipient to complete a survey to win a prize, which is a common tactic used in phishing to gather personal information.",True,1
+1674193987.407179_151_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,329,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The subject line promises free gifts but does not provide clear context.
+- The sender address and domain are suspicious (e.g., ""ace-dwalts.info"" which closely resembles ""de-walt.com"").
+- There are multiple spelling errors in the email body (""ACE"", ""Shur"", ""opafg"", ""per"").
+- The email contains a suspicious link without proper URL display.
+- The email uses urgent language to prompt immediate action.
+SUMMARY: The email appears to be phishing due to the suspicious sender address, domain, and presence of urgent language combined with poor formatting and spelling.",True,1
+1674193987.407179_27_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,233,True,0,ok,LABEL: 1,True,1
+1674193987.407179_27_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,272,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email address is suspicious and does not match the official Lowe's domain.
+- The subject line and body of the email contain spelling errors (""Sh"", ""ur"", ""afg"", ""per"") which are common in phishing attempts.
+- The link provided in the email (Go_Here) is shortened and could be malicious, often used in phishing to hide the true destination of the link.",True,1
+1674193987.407179_27_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,339,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious sender address (now_on_lowes_hardware@lows-stnaley.info)
+- Mismatched brand identity (the email starts with ""Lowe's"" but the subject and body text are inconsistent)
+- Spelling and grammar issues (""Sh"", ""ur"", ""op"", ""afg"", ""per"")
+- Suspicious link (Go_Here)
+- Urgent language or pressure tactics (""Just a few clicks away from a chance to win"")
+SUMMARY: The email appears to be phishing due to the suspicious sender address, brand impersonation, and urgent language used.",True,1
+1674931819.1633280_117_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,388,True,0,ok,LABEL: 0,True,0
+1674931819.1633280_117_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,427,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a generic greeting (""Act Now"") without addressing the recipient by name.
+- The unsubscribe link is missing a closing bracket and appears suspiciously formatted.
+- The offer seems too good to be true (free home protection quote) and includes a link that requires visiting if an image cannot be seen, which is a common tactic used in phishing to bypass filters.",True,1
+1674931819.1633280_117_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,494,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious domain in the sender address (fcires.monster)
+- Use of ""Act Now"" urgency
+- Mismatched branding and contact information (the address does not match typical business addresses for such services)
+- Presence of a free image link without further context
+- Spelling error (""can't"" instead of ""can not"")
+SUMMARY: The email exhibits multiple red flags indicative of phishing, including a suspicious sender domain and mismatched branding information.",True,1
+1679367868.1264511_13_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,383,True,0,ok,LABEL: 0,True,0
+1679367868.1264511_13_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,422,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains misspellings (""Har"", ""dwa"", ""ifi"") which are common in phishing attempts.
+- The email asks the recipient to click on a button to access a survey, which is often a tactic used in phishing to direct users to malicious websites.
+- The email provides a generic address (126 E 23rd St New York, NY, US) without a proper contact link or verification method, suggesting a lack of legitimacy.",True,1
+1679367868.1264511_13_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,489,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Mismatched and incomplete brand name in the sender address (ACE Hardware Innovation vs. ACE Hardware)
+- Spelling errors in the brand name (e.g., ""oly"", ""glo"", ""dwa"")
+- Urgent language and pressure tactics (""Hurry and take advantage of the offer"", ""no strings attached"")
+- Suspicious link in the email (""Start Here Now"" button leading to an unknown destination)
+- Request for personal action (filling out a survey) without a clear and secure method provided
+- Brand impersonation (the email appears to be from ACE Hardware but contains errors and a suspicious link)
+
+SUMMARY: The email is likely phishing due to the suspicious sender address, brand impersonation, and presence of a potentially malicious link.",True,1
+1679367869.1264511_29_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,380,True,0,ok,LABEL: 1,True,1
+1679367869.1264511_29_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,419,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email address is suspicious and not from a legitimate Lowe's domain.
+- The subject line and body contain grammatical errors and typos (e.g., ""Lo"" for ""Lowe's"", ""we"" repeated multiple times).
+- There is a call to action to click on a button to access a survey, which is often a tactic used in phishing emails to direct users to malicious sites.",True,1
+1679367869.1264511_29_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,486,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious sender address and domain (lowes-gift-card-chance@lwsstan.click)
+- Brand impersonation (The email mimics Lowe's but uses a suspicious domain)
+- Urgent language or pressure tactics (""Today is the final day to receive a brand new Stanley Tool set - act quickly."")
+- Requests for personal information (The email asks the user to fill out a survey, which could be a pretext for collecting personal data)
+- Spelling, grammar, or formatting issues (""Lo\nfor\nnee\nwe\npct\n's"" and ""The Lo\nfor\nnee\nwe\nprot\n's Survey Team"")
+- Mismatched identities (The email claims to be from Lowe's but the domain and formatting do not match legitimate Lowe's communications)
+
+SUMMARY: The email is highly suspicious due to its use of a fake domain, brand impersonation, urgency, and poor quality of writing.",True,1
+1679367869.1264511_31_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,387,True,0,ok,LABEL: 1,True,1
+1679367869.1264511_31_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,426,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email is sent from a suspicious domain name that does not match the official Costco domain.
+- The email contains grammatical errors and incomplete words (""Co"", ""gru"", ""st"", ""tico"", ""co""), which is a common tactic used in phishing emails to appear less professional.
+- The email encourages the recipient to click on a link to fill out a survey, which is often a method used by phishers to gather personal information or install malware.",True,1
+1679367869.1264511_31_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,493,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious sender address with misspellings (""revcstc.autos"" instead of ""costco.com"")
+- Brand impersonation (using ""Co gru st tic o co"" instead of ""Costco"")
+- Urgent language (""Today is the last day to take advantage of the offer"")
+- Suspicious link in the email (""Visit Over Here"" with a generic address)
+- Spelling and grammar issues (""Start Here Now"", ""To pull the plug on notices"")
+- Mismatched identities (sender claims to be from Costco but uses a suspicious domain and name)
+
+SUMMARY: The email is highly suspicious and appears to be a phishing attempt due to multiple red flags including a suspicious sender address, brand impersonation, urgent language, and poor spelling/grammar.",True,1
+1693149230.153195_1_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,348,True,0,ok,LABEL: 0,True,0
+1693149230.153195_1_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,387,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains a misspelled company name (""St vu
+ap
+re
+les"" instead of ""Staples"").
+- The email uses a suspiciously generic free offer (""FREE Epson EcoTank ET-15000"") without providing specific details about the survey or the free gift.
+- The email includes a physical address at the end, which is unusual for a survey invitation and may be an attempt to appear legitimate but is often a red flag in phishing emails.",True,1
+1693149230.153195_1_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,454,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious sender address and domain (staples-print-survey@adtnst.bond)
+- Urgent language and pressure tactics (""Act Fast"")
+- Unusual and misspelled company name (""St vu\nap\nre\nles"" instead of ""Staples"")
+- Suspicious link without proper URL (button text ""Start Here Now"" but no actual link provided)
+- Brand impersonation (Epson printer mentioned, but Staples is the sender)
+- Mismatched identities (Staples Survey Team in the email but the address at the bottom does not match the company's usual contact information)
+
+SUMMARY: The email is likely phishing due to multiple red flags including a suspicious sender, unusual company name, and brand impersonation.",True,1
+1693368842.255676_1_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,331,True,0,ok,LABEL: 0,True,0
+1693368842.255676_1_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,370,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains misspellings in the company name ""Koats hlsmi's"" instead of ""KohIs"".
+- The subject line promises a free product without any context or verification needed.
+- The unsubscribe link is suspiciously phrased as ""Visit_Here_Now"" instead of a proper URL, which is often a sign of phishing.",True,1
+1693368842.255676_1_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,437,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address contains a typo (""KohIs"" instead of ""Kohls"")
+- The subject line is misleading and does not match the content of the email
+- There is a suspicious link (""Visit_Here_Now"") with poor formatting
+- The email uses urgent language (""Start Now"")
+- Poor spelling and grammar (e.g., ""Ko
+ats
+hl
+smi
+'s"", ""To modify your subscription preferences, Visit_Here_Now"")
+- Mismatched identities; the email claims to be from ""Ko
+ats
+hl
+smi
+'s"" but is sent from a domain related to ""air fryer"" which is not associated with the brand name
+
+SUMMARY: The email is likely phishing due to multiple red flags including typos, poor formatting, urgent language, and mismatched identities.",True,1
+1693909975.597695_25_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,326,True,0,ok,LABEL: 1,True,1
+1693909975.597695_25_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,365,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email address is suspicious and contains misspellings (e.g., ""wlgrensgvaway"" instead of ""walgreens"").
+- The subject line promises a free iPad Pro, which is an unusual and potentially deceptive offer.
+- The email contains a link with a suspicious URL (""in case of emergency exit"" and ""US 10010 126 E 23rd St New York, NY,"" at the end of the link, which is not typical for a legitimate company).",True,1
+1693909975.597695_25_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,432,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address contains misspellings (""walgreens_reviewing_corner@wlgrensgvaway.bond"" instead of ""Walgreens"")
+- Suspicious link with a domain that does not match Walgreens' official domain (URL is truncated but appears to be leading to an unexpected location)
+- Urgent language and pressure tactics (""Seize a brand new iPad Pro - this offer is only valid for today"")
+- Request for action through a survey which may involve providing personal information
+- Spelling and grammar issues (""blu"", ""eto"", ""ns"", ""blu"", ""lgree"", ""eto"", ""ns"", ""blu"", ""lgree"", ""ns"")
+
+SUMMARY: The email is likely phishing due to the suspicious sender address, urgent language, potential request for personal information, and multiple spelling and grammar errors.",True,1
+1693909975.597695_27_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,344,True,0,ok,LABEL: 1,True,1
+1693909975.597695_27_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,383,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email address is suspicious and contains unusual characters and a domain that does not match official Kohl's email practices.
+- The offer of a free product (Ninja Air Fryer) seems too good to be true and is likely an attempt to entice the recipient to engage with the email.
+- The email contains incomplete words (""Ko"", ""are"", ""hl"", ""vis"") which could indicate it was sent from a compromised account or a spam bot.",True,1
+1693909975.597695_27_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,450,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious sender address (contains misspellings and unusual domain)
+- Brand impersonation (misspelling of ""Kohls"" as ""Koarehvlis'"")
+- Urgent language or pressure tactics (""Your feedback is incredibly important to us, and we would like to offer you a token of our appreciation for taking the time to share your thoughts."")
+- Suspicious link (button text ""Start Here Now >"" without clear URL)
+- Spelling, grammar, or formatting issues (misspelled words in the email body)
+
+SUMMARY: The email appears to be phishing due to the suspicious sender address, brand impersonation, and lack of clear URL in the button text.",True,1
+1693909975.597695_43_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,280,True,0,ok,LABEL: 1,True,1
+1693909975.597695_43_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,319,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a generic greeting and does not address the recipient by name.
+- The subject line promises a gift without any clear indication of its legitimacy.
+- The sender's email address is suspicious and does not match the official CVS domain.
+- The email contains a misspelled word ""CVS"" in the middle of the sentence.
+- The email ends abruptly with ""time to show you the exit"" and an incomplete address, which seems out of place and suspicious.",True,1
+1693909975.597695_43_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,386,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The email uses a generic greeting and does not provide a clear name or title.
+- The subject line is misleading and seems too good to be true.
+- The email contains a suspicious link (""Start Now >>"").
+- The sender address is not from a typical CVS domain (e.g., it should be something like `no-reply@cvshealth.com`).
+- The email ends abruptly with ""time to show you the exit"" and an address, which is unusual and suspicious.
+- There are multiple spelling and grammatical errors throughout the email.
+
+SUMMARY: The email appears to be phishing due to the suspicious link, mismatched sender address, abrupt ending, and multiple errors.",True,0
+1693909975.597695_5_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,296,True,0,ok,LABEL: 1,True,1
+1693909975.597695_5_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,335,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email address is suspicious and contains misspellings (e.g., ""strbuckhouse"" instead of ""starbucks"").
+- The subject line is misleading and attempts to elicit a response by offering a ""special gift.""
+- The body of the email contains broken words (""st"", ""moc"", ""ar"", etc.), which is a common tactic used in phishing emails to bypass spam filters.",True,1
+1693909975.597695_5_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,402,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Sender address contains misspellings (e.g., ""strbuckhouse"" instead of ""starbucks"")
+- Suspicious domain name (""starbucks-coffeehouse@strbuckhouse.bond"")
+- Urgent language or pressure tactics (""Your feedback is incredibly important"")
+- Requests for personal information (implying completion of a survey)
+- Brand impersonation (using ""St"" and other letters to form ""Starbucks"")
+- Mismatched identity in the email body (replacing ""Starbucks"" with ""St"")
+- Spelling, grammar, or formatting issues (e.g., ""Your loyalty and support mean the world, and they are grateful for the opportunity to serve you."")
+- Suspicious link (""Start The Survey Now"" without a clear URL)
+
+SUMMARY: The email is highly suspicious due to its use of a fake domain, brand impersonation, and lack of proper spelling and grammar, indicating it is likely a phishing attempt.",True,1
+1694289981.744325_23_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,301,True,0,ok,LABEL: 1,True,1
+1694289981.744325_23_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,340,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a suspicious domain name (coffeshp.bond instead of a typical Starbucks domain).
+- The word choice and spelling in ""Stvebarnui bucklem"" suggest a possible typo-squatting or automated template usage.
+- The email contains a link that may lead to a malicious survey, indicated by the use of ""Get Started Now >>"" which is a common phishing tactic.",True,1
+1694289981.744325_23_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,407,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Mismatched and suspicious domain in the sender address (starbucks.caf@coffeshp.bond)
+- Spelling errors in the word ""Starbucks"" (e.g., ""St"", ""veb"", ""nui"", ""bu"", ""car"", ""ck"", ""lem"")
+- Suspicious link in ""Get Started Now >>""
+- Urgent language and pressure tactics (""Get Ready to Be Surprised, Our Gift Awaits!"", ""Once you've completed the survey, you'll have the opportunity to receive a $100 gift!"")
+- Request for personal information (implied through completing a survey)
+
+SUMMARY: The email appears to be phishing due to the suspicious sender address, spelling errors, and the presence of a survey that promises a reward.",True,1
+1694514089.821887_7_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,301,True,0,ok,LABEL: 1,True,1
+1694514089.821887_7_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,340,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email address is suspicious and contains unusual characters and domains.
+- The subject line promises a gift without any clear context or reason.
+- The survey link is misspelled and contains strange characters, which could be a sign of a phishing attempt.",True,1
+1694514089.821887_7_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,407,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious sender address (contains unusual characters and domain)
+- Mismatched brand identity (the email mentions CVS but the sender address is not legitimate)
+- Spelling and grammar issues (""CbiaVirps"", ""Start Now > >"")
+- Unusual subject line and content (promises a gift for completing a survey)
+- Urgent language or pressure tactics (encourages immediate action)
+SUMMARY: The email appears to be phishing due to the suspicious sender address, brand impersonation, and urgent language.",True,1
+1694680484.99986_11_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,305,True,0,ok,LABEL: 1,True,1
+1694680484.99986_11_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,344,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email address is suspicious and does not match a typical CVS domain.
+- The subject line promises a prize in an unsolicited manner.
+- The email contains grammatical errors and misspellings (e.g., ""CbiaVirps,"" ""upon completion of the survey you might have a choice between different gifts!"").
+- The footer includes irrelevant and potentially malicious information about an address (""US 10010 126 E 23rd St New York, NY,"") that could be used for phishing purposes.",True,1
+1694680484.99986_11_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,411,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Sender address uses a suspicious domain name (pharmatoptier.bond instead of cvs.com)
+- Mismatched identity in the sender address (Join The CVS Savings Squad vs. actual CVS contact information)
+- Spelling and grammar issues (""your decision to choose Cbia Virps"" and ""time to show you the exit here"")
+- Unusual request for feedback with a promise of gifts
+- Lack of proper survey link or authentication information
+SUMMARY: The email appears to be benign but contains several suspicious elements that could indicate a phishing attempt.",True,1
+1695341502.370811_3_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,247,True,0,ok,LABEL: 0,True,0
+1695341502.370811_3_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,286,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a suspicious domain name that is not consistent with known legitimate domains (e.g., ""gift-card-giveaway-at-advance-auto-parts@advancetools.live"").
+- There are misspellings and broken words in the email content (""MAK"", ""DRill"", ""awaits"", ""free"", ""here""), which are common tactics used in phishing emails to make them appear more urgent and less professional.
+- The email contains a generic address without any personalization, suggesting it was sent out en masse rather than targeted to a specific individual.",True,1
+1695341502.370811_3_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,353,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address and subject line do not match (gift card giveaway is from ""Advance Auto Parts"" but the domain is ""advancetools.live"").
+- Spelling and formatting issues (""Makita Drill Set"" appears to be broken up and misspelled as ""MAK rio ITA DR kalILL Set"").
+- Urgent language with a deadline (""Act Now ? Don't Let This Opportunity Slip Away!"" and ""You have until September 21th"").
+- Suspicious link (""Start Here Now >>"" which is incomplete and likely obfuscates the actual URL).
+- Mismatched identity and location information (the email mentions a location in New York, but the domain is generic and does not indicate any specific store location).
+
+SUMMARY: The email is highly suspicious due to its mismatched branding, poor formatting, urgent language, and suspicious links.",True,1

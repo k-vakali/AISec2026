@@ -1,0 +1,543 @@
+email_id,parser_id,model_name,context_limit,prompt_id,input_tokens,fits,overflow_tokens,status,raw_output,parse_ok,pred_label
+email_2023_000018_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2402,True,0,ok,LABEL: 1,True,1
+email_2023_000018_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2441,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is trying to create a sense of urgency by stating that the account will be locked because of a declined payment.
+- The email is asking the recipient to update their payment information by clicking on a suspicious link (""https://s.free.fr/avkGV8J6"").
+- The email is not using the official Netflix domain (""netflix.com"") in the link, which is a common tactic used by phishing emails to avoid detection.",True,1
+email_2023_000018_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2508,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""NETFlLlX <info5@chainsmokers-feeling.org>"", which is not a legitimate Netflix email address.
+- The email contains a suspicious link ""https://s.free.fr/avkGV8J6"" that may be a phishing attempt.
+- The email uses urgent language, stating that the account will be locked if the recipient does not update their payment information immediately.
+- The email requests the recipient to update their payment information, which could be a phishing attempt to obtain sensitive information.
+- The email contains spelling and formatting issues, such as the use of ""X"" and ""I"" in place of normal letters.
+- The email is impersonating Netflix, but the sender address and the email content do not match the legitimate Netflix brand.
+SUMMARY: This email is a phishing attempt to trick the recipient into updating their payment information through a suspicious link.",True,1
+email_2023_000033_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2051,True,0,ok,LABEL: 1,True,1
+email_2023_000033_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2090,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""CLick Here"" which is likely a phishing attempt to trick the user into clicking on it.
+- The email is trying to create a sense of urgency by stating that the account will be blocked if the user doesn't update their payment details, which is a common tactic used by phishing emails.
+- The email is trying to impersonate Netflix by using their logo and branding, but the link and the email content are not legitimate.",True,1
+email_2023_000033_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2157,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""NlTFLlX <devz29@sallerb-food.net>"", which is a suspicious and unverified email address.
+- The email contains a request for urgent action, stating that the account will be blocked if the payment is not updated.
+- The email contains a suspicious link ""https://s.free.fr/9G3wVfEj"" that is not associated with Netflix.
+- The email contains spelling and grammar issues, such as ""YourIacсountiwillibeBlocked"" and ""CLick Here"".
+- The email is impersonating Netflix, but the link and email address do not match the official Netflix branding.
+SUMMARY: This email is a phishing attempt to trick the recipient into updating their payment details by clicking on a suspicious link.",True,1
+email_2023_000134_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,7810,True,0,ok,LABEL: 1,True,1
+email_2023_000134_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,7849,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""Verify Now"" that is likely a phishing attempt to trick the recipient into revealing their account information.
+- The email is trying to create a sense of urgency by stating that the account is blocked and needs to be verified, which is a common tactic used by phishing scammers.
+- The email is trying to hide its true intentions by using a legitimate-looking logo and a professional-looking design, which is a common tactic used by phishing scammers to make their emails appear more legitimate.",True,1
+email_2023_000134_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,7916,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is trying to create a sense of urgency by stating that the account is blocked and needs verification.
+- The email contains a suspicious link ""Verify Now"" that may lead to a phishing website.
+- The email is trying to trick the recipient into revealing their account information by asking them to verify their account.
+- The email contains spelling and grammar mistakes, which is a common trait of phishing emails.
+- The email is trying to impersonate a legitimate company by using a logo and a similar design.
+- The email does not provide any authentication information, such as a secure link or a password reset token.
+SUMMARY: This email is a phishing attempt to trick the recipient into revealing their account information.",True,1
+email_2023_000140_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,9454,True,0,ok,LABEL: 1,True,1
+email_2023_000140_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,9493,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""Click on 'Secur[e] My Acco[u]nt' below"" which is likely a phishing link.
+- The email is trying to create a sense of urgency by stating that the account has been limited due to unauthorized activity.
+- The email is asking the recipient to verify their account information by clicking on a link, which is a common tactic used by phishing scammers.",True,1
+email_2023_000140_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,9560,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is eChase Customer <mahess@bsli.com.my>, which is not a legitimate Chase Bank email address.
+- The email contains suspicious links, such as ""Click on 'Secur[e] My Acco[u]nt' below"", which may lead to a phishing website.
+- The email uses urgent language, such as ""Action Required"" and ""Warning:"", to create a sense of panic and pressure the recipient into taking action.
+- The email requests the recipient to verify their account information, which is a common tactic used by phishing scammers.
+- The email contains spelling and grammar issues, such as ""New Onl[w]ine Alert"" and ""Secur[e] My Acco[u]nt"", which are not typical of legitimate Chase Bank communications.
+- The email does not contain any authentication information, such as a legitimate Chase Bank logo or a secure link to the bank's website.
+SUMMARY: This email is a phishing attempt to trick the recipient into revealing their account information.",True,1
+email_2023_000161_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2125,True,0,ok,LABEL: 1,True,1
+email_2023_000161_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2164,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""https://rebrand.ly/69495e"" which may be a phishing link.
+- The email is trying to create a sense of urgency by stating that there has been unusual activity on the account, which is a common tactic used by phishers.
+- The email is asking the recipient to click on a link to confirm their identity, which is a red flag as legitimate companies would not ask customers to click on a link to verify their identity.",True,1
+email_2023_000161_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2231,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""green.procurement@bsli.com.my"", which does not match the typical domain of a well-known bank like Chase.
+- The email contains a suspicious link ""https://rebrand.ly/69495e"" that may be used for phishing.
+- The email uses urgent language and pressure tactics to prompt the recipient to take action.
+- The email requests the recipient to confirm their account information by clicking on a link.
+- The email contains spelling, grammar, and formatting issues.
+- The email is trying to impersonate a legitimate bank, but the sender address and the content do not match the typical communication style of Chase.
+SUMMARY: This email is a phishing attempt to trick the recipient into revealing their account information.",True,1
+email_2023_000167_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,1658,True,0,ok,LABEL: 1,True,1
+email_2023_000167_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1697,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""https://&#x62;&#x69;&#x74;&#x2e;&#x6c;&#x79;&#x2f;&#x33;&#x43;&#x42;&#x35;&#x6f;&#x53;&#x52;"" which is likely a phishing link, as it contains encoded characters.
+- The email is trying to create a sense of urgency by stating that there has been ""recent sign-in activity"" and that the recipient needs to take action to keep their account safe.
+- The email is impersonating a legitimate bank, Chase, but the language and formatting are not consistent with the bank's usual communication style, suggesting that it may be a phishing attempt.",True,1
+email_2023_000167_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1764,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""contact@desfelinspourdemain.com"", which does not match the brand name ""Chase"" mentioned in the email.
+- The email contains a suspicious link ""https://&#x62;&#x69;&#x74;&#x2e;&#x6c;&#x79;&#x2f;&#x33;&#x43;&#x42;&#x35;&#x6f;&#x53;&#x52;"" which is likely a phishing link.
+- The email uses urgent language and pressure tactics to prompt the recipient to take action.
+- The email requests the recipient to visit a link to ""concitizenfirm your especiallycount information"", which is likely a phishing attempt to obtain sensitive information.
+- The email contains spelling, grammar, and formatting issues, such as ""something unu<strong style='font-size: 0px;'>point</strong>sual"" and ""ac<strong style='font-size: 0px;'>letter</strong>count"".
+- The email impersonates the ""Chase"" brand, but the sender address does not match the brand name.
+SUMMARY: This email is a phishing attempt to obtain sensitive information from the recipient.",True,1
+email_2023_000180_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,3236,True,0,ok,LABEL: 1,True,1
+email_2023_000180_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,3275,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""https://&#x62;&#x69;&#x74;&#x2e;&#x6c;&#x79;&#x2f;&#x34;&#x36;&#x63;&#x31;&#x55;&#x55;&#x75;"" which is likely a phishing link.
+- The email is trying to create a sense of urgency by stating that the account has been suspended and needs to be verified.
+- The email contains grammatical errors and misspelled words, which is a common trait of phishing emails.",True,1
+email_2023_000180_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,3342,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is eChase Assistance, which may be a spoofed or fake email address.
+- The email contains a suspicious link ""https://&#x62;&#x69;&#x74;&#x2e;&#x6c;&#x79;&#x2f;&#x34;&#x36;&#x63;&#x31;&#x55;&#x55;&#x75;"" which is likely a phishing link.
+- The email uses urgent language and pressure tactics, stating that the recipient's account has been suspended and needs to be verified immediately.
+- The email requests the recipient to verify their account by clicking on the suspicious link.
+- The email contains spelling and grammar issues, such as ""deteattentioncted"", ""ununteachusualactwestivity"", and ""inconvience"".
+- The email is trying to impersonate a legitimate bank or financial institution, but the sender address and content do not match the actual institution.
+SUMMARY: The email is a phishing attempt to trick the recipient into verifying their account by clicking on a suspicious link.",True,1
+email_2023_000221_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,3879,True,0,ok,LABEL: 1,True,1
+email_2023_000221_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,3918,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""https://&#x62;&#x69;&#x74;&#x2e;&#x6c;&#x79;&#x2f;&#x33;&#x71;&#x30;&#x44;&#x55;&#x55;&#x38;"" which is encoded and may lead to a phishing website.
+- The email asks the recipient to update their account by clicking on a button, which is a common tactic used by phishers to trick users into revealing sensitive information.
+- The email contains a sense of urgency by stating that the code will expire in 24 hours, which is a common tactic used by phishers to create a sense of panic and prompt the user into taking action without verifying the authenticity of the email.",True,1
+email_2023_000221_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,3985,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""vendas@montroiz.com.br"", which does not match the brand name ""eChase Center"".
+- The email contains a suspicious link ""https://&#x62;&#x69;&#x74;&#x2e;&#x6c;&#x79;&#x2f;&#x33;&#x71;&#x30;&#x44;&#x55;&#x55;&#x38;"" which is encoded and may be malicious.
+- The email requests the recipient to update their account by clicking on a button, which may be a phishing attempt.
+- The email contains urgent language, stating that the code will expire in 24 hours.
+- The email contains spelling and grammar issues, such as ""Hfigureere istoperationhe IdenttryificatpersonionCodbelieveeylevelouwikeyllnremaineedhardtoccertainompleteyououtsideronlpowerineenrolpositivelmentowrongrrechildsetyfocusourpdemocraticassword.""
+- The email does not contain any authentication information.
+SUMMARY: This email is a phishing attempt to trick the recipient into updating their account by clicking on a malicious link.",True,1
+email_2023_000224_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,3247,True,0,ok,LABEL: 1,True,1
+email_2023_000224_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,3286,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""https://&#x72;&#x65;&#x62;&#x72;&#x61;&#x6e;&#x64;&#x2e;&#x6c;&#x79;&#x2f;&#x39;&#x62;&#x63;&#x36;&#x36;&#x37;"" which is encoded and may lead to a malicious website.
+- The email is trying to create a sense of urgency by stating that the account has been suspended and needs to be verified.
+- The email is using a generic greeting ""Dear member"" and does not address the recipient by their name, which is unusual for a legitimate email.",True,1
+email_2023_000224_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,3353,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is eChase Custom, which may be a spoofed or fake email address.
+- The reply-to address is not specified in the email.
+- The email contains a suspicious link: https://rebrand.ly/36237, which may be a phishing link.
+- The email uses urgent language, stating that the account has been suspended and needs to be verified.
+- The email requests the recipient to verify their account by clicking on a link.
+- The email contains spelling and grammar issues, such as ""deteinterviewcted"", ""unoverusualactmilitaryivity"", and ""inconvience"".
+- The email is trying to impersonate a legitimate brand, but the language and formatting are inconsistent with the brand's usual communication style.
+- The email does not provide any authentication information.
+SUMMARY: This email is likely a phishing attempt to trick the recipient into verifying their account by clicking on a suspicious link.",True,1
+email_2023_000259_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,3727,True,0,ok,LABEL: 1,True,1
+email_2023_000259_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,3766,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""https://&#x62;&#x69;&#x74;&#x2e;&#x6c;&#x79;&#x2f;&#x33;&#x4f;&#x7a;&#x6e;&#x38;&#x6e;&#x6d;"" which is encoded and may be malicious.
+- The email is trying to create a sense of urgency by stating that the account has been limited and needs to be confirmed.
+- The email is trying to trick the user into clicking on the link by using a legitimate-sounding phrase ""View account activities"".",True,1
+email_2023_000259_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,3833,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""leader@nannyinmiami.com"", which does not match the domain of the email content, suggesting a potential phishing attempt.
+- The email contains a suspicious link ""https://&#x62;&#x69;&#x74;&#x2e;&#x6c;&#x79;&#x2f;&#x33;&#x4f;&#x7a;&#x6e;&#x38;&#x6e;&#x6d;"" which is encoded and may be malicious.
+- The email uses urgent language, stating that the account has been limited and requires immediate action to confirm data.
+- The email requests the recipient to click on a link to view account activities, which may be a phishing attempt to steal login credentials.
+- The email contains spelling and formatting issues, such as the use of strong tags to hide text and the presence of encoded links.
+- The email does not provide any authentication information, such as a valid URL or a secure connection.
+- The email is impersonating a legitimate company, Chase, but the sender address and reply-to address do not match the company's domain.
+SUMMARY: The email is a phishing attempt to steal login credentials and sensitive information by impersonating Chase and using suspicious links and urgent language.",True,1
+email_2023_000308_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,1965,True,0,ok,LABEL: 1,True,1
+email_2023_000308_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2004,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains multiple links to suspicious URLs (http://selfsufficintbackyard.shop/uC0v1km4EJkVQwSEoHRdRm2hbGZIS7rCY3lIj_MuAKWVcCjL2A, http://selfsufficintbackyard.shop/K__3DXWK4xY4OUSAhzpEh__KMmZpr-1R9NdqMtJgpl0rYBav9Q) that may be used for phishing or malware distribution.
+- The email contains a link to a Microsoft website (http://microsoft.com) that is not relevant to the content of the email, which suggests that it may be a decoy link.
+- The email contains a large amount of irrelevant text about a naval air station, which may be used to distract the recipient from the actual purpose of the email, which is to phishing or malware distribution.",True,1
+email_2023_000308_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2071,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address and reply-to address are from a suspicious domain ""selfsufficintbackyard.shop"", which may be a phishing domain.
+- The email contains multiple suspicious links from the same domain, including ""http://selfsufficintbackyard.shop/uC0v1km4EJkVQwSEoHRdRm2hbGZIS7rCY3lIj_MuAKWVcCjL2A"" and ""http://selfsufficintbackyard.shop/K__3DXWK4xY4OUSAhzpEh__KMmZpr-1R9NdqMtJgpl0rYBav9Q"".
+- The email uses urgent language and pressure tactics, such as ""Sorry we missed you! Schedule your next delivery date."" to create a sense of urgency.
+- The email contains a request for the recipient to click on a link to schedule a delivery date, which may be a phishing attempt.
+- The email contains spelling, grammar, or formatting issues, such as the misspelling of ""self-sufficient"" as ""selfsufficint"".
+- The email contains a mismatched identity, as the sender claims to be from a package delivery service, but the email content is unrelated to package delivery.
+SUMMARY: The email is likely a phishing attempt due to its suspicious sender address, multiple links from the same domain, and urgent language.",True,1
+email_2023_000358_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,1969,True,0,ok,LABEL: 1,True,1
+email_2023_000358_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2008,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is trying to create a sense of urgency by stating that the McAfee subscription has expired, which is a common tactic used by phishing emails.
+- The links provided in the email (http://airfountain.co.uk/skPJ7Z68CQRZEBUS5y7iMTiRJidsFyk8GveeUBU14NjaymUCNw and http://airfountain.co.uk/faR_UmQyTRfCXdKrsk7iMKZhG5g4lGKNb4Br0OEVwOJb4A-pBw) are suspicious and may be used to download malware or steal sensitive information.
+- The email is not from a legitimate McAfee email address (AntiVirusMcAfee@airfountain.co.uk) and the content of the email is unrelated to the subject of the email, which is a sign of phishing.",True,1
+email_2023_000358_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2075,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is AntiVirusMcAfee@airfountain.co.uk, which is not a legitimate McAfee email address. McAfee's official email address typically ends in @mcafee.com.
+- The email contains suspicious links (http://airfountain.co.uk/skPJ7Z68CQRZEBUS5y7iMTiRJidsFyk8GveeUBU14NjaymUCNw, http://airfountain.co.uk/faR_UmQyTRfCXdKrsk7iMKZhG5g4lGKNb4Br0OEVwOJb4A-pBw) that are not related to the content of the email.
+- The email uses urgent language (""Your Mcafee subscription has expired"") to pressure the recipient into taking action.
+- The email requests the recipient to click on a link to get assistance, which is a common tactic used by phishing emails.
+- The email contains a large amount of irrelevant content, including a long passage about a bird species, which is likely intended to distract the recipient from the phishing attempt.
+- The email uses a fake McAfee logo and a fake ""Your Mcafee subscription has expired"" message to impersonate McAfee.
+SUMMARY: This email is a phishing attempt to trick the recipient into clicking on a suspicious link and potentially revealing sensitive information.",True,1
+email_2023_000409_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2144,True,0,ok,LABEL: 1,True,1
+email_2023_000409_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2183,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unknown sender ""Netflix Renewal"" with a suspicious email address ""NetflixRenewal@savagegrowpro.za.com"".
+- The email contains multiple links to suspicious websites ""http://savagegrowpro.za.com/aY0HKdEbDIVV-XFght9IpRVD6rZ3B9gzRll69rAAzmQQBtlnbQ"" and ""http://savagegrowpro.za.com/4srgRguqiLXXdWkr5Rbo8lwjsrNp8PCxy7Bt2-WkJFHdgAfUWg"".
+- The email contains a large amount of random text and gibberish, which is a common tactic used by phishing emails to evade detection.
+- The email contains a link to a suspicious image ""http://savagegrowpro.za.com/6e1dce41e7cf84b1bd.jpg"" and ""http://savagegrowpro.za.com/a0722c03740a1c7565.png"".
+- The email contains a link to a suspicious image ""http://savagegrowpro.za.com/8e78a8421b26d4e89a.png"" and ""http://savagegrowpro.za.com/d2d7d1443c0204f59d.png"".
+- The email is trying to create a sense of urgency by stating that the recipient has been selected for a Netflix reward.",True,1
+email_2023_000409_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2250,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""NetflixRenewal@savagegrowpro.za.com"", which is not a legitimate Netflix email address.
+- The email contains multiple suspicious links, including ""http://savagegrowpro.za.com/aY0HKdEbDIVV-XFght9IpRVD6rZ3B9gzRll69rAAzmQQBtlnbQ"" and ""http://savagegrowpro.za.com/4srgRguqiLXXdWkr5Rbo8lwjsrNp8PCxy7Bt2-WkJFHdgAfUWg"", which are likely phishing links.
+- The email uses urgent language, stating that the recipient has been ""Selected For Netflix Reward"".
+- The email contains spelling, grammar, and formatting issues, which is unusual for a legitimate email from a company like Netflix.
+- The email contains a mismatched identity, as the sender claims to be from Netflix but the email address is not a legitimate Netflix address.
+- The email contains a request for the recipient to click on a link to ""Read this email online"", which is likely a phishing attempt.
+SUMMARY: This email is a phishing attempt from a malicious sender claiming to be from Netflix.",True,1
+email_2023_000414_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2601,True,0,ok,LABEL: 1,True,1
+email_2023_000414_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2640,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains multiple suspicious links with a similar format (http://treattype2diabetes.services/...), which could be a phishing tactic to trick the recipient into clicking on them.
+- The email has a generic and vague subject line (""Sorry we missed you! Schedule your next delivery date."") that does not provide any specific information about the content of the email.
+- The email contains a large amount of random text and characters, which is likely a spamming technique to evade spam filters and make the email look more legitimate.
+- The email contains multiple images with links, which could be used to spread malware or phishing attacks.
+- The email's ""from"" address is ""Track.and.Trace"" <TrackandTrace@treattype2diabetes.services>, which is a suspicious and potentially fake email address.",True,1
+email_2023_000414_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2707,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address ""Track.and.Trace"" <TrackandTrace@treattype2diabetes.services> is suspicious, as it uses a generic name and a domain that is not a well-known brand.
+- The email contains multiple links to the same domain ""treattype2diabetes.services"", which is a red flag for phishing.
+- The email uses urgent language (""Sorry we missed you!"") and pressure tactics to encourage the recipient to click on the links.
+- The email contains a request for the recipient to schedule their next delivery date, which is not a typical request from a legitimate delivery service.
+- The email contains spelling, grammar, and formatting issues, which is a common trait of phishing emails.
+- The email uses brand impersonation, as it claims to be from a delivery service, but the domain is not a well-known brand.
+- The email contains authentication information, but it is not clear what it is supposed to authenticate.
+- The email contains a suspicious image link that points to a domain that is not a well-known brand.
+SUMMARY: This email is likely a phishing attempt due to its suspicious sender address, multiple links to the same domain, urgent language, and pressure tactics.",True,1
+email_2023_000415_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2594,True,0,ok,LABEL: 1,True,1
+email_2023_000415_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2633,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains multiple suspicious links, including ""http://treattype2diabetes.services/W8SFvi9v0vcL-uV-RMwGPPXZEZnNUQT8Xjp93ukp7BSqAFT8qw"" and ""http://treattype2diabetes.services/KHRNcC0-2JCZzoq6dy-FYHd0dIZO1u6IO2Rb_j2T-o5aSEK1hA"", which may be phishing links.
+- The email contains a large amount of random text, including ""grypqs /Comprador /Unfortunately /cell /antlerd /tricolon /inbox /overview /Mon launched /827-7653 /d'aquests /s /definir /encounter /may /It's /Mail /Gracias 258 /absmiddle /LOL /713-6709 /saludo /semplicemente /Wall /Currently /English bottomleft /acqui /dags /seitens /harvested /Peeps /Peggy /strikt /daddy /Zippy"", which may be a technique used to evade spam filters.
+- The email contains a fake package delivery notification, which is a common phishing tactic.
+- The email is sent from a suspicious sender, ""Track.and.Trace"" <TrackTrace@treattype2diabetes.services>, which may be a fake email address.
+- The email contains a large amount of HTML code, which may be used to evade spam filters or to inject malware.",True,1
+email_2023_000415_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2700,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address ""Track.and.Trace"" <TrackTrace@treattype2diabetes.services> is suspicious and does not match the typical format of a legitimate sender address.
+- The email contains multiple suspicious links, including http://treattype2diabetes.services/W8SFvi9v0vcL-uV-RMwGPPXZEZnNUQT8Xjp93ukp7BSqAFT8qw and http://treattype2diabetes.services/KHRNcC0-2JCZzoq6dy-FYHd0dIZO1u6IO2Rb_j2T-o5aSEK1hA, which may be used to phish the recipient.
+- The email contains a request for the recipient to click on a link to ""Need help with a broken image?"" which is likely a phishing tactic.
+- The email contains a large amount of random text, which is likely a spamming tactic.
+- The email contains a mismatched identity, as the sender claims to be ""Track.and.Trace"" but the email content does not match the typical format of a legitimate email from a package delivery service.
+- The email contains a request for the recipient to click on a link to view a package delivery notification, which is likely a phishing tactic.
+- The email contains a suspicious image link, which may be used to phish the recipient.
+- The email contains a large amount of random text, which is likely a spamming tactic.
+- The email contains a mismatched identity, as the sender claims to be ""Track.and.Trace"" but the email content does not match the typical format of a legitimate email from a package delivery service.
+- The email contains a request for the recipient to click on a link to view a package delivery notification, which is likely a phishing tactic.
+- The email contains a suspicious image link, which may be used to phish the recipient.
+- The email contains a large amount of random text, which is likely a spamming tactic.
+- The email contains a mismatched identity, as the sender claims to be ""Track.and.Trace"" but the email content does not match the typical format of a legitimate email from a package delivery service.
+- The email contains a request for the recipient to click on a link to view a package delivery notification, which is likely a phishing tactic.
+- The email contains a suspicious image link, which may be used to phish the recipient.
+- The email contains a",True,1
+email_2023_000416_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,1737,True,0,ok,LABEL: 1,True,1
+email_2023_000416_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1776,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains multiple links to suspicious websites (http://fatburncombo.services/...), which is a common tactic used by phishers to spread malware or steal sensitive information.
+- The email asks the recipient to click on a link to view a better image experience, which is a classic phishing technique to trick the recipient into visiting a malicious website.
+- The email contains a large amount of irrelevant and seemingly innocuous text about Hungary, which is likely used to make the email appear legitimate and distract from the phishing attempt.",True,1
+email_2023_000416_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1843,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is Track & Trace <TrackTrace@fatburncombo.services>, which is a suspicious domain.
+- The email contains multiple links to the same suspicious domain (http://fatburncombo.services/), which could be a phishing attempt.
+- The email contains a request to click on a link to view tracking information, which is a common tactic used in phishing emails.
+- The email contains a large amount of irrelevant text about Hungary, which is likely a smokescreen to distract from the phishing attempt.
+- The email contains a mismatched identity, as the sender claims to be from FedEx but the domain is not a legitimate FedEx domain.
+- The email contains a request for the user to click on a link, which could potentially lead to a malicious website.
+SUMMARY: This email is a phishing attempt to trick the user into clicking on a malicious link.",True,1
+email_2023_000419_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2040,True,0,ok,LABEL: 1,True,1
+email_2023_000419_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2079,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""http://krogersurvey.today/Huo8JAk-9oEkTw5gCQWIDYginVuxvq-nZpDiQU6KOKQld7LFgQ"" and ""http://krogersurvey.today/GpqtQ8Bztrgj0PUCHmj060DS7UroBSVdUy4w4CkJ0n3Gm54J7A"" which may be phishing links.
+- The email is from a sender ""Bed Bath & Beyond Customer Support"" but the domain is ""krogersurvey.today"" which does not match the company name.
+- The email contains a large amount of irrelevant text about an actress, which may be a tactic to distract the recipient from the actual phishing link.",True,1
+email_2023_000419_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2146,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is OrderShipment@krogersurvey.today, which is not a legitimate Bed Bath & Beyond email address.
+- The email contains suspicious links (http://krogersurvey.today/Huo8JAk-9oEkTw5gCQWIDYginVuxvq-nZpDiQU6KOKQld7LFgQ, http://krogersurvey.today/GpqtQ8Bztrgj0PUCHmj060DS7UroBSVdUy4w4CkJ0n3Gm54J7A) that may be phishing attempts.
+- The email uses urgent language (""Your package could not be delivered."") to create a sense of panic and pressure the recipient into taking action.
+- The email contains a request for the recipient to click on a link to resolve the issue, which may be a phishing attempt.
+- The email contains a mismatched identity, as the sender claims to be from Bed Bath & Beyond but the email address is not legitimate.
+- The email contains a large amount of irrelevant text about an actress, which may be an attempt to distract the recipient from the phishing attempt.
+SUMMARY: This email is a phishing attempt from a spoofed Bed Bath & Beyond email address, using suspicious links and urgent language to trick the recipient into revealing sensitive information.",True,1
+email_2023_000018_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,199,True,0,ok,LABEL: 1,True,1
+email_2023_000018_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,238,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unverified sender ""NETFlLlX <info5@chainsmokers-feeling.org>"" which is not a legitimate Netflix email address.
+- The email contains a generic greeting ""Dear X Customer,"" which suggests it was not sent to a specific individual.
+- The email demands urgent action to update payment details, which is a common tactic used by phishing emails to create a sense of panic and prompt the recipient into taking action without verifying the authenticity of the email.",True,1
+email_2023_000018_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,305,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address and reply-to address: The sender address ""info5@chainsmokers-feeling.org"" does not match the typical Netflix domain.
+- Suspicious links or domains: The email contains a link to ""Help Center"" and ""Contact us"" but the actual links are not provided, which could be a tactic to avoid detection.
+- Urgent language or pressure tactics: The email uses urgent language by stating that the account will be locked and using the phrase ""Update Information Now!""
+- Requests for login, payment, verification, or personal information: Although the email does not explicitly ask for login or personal information, it does ask the customer to update their payment details, which could be a phishing attempt to gather sensitive information.
+- Brand impersonation or mismatched identities: The sender address does not match the typical Netflix domain, and the email contains spelling and grammar issues, which could indicate a phishing attempt.
+- Authentication information if present: There is no authentication information present in the email.
+SUMMARY: The email appears to be a phishing attempt due to suspicious sender and reply-to addresses, urgent language, and requests for payment information.",True,1
+email_2023_000033_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,197,True,0,ok,LABEL: 1,True,1
+email_2023_000033_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,236,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a generic greeting (""Dear Customer"") which could be a sign of a mass email campaign, often used in phishing attacks.
+- The email claims the account will be locked due to a declined payment, which is a common tactic to create a sense of urgency and prompt the recipient into taking action.
+- The email contains a suspicious link (""CLick Here"") which is likely a phishing link attempting to trick the recipient into revealing sensitive information.",True,1
+email_2023_000033_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,303,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address: 'devz29@sallerb-food.net' is not a legitimate email address, and the name 'NlTFLlX' is not a real name.
+- Urgent language: The email creates a sense of urgency by stating that the account will be locked.
+- Suspicious link: The link 'CLick Here' is not a legitimate link and is likely a phishing attempt.
+- Requests for action: The email requests the customer to update their payment details, which could be a phishing attempt to gather sensitive information.
+- Spelling, grammar, or formatting issues: The email contains multiple spelling and grammar errors, which is unusual for a legitimate email.
+- Brand impersonation: The email does not clearly state the brand or company it is representing, which is suspicious.
+SUMMARY: This email appears to be a phishing attempt due to its suspicious sender address, urgent language, and requests for action.",True,1
+email_2023_000134_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,296,True,0,ok,LABEL: 1,True,1
+email_2023_000134_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,335,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a generic greeting (""Dear customer"") and lacks the recipient's name, which is unusual for a legitimate email.
+- The email body contains grammatical errors and incomplete sentences, which is a common trait of phishing emails.
+- The email asks the recipient to verify their account by clicking on a link (""Verify Now""), which is a common phishing tactic to trick users into revealing sensitive information.",True,1
+email_2023_000134_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,402,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious link: ""Verify Now"" which could be a phishing link.
+- Urgent language: ""Action Required"" and ""You can't use your account"" to create a sense of urgency.
+- Requests for verification: The email asks the recipient to verify their account.
+- Spelling, grammar, or formatting issues: The email contains multiple spelling and grammar errors.
+- Brand impersonation: The email claims to be from ""dai@dresteticaspa.com"" but the domain ""dresteticaspa.com"" does not seem to be a legitimate spa or wellness brand.
+- Lack of authentication information: There is no authentication information such as a legitimate logo or contact information.
+SUMMARY: This email appears to be a phishing attempt to trick the recipient into verifying their account through a suspicious link.",True,1
+email_2023_000140_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,435,True,0,ok,LABEL: 1,True,1
+email_2023_000140_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,474,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a sense of urgency (""Action Required"") and a threat of account lockout if the recipient doesn't take immediate action, which is a common phishing tactic.
+- The email asks the recipient to click on a link (""Secur e Your Acco unt"") to verify their account information, which could potentially lead to a phishing website or malware download.
+- The email is trying to create a sense of trust by stating that the message is from a ""trusted sender"" (eChase Customer), but the email address (mahess@bsli.com.my) does not match the typical email address of a legitimate bank (e.g., chase.com).",True,1
+email_2023_000140_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,541,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious link: ""Secur e My Acco unt"" (contains a typo and may be a phishing link)
+- Urgent language: ""Action Required"", ""Warning"", and ""permanently lock you r acco unt"" create a sense of pressure
+- Request for verification: ""Click on 'Secur e Your Acco unt' below"" to verify account information
+- Brand impersonation: The email claims to be from ""eChase Customer"" and ""Chase Support Team"", but the sender address is ""mahess@bsli.com.my"" which does not match the typical Chase Bank domain
+- Spelling, grammar, or formatting issues: Multiple typos throughout the email
+SUMMARY: This email appears to be a phishing attempt due to its suspicious link, urgent language, and request for verification, as well as its brand impersonation and spelling errors.",True,1
+email_2023_000161_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,510,True,0,ok,LABEL: 1,True,1
+email_2023_000161_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,549,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link that asks the recipient to click on it to confirm their account information, which is a common phishing tactic.
+- The email claims to have detected unusual activity in the recipient's account, but the language used is vague and lacks specific details, which is a red flag for phishing.
+- The email asks the recipient to provide additional information, which is not typically requested by a legitimate company, and the request is made in a way that creates a sense of urgency.",True,1
+email_2023_000161_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,616,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious link: The email contains a link that asks the recipient to click on it to confirm their account information, which is a common phishing tactic.
+- Urgent language: The email uses urgent language, such as ""Attention required"" and ""Please visit the following link to confirm your account information,"" to create a sense of pressure and anxiety.
+- Requests for verification: The email requests the recipient to verify their account information, which is a common phishing tactic.
+- Spelling, grammar, or formatting issues: The email contains several spelling, grammar, and formatting issues, such as missing words, incorrect punctuation, and inconsistent formatting.
+- Brand impersonation: The email appears to be from a legitimate company, eChase Customer, but the sender address and reply-to address are suspicious (green.procurement@bsli.com.my).
+- Lack of authentication information: The email does not provide any authentication information, such as a valid email address or a secure link, to verify its legitimacy.
+- Suspicious sender address: The sender address, green.procurement@bsli.com.my, does not match the typical email address of a legitimate company, and the use of a generic name like ""green.procurement"" is suspicious.
+- Suspicious reply-to address: The reply-to address, green.procurement@bsli.com.my, is the same as the sender address, which is a common phishing tactic.
+SUMMARY: This email is a phishing attempt to trick the recipient into verifying their account information by clicking on a suspicious link.",True,1
+email_2023_000167_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,380,True,0,ok,LABEL: 1,True,1
+email_2023_000167_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,419,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link that asks the recipient to click on it to confirm their account information, which is a common phishing tactic.
+- The email claims to be from a legitimate company (""Ch product case On response line dep osit ac count"") but the name is misspelled and seems to be a combination of different words, which is a red flag for phishing.
+- The email tries to create a sense of urgency by stating that there has been ""recent activity"" in the recipient's account, which is a common phishing tactic used to prompt the recipient into taking action without thinking.",True,1
+email_2023_000167_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,486,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address: 'contact@desfelinspourdemain.com' does not match the typical format of a legitimate company's email address.
+- Urgent language: The email uses phrases like ""Attention required"" and ""something unusual"" to create a sense of urgency.
+- Requests for login: The email asks the recipient to log on to their account by clicking on a link, which could be a phishing attempt.
+- Suspicious link: The link is not provided in the email, but the request to click on it to confirm account information is suspicious.
+- Brand impersonation: The email claims to be from ""On response line dep task ac role count"" and ""On book line Ba a nking Team"", which does not match the typical branding of a legitimate company.
+- Spelling and grammar issues: The email contains several spelling and grammar errors, such as ""unu point"" and ""con citizen firm"".
+- Lack of authentication information: The email does not provide any authentication information, such as a legitimate company logo or a secure connection indicator.
+SUMMARY: This email appears to be a phishing attempt due to its suspicious sender address, urgent language, and requests for login information.",True,1
+email_2023_000180_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,329,True,0,ok,LABEL: 1,True,1
+email_2023_000180_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,368,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link to ""Verify now"" without specifying what it is verifying or where it leads.
+- The email uses a generic greeting (""Dear member"") and does not address the recipient by their actual name.
+- The email contains grammatical errors and typos, which is unusual for a legitimate institution's communication.",True,1
+email_2023_000180_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,435,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address: The email is sent from a non-standard sender address `smtpfox-w5j9u@iprotech.pt`, which may be a spoofed or fake email address.
+- Urgent language or pressure tactics: The email uses phrases like ""Your attention is required"" and ""Verify now"" to create a sense of urgency, which is a common tactic used in phishing emails.
+- Requests for verification or personal information: The email asks the recipient to ""Verify now"" and requests additional information, which is a red flag for phishing.
+- Spelling, grammar, or formatting issues: The email contains multiple spelling and grammar errors, such as ""dete"" instead of ""detected"", ""inconvience"" instead of ""inconvenience"", and inconsistent formatting.
+- Brand impersonation: The email appears to be from a bank or financial institution, but the sender address and content do not match the typical branding and communication style of a legitimate bank.
+SUMMARY: This email is likely a phishing attempt due to its suspicious sender address, urgent language, and requests for verification and personal information.",True,1
+email_2023_000221_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,327,True,0,ok,LABEL: 1,True,1
+email_2023_000221_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,366,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""Update My Account"" which could be a phishing link to steal sensitive information.
+- The email asks the recipient to enter a sensitive information (password) and provides a time-sensitive code (50577286) to create a sense of urgency.
+- The email is not addressed to the recipient by name, and the greeting is generic (""Dear Customer""), which is a common tactic used by phishers to avoid being detected.",True,1
+email_2023_000221_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,433,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is'vendas@montroiz.com.br', which does not match the domain 'eChase Center', indicating a potential brand impersonation.
+- The email contains a suspicious link 'Update My Account', which could be a phishing link.
+- The email uses urgent language, stating that the code will expire in 24 hours, and pressure tactics, asking the customer to update their account immediately.
+- The email requests the customer to enter a verification code, which could be a request for sensitive information.
+- The email contains spelling, grammar, and formatting issues, such as missing letters and incorrect punctuation.
+- The email does not provide any authentication information, making it difficult to verify its legitimacy.
+- The email's tone and language are not consistent with a legitimate bank's communication, as it uses informal language and a childlike tone.
+SUMMARY: This email appears to be a phishing attempt due to its suspicious sender address, urgent language, and requests for sensitive information.",True,1
+email_2023_000224_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,329,True,0,ok,LABEL: 1,True,1
+email_2023_000224_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,368,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link to ""Verify now"" without specifying what it verifies or where it leads.
+- The email uses a sense of urgency and fear to prompt the recipient into taking action, which is a common phishing tactic.
+- The email contains grammatical errors and typos, which is unusual for a legitimate institution's communication.",True,1
+email_2023_000224_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,435,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address 'kazmi@shipjeannie.com' does not match the brand name 'eChase Custom'.
+- Urgent language and pressure tactics are used, such as ""Verify now"" and ""inconvience caused"" with a typo, indicating a sense of urgency.
+- Requests for verification and personal information are made, which is a common tactic used in phishing emails.
+- Spelling, grammar, and formatting issues are present throughout the email, such as typos and inconsistent formatting.
+- Brand impersonation is suspected, as the sender address does not match the brand name.
+- The email contains a suspicious link or domain, although it is not explicitly stated.
+SUMMARY: This email appears to be a phishing attempt due to its suspicious sender address, urgent language, and requests for verification information.",True,1
+email_2023_000259_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,280,True,0,ok,LABEL: 1,True,1
+email_2023_000259_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,319,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a sense of urgency (""Attention required"") to prompt the recipient into taking action without thinking.
+- The email claims to have locked the recipient's account for security reasons, which is a common phishing tactic to gain trust.
+- The email contains grammatical errors and typos, which is unusual for a legitimate company like JPMorgan Chase.",True,1
+email_2023_000259_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,386,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious links or domains: The email contains a link ""View account activities"" which may be a phishing link.
+- Urgent language or pressure tactics: The email uses urgent language (""Attention required"", ""For your security"") to create a sense of panic and pressure the recipient into taking action.
+- Requests for login or verification: The email claims to have locked the recipient's account and requires them to confirm their data to regain access.
+- Spelling, grammar, or formatting issues: The email contains multiple spelling and grammar errors, which is unusual for a legitimate email from a major financial institution like JPMorgan Chase.
+- Brand impersonation or mismatched identities: The email claims to be from JPMorgan Chase, but the sender address is ""leader@nannyinmiami.com"", which does not match the typical email address of a major financial institution.
+- Authentication information if present: The email does not contain any authentication information that would suggest it is legitimate.
+SUMMARY: The email appears to be a phishing attempt due to its suspicious links, urgent language, and mismatched identities.",True,1
+email_2023_000308_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,608,True,0,ok,LABEL: 1,True,1
+email_2023_000308_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,647,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""Click here"" which could be a phishing link.
+- The email is from an unverified sender ""Package Notification <PackageNotification@selfsufficintbackyard.shop>"" which may be a spoofed email address.
+- The email content is unrelated to the subject ""Sorry we missed you! Schedule your next delivery date."" and seems to be a random text about a naval air station, which could be a tactic to distract the user from the phishing link.",True,1
+email_2023_000308_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,714,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address and reply-to address are not provided, but the domain ""selfsufficintbackyard.shop"" seems suspicious and does not match any known legitimate delivery service domains.
+- The link ""Click here"" is a suspicious link as it does not provide any context or information about what it will do.
+- The email contains a large block of text that appears to be unrelated to the initial message, which could be an attempt to distract from the actual phishing content.
+- The email does not contain any urgent language or pressure tactics, but the initial message is vague and does not provide any specific information about the package or delivery.
+- The email does not request any login, payment, verification, or personal information, but the presence of a suspicious link raises concerns.
+- The spelling, grammar, and formatting of the email are generally correct, but the inclusion of unrelated text raises suspicions.
+- The email does not appear to be impersonating a specific brand, but the domain ""selfsufficintbackyard.shop"" is not a legitimate delivery service domain.
+- There is no authentication information present in the email.
+
+SUMMARY: The email appears to be a phishing attempt due to the suspicious sender domain, vague initial message, and presence of a suspicious link.",True,1
+email_2023_000358_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,606,True,0,ok,LABEL: 1,True,1
+email_2023_000358_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,645,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from a sender claiming to be McAfee AntiVirus, but the domain is airfountain.co.uk, which does not match McAfee's official domain.
+- The email contains a suspicious link (""Get assistance with the image by clicking"") that could be a phishing attempt to trick the recipient into clicking on a malicious link.
+- The email's content is unrelated to the subject line (""Your Mcafee subscription has expired""), which is a common tactic used by phishers to make the email appear legitimate.",True,1
+email_2023_000358_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,712,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is AntiVirusMcAfee@airfountain.co.uk, which is not a legitimate McAfee email address (mcafee.com is the official domain).
+- The email contains a suspicious link (""Get assistance with the image by clicking"") without specifying what image or what assistance is being offered.
+- The email uses urgent language (""Your Mcafee subscription has expired"") to pressure the recipient into taking action.
+- The email requests the recipient to click on a link, which could potentially lead to a phishing site.
+- The email content is unrelated to the subject matter, which is a red flag for phishing emails.
+- The email contains a mismatched identity, as the sender claims to be from McAfee but uses a different domain (airfountain.co.uk).
+- The email contains a lot of irrelevant information about a bird species, which is likely a tactic to distract the recipient from the phishing attempt.
+
+SUMMARY: The email is a phishing attempt from a sender claiming to be from McAfee, but using a suspicious domain and trying to pressure the recipient into clicking on a link.",True,1
+email_2023_000409_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,640,True,0,ok,LABEL: 1,True,1
+email_2023_000409_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,679,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link to ""Read this email online"" which could be a phishing attempt to redirect the user to a malicious website.
+- The email is from a sender with a generic name ""Netflix Renewal"" and a domain ""savagegrowpro.za.com"" which does not match the official Netflix domain.
+- The email contains a large amount of random characters and words, which is a common technique used by phishers to obfuscate the email content and make it difficult to analyze.",True,1
+email_2023_000409_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,746,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is NetflixRenewal@savagegrowpro.za.com, which is not a legitimate Netflix email address.
+- The email contains a suspicious link to ""Read this email online"" which could be a phishing attempt to redirect the user to a malicious website.
+- The email uses urgent language and pressure tactics by stating ""Congrats! You've Been Selected For Netflix Reward"" to create a sense of excitement and encourage the user to act quickly.
+- The email contains spelling, grammar, and formatting issues, which is unusual for a legitimate email from a well-known company like Netflix.
+- The email does not match the typical format and content of a legitimate Netflix email, and it contains a lot of random words and characters that do not make sense in the context of the email.
+- The email does not provide any authentication information that would confirm its legitimacy.
+
+SUMMARY: This email appears to be a phishing attempt due to its suspicious sender address, urgent language, and formatting issues.",True,1
+email_2023_000414_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,920,True,0,ok,LABEL: 1,True,1
+email_2023_000414_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,959,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""Click here"" without specifying the destination URL, which is a common phishing tactic.
+- The email is sent from a domain ""treattype2diabetes.services"" that seems unrelated to the content of the email, which is about scheduling a delivery date.
+- The email body contains a large amount of random text, which is likely a spam filter evasion technique, and also contains a mix of words and characters that do not form coherent sentences, which is a common trait of phishing emails.",True,1
+email_2023_000414_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1026,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address ""Track.and.Trace"" <TrackandTrace@treattype2diabetes.services> is suspicious, as it uses a generic name and a domain that seems unrelated to the content of the email.
+- The email contains a link ""Click here"" which is likely a phishing link, but it's not a direct link, it's more of a suspicious text.
+- The email uses urgent language (""Sorry we missed you!"") and pressure tactics (""Schedule your next delivery date."") to create a sense of urgency.
+- The email contains a lot of random text and formatting issues, which is a common trait of phishing emails.
+- The email does not match the recipient's identity or any known brand, which is a red flag.
+- The email contains a lot of suspicious keywords such as ""Track.and.Trace"" which seems to be a tracking service, but the email is not related to any tracking activity.
+
+SUMMARY: This email appears to be a phishing attempt due to its suspicious sender address, urgent language, and formatting issues.",True,1
+email_2023_000415_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,917,True,0,ok,LABEL: 1,True,1
+email_2023_000415_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,956,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""Click here"" without specifying the destination URL, which is a common phishing tactic.
+- The email is from an unverified sender ""Track.and.Trace"" with a domain ""treattype2diabetes.services"" that seems unrelated to the content of the email, which is about package delivery.
+- The email body contains a long list of random words and phrases, which is likely a technique used to evade spam filters and make the email appear more legitimate.",True,1
+email_2023_000415_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1023,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address ""Track.and.Trace"" <TrackTrace@treattype2diabetes.services> is suspicious, as it uses a generic name and a domain that seems unrelated to the content of the email.
+- The email contains a link ""Click here"" without specifying what it links to, which is a common phishing tactic.
+- The email uses urgent language (""Need help with a broken image?"") and pressure tactics (""Click here"") to prompt the recipient into taking action without verifying the authenticity of the email.
+- The email contains a large amount of random text, which is likely a spam filter evasion technique.
+- The email does not provide any authentication information or a clear indication of the sender's identity.
+- The email contains a suspicious link ""https"" which is often used in phishing emails.
+- The email contains a large amount of random text, which is likely a spam filter evasion technique.
+- The email does not match the recipient's expected communication style or content.
+SUMMARY: This email appears to be a phishing attempt due to its suspicious sender address, lack of clear content, and pressure tactics.",True,1
+email_2023_000416_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,504,True,0,ok,LABEL: 1,True,1
+email_2023_000416_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,543,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link with the instruction ""click on this link"" which is a common phishing tactic to trick users into visiting malicious websites.
+- The email is from an unverified sender ""Track & Trace"" with a domain ""fatburncombo.services"" which seems unrelated to FedEx, a well-known shipping company.
+- The email contains unrelated information about Hungary, which is likely a red herring to distract the user from the suspicious link.",True,1
+email_2023_000416_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,610,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address: Track & Trace <TrackTrace@fatburncombo.services> (the domain 'fatburncombo.services' seems unrelated to FedEx or any legitimate tracking service).
+- Suspicious link: ""click on this link"" (the link is not specified, but the request to click on it is vague and could be malicious).
+- Brand impersonation: The email claims to be from FedEx, but the sender address is not a legitimate FedEx email address.
+- Lack of clear tracking information: The email subject mentions a tracking number, but the actual tracking information is not provided.
+- Unrelated content: The email body contains unrelated information about Hungary, which seems to be a distraction.
+SUMMARY: The email appears to be a phishing attempt impersonating FedEx, with a suspicious sender address and a vague link request.",True,1
+email_2023_000419_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,668,True,0,ok,LABEL: 1,True,1
+email_2023_000419_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,707,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an address that seems to be spoofed (OrderShipment@krogersurvey.today), as Kroger is a different company from Bed Bath & Beyond.
+- The email does not address the recipient by name, which is unusual for a customer support email.
+- The email content is unrelated to the subject line, which suggests that the email may be a phishing attempt to trick the recipient into opening it.",True,1
+email_2023_000419_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,774,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is OrderShipment@krogersurvey.today, which is a suspicious domain that does not match the Bed Bath & Beyond brand.
+- The email contains a link to a delivery issue, but the link is not provided, which could be a tactic to avoid detection.
+- The email is using a generic and urgent subject line (""Your package could not be delivered."") to create a sense of pressure.
+- The email body is unrelated to the subject line and appears to be a random passage about an actress, which is likely a red herring to distract from the phishing attempt.
+- The email does not request any login, payment, or personal information, but the suspicious sender address and linkless delivery issue raise concerns.
+- The email contains spelling and formatting issues, which is unusual for a legitimate company email.
+- The brand impersonation is evident, as the email claims to be from Bed Bath & Beyond but uses a suspicious domain.
+
+SUMMARY: This email appears to be a phishing attempt using a suspicious sender address and a generic, urgent subject line to create a sense of pressure, while the email body contains unrelated content to distract from the phishing attempt.",True,1

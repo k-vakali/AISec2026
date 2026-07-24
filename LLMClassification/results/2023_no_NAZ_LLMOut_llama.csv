@@ -1,0 +1,541 @@
+email_id,parser_id,model_name,context_limit,prompt_id,input_tokens,fits,overflow_tokens,status,raw_output,parse_ok,pred_label
+email_2023_000020_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,912,True,0,ok,LABEL: 1,True,1
+email_2023_000020_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,951,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is threatening to suspend the recipient's MetaMask wallet, which is a common tactic used in phishing emails to create a sense of urgency.
+- The email contains a suspicious link ""https://vk.sv/7Mt81d"" which may be a shortened URL that redirects to a malicious website.
+- The email is asking the recipient to verify their MetaMask wallet by clicking on a link, which is a common phishing technique to trick users into revealing their login credentials.",True,1
+email_2023_000020_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1018,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is hosting@panonika.si, which does not match the MetaMask brand identity.
+- The email contains a suspicious link: https://vk.sv/7Mt81d, which may be a phishing URL.
+- The email uses urgent language, stating that the MetaMask wallet will be suspended if not verified.
+- The email requests verification of the MetaMask wallet, which could be a phishing attempt to gather login information.
+- The email contains spelling and formatting issues, such as ""Febuary"" instead of ""February"".
+- The email is trying to impersonate the MetaMask brand.
+SUMMARY: This email appears to be a phishing attempt to trick the recipient into verifying their MetaMask wallet through a suspicious link.",True,1
+email_2023_000047_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2769,True,0,ok,LABEL: 1,True,1
+email_2023_000047_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2808,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""DOWNLOAD HERE"" which redirects to a potentially malicious website (https://qrfy.com/p/PGBULW1LeD).
+- The email asks the recipient to open an attachment or use the computer to access the message, which could be a tactic to trick the recipient into downloading malware.
+- The email is trying to create a sense of urgency by stating that the recipient has a new fax message, which could be a phishing tactic to get the recipient to act quickly without verifying the authenticity of the message.",True,1
+email_2023_000047_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2875,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is from a sender address that claims to be RingCentral, but the domain is well-beingalliance.com, which does not match RingCentral's official domain.
+- The email contains a suspicious link ""https://qrfy.com/p/PGBULW1LeD"" that is not a legitimate RingCentral link.
+- The email uses urgent language, encouraging the recipient to ""open the attachment or use the computer to have instant access to all your messages on the go.""
+- The email requests the recipient to download a file, which could potentially be malicious.
+- The email contains a link to RingCentral's Terms of Use, but this is not a red flag in itself.
+SUMMARY: The email appears to be a phishing attempt due to its suspicious sender address, link, and language.",True,0
+email_2023_000057_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,6746,True,0,ok,LABEL: 1,True,1
+email_2023_000057_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,6785,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unverified sender ""IT REPORTS <Sharepoints_verfication@mail.com>"" which may be a spoofed email address.
+- The email contains a link to a suspicious URL ""https://5ai4xitvaesxbzzb6leidp3e24h6y2m4hakca3snkxdwkn7e-ipfs-dweb-link.translate.goog/manyexcelecrpty.html?_x_tr_hp=bafybeiafkg&_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp#jose@monkey.org"" which may be a phishing link.
+- The email asks the recipient to click on a button to continue with the same password, which is a common tactic used by phishing emails to trick users into revealing their login credentials.",True,1
+email_2023_000057_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,6852,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""IT REPORTS <Sharepoints_verfication@mail.com>"", which is a suspicious domain.
+- The email contains a link to a suspicious URL ""https://5ai4xitvaesxbzzb6leidp3e24h6y2m4hakca3snkxdwkn7e-ipfs-dweb-link.translate.goog/manyexcelecrpty.html?_x_tr_hp=bafybeiafkg&_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp#jose@monkey.org"" that may be used for phishing.
+- The email uses urgent language, stating that the account password expires ""Today"" and that the email service may be interrupted if the account is not verified.
+- The email requests the recipient to verify their account by clicking on a link, which is a common tactic used by phishing emails.
+- The email contains spelling and grammar issues, which is uncommon for legitimate emails.
+- The email does not match the identity of the sender, as the sender address is not a legitimate email address for the company.
+SUMMARY: This email is likely a phishing attempt to trick the recipient into verifying their account by clicking on a suspicious link.",True,1
+email_2023_000060_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2400,True,0,ok,LABEL: 1,True,1
+email_2023_000060_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2439,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unknown sender (""monkey.org"" <cyb@noti.net>), which is not a trusted source.
+- The email contains a suspicious link (""View Emails"") that may lead to a phishing website.
+- The email asks the recipient to login with their details to access the emails, which is a common tactic used by phishing attackers to steal login credentials.",True,1
+email_2023_000060_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2506,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""monkey.org"" <cyb@noti.net>, which is different from the recipient's email address, suggesting a potential phishing attempt.
+- The email contains a suspicious link ""https://neduet.hosting.acm.org//.well-known/save/domain.html#jose@monkey.org"" that may be used to steal login credentials or spread malware.
+- The email uses urgent language, stating that the recipient has 6 quarantined messages and that emails will be deleted automatically after 14 days, creating a sense of pressure to act quickly.
+- The email requests the recipient to login with their details to access quarantined messages, which is a common tactic used by phishing attackers.
+- The email contains spelling and formatting issues, such as inconsistent font styles and colors, which is unusual for a legitimate email.
+- The email impersonates a legitimate email service, Symantec, by using their logo and branding, but the sender address and reply-to address do not match the legitimate service.
+SUMMARY: This email is a phishing attempt to steal login credentials by impersonating a legitimate email service.",True,1
+email_2023_000087_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,1624,True,0,ok,LABEL: 1,True,1
+email_2023_000087_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1663,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is attempting to trick the user into revealing their password by asking them to ""re-confirm"" their account using the same password for verification.
+- The email contains a suspicious link ""https://l4a2ap5dzfzi2j5faklifwiilqzulai7zzxua-ipfs-dweb-link.translate.goog/?_x_tr_hp=bafybeib5uiaurpraliyuf&amp;_x_tr_sl=auto&amp;_x_tr_tl=en&amp;_x_tr_hl=en-US#jose@monkey.org"" which may be a phishing link.
+- The email is sent from a suspicious sender ""monkey.org Server"" <adminii@fuslon-thai.com> which does not match the recipient's email address.",True,1
+email_2023_000087_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1730,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address ""adminii@fuslon-thai.com"" does not match the domain ""monkey.org"" mentioned in the email.
+- The email contains a suspicious link ""https://l4a2ap5dzfzi2j5faklifwiilqzulai7zzxua-ipfs-dweb-link.translate.goog/?_x_tr_hp=bafybeib5uiaurpraliyuf&amp;_x_tr_sl=auto&amp;_x_tr_tl=en&amp;_x_tr_hl=en-US#jose@monkey.org"" which is a long and encoded URL.
+- The email requests the recipient to re-confirm their account using the same password for verification, which is a common tactic used by phishing emails.
+- The email contains spelling and grammar issues, such as ""innitiated"" instead of ""initiated"".
+- The email is trying to create a sense of urgency by stating that the account will expire on a specific date.
+- The email contains a request for login information, specifically the password of the email account.
+- The email is trying to impersonate a legitimate email from the ""WebMail Admin"" of ""monkey.org"".
+SUMMARY: This email is a phishing attempt to trick the recipient into revealing their login information.",True,1
+email_2023_000102_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,3988,True,0,ok,LABEL: 1,True,1
+email_2023_000102_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,4027,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is trying to create a sense of urgency by stating that the mailbox is out of date and may not be able to send or receive new messages.
+- The email is asking the recipient to update their mailbox within 24 hours to avoid closure, which is a common tactic used by phishing emails to create a sense of urgency.
+- The email contains a suspicious link ""Review Messages Here"" that is trying to trick the recipient into clicking on it, which could potentially lead to a phishing website or malware download.
+- The email is trying to create a sense of importance by stating that the recipient should ""attend to notification to avoid loss of vital information"", which is a common tactic used by phishing emails to create a sense of fear.
+- The email is trying to create a sense of legitimacy by stating that it is ""powered by Mailbox Administration Control"", which is a fake company name.
+- The email is trying to create a sense of trust by stating that it is ""secured by All-access Encryption"", which is a fake security feature.
+- The email is trying to create a sense of urgency by stating that the recipient should ""review and choose what happens here"", which is a common tactic used by phishing emails to create a sense of urgency.
+- The email is trying to create a sense of importance by stating that the recipient should ""attend to notification to avoid loss of vital information"", which is a common tactic used by phishing emails to create a sense of fear.
+- The email is trying to create a sense of legitimacy by stating that it is ""Copyright 2023 Mailbox, Inc. All rights reserved"", which is a fake company name and copyright information.",True,1
+email_2023_000102_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,4094,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address ""administrator@winstargrouip.net"" does not match the domain ""monkey.org"" in the email content, indicating a potential impersonation.
+- The email contains a suspicious link ""https://bafybeiay4jqodxv3plk2k2qjldadtvj7c6zd44jczdort3xhjdcna2zhvy.ipfs.cf-ipfs.com/#jose@monkey.org"" that may be used for phishing.
+- The email uses urgent language, stating that the mailbox will be closed if not updated within 24 hours, which is a common tactic used in phishing attacks.
+- The email requests the recipient to review and update their mailbox, which may be an attempt to trick the recipient into providing sensitive information.
+- The email contains a note stating that the message was sent by the system for notification only, but this is not a reliable indicator of authenticity.
+- The email contains a copyright notice from ""Mailbox, Inc."" but the domain ""winstargrouip.net"" does not match the company name, indicating a potential mismatched identity.
+SUMMARY: The email appears to be a phishing attempt due to suspicious sender address, links, and language.",True,1
+email_2023_000162_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,1596,True,0,ok,LABEL: 1,True,1
+email_2023_000162_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1635,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""Release Delayed Messages"" which may be a phishing attempt to trick the user into clicking on it.
+- The email claims that the user's email account is full and that 14 messages are stuck on a mail server, which is a common tactic used by phishing emails to create a sense of urgency.
+- The email contains a link to a suspicious website ""http://solotek.com.tr/"" which may be a phishing website designed to steal user credentials.",True,1
+email_2023_000162_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1702,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is trying to create a sense of urgency by stating that the recipient's emails are stuck on the mail server and will be deleted within 15 hours.
+- The email contains a suspicious link ""Release Delayed Messages"" which is trying to trick the recipient into clicking on it.
+- The email is trying to impersonate the recipient's email service provider by using the domain ""monkey.org"" and creating a sense of authenticity.
+- The email contains a link to a suspicious domain ""solotek.com.tr"" which may be a phishing site.
+- The email is trying to pressure the recipient into taking action by stating that their emails will be deleted if they don't click on the link.
+SUMMARY: This email is a phishing attempt to trick the recipient into clicking on a suspicious link and potentially revealing sensitive information.",True,1
+email_2023_000208_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,3429,True,0,ok,LABEL: 1,True,1
+email_2023_000208_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,3468,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a link to update the account, which is a common tactic used in phishing emails to trick users into revealing sensitive information.
+- The email provides a time-sensitive Identification Code, which is a common technique used in phishing emails to create a sense of urgency and prompt the user into taking action without verifying the authenticity of the email.
+- The email is trying to reset the password or complete online enrollment, which is a common goal of phishing emails, and the email is trying to trick the user into revealing sensitive information.",True,1
+email_2023_000208_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,3535,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link: ""https://&#x62;&#x69;&#x74;&#x2e;&#x6c;&#x79;&#x2f;&#x33;&#x4a;&#x78;&#x68;&#x44;&#x44;&#x57;"" which is encoded and may be malicious.
+- The email requests the recipient to update their account by clicking on a button, which may lead to a phishing website.
+- The email contains a sense of urgency, stating that the identification code will expire in 24 hours.
+- The email requests the recipient to enter their identification code, which may be a request for sensitive information.
+- The email is impersonating a legitimate bank, but the sender address ""admin@vehiclesaddict.com"" does not match the bank's domain.
+SUMMARY: The email is a phishing attempt to trick the recipient into revealing their sensitive information.",True,1
+email_2023_000213_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,6795,True,0,ok,LABEL: 0,True,0
+email_2023_000213_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,6834,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a link to a suspicious URL (""https://pub-c7e4cb30b3334d89a977060f8ce33fd0.r2.dev/index.html#jose@monkey.org"") which could be a phishing attempt.
+- The email asks the recipient to click on a ""Release"" button to move messages to their inbox folder, which could be a social engineering tactic to trick the recipient into clicking on a malicious link.
+- The email is generated by a system for notification only, but it contains a link to a suspicious URL, which raises suspicions about its authenticity.",True,1
+email_2023_000213_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,6901,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is from a legitimate sender, ""IT server admin"" from a Microsoft domain, which is a common domain for organizational email services.
+- The email content appears to be a notification from the email server, informing the recipient about blocked messages and pending emails.
+- The email does not contain any suspicious links or requests for personal information.
+- The language used is formal and professional, without any urgent or threatening tone.
+- The email is well-formatted and free of spelling and grammar errors.
+- The email is signed with a note indicating that it was generated by the email server for notification purposes.
+SUMMARY: The email appears to be a legitimate notification from the email server, informing the recipient about blocked messages and pending emails.",True,0
+email_2023_000262_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,3206,True,0,ok,LABEL: 1,True,1
+email_2023_000262_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,3245,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link that asks the recipient to download a file, which is a common tactic used in phishing attacks.
+- The link is https://cloud.neat.com/api/v5/downloads?token=eyJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoiNjRlN2IxMWNlOTBjMmIxYTY3MmZlYmMzIiwiaXRlbV9pZCI6IjY0ZTdiMWNlMDZmODRiMDA0N2VlZTY3NCIsIm1vZGUiOiJmcmllbmRseSIsImV4cCI6MTY5MzUxMjI4NX0.FOg8QIVLLCW-gvLmsf_MprHilyNOc1aEbfcQfN9Mlhk, which is a long and complex URL that may be used to trick the recipient into downloading malware or revealing sensitive information.
+- The email also contains a sense of urgency, stating that the link will expire in one week, which is a common tactic used in phishing attacks to create a sense of panic and prompt the recipient into taking action without thinking.",True,1
+email_2023_000262_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,3312,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link (https://cloud.neat.com/api/v5/downloads?token=eyJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoiNjRlN2IxMWNlOTBjMmIxYTY3MmZlYmMzIiwiaXRlbV9pZCI6IjY0ZTdiMWNlMDZmODRiMDA0N2VlZTY3NCIsIm1vZGUiOiJmcmllbmRseSIsImV4cCI6MTY5MzUxMjI4NX0.FOg8QIVLLCW-gvLmsf_MprHilyNOc1aEbfcQfN9Mlhk) that may be used for phishing or malware distribution.
+- The email contains a second suspicious link (https://cloud.neat.com/api/v5/downloads?token=eyJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoiNjRlN2IxMWNlOTBjMmIxYTY3MmZlYmMzIiwiaXRlbV9pZCI6IjY0ZTdiMWNlMDZmODRiMDA0N2VlZTY3NCIsIm1vZGUiOiJmcmllbmRseSIsImV4cCI6MTY5MzUxMjI4NX0.FOg8QIVLLCW-gvLmsf_MprHilyNOc1aEbfcQfN9Mlhk) that may be used for phishing or malware distribution.
+- The email contains a request to download a file, which may be a phishing attempt.
+- The email contains a request to contact the sender, which may be a phishing attempt.
+- The email contains a suspicious link (https://email.neatcloud.com/ls/click?upn=VJGjXwC3diQdsSKI1XWas9WhFACvBmnS6566tKGXml-2F4cpYAm3rjEeRFNdCuXobVgUg9xIyI5a9keU9X",True,1
+email_2023_000272_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,1224,True,0,ok,LABEL: 1,True,1
+email_2023_000272_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1263,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a link to a suspicious website (http://healthapollo.co/-Z6nP3-T2lSmI409-L2BFcUXnio-YUzCo53FKcq2XyAZHwA) which could be a phishing attempt.
+- The email is promoting a product (Synogut) and offering a limited-time discount, which is a common tactic used in phishing emails to create a sense of urgency.
+- The email contains a generic unsubscribe link (http://healthapollo.co/TP-TlBX7fXYSWkFnotmnME1tkwYeF_XSaJfAZnE_wuPxhEA) and a second unsubscribe link (http://healthapollo.co/Jjy4cwAGfF2iLbKtDmahNsVjDdGq0CDZU8YlY8bXhJGlwXg) which could be a red herring to distract from the phishing link.",True,1
+email_2023_000272_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1330,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""Super_Gut_Save@healthapollo.co"", which may be a spoofed email address.
+- The email contains two suspicious links: ""http://healthapollo.co/-Z6nP3-T2lSmI409-L2BFcUXnio-YUzCo53FKcq2XyAZHwA"" and ""http://healthapollo.co/1tWfi0FAPCkjS2PbEXQEzwXZq4qV9SR9GFQ1XFxWzz0UIMI"", which may be phishing links.
+- The email uses urgent language, such as ""This is your last chance"" and ""Wait no more!"", to create a sense of pressure.
+- The email requests the recipient to click on a link to take advantage of an offer, which may be a phishing attempt.
+- The email contains spelling, grammar, and formatting issues, such as the use of background-color and style attributes in the HTML code.
+- The email is trying to impersonate a brand, ""SynoGut"", to trick the recipient into clicking on the suspicious links.
+- The email contains a request for the recipient to unsubscribe, which may be a tactic to collect email addresses.
+SUMMARY: The email is a phishing attempt to trick the recipient into clicking on suspicious links and providing personal information.",True,1
+email_2023_000277_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,1700,True,0,ok,LABEL: 1,True,1
+email_2023_000277_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1739,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a link to a suspicious URL ""https://cloudflare-ipfs.com/ipfs/QmSMP62wh1gGArS5hWDUensB2b3ZQiuMCD6GE2CVe44Rru#jose@monkey.org"" which may be a phishing attempt.
+- The email instructs the recipient not to share the email, link, or access code with others, which is a common tactic used by phishing attackers to create a sense of urgency and fear.
+- The email is sent from a generic email address ""no-reply@monkey.org"" which is not a legitimate email address for DocuSign.",True,1
+email_2023_000277_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1806,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""DocuSign Service <no-reply@monkey.org>"", which is not a legitimate DocuSign email address. DocuSign's official email address typically ends with ""@docusign.net"".
+- The email contains a suspicious link ""https://cloudflare-ipfs.com/ipfs/QmSMP62wh1gGArS5hWDUensB2b3ZQiuMCD6GE2CVe44Rru#jose@monkey.org"" that is not a standard DocuSign link. This link is also not a legitimate DocuSign link.
+- The email contains a request to ""REVIEW DOCUMENTS"" which is a common phishing tactic to trick users into clicking on a malicious link.
+- The email contains a request to ""Download the DocuSign App"" which is a common phishing tactic to trick users into downloading malware.
+- The email contains a warning to ""Do Not Share This Email"" which is a common phishing tactic to create a sense of urgency and trick users into clicking on a malicious link.
+- The email contains a mismatched identity as the sender address is ""no-reply@monkey.org"" but the email is claiming to be from DocuSign.
+SUMMARY: This email is a phishing attempt to trick the user into clicking on a malicious link or downloading malware.",True,1
+email_2023_000360_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,9606,True,0,ok,LABEL: 0,True,0
+email_2023_000360_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,9645,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""https://pub-a8ed7885114f43bb97f4bf4057dd6dcf.r2.dev/bgt.html#jose@monkey.org"" which may be a phishing link.
+- The email contains a link ""https://s3.amazonaws.com/appforest_uf/f1668071910566x136025853984276910/indexRRRRR.html#jose@monkey.org"" which may be a phishing link.
+- The email is trying to create a sense of urgency by requesting an urgent order and asking the recipient to accept an invitation and send business terms immediately.",True,1
+email_2023_000360_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,9712,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""e-shop@nomura-nousan.co.jp"", which is not a LinkedIn email address.
+- The email contains a suspicious link ""https://pub-a8ed7885114f43bb97f4bf4057dd6dcf.r2.dev/bgt.html#jose@monkey.org"" that may be a phishing link.
+- The email contains a request for urgent action, which is a common tactic used in phishing emails.
+- The email contains a request for the recipient to send business terms immediately, which may be a request for sensitive information.
+- The email contains a link to a LinkedIn profile, but the link is not a legitimate LinkedIn link.
+- The email contains a request to ""unsubscribe"" and ""help"", which may be a way to trick the recipient into clicking on a malicious link.
+- The email contains a suspicious image link ""https://ci4.googleusercontent.com/proxy/OJXu95yVaTT0IAXqBynx5ATa1vYSxfGXy4GLzrh7L2JGMLEXTymHAbauEKO_7nrQcSQnHLqoHPT-caNawYjTgmU83fN_VdOUSXkcNvS4NN1uRmDvbSUGDv4ISTfFlQOZw7S5ysym3Euuei1PsPhSUmKrafxm7CFPIjUBKcprxCkLuoHK_mxC1BlVrIUr8suCJrj0FVi3nGbT4-ab2fC0m1yS-3XEiDm0tC8UAL9M5bzB-A55YFO3ofMJt97kF8xGYiaCzvFearMVhNalbfhQRCkevtHcDyRZn--JiP98zeRFBZLZ7IsjN2fCsVijY8psFDh-SrjThN_9c49EX06DNk0i6bcoDuVoEeavFcQBx1j9_M5tzWVAZ2GFMfk_3-LwfUwTeZGCW3pOq4U2RV6EMMZPfaCoFJcOQ1SbSIFdipqHxkrUcMpxfCAon",True,1
+email_2023_000366_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,927,True,0,ok,LABEL: 1,True,1
+email_2023_000366_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,966,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is asking the recipient to take immediate action, which is a common tactic used in phishing emails to create a sense of urgency.
+- The email is claiming that there is an email server issue and is asking the recipient to refresh their email server using a provided link, which could potentially lead to a malicious website or download.
+- The email is using a fake company name (""monkey.org"") and a suspicious link (""https://pub-ca8c9d3df26e45cf985aedfdac5f9fd0.r2.dev/Monotomic.html#am9zZUBtb25rZXkub3Jn"") that may be used to steal sensitive information or install malware.",True,1
+email_2023_000366_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1033,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address ""info@predcopr.us"" does not match the domain ""monkey.org"" in the ""From"" field, indicating a potential spoofing attempt.
+- The email contains a suspicious link ""https://pub-ca8c9d3df26e45cf985aedfdac5f9fd0.r2.dev/Monotomic.html#am9zZUBtb25rZXkub3Jn"" that may be used for phishing or malware distribution.
+- The email uses urgent language (""Immediate Action Required"") and pressure tactics to prompt the recipient to take action without verifying the authenticity of the request.
+- The email requests the recipient to refresh their email server using a provided session information, which may be a ruse to obtain sensitive information.
+- The email contains spelling, grammar, and formatting issues, which are uncommon in legitimate emails from reputable organizations.
+- The email attempts to impersonate a legitimate email by using a similar subject line and a link to a potentially malicious website.
+- The authentication information is not present in the email, which is unusual for a legitimate email from a service provider.
+
+SUMMARY: This email is likely a phishing attempt due to its suspicious sender address, links, and language.",True,1
+email_2023_000375_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,1670,True,0,ok,LABEL: 0,True,0
+email_2023_000375_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1709,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an untrusted sender ""cPanel on monkey.org"" <knahfyomva@anouncespacedrisa.site>, which is not the same as the recipient's email address.
+- The email contains a link to a potentially malicious website ""https://portal.infura-ipfs.io/ipfs/bafkreiflzq3tslqdgx42eyfdhff6akqmqnnnc3po5a6tmizv6x3p4r6mw4#jose@monkey.org"" that may be used for phishing.
+- The email asks the recipient to click on a link to disable a notification, which is a common tactic used by phishers to trick users into revealing sensitive information.",True,1
+email_2023_000375_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1776,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address ""cPanel on monkey.org"" <knahfyomva@anouncespacedrisa.site> is not a legitimate email address for cPanel, as it is not a domain associated with cPanel.
+- The email contains a link to a legitimate cPanel interface, but it is also linked to a suspicious domain ""portal.infura-ipfs.io"".
+- The email is not using urgent language or pressure tactics, but it is asking the user to remove emails from the mailbox as soon as possible.
+- The email is not requesting login, payment, verification, or personal information.
+- The email is well-formatted and does not contain spelling or grammar issues.
+- The email is impersonating cPanel, but it is not a perfect impersonation, as the sender address is not legitimate.
+- The email contains authentication information, such as the system-generated notice and the copyright information.
+SUMMARY: The email appears to be a legitimate notification from cPanel, but it contains some suspicious elements.",True,0
+email_2023_000394_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,23037,True,0,ok,LABEL: 0,True,0
+email_2023_000394_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,23076,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains multiple links that are not clearly labeled as such, which is a common tactic used in phishing emails.
+- The links are encoded with a long string of characters, which is a technique used to hide the true destination of the link.
+- The email contains a sense of urgency, stating that the recipient's membership has expired, which is a common tactic used to create a sense of panic and prompt the recipient into taking action without thinking.
+- The email is trying to get the recipient to click on a link to view their membership, which could potentially lead to a phishing website or malware download.
+- The email contains a lot of unnecessary information, such as images and links to other websites, which is a common tactic used to distract the recipient from the main goal of the email.
+- The email is trying to get the recipient to download the Marshalls app, which could potentially lead to a phishing website or malware download.
+- The email contains a lot of links to other websites, which could potentially lead to a phishing website or malware download.
+- The email is trying to get the recipient to click on a link to view their membership, which could potentially lead to a phishing website or malware download.
+- The email contains a sense of urgency, stating that the recipient's membership has expired, which is a common tactic used to create a sense of panic and prompt the recipient into taking action without thinking.",True,1
+email_2023_000394_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,23143,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is from a legitimate sender, Marshalls, and the sender address matches the reply-to address.
+- The email content is promotional and does not request any sensitive information.
+- The links in the email are from a legitimate domain, links.em.sierra.com, and do not appear to be suspicious.
+- The email does not contain any urgent language or pressure tactics.
+- The email is well-formatted and does not contain any spelling or grammar issues.
+- The email is from a legitimate brand and does not contain any brand impersonation or mismatched identities.
+- The email does not request any authentication information.
+SUMMARY: The email is a legitimate promotional email from Marshalls.",True,0
+email_2023_000413_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2182,True,0,ok,LABEL: 1,True,1
+email_2023_000413_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2221,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from a Google Drive account, but the sender's email address is ""drive-shares-dm-noreply@google.com"", which is not a typical email address for a personal Google Drive account.
+- The email contains a link to a Google Drive file, but the link is not a direct link to the file, rather it is a link to a view page for the file. This is a common tactic used by phishing emails to make the link look legitimate.
+- The email claims that the recipient's online account has been disabled due to an unrecognized log-in, which is a common phishing tactic used to create a sense of urgency and trick the recipient into clicking on the link.
+- The email contains a suspicious link in the footer, which is a link to block the sender from Drive. This link may be used to phish the recipient's Google account credentials.",True,1
+email_2023_000413_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2288,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""drive-shares-dm-noreply@google.com"", which is a legitimate Google Drive notification email address, but the reply-to address is ""promzychicha1998@connectaccess.manageacchel.gives"", which is a suspicious domain.
+- The email contains a link to a Google Drive file, but the link is also present in the email body, which is a common tactic used by phishing emails to make the link appear legitimate.
+- The email uses urgent language, stating that the recipient's online account has been disabled due to unrecognized log-in, which is a common tactic used by phishing emails to create a sense of urgency.
+- The email requests the recipient to click on a link to open the file, which is a request for the recipient to perform an action that could potentially lead to a phishing attack.
+- The email contains a suspicious link to block the sender from Drive, which could potentially lead to a phishing attack.
+- The email contains a mismatched identity, as the sender's email address is ""promzychicha1998@connectaccess.manageacchel.gives"", but the email claims to be from ""Bakker Jensen"".
+SUMMARY: This email is likely a phishing attempt due to its suspicious sender address, urgent language, and requests for the recipient to perform actions that could potentially lead to a phishing attack.",True,1
+email_2023_000020_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,249,True,0,ok,LABEL: 1,True,1
+email_2023_000020_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,288,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is trying to create a sense of urgency by stating that the wallet will be suspended on a specific date, which is a common phishing tactic.
+- The email is asking the recipient to verify their wallet by clicking on a button, which could potentially lead to a phishing website.
+- The email is coming from a sender that is not the official MetaMask support, as the email address is hosting@panonika.si, not a MetaMask official email address.",True,1
+email_2023_000020_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,355,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address and reply-to address: The sender address is hosting@panonika.si, which does not match the expected MetaMask domain.
+- Urgent language or pressure tactics: The email creates a sense of urgency by stating that the wallet will be suspended on a specific date.
+- Requests for verification: The email requests the recipient to verify their MetaMask wallet via a button.
+- Brand impersonation or mismatched identities: The sender address does not match the expected MetaMask domain.
+- Lack of authentication information: There is no authentication information present in the email to verify its legitimacy.
+- Suspicious link: The email contains a link ""Verify My MetaMask"" which could be a phishing link.
+SUMMARY: This email appears to be a phishing attempt to trick the recipient into verifying their MetaMask wallet through a suspicious link.",True,1
+email_2023_000047_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,323,True,0,ok,LABEL: 1,True,1
+email_2023_000047_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,362,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""DOWNLOAD HERE"" which could be a phishing link.
+- The email asks the recipient to open an attachment to view the message, which could be a malicious file.
+- The email is trying to create a sense of urgency by asking the recipient to view the message ""on the go"" and to reply using the RingCentral app, which could be a tactic to trick the recipient into revealing sensitive information.",True,1
+email_2023_000047_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,429,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is support@well-beingalliance.com, which does not match the expected domain of RingCentral (ringcentral.com).
+- The email contains a suspicious link ""DOWNLOAD HERE"" which could be a phishing link.
+- The email uses urgent language by stating ""You have a new fax message"" and ""To view this message, open the attachment or use the computer to have instant access to all your messages on the go.""
+- The email requests the user to download an attachment or click on a link to view the message, which could be a phishing tactic.
+- The email contains spelling and formatting issues, such as the use of multiple spaces and the incorrect use of ""**** 103"" instead of a phone number.
+- The email contains a mismatched identity, as the sender address does not match the expected domain of RingCentral.
+SUMMARY: The email appears to be a phishing attempt due to suspicious sender address, links, and language.",True,1
+email_2023_000057_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,208,True,0,ok,LABEL: 1,True,1
+email_2023_000057_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,247,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unverified email address ""Sharepoints_verfication@mail.com"", which may be a spoofed email address.
+- The email contains a sense of urgency (""Your account password expires on our system Today"") to prompt the user into taking action without verifying the authenticity of the email.
+- The email asks the user to click on a button (""Same Password"") to continue with the same password, which is a common tactic used by phishing emails to trick users into revealing sensitive information.",True,1
+email_2023_000057_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,314,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address and reply-to address: The sender address is ""Sharepoints_verfication@mail.com"" which seems to be a generic and unverified email address.
+- Urgent language or pressure tactics: The email creates a sense of urgency by stating that the account password expires ""Today"" and that the email service may be interrupted if the account is not verified.
+- Requests for login or verification: The email asks the recipient to verify their account by clicking on a button, which could potentially lead to a phishing page.
+- Spelling, grammar, or formatting issues: The email has some formatting issues, such as the use of a table for the ""Same Password"" button.
+- Brand impersonation or mismatched identities: The email claims to be from ""IT REPORTS"" but the sender address is not a typical IT department email address.
+- Authentication information if present: The email does not provide any authentication information, such as a valid email address or a secure link.
+SUMMARY: This email appears to be a phishing attempt to trick the recipient into verifying their account by clicking on a suspicious link.",True,1
+email_2023_000060_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,281,True,0,ok,LABEL: 1,True,1
+email_2023_000060_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,320,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an untrusted sender (""monkey.org"" <cyb@noti.net>), which is not the same as the recipient's email address.
+- The email contains a generic greeting (""Dear"") and does not address the recipient by name, which is unusual for a legitimate email.
+- The email contains a suspicious link (""CLICK VIEW EMAILS portal"") and asks the recipient to login with their details to access the emails, which is a common phishing tactic.",True,1
+email_2023_000060_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,387,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address and reply-to address: The sender address is ""monkey.org"" and the reply-to address is ""cyb@noti.net"", which may be a spoofed or fake address.
+- Urgent language or pressure tactics: The email uses urgent language, stating that the recipient has ""Action Required"" and that emails will be deleted automatically after 14 days.
+- Requests for login or personal information: The email asks the recipient to ""Login with your details"" to access quarantined messages.
+- Brand impersonation or mismatched identities: The sender address is ""monkey.org"", but the reply-to address is ""cyb@noti.net"", which may be a fake or spoofed address.
+- Suspicious links or domains: The email contains a link to ""CLICK VIEW EMAILS portal"", which may be a phishing link.
+- Spelling, grammar, or formatting issues: The email contains a formatting issue, with a missing space between ""botton"" and ""VIEW EMAILS"".
+SUMMARY: This email appears to be a phishing attempt due to its suspicious sender address, urgent language, and request for login information.",True,1
+email_2023_000087_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,267,True,0,ok,LABEL: 1,True,1
+email_2023_000087_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,306,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is threatening to remove the account due to ""ignorance of last verification warning"", which is a common tactic used by phishing emails to create a sense of urgency.
+- The email is asking the recipient to re-confirm their account using the same password, which is a red flag as legitimate organizations would never ask users to re-use their existing password.
+- The email is sent from a suspicious sender address ""adminii@fuslon-thai.com"" which does not match the domain of the recipient's email address ""monkey.org"".",True,1
+email_2023_000087_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,373,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address ""adminii@fuslon-thai.com"" does not match the domain ""monkey.org"" mentioned in the email.
+- The email contains a request for re-confirmation of the account using the same password, which is a common tactic used by phishing emails to trick users into revealing their login credentials.
+- The email uses urgent language, stating that the account will expire on a specific date, which is an attempt to create a sense of pressure and prompt the user into taking action without verifying the authenticity of the email.
+- The email contains spelling and formatting issues, such as the use of multiple spaces and inconsistent capitalization.
+- The email does not provide any authentication information, such as a valid email address or a secure link, to verify its authenticity.
+- The email contains a mismatched identity, as the sender claims to be from ""monkey.org Server"" but the reply-to address is ""adminii@fuslon-thai.com"".
+SUMMARY: This email appears to be a phishing attempt to trick the user into revealing their login credentials.",True,1
+email_2023_000102_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,310,True,0,ok,LABEL: 1,True,1
+email_2023_000102_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,349,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is asking the recipient to click on a link (""Review Messages Here"") which could potentially lead to a phishing website.
+- The email is trying to create a sense of urgency by stating that the mailbox will be closed if the update is not completed within 24 hours, which is a common tactic used by phishers.
+- The email is using a generic greeting (""Dear jose"") and does not address the recipient by their name, which is unusual for a legitimate email from a company that claims to have a personal relationship with the recipient.",True,1
+email_2023_000102_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,416,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address and reply-to address: The sender address is ""Mail Client  monkey.org"" <administrator@winstargrouip.net>, which seems to be a mismatched identity. The reply-to address is not specified, but the email is sent from a different domain than the supposed sender.
+- Urgent language or pressure tactics: The email creates a sense of urgency by stating that the mailbox will be closed within 24 hours if not updated.
+- Requests for login, payment, verification, or personal information: Although not explicitly requested, the email prompts the user to ""update your mail-box"" which could be a phishing attempt to trick the user into providing sensitive information.
+- Brand impersonation or mismatched identities: The email claims to be from ""Mailbox, Inc."" but the sender address is from ""winstargrouip.net"" and the reply-to address is not specified.
+- Authentication information if present: The email claims to be ""Secured by All-access Encryption"" but this is not a valid authentication method.
+- Suspicious links or domains: The email contains a link ""Review Messages Here"" which could be a phishing link.
+- Spelling, grammar, or formatting issues: The email contains some formatting issues, such as the use of multiple fonts and colors, which is not typical of legitimate emails.
+SUMMARY: This email appears to be a phishing attempt due to its suspicious sender address, urgent language, and potential request for sensitive information.",True,1
+email_2023_000162_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,238,True,0,ok,LABEL: 0,True,0
+email_2023_000162_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,277,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is trying to create a sense of urgency by stating that the emails will be deleted within 15 hours, which is a common phishing tactic.
+- The email is asking the recipient to release delayed messages, which could be a legitimate action, but the context and the sender's email address suggest otherwise.
+- The email address ""upholding@agrilivestock.net"" does not match the recipient's email domain ""monkey.org"", which is a red flag for phishing.",True,1
+email_2023_000162_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,344,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious link or domain: The email contains a link to ""portal"" which is not explicitly stated, but it could be a phishing attempt to lure the user into entering their credentials.
+- Urgent language or pressure tactics: The email creates a sense of urgency by stating that the 14 undelivered emails will be deleted from the server within 15 hours, which could prompt the user to act quickly without thinking.
+- Requests for login or verification: Although not explicitly stated, the email's purpose is to prompt the user to release the delayed messages, which could be a phishing attempt to trick the user into entering their login credentials.
+- Spelling, grammar, or formatting issues: The email's formatting is not consistent, and the use of multiple exclamation marks creates a sense of urgency.
+- Brand impersonation or mismatched identities: The email is sent from ""IT Helpdesk | ERP Manager"" but the domain ""agrilivestock.net"" does not seem to be related to the email's content.
+SUMMARY: The email appears to be a phishing attempt due to its suspicious link, urgent language, and potential request for login credentials.",True,1
+email_2023_000208_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,227,True,0,ok,LABEL: 1,True,1
+email_2023_000208_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,266,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a generic greeting (""Dear Customer"") and a vague subject line (""Attention required""), which are common tactics used by phishers to make the email appear legitimate.
+- The email asks the recipient to enter an Identification Code, which is a common technique used to trick users into revealing sensitive information.
+- The email contains a suspicious link (""Update My Account"") that could potentially lead to a phishing website, and the language used (""Please update your account"") is designed to create a sense of urgency and prompt the user into taking action without verifying the authenticity of the request.",True,1
+email_2023_000208_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,333,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is admin@vehiclesaddict.com, which does not match the typical sender address for an online banking service.
+- The email contains a request for the customer to reset their password, which is a common tactic used in phishing emails.
+- The email contains a sense of urgency, stating that the Identification Code will expire in 24 hours, and includes a link (""Update My Account"") that could potentially lead to a phishing website.
+- The email contains spelling and grammar issues, such as ""sinerely"" instead of ""sincerely"".
+- The email does not provide any authentication information, such as a secure link or a verification code sent via a separate channel.
+- The email contains a mismatched identity, as the sender claims to be the ""Online Banking Team"" but the sender address is not a typical online banking domain.
+
+SUMMARY: This email appears to be a phishing attempt due to its suspicious sender address, urgent language, and request for password reset.",True,1
+email_2023_000213_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,432,True,0,ok,LABEL: 0,True,0
+email_2023_000213_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,471,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is asking the recipient to click on a link to ""Release"" the quarantined emails, which could be a phishing attempt to trick the user into clicking on a malicious link.
+- The email is from an administrator account, but the sender's email address is not a typical administrator email address, it has a long and suspicious domain name ""netorgft8449905.onmicrosoft.com"".
+- The email contains a note that says ""Please do not reply"", which is a common tactic used by phishers to avoid raising suspicion.",True,1
+email_2023_000213_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,538,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address is ADMIN1@netorgft8449905.onmicrosoft.com, which is a legitimate Microsoft domain, and the email is supposedly sent by the monkey.org Email Server, which matches the recipient's domain.
+- The email does not contain any suspicious links or domains.
+- The language used is formal and does not contain any urgent or pressure tactics.
+- The email does not request any login, payment, verification, or personal information.
+- The email does not contain any spelling, grammar, or formatting issues.
+- The email does not impersonate any brand or mismatch identities.
+- The email is generated by the monkey.org Email Server for notification purposes, as stated in the email itself.
+
+SUMMARY: The email appears to be a legitimate notification from the monkey.org Email Server regarding quarantined emails.",True,0
+email_2023_000262_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,332,True,0,ok,LABEL: 1,True,1
+email_2023_000262_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,371,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link with the instruction to ""click the link below to download the file,"" which is a common phishing tactic to trick users into downloading malware.
+- The email asks the recipient to download a file from an untrusted source, which could potentially contain malware or viruses.
+- The email contains a sense of urgency by stating that the link will expire in one week, which is a common phishing tactic to create a false sense of urgency and prompt the user into taking action without verifying the authenticity of the email.",True,1
+email_2023_000262_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,438,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link with a vague description (""Download File"") and a warning that it will expire in one week, which is a common tactic used in phishing emails to create a sense of urgency.
+- The email requests the recipient to click on a link to download a file, which could potentially lead to malware or phishing attacks.
+- The email is from a sender address ""no-reply@neatcloud.com"" which is different from the brand name ""Neat"" and the reply-to address is also not provided, which is unusual for a legitimate email.
+- The email contains a mismatched identity as it is from ""no-reply@neatcloud.com"" but claims to be from ""Neat"" and has a Geek Squad logo, which is a different brand.
+- The email contains a request for the recipient to download a file, which could potentially lead to malware or phishing attacks.
+- The email contains a sense of urgency and pressure tactics by stating that the link will expire in one week.
+SUMMARY: The email appears to be a phishing attempt due to its suspicious link, mismatched identity, and pressure tactics.",True,1
+email_2023_000272_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,271,True,0,ok,LABEL: 0,True,0
+email_2023_000272_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,310,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a sense of urgency (""This is your last chance"") to create a false sense of scarcity and prompt the recipient into taking action without thinking.
+- The email asks the recipient to click on a link (""Click here"") without specifying what the link is for, which is a common phishing tactic to trick users into visiting malicious websites.
+- The email is promoting a product and offering a discount, but it is not clear if the recipient has a prior relationship with the company or if they have expressed interest in the product, which is a common trait of phishing emails.",True,1
+email_2023_000272_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,377,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address ""Super_Gut_Save@healthapollo.co"" is not a standard email address format, and the domain ""healthapollo.co"" seems suspicious.
+- The email contains a suspicious link ""here"" without specifying the URL, which is a common tactic used in phishing emails.
+- The email uses urgent language and pressure tactics, such as ""This is your last chance"" and ""Wait no more!"", to create a sense of FOMO (fear of missing out).
+- The email requests the recipient to click on a link to take advantage of an offer, which could potentially lead to a phishing website.
+- The email contains spelling and formatting issues, such as the extra space between the lines and the use of ""has been amazing!"" which seems out of place.
+- The email is trying to impersonate a brand, but the domain ""healthapollo.co"" does not match the typical domain of a well-known brand.
+SUMMARY: The email appears to be a phishing attempt due to its suspicious sender address, urgent language, and lack of transparency in the link.",True,1
+email_2023_000277_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,213,True,0,ok,LABEL: 1,True,1
+email_2023_000277_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,252,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from a generic address ""no-reply@monkey.org"" which is a common tactic used by phishers to hide their identity.
+- The email contains a command to ""Do Not Share This Email"" which is an attempt to create a sense of urgency and prevent the recipient from verifying the authenticity of the email.
+- The email contains a link to download the DocuSign App, which could potentially be a malicious link designed to install malware or steal sensitive information.",True,1
+email_2023_000277_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,319,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address and reply-to address (no-reply@monkey.org is not a typical DocuSign address).
+- Urgent language or pressure tactics (""Do Not Share This Email"").
+- Brand impersonation or mismatched identities (the sender address does not match the typical DocuSign address).
+- Requests for login, payment, verification, or personal information (none, but the email is trying to get the user to download the DocuSign App).
+- Spelling, grammar, or formatting issues (none).
+- Authentication information if present (none).
+- Suspicious links or domains (none explicitly mentioned, but the email is trying to get the user to download the DocuSign App, which could potentially be a malicious app).
+- The email is trying to get the user to download the DocuSign App, which could be a malicious app.
+
+SUMMARY: The email appears to be a phishing attempt due to suspicious sender address, urgent language, and brand impersonation.",True,1
+email_2023_000360_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,311,True,0,ok,LABEL: 1,True,1
+email_2023_000360_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,350,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from a LinkedIn Business account, but the sender's email address is not a standard LinkedIn email address (e-shop@nomura-nousan.co.jp).
+- The email contains a suspicious link (""accept"") that could potentially lead to a phishing site.
+- The email asks the recipient to send business terms immediately, which is an unusual request from a LinkedIn notification email.
+- The email contains a generic unsubscribe link, which is not a standard LinkedIn unsubscribe link.
+- The email contains a help link, but it's not a standard LinkedIn help link.
+- The email contains a suspicious ""checking data"" message, which could be a phishing attempt to gather sensitive information.
+- The email does not contain any personalization or context that would be typical of a legitimate LinkedIn notification email.",True,1
+email_2023_000360_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,417,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""e-shop@nomura-nousan.co.jp"" which is not a LinkedIn domain, suggesting brand impersonation.
+- The email contains a request for urgent action, which is a pressure tactic often used in phishing emails.
+- The email includes a link to ""accept"" and ""unsubscribe"" which could be malicious links.
+- The email is not addressed to the recipient in a personalized manner, and the content seems generic.
+- The email includes a suspicious link to ""help"" which could be a phishing link.
+- The email does not provide any authentication information to verify its legitimacy.
+SUMMARY: This email appears to be a phishing attempt due to brand impersonation and pressure tactics.",True,1
+email_2023_000366_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,192,True,0,ok,LABEL: 1,True,1
+email_2023_000366_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,231,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is asking the recipient to take immediate action, which is a common tactic used in phishing emails to create a sense of urgency.
+- The email is asking the recipient to refresh their email server using provided session information, which could be a link or credentials, potentially leading to a phishing attack.
+- The email is coming from a domain ""predcopr.us"" which is different from the recipient's email domain ""monkey.org"", suggesting that it may not be a legitimate email from the company.",True,1
+email_2023_000366_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,298,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address and reply-to address: The sender address is ""monkey.org"" but the reply-to address is ""info@predcopr.us"", which is a different domain.
+- Urgent language or pressure tactics: The email uses the phrase ""Immediate Action Required"" and ""Urgent notice"" to create a sense of urgency.
+- Requests for action without clear context: The email asks the recipient to ""refresh your email server"" without providing clear instructions or context.
+- Brand impersonation or mismatched identities: The sender address is ""monkey.org"" but the reply-to address is ""info@predcopr.us"", which may be an attempt to impersonate the recipient's own domain.
+- Lack of authentication information: There is no authentication information present in the email to verify its legitimacy.
+- Suspicious link or domain: The email does not contain any links, but the use of a generic ""Refresh Email Server"" instruction is suspicious.
+- Spelling, grammar, or formatting issues: The email appears to be well-formatted and free of spelling or grammar errors.
+
+SUMMARY: This email appears to be a phishing attempt due to its suspicious sender address, urgent language, and request for action without clear context.",True,1
+email_2023_000375_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,360,True,0,ok,LABEL: 0,True,0
+email_2023_000375_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,399,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an untrusted domain ""anouncespacedrisa.site"" instead of the expected domain ""monkey.org"".
+- The email contains a suspicious link ""https://monkey.org:2096/?goto_app=Email_DiskUsage"" which may be a phishing attempt to steal credentials.
+- The email asks the recipient to take action by clicking on a link or contacting the system administrator, which is a common tactic used by phishing emails.",True,1
+email_2023_000375_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,466,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address ""cPanel on monkey.org"" <knahfyomva@anouncespacedrisa.site> is suspicious, as it is not a standard email address and the domain ""anouncespacedrisa.site"" does not match the domain ""monkey.org"".
+- The email contains a link to a legitimate-looking cPanel interface, but the link is not a standard cPanel link and the domain ""monkey.org"" is not used consistently throughout the email.
+- The email is trying to create a sense of urgency by stating that the email account is ""nearly full"", but this is a legitimate notification from cPanel.
+- The email is signed with a legitimate copyright notice from cPanel, L.L.C.
+- The email is trying to direct the user to a specific tool, but the link is not a standard cPanel link and the domain ""monkey.org"" is not used consistently throughout the email.
+SUMMARY: The email appears to be a legitimate notification from cPanel, but with some suspicious elements.",True,0
+email_2023_000394_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,2465,True,0,ok,LABEL: 0,True,0
+email_2023_000394_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2504,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is trying to create a sense of urgency by stating that the membership has expired, which is a common phishing tactic.
+- The email contains multiple calls-to-action (CTAs) to ""Shop Now"" without providing any specific information about the membership or the reason for the expiration, which is suspicious.
+- The email asks the recipient to download a mobile app and provides a link to a rewards program, which may be an attempt to collect personal information or install malware.
+- The email is sent from an unmonitored inbox and asks the recipient not to reply, which is a common phishing tactic to avoid detection.
+- The email contains a link to a contact page, but it is not a direct link to a secure contact form, which may be an attempt to collect personal information or install malware.",True,1
+email_2023_000394_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2571,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is from a legitimate sender, marshalls@em.marshalls.com, which matches the domain of the company.
+- The email contains a clear unsubscribe link and an option to update email preferences.
+- The email includes a physical address of the company, 770 Cochituate Road, Framingham, MA 01701.
+- The email does not contain any suspicious links or requests for personal information.
+- The email is well-formatted and free of spelling and grammar issues.
+SUMMARY: The email appears to be a legitimate marketing email from Marshalls.",True,0
+email_2023_000413_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,291,True,0,ok,LABEL: 1,True,1
+email_2023_000413_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,330,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from a suspicious sender ""drive-shares-dm-noreply@google.com"" which is not a typical Google Drive sender.
+- The subject line contains a sense of urgency and threat, which is a common phishing tactic.
+- The email is trying to trick the recipient into opening a suspicious file ""We have Disabled Your Online Account ID Due to Unrecognized Log-In.pdf"", which could potentially contain malware.",True,1
+email_2023_000413_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,397,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address ""drive-shares-dm-noreply@google.com"" is a legitimate Google Drive address, but the reply-to address ""promzychicha1998@connectaccess.manageacchel.gives"" is suspicious and does not match the Google Drive domain.
+- The email contains a link to a PDF file, but the link is not explicitly provided, and the file name ""We have Disabled Your Online Account ID Due to Unrecognized Log-In.pdf"" is an attempt to create a sense of urgency.
+- The email requests no direct action, but the presence of a suspicious reply-to address and the attempt to create a sense of urgency are indicative of phishing tactics.
+- The email contains a legitimate Google Drive footer, but the reply-to address and the file name are suspicious.
+- The email contains a legitimate Google Drive footer with a physical address, which is a common practice for legitimate companies.
+- The email does not explicitly request login, payment, verification, or personal information, but the attempt to create a sense of urgency is a pressure tactic often used in phishing emails.
+- The email contains spelling, grammar, and formatting issues, but they are minor and do not necessarily indicate phishing.
+- The email does not contain any authentication information.
+- The email contains brand impersonation, as the reply-to address does not match the Google Drive domain.
+
+SUMMARY: The email appears to be a phishing attempt due to a suspicious reply-to address and an attempt to create a sense of urgency.",True,1

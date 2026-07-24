@@ -1,0 +1,543 @@
+email_id,parser_id,model_name,context_limit,prompt_id,input_tokens,fits,overflow_tokens,status,raw_output,parse_ok,pred_label
+email_2023_000018_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2773,True,0,ok,LABEL: 1,True,1
+email_2023_000018_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2812,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a suspicious and misspelled sender address (NETFlLlX instead of Netflix).
+- The email contains unusual characters in the subject line (X and Y) which are not typical in legitimate communication.
+- There is a link in the HTML content that directs to ""https://s.free.fr/avkGV8J6"" instead of a standard Netflix URL, indicating potential phishing.
+- The email is urging immediate action to update payment information, which is a common tactic used in phishing attempts to prompt users to enter sensitive data.",True,1
+email_2023_000018_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2879,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address is suspicious (NETFlLlX instead of Netflix).
+- The reply-to address is from a domain that does not match Netflix's official domain (chainsmokers-feeling.org).
+- There is an urgent language with a threat of account locking due to declined payment.
+- A link is provided in the HTML content that redirects to a suspicious URL (https://s.free.fr/avkGV8J6) instead of a legitimate Netflix URL.
+- The use of capital X and Y in the text, which is unusual and could be a sign of phishing.
+- Brand impersonation as the logo and overall design do not match official Netflix branding.
+
+SUMMARY: The email is highly suspicious and appears to be a phishing attempt due to multiple red flags including a suspicious sender address, urgent language, and a misleading link.",True,1
+email_2023_000033_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2412,True,0,ok,LABEL: 1,True,1
+email_2023_000033_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2451,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains grammatical errors and non-English characters (e.g., ""YourIacсounti"", ""wasddeсIined"").
+- The subject line is suspicious, indicating that the account will be blocked due to undetermined issues with payment.
+- The email uses a URL that does not belong to Netflix (http://netflix.com/browse instead of a legitimate Netflix domain).
+- The HTML content includes unnecessary and complex table structures which are often used in phishing emails to mask the actual link.
+- The use of a generic image link without any clear description or context.",True,1
+email_2023_000033_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2518,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address (NlTFLlX <devz29@sallerb-food.net>) is suspicious and does not match Netflix's official domain.
+- There are multiple spelling and grammatical errors (""YourIacсounti"", ""CLick Here"", ""wasddeсIined"").
+- The email uses a mismatched identity with a logo that appears to be from CNN instead of Netflix.
+- There is a request for action (clicking a link) without any specific mention of what information will be requested.
+- The URL in the link (https://s.free.fr/9G3wVfEj) is suspicious and does not lead to a Netflix domain.
+- The email contains urgent language (""Your account will be blocked because your payment was deсIined"").
+
+SUMMARY: The email is highly suspicious due to its sender address, mismatched branding, spelling errors, and urgent language.",True,1
+email_2023_000134_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,8201,True,0,ok,LABEL: 1,True,1
+email_2023_000134_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,8240,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The subject line contains a spelling error (""Action Required"" with multiple misspelled words).
+- The email uses a generic greeting and lacks a personalized salutation.
+- There are numerous spelling and grammatical errors throughout the email content (e.g., ""re[w]cent"", ""un[a[w]uthorized"", ""kn[w]ow"", ""Sec[w]ure"").
+- The link provided in the email is suspicious and does not match a typical secure URL structure.
+- The email is sent from a non-standard domain (dai@dresteticaspa.com) which could indicate a spoofed sender address.",True,1
+email_2023_000134_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,8307,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address (dai@dresteticaspa.com) does not match a legitimate financial institution's domain.
+- There are multiple spelling and grammatical errors (""kn[w]ow"", ""re[w]cent"", ""un[a[w]uthorized"", etc.).
+- The email uses urgent language and pressure tactics (""Your online account needs verification"", ""You ca[w]n't use your accoun[w]t"").
+- There is a suspicious link in the email that redirects to a domain with a misspelling (""https://&#x72;&#x65;&#x62;&#x72;&#x61;&#x6e;&#x64;&#x2e;&#x6c;&#x79;&#x2f;&#x35;&#x33;&#x66;&#x38;&#x32;&#x63;"").
+- The email contains placeholder text and formatting issues, which are common in phishing attempts.
+- The brand impersonation is evident as the email appears to be from a financial institution but the domain in the link is suspicious and misspelled.
+
+SUMMARY: This email is likely a phishing attempt due to the suspicious sender, urgent language, and a misspelled URL in the verification link.",True,1
+email_2023_000140_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,9966,True,0,ok,LABEL: 1,True,1
+email_2023_000140_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,10005,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains numerous misspellings and formatting issues (e.g., ""Chas[w]e"", ""acco[w]unt"", ""Secur[w]e"").
+- The email uses a generic greeting (""Dear Cust[w]omer"") instead of addressing the recipient by their actual name.
+- There is a suspicious URL in the ""Secur[w]e My Acco[w]unt"" button that appears to be obfuscated (""https://&#x72;&#x65;&#x62;&#x72;&#x61;&#x6e;&#x64;&#x2e;&#x6c;&#x79;&#x2f;&#x35;&#x33;&#x66;&#x38;&#x32;&#x63/"").
+- The email threatens permanent account lock if the recipient ignores or provides incorrect details, which is a common tactic in phishing attempts.",True,1
+email_2023_000140_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,10072,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious links or domains: The link provided in the email is obfuscated and contains unusual characters (e.g., `https://&#x72;&#x65;&#x62;&#x72;&#x61;&#x6e;&#x64;&#x2e;&#x6c;&#x79;&#x2f;&#x35;&#x33;&#x66;&#x38;&#x32;&#x63;`).
+- Urgent language or pressure tactics: The email uses phrases like ""Warning:"" and ""Ignoring or giving wrong details means you are not the rightful owner of this account,"" which are designed to create urgency and pressure.
+- Requests for verification: The email asks the recipient to click on a link to verify their account information.
+- Spelling, grammar, or formatting issues: There are multiple instances of incorrect words being partially hidden or replaced by other characters (e.g., ""Cust[w]omer,"" ""Secur[w]e,"" ""acco[w]unt"").
+- Brand impersonation: The email claims to be from Chase Secure but contains errors that suggest it may be a spoofed or fake message.
+
+SUMMARY: The email is phishing due to the presence of suspicious links, urgent language, requests for account verification, and brand impersonation with grammatical errors.",True,1
+email_2023_000161_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2191,True,0,ok,LABEL: 1,True,1
+email_2023_000161_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2230,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains unusual and misspelled words such as ""re smile"" and ""there aseOn"".
+- The email uses a generic greeting ""Dear Customer:"" without any personal information.
+- There is a request to click on a link to confirm account information, which is a common phishing tactic.",True,1
+email_2023_000161_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2297,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address uses a generic corporate domain with misspellings (""eChase Customer® <green.procurement@bsli.com.my>"")
+- There is a request for the recipient to click on a suspicious link (""https://rebrand.ly/69495e"")
+- The email contains urgent language and pressure tactics (""Attention required"", ""What do you need to do?"")
+- There are multiple instances of missing words and incorrect spacing in the text, which is a common tactic used in phishing emails to make them appear more legitimate at first glance
+- The email is impersonating Chase Bank but contains numerous typographical errors and grammatical issues
+SUMMARY: The email exhibits clear signs of phishing through its suspicious link, urgency, and poor quality of writing.",True,1
+email_2023_000167_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,1732,True,0,ok,LABEL: 1,True,1
+email_2023_000167_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,1771,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains misspellings and unusual words such as ""unupointsual,"" ""Chproductase,"" ""dep-task-ositac-rolecount,"" and ""ac-lettercount.""
+- The email uses a generic greeting (""Dear Customer"") and does not provide any specific details about the user's account that would make the message seem personalized.
+- The email includes a suspicious URL that is obfuscated and could be redirecting to a malicious site (""https://.l.y/3CBr"").",True,1
+email_2023_000167_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,1838,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious domain in the URL (https://it.ly/3CBBr5R)
+- Spelling and grammatical errors (""somethingunupointsual"", ""compared to your Normalacclasscount"")
+- Urgent language and pressure tactics (""What do you need to do?"", ""Please log on to yourChacceptaseOnphysicallineacstartcount"")
+- Requests for verification information (""Please visit the following link to concitizenfirm youracespeciallycount information."")
+- Mismatched identities (The email claims to be from Chase but uses a different domain and misspelled words)
+- Unusual and misspelled words in the context of security (""dep-task"", ""ac-letter"", ""act-reecount"")
+
+SUMMARY: The email is highly suspicious due to its content, spelling errors, and the unusual domain used in the link.",True,1
+email_2023_000180_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,3465,True,0,ok,LABEL: 1,True,1
+email_2023_000180_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,3504,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains spelling errors (""deteattentioncted"", ""unteachusual"", ""actwestivity"", ""tempoofficialrary"", ""additnothingional"", ""verifynow"").
+- The email uses a generic greeting and does not provide any personalized information that would indicate it was sent specifically to the recipient.
+- There is a suspicious link in the email that could be used to direct the user to a malicious website. The link appears to be obfuscated and may lead to a phishing site.",True,1
+email_2023_000180_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,3571,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address and reply-to address are suspicious and do not match legitimate financial institution addresses.
+- There are multiple spelling and grammatical errors (""recentlydete"", ""unteachusual"", ""tempoofficial"").
+- The email contains a request for verification, which is a common tactic used in phishing.
+- There is a link provided in the email that appears to be suspicious and could lead to a malicious site.
+- The urgency and pressure tactics are evident with phrases like ""We are sorry for the inconvenience caused"" and ""Verify now"".
+SUMMARY: This email is likely phishing due to its suspicious sender, grammatical errors, and urgent call to action.",True,1
+email_2023_000221_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,4089,True,0,ok,LABEL: 1,True,1
+email_2023_000221_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,4128,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains numerous misspellings and grammatical errors (""Hfigureere"", ""toperationhe"", ""Identtryificatpersonion"", etc.).
+- The subject line mentions an ""Account Security Update"" but the body of the email does not clearly explain what action is required or why the security update is necessary.
+- The link provided in the email is obfuscated and uses URL encoding to hide its true destination, which is suspicious.
+- The email uses a generic greeting and lacks any personalization that would be expected from a legitimate financial institution.",True,1
+email_2023_000221_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,4195,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address is suspicious and does not match a legitimate financial institution's domain (e.g., `vendas@montroiz.com.br`).
+- The subject line contains grammatical errors (""Hfigureere"", ""toperationhe"", etc.).
+- There are multiple spelling and grammatical errors throughout the email body (""Identtryificatpersonion"", ""hardto"", ""Sinerely"").
+- The email uses a generic greeting ""Dear Customer"" without any personalization.
+- There is a suspicious link in the HTML version of the email that redirects to a domain with encoded characters (`https://hti.ly/3q0D5`), which could be a shortened or malicious URL.
+- The urgency is implied but the language used is not professional or clear, which is often a sign of phishing attempts.
+
+SUMMARY: The email is likely phishing due to the suspicious sender address, poor grammar and spelling, and the presence of a potentially malicious link.",True,1
+email_2023_000224_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,3482,True,0,ok,LABEL: 1,True,1
+email_2023_000224_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,3521,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains grammatical errors and misspellings such as ""deteinterviewcted,"" ""unoverusual,"" ""actmilitary,"" ""detestatected,"" ""uncardusual,"" ""actwin,"" ""tay Safe Stay Home,"" ""Jcampaign,"" ""adultgan,"" ""programase,"" ""carryline,"" ""bankrealing,"" ""onspend,"" ""bankrepresenting,"" and ""suspmindension.""
+- There is a suspicious link included in the email that asks the user to ""Verify now."" Phishing emails often include links that direct users to fake websites to enter personal information.
+- The email uses a generic greeting (""Dear member"") and does not provide any specific details about the user's account or recent activity that would make the message seem legitimate.",True,1
+email_2023_000224_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,3588,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Spelling errors: ""deteinterviewcted"", ""inconvience"", ""unoverusual"", ""actmilitary"", ""tay Safe Stay Home"", ""Jcampaign.PMoadultganChprogramaseoncarrylinebankrealing"", ""tempopiecerary"", ""additseriesionalinformespeciallyation""
+- Suspicious link: ""https://.erb.j.l/9bcg67"" (The URL is malformed and does not appear to be from a legitimate source)
+- Urgent language: ""We are sorry for the inconvenience caused. Verify now""
+- Requests for verification: The email asks the recipient to verify their account by clicking on a suspicious link.
+SUMMARY: This email is likely phishing due to multiple spelling errors, a suspicious link, and an urgent request for verification.",True,1
+email_2023_000259_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,3891,True,0,ok,LABEL: 0,True,0
+email_2023_000259_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,3930,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains a suspicious URL that redirects to ""https://ly/3onz8n"" which is not a legitimate Chase URL.
+- The email uses placeholder words like ""team,"" ""police,"" ""follow,"" ""responsibility,"" ""project,"" and ""station"" in bold, which are likely obfuscation techniques to avoid detection by spam filters.
+- The email includes a generic image and message about account security without providing specific details about the nature of the observed behavior, which is common in phishing attempts.",True,1
+email_2023_000259_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,3997,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a generic greeting (""Dear customer"") instead of a specific name.
+- The subject line ""Attention required"" is vague and could be a tactic to prompt immediate action.
+- The URL in the ""View account activities"" link does not match a typical Chase domain (it contains ""xfinity.com"" which is unexpected).
+- There are multiple instances of words being partially hidden or replaced by placeholders (e.g., ""team"", ""police"", ""follow"", ""responsibility"", ""project"", ""station""), which is unusual and suspicious.
+- The email is sent from a non-Chase domain (""nannyinmiami.com"").
+- The formatting and structure of the email are inconsistent and contain unnecessary HTML elements that do not add value to the content.
+
+SUMMARY: The email is likely phishing due to the suspicious URL, hidden text, and inconsistent sender information.",True,1
+email_2023_000308_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2088,True,0,ok,LABEL: 0,True,0
+email_2023_000308_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2127,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains multiple suspicious URLs that do not seem related to the content (e.g., http://selfsufficintbackyard.shop/d62Lzbd8kZgNdbjlj8RQQGkq_pi_YWR1BNN3_ALOLgMBNsOCzg).
+- The email subject and body content are generic and do not provide any specific context or personal information that would make them appear legitimate.
+- The email uses a generic greeting and does not address the recipient by name, which is often a sign of phishing attempts.",True,1
+email_2023_000308_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2194,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email content appears to be about scheduling a delivery date, which does not align with any known legitimate business activities of the recipient.
+- The email contains multiple suspicious URLs (e.g., `http://selfsufficintbackyard.shop/uC0v1km4EJkVQwSEoHRdRm2hbGZIS7rCY3lIj_MuAKWVcCjL2A`, `http://selfsufficintbackyard.shop/d62Lzbd8kZgNdbjlj8RQQGkq_pi_YWR1BNN3_ALOLgMBNsOCzg`, `http://selfsufficintbackyard.shop/Yu_8xSti7en7qWB_8oC9agCKdQIZf3vBqcmpn1ZLEGSNh9hnOg`).
+- The domain in the URLs (`selfsufficintbackyard.shop`) is suspicious and does not match any known legitimate company or service related to package notifications or delivery scheduling.
+- The email uses a generic greeting and does not provide any context or reason for the recipient to click on the links provided.
+- There are no clear requests for login, payment, verification, or personal information in the email.
+- The content of the email seems to be irrelevant to the supposed purpose of the notification, as it includes historical information about NAS Atlantic City.
+- The email does not contain any obvious brand impersonation or mismatched identities, but the use of a non-standard and suspicious domain name raises concerns.
+
+SUMMARY: The email is likely benign as it does not request sensitive information and the content is unrelated to its purported subject, but the presence of suspicious URLs indicates potential phishing activity.",True,0
+email_2023_000358_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2043,True,0,ok,LABEL: 0,True,0
+email_2023_000358_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2082,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email uses a generic greeting and does not address the recipient by name.
+- The URL in the plain text and HTML content is suspicious and does not appear to be from a legitimate McAfee domain.
+- The email contains irrelevant and unrelated content about extinct birds, which is unusual and could be a tactic to distract from the main message or to make the email seem more legitimate than it is.",True,1
+email_2023_000358_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2149,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is not from a legitimate McAfee domain (McAfee typically uses domains like mcafee.com or support.mcafee.com).
+- The email contains multiple suspicious URLs (e.g., http://airfountain.co.uk/...).
+- The subject line and body use urgent language, pressuring the recipient to take action.
+- There is no clear call to action regarding a specific service or product from McAfee.
+- The content includes irrelevant text about extinct birds, which is out of context and suspicious.
+- The email uses a generic greeting (""Your Mcafee subscription"") without personalization.
+- The HTML content includes images with tracking pixels (hidden images used to monitor email opens).
+
+SUMMARY: The email is highly suspicious due to the mismatched sender domain, presence of multiple suspicious links, and irrelevant content mixed with an urgent call to action.",True,1
+email_2023_000409_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2240,True,0,ok,LABEL: 1,True,1
+email_2023_000409_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2279,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a congratulatory message about being selected for a Netflix reward, which is unusual and suspicious as Netflix does not typically send such emails.
+- There are multiple URLs in the email, which could be used to redirect the user to malicious sites.
+- The email content includes a mix of random words and phrases that do not form coherent sentences, suggesting it may have been generated by a bot.",True,1
+email_2023_000409_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2346,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is suspicious and does not match a legitimate Netflix domain.
+- There are multiple suspicious URLs with a similar structure (http://savagegrowpro.za.com/...).
+- The email contains a congratulatory message that seems too good to be true, which is often a tactic used in phishing.
+- The email includes a large amount of random text interspersed throughout the content, which is unusual and could indicate an attempt to bypass spam filters.
+- The HTML content has embedded images and links that are not clearly related to the message, suggesting they might be used to track user activity or deliver malware.
+- The email uses a generic greeting and does not reference any specific account details, which is common in phishing attempts to avoid detection.
+
+SUMMARY: The email exhibits several red flags typical of phishing, including a suspicious sender, multiple links, and unusual text patterns.",True,1
+email_2023_000414_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2716,True,0,ok,LABEL: 1,True,1
+email_2023_000414_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2755,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email is sent from a suspicious domain ""TrackandTrace@treattype2diabetes.services"", which does not match any legitimate company name or domain.
+- The email contains multiple URLs that are likely to be malicious, as they are not recognizable and do not lead to a trusted website.
+- The email uses a generic greeting and lacks any personalization, which is a common tactic in phishing emails to make them seem more widespread and less targeted.
+- The email includes a large amount of irrelevant text and symbols at the end, which may be an attempt to bypass spam filters or to confuse the recipient.
+- The use of ""Sorry we missed you!"" in the subject line and body could be a deceptive phrase often used in phishing attempts to create a sense of urgency or importance.",True,1
+email_2023_000414_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2822,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address ""TrackandTrace@treattype2diabetes.services"" does not match a legitimate company domain.
+- Suspicious links in the email body pointing to ""http://treattype2diabetes.services/"".
+- Presence of unusual characters and words like ""grypqs"", ""functon"", ""d'aquests"", which could be attempts to bypass spam filters.
+- The email uses urgent language but does not provide specific details about why action is needed.
+- Mismatched identities and brand impersonation as ""Track.and.Trace"" is not a recognized brand for delivery scheduling.
+- The HTML content includes multiple images and links that do not seem relevant to the email subject.
+- Lack of proper formatting and presence of many non-standard words and phrases.
+SUMMARY: This email is likely phishing due to the suspicious sender address, presence of unusual and irrelevant content, and lack of proper formatting.",True,1
+email_2023_000415_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2726,True,0,ok,LABEL: 1,True,1
+email_2023_000415_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2765,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a generic and suspicious sender name ""Track.and.Trace"".
+- The subject line includes a tracking ID that seems unusual and not specific to any known service.
+- The URLs in the email are suspicious and do not appear to be from a legitimate domain, as they contain random strings and are hosted on "".services"" which is not a common top-level domain for official websites.
+- The email contains a mix of unrelated words and phrases that do not form coherent sentences, suggesting it may be spam or phishing.
+- There are multiple links in the email, and one of them is an image link that could be used for tracking or malicious purposes.
+- The HTML content includes a newsletter title but is cluttered with irrelevant and possibly malicious text and image tags.",True,1
+email_2023_000415_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2832,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious domain in URLs (treattype2diabetes.services)
+- Multiple suspicious links without clear context
+- Mismatched sender identity (""Track.and.Trace"" vs. ""treattype2diabetes.services"")
+- Presence of unusual characters and words in the text (e.g., ""grypqs"", ""functon"", ""d'aquests"")
+- No clear brand or company name associated with the notification
+- Spelling and grammatical errors (""functon"" instead of ""function"", ""s /definir"" instead of ""to define"")
+
+SUMMARY: The email contains multiple red flags indicative of phishing, including suspicious URLs and poor grammar.",True,1
+email_2023_000416_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,1842,True,0,ok,LABEL: 1,True,1
+email_2023_000416_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,1881,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email uses a generic tracking number without any personal information to make it seem legitimate.
+- The URLs in the email are suspicious and do not appear to be from a FedEx domain.
+- The email contains irrelevant historical information that does not relate to the claimed purpose of the message (tracking a package).",True,1
+email_2023_000416_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,1948,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address (Track & Trace <TrackTrace@fatburncombo.services>) does not match a legitimate FedEx email address.
+- There are multiple suspicious links (http://fatburncombo.services/*) that could be used to redirect to malicious sites.
+- The email uses urgent language (""untry's capital and largest city"") and pressure tactics to prompt immediate action.
+- It requests tracking information without any context or legitimate reason.
+- The email contains a mismatched identity, as it appears to be from FedEx but uses a domain that is not associated with the company.
+- There are spelling and grammatical errors (""untry's"" instead of ""country's"", ""Austria-Hungary collapsed after World War I,"" etc.).
+- The HTML content includes images with suspicious URLs and embedded links within the images.
+
+SUMMARY: The email is highly suspicious due to its sender address, presence of multiple suspicious links, use of urgent language, and other indicators of phishing.",True,1
+email_2023_000419_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2140,True,0,ok,LABEL: 0,True,0
+email_2023_000419_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2179,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains multiple suspicious URLs that are not related to the subject line about package delivery.
+- The email uses a generic greeting and does not provide any personal information to make the message seem more legitimate.
+- The content of the email appears to be irrelevant to the supposed reason for sending it (package delivery issue). It instead includes a block of text about an actress's career, which seems out of place.",True,1
+email_2023_000419_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2246,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is suspicious, using a domain related to ""krogersurvey.today"" instead of a legitimate Bed Bath & Beyond email address.
+- There are multiple suspicious links embedded in the email, which could lead to malicious websites.
+- The email uses urgent language (""Your package could not be delivered"") to prompt immediate action.
+- The email is attempting to direct the user to click on links without any clear indication of what they will lead to, which is a common tactic in phishing.
+SUMMARY: The email is likely phishing due to the suspicious sender address, presence of multiple links, urgent language, and lack of clear context about the links' destinations.",True,1
+email_2023_000018_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,177,True,0,ok,LABEL: 1,True,1
+email_2023_000018_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,216,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a misspelled and suspicious sender address (NETFlLlX <info5@chainsmokers-feeling.org>).
+- The subject line contains irrelevant characters (X, Y) which are unusual and could be a sign of phishing.
+- The message threatens to lock the account due to declined payment, which is a common tactic in phishing emails to prompt immediate action.",True,1
+email_2023_000018_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,283,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious sender address (NETFlLlX instead of Netflix)
+- Urgent language (""Your account will be locked because your payment was declined"")
+- Brand impersonation (misspelling of ""Netflix"" as ""Netflix"" with an 'I' in between)
+- Mismatched identities (sender address does not match the brand name)
+- Spelling and grammar issues (""Your Netflix account will X be locked"", ""Update Information Now!"")
+- Unusual use of 'X' and 'Y' characters in the message
+SUMMARY: The email is likely phishing due to multiple red flags including a suspicious sender address, urgent language, and brand impersonation.",True,1
+email_2023_000033_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,176,True,0,ok,LABEL: 1,True,1
+email_2023_000033_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,215,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses incorrect spelling and grammar (""acсount"", ""i"", ""B"", ""b"", ""deсIined"").
+- The email contains a suspicious URL that instructs the user to ""CLick Here"" without any proper web address.
+- The email threatens to block the account due to payment issues, which is a common tactic in phishing attempts to create urgency and fear.",True,1
+email_2023_000033_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,282,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious sender address (devz29@sallerb-food.net) which does not match the expected Netflix domain.
+- Urgent language and pressure tactics (""Your account will be blocked because your payment was denied"").
+- Suspicious link in the email (""CLick Here"") without any visible URL.
+- Request for payment information.
+- Spelling and grammatical errors (""acсount"", ""CLick Here"", ""deсIined"").
+SUMMARY: The email is likely phishing due to the suspicious sender address, urgent language, request for payment information, and spelling/grammatical errors.",True,1
+email_2023_000134_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,276,True,0,ok,LABEL: 1,True,1
+email_2023_000134_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,315,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains grammatical errors and misspellings (""kn"", ""re"", ""green"", ""cent"", ""un"", ""authoriz"", ""log"", ""recen"", ""tou"", ""available"", ""majorit"", ""Whi"", ""ch"", ""available"", ""ca"", ""n't"", ""acco"", ""unt"", ""tou"", ""day"").
+- The subject line is vague and threatening (""Action Required"" with a misleading statement about unauthorized activity).
+- The email uses a generic greeting (""Dear customer"") instead of addressing the recipient by name.
+- There is no clear and official-looking URL provided for verification, which is a common phishing tactic. Instead, there's a suspicious link that could be hiding malicious intent.",True,1
+email_2023_000134_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,382,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The subject line uses urgent language (""Action Required"").
+- The email contains grammatical errors and typos (""kn"", ""green"", ""majority"", ""log"", ""budget"", ""fou"", ""re"", ""acco"", ""bill"", ""Whi"", ""ch"", ""succe"", ""day"").
+- The sender address is suspicious and does not match a legitimate financial institution's domain.
+- There is a request for verification, which is often a tactic used in phishing emails.
+- The link to verify the account is not provided in the text but implied, which is a common phishing technique.
+SUMMARY: The email exhibits multiple phishing indicators including urgent language, poor grammar, a suspicious sender address, and a request for verification.",True,1
+email_2023_000140_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,413,True,0,ok,LABEL: 1,True,1
+email_2023_000140_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,452,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains a suspicious link asking to verify account information.
+- The email threatens permanent lockout if the recipient does not comply.
+- The email uses a generic greeting and lacks personalization.",True,1
+email_2023_000140_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,519,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address and reply-to address are suspicious (eChase® Customer <mahess@bsli.com.my>).
+- There is a request for verification of account information.
+- The email contains urgent language and pressure tactics (""Ignoring or giving wrong details means you are not the rightful owner..."").
+- There is a link that appears to be suspicious (""Secur e My Accoun t""), which may be a phishing attempt.
+- The email has poor spelling and grammar (""Cust"", ""Secur"", ""My Accoun t"").
+- The domain in the suspicious link does not match a legitimate Chase Bank domain.
+- The email uses a generic greeting and does not provide any specific details about the account holder's name or account number.
+SUMMARY: This email is likely phishing due to the suspicious sender address, urgent language, poor grammar, and a link that does not match a legitimate Chase Bank domain.",True,1
+email_2023_000161_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,489,True,0,ok,LABEL: 1,True,1
+email_2023_000161_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,528,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a generic greeting ""Dear Customer:"" instead of addressing the recipient by name.
+- It contains grammatical errors and typos such as ""kn"", ""re"", ""Ch"", ""decade"", ""l"", ""Con"", ""rm"", ""hotel"", ""Th"", ""dev"", ""Additi"", ""affect"".
+- It requests the user to click on a link to confirm their account information, which is a common phishing tactic to steal personal data.",True,1
+email_2023_000161_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,595,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address uses a generic business name with a suspicious domain (e.g., `green.procurement@bsli.com.my`).
+- There is a request for the recipient to click on a link to confirm account information.
+- The email contains urgent language (""Attention required"", ""Please visit the following link"").
+- There is a mismatch in the brand identity; the email mentions ""Chase On"" but the signature is from ""Online Banking Team"".
+- The email includes a spelling error (""re"" instead of ""know"").
+- There is a mention of clearing cookies, which is a common tactic used to prompt users to take action.
+- The email uses a generic greeting (""Dear Customer"") without any personalized information.
+
+SUMMARY: The email is likely phishing due to the suspicious sender address, urgent language, and other red flags such as a mismatched brand identity and spelling errors.",True,1
+email_2023_000167_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,359,True,0,ok,LABEL: 1,True,1
+email_2023_000167_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,398,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a generic greeting ""Dear Customer:"" instead of addressing the recipient by name.
+- The subject line is incomplete and contains spelling errors (""Subject: Attention required"" is cut off).
+- The email encourages the user to click on a link to ""firm your account information,"" which is a common tactic used in phishing attempts to steal sensitive data.",True,1
+email_2023_000167_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,465,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious sender address and reply-to address (eCustom Robert® <contact@desfelinspourdemain.com>)
+- Urgent language and pressure tactics (""Please log on to your Chase account by clicking on the link below"")
+- Request for verification of account information (""Please visit the following link to confirm your account information"")
+- Spelling and grammar issues (""Recently, there's been act"", ""Compared to your Normal ac"", ""Thank you for helping us keep your ac count safe"")
+- Mismatched identity (The email claims to be from Chase but uses a suspicious domain)
+SUMMARY: The email is highly suspicious and appears to be a phishing attempt due to multiple red flags including a suspicious sender, urgent language, and grammatical errors.",True,1
+email_2023_000180_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,309,True,0,ok,LABEL: 1,True,1
+email_2023_000180_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,348,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a generic greeting and does not address the recipient by name.
+- The email contains spelling and grammatical errors (""dete"", ""un"", ""usual"", ""act"", ""tay"", ""J.P"", ""Mo"", ""suspension"", ""tempo"", ""official"").
+- The email requests additional information without providing a secure method or link for submission.
+- The email is from a suspicious domain (smtpfox-w5j9u@iprotech.pt) that does not match a legitimate financial institution's domain.
+- The email includes a shortened and unclear subject line (""Your attention is required"") which is often used in phishing attempts to prompt immediate action.",True,1
+email_2023_000180_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,415,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious sender address with a generic and potentially spoofed domain (eChase Assistance® <smtpfox-w5j9u@iprotech.pt>)
+- Urgent language and pressure tactics (""Your attention is required"", ""Unfortunately, we had to suspend your online banking account"")
+- Requests for verification information (""We requi[re] some additional information"")
+- Suspicious link or domain in the subject line and body (""Verify now"" without a clear, secure URL)
+- Spelling and grammatical errors (""dete[cted]"", ""un[teach]usual"", ""act[ivity, We are sorry for the inconvience caused.]"")
+- Brand impersonation or mismatched identities (The email appears to be from a financial institution but uses a suspicious and generic domain)
+
+SUMMARY: The email is highly suspicious and likely phishing due to multiple red flags including a suspicious sender address, urgent language, request for verification, and poor spelling/grammar.",True,1
+email_2023_000221_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,315,True,0,ok,LABEL: 1,True,1
+email_2023_000221_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,354,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains misspellings and grammatical errors (e.g., ""Hfigurehere"", ""the Identtryificatpersonion Codbelieve"", ""certainly"", ""Update My Account"").
+- The email uses a generic greeting (""Dear Customer"") without personalization.
+- There is no secure link provided for updating the account; instead, it encourages the user to click on a suspicious button labeled ""Update My Account"".
+- The subject line mentions a specific date (""Account Security Update 28 July, 2023""), which could be an attempt to create urgency and prompt immediate action.",True,1
+email_2023_000221_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,421,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The subject line includes a specific date which can be a tactic to make the email seem more urgent and recent.
+- The sender address uses a generic business name followed by a non-standard domain (e.g., ""eChase Center®"" instead of a well-known financial institution).
+- There is a request for identification information (identification code) without any context or explanation.
+- The email contains grammatical errors and misspellings (""H"", ""t"", ""y"", ""c"", ""believe"", ""Ident"", ""try"", ""person"", ""Co"", ""skin"", ""re"", ""child"", ""de"").
+- The email uses a generic call to action with a button that encourages the user to click without providing any additional context or security details.
+- The email does not provide a secure link or any official branding from a known bank or financial institution.
+
+SUMMARY: The email exhibits multiple signs of phishing, including a suspicious sender address, grammatical errors, and a generic call to action with no secure link provided.",True,1
+email_2023_000224_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,313,True,0,ok,LABEL: 1,True,1
+email_2023_000224_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,352,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains grammatical errors and misspellings (e.g., ""dete**cted,"" ""un**usual,"" ""inconv**nence"").
+- The email uses generic greetings and does not address the recipient by name.
+- There is no clear indication of why the account was suspended or what additional information is required.
+- The email ends abruptly with ""Verify now"" without providing any context or instructions on how to proceed.",True,1
+email_2023_000224_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,419,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious sender address with unusual characters (eChase Custom®)
+- Urgent language and pressure tactics (""We recently detected an unusual activity. We had to suspend your online banking account."")
+- Suspicious link or domain (""Verify now"" without a clear URL or additional context)
+- Requests for verification information
+- Spelling and grammar issues (""dete"", ""over"", ""act"", ""tay"", ""inconvenience"")
+- Mismatched identities (The email claims to be from a member but uses a generic tone and does not provide specific details about the member's identity)
+
+SUMMARY: The email appears to be phishing due to multiple red flags including suspicious sender details, urgent language, and grammatical errors.",True,1
+email_2023_000259_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,263,True,0,ok,LABEL: 1,True,1
+email_2023_000259_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,302,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains grammatical errors and poor spelling (""sec"", ""best"", ""ac"", ""see"", ""co"", ""expert"", ""ac"", ""best"", ""ac"", ""sys"", ""tem"", ""correction"", ""ma"", ""responsibility"", ""ny"", ""bu"", ""project"", ""che"", ""station"", ""e"", ""th"", ""best"").
+- The email uses a generic greeting (""Dear customer"") instead of a personalized one.
+- There is a suspicious URL embedded in the text that instructs the recipient to ""View account activities"" without any clear indication of its legitimacy.
+- The email claims to be from a financial institution (JPMorgan Chase & Co), but the domain in the sender's address (nannyinmiami.com) does not match the expected domain for such an institution.",True,1
+email_2023_000259_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,369,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains a suspicious link: ""View account activities""
+- The subject line uses urgent language: ""Attention required""
+- There are spelling and grammar issues: ""we've observed some odd or abnormal behavior"", ""For your sec particularly security"", ""ac you cess to your ac see count"", ""We're working around the clock to keep your account(s) safe.""
+- The email requests confirmation of data, which is a common tactic in phishing attempts.
+- The domain in the suspicious link does not match a typical JPMorgan Chase domain.
+- The email appears to be impersonating JPMorgan Chase but uses a generic ""JPMorgan Chase"" instead of the official company name.
+
+SUMMARY: The email is likely phishing due to the suspicious link, urgent language, grammatical errors, and attempt to confirm sensitive information.",True,1
+email_2023_000308_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,626,True,0,ok,0,True,0
+email_2023_000308_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,665,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The email contains irrelevant historical information about NAS Atlantic City, which does not relate to any delivery scheduling.
+- There is no clear indication of a delivery service or package notification in the subject line or body of the email.
+- The email includes a link without context or explanation, which could be a phishing tactic.",True,0
+email_2023_000308_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,732,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The email does not contain any requests for login, payment, verification, or personal information.
+- There are no suspicious links or domains present.
+- The content appears to be unrelated to any typical phishing scenarios; it discusses historical information about NAS Atlantic City.
+- No urgent language or pressure tactics are used.
+- The email does not mention any broken images or require immediate action to fix them.
+- The sender address and subject line do not indicate any immediate threat or risk of impersonation.
+SUMMARY: The email seems to be benign as it contains historical information without any phishing indicators.",True,0
+email_2023_000358_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,601,True,0,ok,0,True,0
+email_2023_000358_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,640,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email contains irrelevant and confusing content about extinct birds, which does not relate to a subscription renewal or security alert.
+- The sender's email address is suspicious and does not match a legitimate McAfee domain (it uses @airfountain.co.uk instead of @mcafee.com).
+- There is no call to action or link to update or reactivate a subscription, which is typical in phishing emails.",True,0
+email_2023_000358_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,707,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email contains a subject line about a subscription expiration which is not related to the body content.
+- The body of the email is filled with irrelevant text about extinct birds and their characteristics.
+- There are no requests for login, payment, verification, or personal information.
+- No suspicious links or domains are present.
+- The email uses poor formatting and includes unrelated information, which could be a sign of a compromised account or spam.
+- The sender address is from a domain that does not match the brand (McAfee's typical domain is mcafee.com or similar).
+SUMMARY: This email appears to be benign as it does not request any sensitive information and the content is inconsistent with a legitimate phishing attempt.",True,0
+email_2023_000409_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,633,True,0,ok,LABEL: 1,True,1
+email_2023_000409_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,672,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a suspicious and random domain name (savagegrowpro.za.com) that does not match Netflix's official domain.
+- The subject line contains grammatical errors and a misspelled word (""reward"" instead of ""rewards"").
+- The body of the email contains a mix of unrelated words and phrases, which appears to be nonsensical and likely indicates it is trying to bypass spam filters by using obfuscation techniques.",True,1
+email_2023_000409_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,739,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious sender address (Netflix Renewal <NetflixRenewal@savagegrowpro.za.com>)
+- Mismatched identity (The email claims to be from Netflix but uses a suspicious domain)
+- Urgent language or pressure tactics (Congrats! You've been selected for a Netflix reward, which could be seen as an attempt to prompt immediate action)
+- Spelling, grammar, or formatting issues (The email contains numerous misspellings and nonsensical words/phrases, such as ""disastrous PermSize"", ""irregular"", ""MEAT ON5AX"", etc.)
+- Brand impersonation (The email appears to be an attempt to impersonate Netflix)
+
+SUMMARY: The email is highly suspicious and likely phishing due to its use of a fake Netflix address, presence of nonsensical content, and impersonation tactics.",True,1
+email_2023_000414_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,926,True,0,ok,LABEL: 0,True,0
+email_2023_000414_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,965,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains multiple suspicious and nonsensical words and phrases, such as ""grypqs"", ""d'aquests"", ""strikt"", ""explofgred"", which are not part of normal communication.
+- The subject line and body of the email are poorly written and lack coherence, suggesting it may be an attempt to trick the recipient.
+- There are numerous misspellings and grammatical errors throughout the email, including ""functon"" instead of ""function"" and ""scheme extranet"" which is not a standard term used in legitimate communications.
+- The email includes links and references that are not clearly explained or relevant to the content, which could be a tactic to direct the user to a malicious site.",True,1
+email_2023_000414_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,1032,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address and domain are suspicious (TrackandTrace@treattype2diabetes.services).
+- There are numerous misspellings and grammatical errors throughout the email.
+- The email contains a mix of unrelated words and phrases that do not form coherent sentences.
+- It includes a link with a suspicious URL (grypqs /Comprador).
+- The subject line does not match the content of the email, which is unusual and could indicate impersonation.
+
+SUMMARY: The email exhibits multiple signs of phishing, including a suspicious sender address, poor grammar, and a mix of unrelated terms.",True,1
+email_2023_000415_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,925,True,0,ok,LABEL: 1,True,1
+email_2023_000415_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,964,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains a suspicious and random string of characters in the subject line and body, which is not typical for legitimate notifications.
+- There are multiple misspellings and grammatical errors throughout the email, such as ""Need help with a broken image?"" and ""Currently /English bottomleft"".
+- The email uses a generic and impersonal greeting and does not address the recipient by name, which is uncommon for legitimate notifications.",True,1
+email_2023_000415_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,1031,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address and domain are suspicious (TrackTrace@treattype2diabetes.services).
+- There are numerous misspellings and grammatical errors throughout the email.
+- The email contains a mix of unrelated words and phrases, which is unusual and could indicate a phishing attempt.
+- It includes a link that is not clearly visible or necessary for package delivery notifications.
+- The subject line and body of the email suggest urgency without providing clear context or reason.
+SUMMARY: The email exhibits multiple signs of phishing, including a suspicious sender address, poor grammar, and a mix of unrelated terms.",True,1
+email_2023_000416_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,508,True,0,ok,LABEL: 0,True,0
+email_2023_000416_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,547,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The email contains a generic tracking number without any personal information.
+- The subject line is not specific and does not provide clear context about the nature of the tracking.
+- The body of the email includes irrelevant historical information that does not relate to the supposed purpose of the email (tracking).",True,0
+email_2023_000416_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,614,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The email uses a generic sender address (Track & Trace <TrackTrace@fatburncombo.services>) which does not match the official FedEx domain.
+- The email contains a request for better image experience, which is a common tactic used to entice users to click on a link.
+- The email includes a suspicious link without any clear description or context.
+- There is no mention of any tracking information or number in the body of the email, suggesting it may be a template phishing attempt.
+- The content of the email appears to be unrelated to the supposed subject (FedEx tracking) and instead discusses the history of Hungary, indicating a possible identity impersonation.
+SUMMARY: The email is likely benign but uses tactics that are commonly associated with phishing attempts, such as a suspicious sender address and a link to click.",True,0
+email_2023_000419_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,664,True,0,ok,0,True,0
+email_2023_000419_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,703,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email contains no urgent action required by the recipient.
+- The sender's email address is suspicious and does not match the official domain of Bed Bath & Beyond (it uses a domain related to surveys).
+- The email subject and content are unrelated, discussing an actor's career rather than any delivery issues.",True,0
+email_2023_000419_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,770,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email does not request any login, payment, verification, or personal information.
+- There are no suspicious links or domains mentioned in the email.
+- The sender address and reply-to address do not match known legitimate addresses of Bed Bath & Beyond or Kroger.
+- The email content appears to be about a package delivery issue rather than a phishing attempt.
+- The language and tone of the email are neutral and informative, without any urgent language or pressure tactics.
+- There are no spelling, grammar, or formatting issues evident in the email text.
+- The email does not mention any brand impersonation or mismatched identities.
+
+SUMMARY: The email is about a package delivery issue and does not contain any phishing indicators.",True,0

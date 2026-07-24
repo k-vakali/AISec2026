@@ -1,0 +1,765 @@
+email_id,parser_id,model_name,context_limit,prompt_id,input_tokens,fits,overflow_tokens,status,raw_output,parse_ok,pred_label
+1738900436.M627230P2155873_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,9982,True,0,ok,LABEL: 1,True,1
+1738900436.M627230P2155873_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,10021,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains multiple links with tracking parameters, which is a common technique used in phishing emails to track user interactions.
+- The email is promoting a hotel and offering discounts, but the links provided are not directly related to the hotel's website, and instead point to a tracking URL.
+- The email contains a suspicious ""Click Here"" link at the end, which is not clearly related to the content of the email and may be an attempt to trick the user into clicking on a malicious link.",True,1
+1738900436.M627230P2155873_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,10088,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address is ""noreply@mailer1-2-vmta-202-106.supermemoryzone.com"", which is a generic and potentially suspicious address.
+- The email contains multiple links to the same domain ""mailer1-2-vmta-202-106.supermemoryzone.com"", which could be a tracking link or a phishing attempt.
+- The email is well-formatted and does not contain any spelling or grammar issues, which is unusual for a phishing email.
+- The email is promoting a legitimate business, Hotel Polaris, and does not contain any urgent language or pressure tactics.
+- The email does not request any login, payment, verification, or personal information.
+- The email is not impersonating any brand or identity.
+SUMMARY: The email appears to be a legitimate marketing email from Hotel Polaris, but the sender address and multiple links to the same domain raise some suspicions.",True,0
+1740508307.3036055_105_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,60638,True,0,ok,LABEL: 1,True,1
+1740508307.3036055_105_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,60677,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link that may be a phishing attempt.
+- The email is from a company called ""United Health Group"" but the link is not a legitimate URL.
+- The email contains a sense of urgency and tries to create a sense of excitement to get the recipient to click on the link.
+- The email is trying to trick the recipient into revealing their personal information.
+- The email is not addressed to a specific person, but rather a generic greeting.
+- The email contains a lot of typos and grammatical errors, which is unusual for a legitimate company.
+- The email is trying to get the recipient to click on a link to claim a prize, which is a common tactic used by phishing scammers.",True,1
+1740508307.3036055_105_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,60744,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious link in the email: ""https://CFERTNKFIN4CWVR.prediksibwtogel.com/NXlwNkxaaTRUb1dTa3k0YTUzeEZPM2V6QW1obXd6U0YrOU5uZU1pWUx1ckZhZTNIM3g4aWVMRXpJS2lmbmxCS3c0aHd2QURSeEg0WEwwMGxUZTJXZEpNL1d2WVpGWk4veDJySUNVa1pOWGxBNEVrK3lHMEZwNEpLL0pCcmRXTHJpTGZNUHdmVW8vcTZVWHRkY2UrbFJRPT0_""
+- Urgent language: ""GET STARTED NOW!""
+- Request for login: ""to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new opportunity to receive a brand new",True,1
+1740508633.3036187_307_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,814,True,0,ok,LABEL: 1,True,1
+1740508633.3036187_307_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,853,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unverified sender with a suspicious email address ""ada_logisticsgroup@yeah.net"".
+- The email contains a link to an Alibaba account, which could be a phishing attempt to gather sensitive information.
+- The email provides multiple contact methods, including WeChat and WhatsApp numbers, which is unusual for a legitimate business email.",True,1
+1740508633.3036187_307_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,920,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address is ada_logisticsgroup <ada_logisticsgroup@yeah.net>, which is a suspicious domain (yeah.net) and does not match the typical domain of a logistics company.
+- The email contains a list of services offered by the sender, but it does not request any sensitive information or ask for a login, payment, or verification.
+- The email is well-formatted and does not contain any spelling or grammar issues.
+- The sender provides their Alibaba account, Wechat, and Whatsapp numbers, but this is not necessarily a red flag as it could be a legitimate way to contact them.
+- The email does not use urgent language or pressure tactics.
+- The sender's identity is not clearly established, but they claim to be a freight forwarder in China.
+SUMMARY: The email appears to be a legitimate business inquiry from a freight forwarder in China, but the suspicious domain and lack of clear identity raise some concerns.",True,0
+1742310374.M66767P4041796_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,1811,True,0,ok,LABEL: 1,True,1
+1742310374.M66767P4041796_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1850,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link with a long and random-looking URL, which may be a phishing attempt to trick the recipient into visiting a malicious website.
+- The email is trying to create a sense of urgency and curiosity by claiming that a common sex position destroys erections immediately, which is a tactic often used in phishing emails to get the recipient to click on the link without thinking twice.
+- The email is trying to sell a product or service by claiming that it can help the recipient maintain an erection for more than 12 minutes, which is a common tactic used in phishing emails to make the recipient click on the link and provide their personal and financial information.",True,1
+1742310374.M66767P4041796_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1917,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""Erectile Dysfunction"" which is a suspicious and unrelated name for a legitimate company.
+- The reply-to address is not provided, which is unusual for a legitimate email.
+- The email contains suspicious links with long and random characters, which may be used for phishing.
+- The email uses urgent language and pressure tactics to encourage the recipient to click on the links.
+- The email requests the recipient to ""Find out here what this position is and prepare to be surprised"" without providing any clear information about the content.
+- The email contains spelling, grammar, and formatting issues, which is unusual for a legitimate company.
+- The email uses brand impersonation by using a similar domain name ""focusfit.sa.com"" but with a suspicious link.
+- The email contains a hidden text at the end, which is not related to the content of the email.
+SUMMARY: This email is likely a phishing attempt due to its suspicious sender address, links, and language.",True,1
+1759430349.342747_39_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2879,True,0,ok,LABEL: 0,True,0
+1759430349.342747_39_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2918,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is trying to convince the recipient to claim a free Premier Roadside Assistance Kit, which is a common tactic used in phishing emails to create a sense of urgency and encourage the recipient to take action.
+- The email is from a sender with a suspicious email address (tripleemerge@playshouse.com) and a generic name (Triple A Emergency Kit), which is not a typical format for a legitimate email sender.
+- The email contains a link (http://www.playshouse.com/cl1xoqm) that may be malicious, as it is not clear what the link leads to or what the recipient will be asked to do when they click on it.",True,1
+1759430349.342747_39_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2985,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""tripleemerge@playshouse.com"", which is different from the AAA brand.
+- The email contains a suspicious link ""http://www.playshouse.com/cl1xoqm"" which may be a phishing link.
+- The email uses urgent language, stating that ""Limited Quantities Available"" and encouraging the recipient to claim their kit before supplies run out.
+- The email is trying to trick the recipient into providing personal information by claiming that they qualify for a free kit.
+- The email contains spelling and formatting issues, such as the use of ""CompIimentry"" instead of ""Complimentary"".
+- The email is trying to impersonate the AAA brand, but the sender address and the content of the email do not match the official AAA website.
+SUMMARY: This email is a phishing attempt to trick the recipient into providing personal information by claiming that they qualify for a free AAA kit.",True,1
+1759986948.705671_13_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,3729,True,0,ok,LABEL: 0,True,0
+1759986948.705671_13_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,3768,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unverified sender ""AARP Opportunity"" with a suspicious email address ""aarpopportun91@sadisticvixen.com"".
+- The email contains a link ""JOIN OR RENEW NOW"" that points to a suspicious URL ""http://www.sadisticvixen.com/3ki0phg"".
+- The email contains a disclaimer ""This is a Paid Advertisement"" and an opt-out link that points to a suspicious URL ""http://www.sadisticvixen.com/flubbed"".",True,1
+1759986948.705671_13_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,3835,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address is ""AARP Opportunity"" but the reply-to address is ""aarpopportun91@sadisticvixen.com"", which is not a typical AARP email address.
+- The email contains a link to ""http://www.sadisticvixen.com/3ki0phg"", which is a suspicious domain.
+- The email is trying to sell a membership, but it's not clear if it's a legitimate AARP offer.
+- The email contains a lot of text, but it's not clear if it's a phishing email or a legitimate marketing email.
+- The email does not contain any urgent language or pressure tactics.
+- The email does not request any login, payment, verification, or personal information.
+- The email does not contain any spelling, grammar, or formatting issues.
+- The email does not impersonate any brand or mismatch any identities.
+- The email does not contain any authentication information.
+SUMMARY: The email appears to be a legitimate marketing email from AARP, but it's not clear if it's a phishing email due to the suspicious sender address and link.",True,0
+1759986948.705671_7_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2396,True,0,ok,LABEL: 1,True,1
+1759986948.705671_7_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2435,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is trying to trick the recipient into thinking it's from Costco, but the sender's email address is ""costco@shoprestigeportraits.com"", which is not a legitimate Costco email address.
+- The email contains a suspicious link ""http://www.shoprestigeportraits.com/miiuqlua"" and ""http://www.shoprestigeportraits.com/kefoisuanam"" which may be phishing links.
+- The email is trying to create a sense of urgency by stating that the offer is ""limited-time"" and ""only available to select participants"", which is a common tactic used by phishing emails.",True,1
+1759986948.705671_7_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2502,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""costco@shoprestigeportraits.com"", which is not a legitimate Costco email address. Costco's official email address is typically ""@costco.com"".
+- The email contains a suspicious link ""http://www.shoprestigeportraits.com/miiuqlua"" and ""http://www.shoprestigeportraits.com/kefoisuanam"", which may be phishing links.
+- The email uses urgent language, such as ""Don't miss this opportunity"" and ""limited-time thank you"", to create a sense of pressure.
+- The email requests the recipient to claim their gifts by clicking on a link, which may be a phishing attempt.
+- The email contains spelling, grammar, and formatting issues, which is unusual for a legitimate email from a large company like Costco.
+- The email impersonates Costco and uses a fake email address, which is a common tactic used by phishers.
+SUMMARY: The email is a phishing attempt impersonating Costco to trick the recipient into clicking on a suspicious link.",True,1
+1760388993.984095_1_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,4866,True,0,ok,LABEL: 1,True,1
+1760388993.984095_1_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,4905,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is trying to sell a product (Premier Roadway Assistance Kit) with a sense of urgency (""Limited Stock Available: While this is a region-endorsed initiative, the number of kits is restricted. We advise you to get yours before they exhaust."") which is a common tactic used in phishing emails.
+- The email is trying to create a sense of trust by mentioning that the kit is ""exclusively designed for state motorists"" and that the sender is ""Ensuring member safety since 1902"", but this information is not verifiable and could be fake.
+- The email contains a suspicious link (""Secure Your Complimentary Offer http://www.mbsarees.com/atgbicaals"") that could be a phishing link, as it is not a well-known website and the link is not clearly labeled as a promotion or a discount.
+- The email contains a lot of unnecessary and confusing information, such as the paragraph about the plank and the beam, which could be a distraction from the main purpose of the email.
+- The email is trying to create a sense of exclusivity by mentioning that the recipient ""Qualify for Premier Roadway Assistance"", but this information is not verifiable and could be fake.
+- The email contains a lot of typos and grammatical errors, which is not typical of a legitimate company's email.",True,1
+1760388993.984095_1_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,4972,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is from AAA Advisory Report, but the reply-to address is not provided.
+- The email contains a link to http://www.mbsarees.com/atgbicaals, which is a suspicious link as it is not a well-known AAA website.
+- The email uses urgent language, stating that the number of kits is restricted and advising the recipient to get theirs before they exhaust.
+- The email requests no login, payment, verification, or personal information.
+- The email has proper spelling, grammar, and formatting.
+- The email is impersonating AAA, but the reply-to address is not provided, which could be a mismatched identity.
+- There is no authentication information present in the email.
+SUMMARY: The email appears to be a legitimate offer from AAA, but the suspicious link and lack of reply-to address raise some concerns.",True,0
+1760707991.1229868_7_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,4630,True,0,ok,LABEL: 1,True,1
+1760707991.1229868_7_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,4669,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is trying to sell a product (Premier Roadside Care Kit) with a sense of urgency (""Limited Stock Available"") and a call to action (""Redeem Your CompIimentary Set"").
+- The email is using a fake company name (AAA) and a suspicious URL (http://www.shawtai.com/ogvekonenis) to redirect the user to a potentially malicious website.
+- The email is trying to create a sense of trust by using a fake ""From"" address (Ethan Brooks) and a fake ""Date"" (October 8, 2024, 07:05 AM), which is likely a phishing tactic to make the email look like it's from a legitimate source.",True,1
+1760707991.1229868_7_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,4736,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is AAA Courtesy Box <AAACourtesyBox@shawtai.com>, which is not a legitimate AAA email address.
+- The email contains a suspicious link ""http://www.shawtai.com/ogvekonenis"" that may be a phishing attempt.
+- The email is trying to create a sense of urgency by stating that the number of kits is limited and that the recipient should secure theirs before stock diminishes.
+- The email is asking the recipient to redeem a complimentary set, which may be a phishing attempt.
+- The email contains spelling and formatting issues, such as the use of ""CompIimentary"" instead of ""Complimentary"".
+- The email is impersonating AAA, a well-known brand, and is using their logo and branding to create a sense of legitimacy.
+SUMMARY: The email is a phishing attempt impersonating AAA and trying to trick the recipient into clicking on a suspicious link.",True,1
+1761079142.1483004_35_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,3626,True,0,ok,LABEL: 1,True,1
+1761079142.1483004_35_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,3665,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unusual sender address (C0STC0Memo@bhphto.com), which may be a spoofed or fake email address.
+- The email contains a suspicious link (http://www.bhphto.com/im5k) that may be a phishing link, as the domain name (bhphto.com) is not associated with Costco.
+- The email has a mix of legitimate and suspicious content, including a lengthy and seemingly unrelated passage about observing nature, which may be an attempt to distract the recipient from the actual purpose of the email.",True,1
+1761079142.1483004_35_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,3732,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is C0STC0 Memo <C0STC0Memo@bhphto.com>, which is a suspicious domain name that is similar to the legitimate domain name ""costco.com"".
+- The reply-to address is not provided in the email.
+- The email contains a link to a suspicious domain name ""http://www.bhphto.com/im5k"", which is not a legitimate Costco website.
+- The email uses urgent language, stating ""Last Chance: Complimentary Membership + a Ninja CREAMi Ice Cream Maker"", which is a tactic often used by phishing emails.
+- The email requests the recipient to fill out a brief member questionnaire, which may be a way to collect sensitive information.
+- The email contains a lot of unnecessary and unrelated text, which is a common characteristic of phishing emails.
+- The email does not match the legitimate Costco brand identity, as it uses a different domain name and a different font style.
+SUMMARY: The email is a phishing attempt to trick the recipient into providing sensitive information or clicking on a malicious link.",True,1
+1761079142.1483004_61_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,5699,True,0,ok,LABEL: 0,True,0
+1761079142.1483004_61_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,5738,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""CIaim your 12 months + Ninja CREAMi » http://www.morganproperies.com/disoezie"" which may be a phishing link.
+- The email is trying to entice the recipient to participate in a ""member appreciation"" program, which may be a scam.
+- The email contains a sense of urgency, stating that the offer is ""available for a short time"" and that there are only ""5,000 participants while supply lasts"", which is a common tactic used by phishing emails to create a sense of urgency and encourage the recipient to act quickly.",True,1
+1761079142.1483004_61_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,5805,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is from a legitimate company, Morgan Properies, and the sender address is C0STC0 SpeciaI <C0STC0SpeciaI@morganproperies.com>, which is a variation of the company name.
+- The email contains a clear and legitimate message about a member update and a special offer for members.
+- The email does not contain any suspicious links or domains.
+- The language used is not urgent or threatening.
+- The email does not request any login, payment, verification, or personal information.
+- The spelling, grammar, and formatting are correct.
+- The brand identity is consistent throughout the email.
+- There is no authentication information present.
+SUMMARY: The email is a legitimate member update from Morgan Properies with a special offer for members.",True,0
+1761228356.M285206P1593247_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,4541,True,0,ok,LABEL: 0,True,0
+1761228356.M285206P1593247_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,4580,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is trying to create a sense of urgency by stating that ""Limited Supplies Available"" and that the recipient should ""secure yours before supplies are depleted.""
+- The email is asking the recipient to click on a link to ""Redeem Your Gift Bundle"" which could potentially lead to a phishing website.
+- The email is trying to create a sense of trust by stating that it is from AAA, but the email address ""aaacourtesypti@scchoology.com"" does not seem to be a legitimate AAA email address.",True,1
+1761228356.M285206P1593247_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,4647,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is from a sender address that seems to be a variation of a legitimate company (AAACourtesyPackage <aaacourtesypti@scchoology.com>), but the domain'scchoology.com' is not a well-known or trusted domain.
+- The email contains a link to a suspicious domain 'http://www.scchoology.com/1zr2y8bp', which may be a phishing link.
+- The email uses urgent language and pressure tactics to encourage the recipient to redeem their gift bundle before supplies are depleted.
+- The email does not request any login, payment, verification, or personal information.
+- The email's content is well-written and formatted, with no obvious spelling, grammar, or formatting issues.
+- The email appears to be a legitimate marketing email from AAA, but the domain'scchoology.com' is not a trusted domain.
+SUMMARY: The email appears to be a phishing attempt due to the suspicious link and domain, but it is well-written and formatted, making it a sophisticated phishing attempt.",True,0
+1761333036.1668955_63_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2499,True,0,ok,LABEL: 1,True,1
+1761333036.1668955_63_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2538,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is trying to create a sense of urgency by stating that ""Only 500 Steak Samplers Remain - Get Today"" and that the offer concludes tomorrow.
+- The email is using a suspicious link ""http://www.nstabo.com/aagoj"" which may be a phishing link.
+- The email is trying to create a sense of trust by using a well-known brand name ""Omaha Steaks"" but the email address ""omahasteakss@nstabo.com"" is not a valid email address for Omaha Steaks.",True,1
+1761333036.1668955_63_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2605,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""omahasteakss@nstabo.com"", which is not a typical email address for Omaha Steaks.
+- The reply-to address is not specified in the email.
+- The email contains a suspicious link ""http://www.nstabo.com/aagoj"" which is not a legitimate Omaha Steaks website.
+- The email uses urgent language, stating that only 500 steak samplers remain and that the offer concludes tomorrow.
+- The email requests the recipient to click on a link to get their gourmet box, which is a common tactic used by phishing emails.
+- The email contains spelling and formatting issues, such as the use of HTML tags and the presence of a weather advisory.
+- The email does not match the typical branding and identity of Omaha Steaks.
+- The email contains a request for personal information, although it is not explicitly stated.
+SUMMARY: The email is a phishing attempt to trick the recipient into clicking on a suspicious link and potentially revealing personal information.",True,1
+1761699727.1920909_7_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,3026,True,0,ok,LABEL: 1,True,1
+1761699727.1920909_7_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,3065,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unknown sender (Ace Hardware Shop <acestag@brasilheirinhas.com>) with a suspicious email address.
+- The email contains a link to claim a reward, which is a common tactic used in phishing emails.
+- The email is trying to create a sense of urgency by stating that the offer is only available to the first 5,000 customers, which is a common tactic used to prompt the recipient into taking action without thinking.
+- The email contains a mix of legitimate and fake information, such as the member ID and current points, which is a common tactic used to make the email appear legitimate.
+- The email is trying to create a sense of trust by using a familiar brand name (Ace Hardware) and a fake message from a ""cherished Ace Hardware member"".
+- The email contains a link to a suspicious website (http://www.brasilheirinhas.com/fundsr), which is not a legitimate Ace Hardware website.",True,1
+1761699727.1920909_7_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,3132,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""acestag@brasilheirinhas.com"", which does not match the typical domain of Ace Hardware.
+- The email contains a suspicious link ""http://www.brasilheirinhas.com/fundsr"" that may be a phishing attempt.
+- The email uses urgent language and pressure tactics, such as ""but today only!"" and ""Act quickly, as this offer won’t last long.""
+- The email requests the recipient to claim a reward, which may be a phishing attempt.
+- The email contains spelling and formatting issues, such as ""cIaim it now"" instead of ""claim it now"".
+- The email is impersonating Ace Hardware, but the sender address and link do not match the typical branding of Ace Hardware.
+SUMMARY: The email is a phishing attempt impersonating Ace Hardware, with a suspicious link and urgent language.",True,1
+1761699762.1920913_149_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2923,True,0,ok,LABEL: 1,True,1
+1761699762.1920913_149_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2962,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is trying to entice the recipient with a complimentary steak box valued over $600, which is a suspiciously large and valuable offer.
+- The email contains a link to a website (http://www.tryvexcapital.com/axbuxok) that is not related to Omaha Steaks, which could be a phishing attempt to steal sensitive information or install malware.
+- The email is not addressed to the recipient by name, and the sender's email address (omaha@tryvexcapital.com) does not match the company's official email address, which suggests that the email may be a phishing attempt.",True,1
+1761699762.1920913_149_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,3029,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is omaha@tryvexcapital.com, which is different from the expected sender address of Omaha Steaks.
+- The email contains a suspicious link: http://www.tryvexcapital.com/axbuxok, which may be a phishing link.
+- The email is trying to create a sense of urgency by stating that the complimentary steak box will be shipped today.
+- The email is requesting the recipient to claim their complimentary steak box by clicking on the link.
+- The email contains a mismatched identity, as the email is supposedly from Omaha Steaks, but the sender address is from tryvexcapital.com.
+- The email contains a spelling and formatting issue, as the email is trying to mimic the style of Omaha Steaks, but the formatting is not consistent.
+SUMMARY: The email is a phishing attempt to trick the recipient into clicking on a suspicious link and providing their personal information.",True,1
+1761699762.1920913_17_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2814,True,0,ok,LABEL: 0,True,0
+1761699762.1920913_17_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2853,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is trying to convince the recipient to claim a free Executive Roadside Safety Kit, which is a common tactic used in phishing emails to create a sense of urgency and encourage the recipient to click on a link or provide personal information.
+- The email contains a suspicious link ""http://www.nippyboc.com/laez"" which could be a phishing link trying to trick the recipient into revealing sensitive information or downloading malware.
+- The email is trying to create a sense of legitimacy by using the name and logo of a well-known organization (AAA), but the email itself is not a genuine communication from AAA.",True,1
+1761699762.1920913_17_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2920,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is from a sender address ""tripleemerge@nippyboc.com"" which is not a typical AAA email address.
+- The email contains a link ""http://www.nippyboc.com/laez"" which is not a trusted or well-known domain.
+- The email uses a sense of urgency by stating ""Limited Supplies Available"" and encouraging the recipient to claim their kit before supplies run out.
+- The email requests the recipient to claim their kit by clicking on a link, which could be a phishing attempt.
+- The email contains a mix of legitimate and suspicious content, including a discussion about crafting and woodworking, which seems unrelated to the initial message.
+- The email's formatting and content are well-designed, but the use of a generic ""state safety initiative"" and the lack of a clear call-to-action make it suspicious.
+SUMMARY: The email appears to be a phishing attempt due to its suspicious sender address, link, and sense of urgency.",True,0
+1761699762.1920913_41_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2378,True,0,ok,LABEL: 1,True,1
+1761699762.1920913_41_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2417,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is trying to trick the recipient into thinking it's from Costco, but the sender's email address is ""c0stc0keurig-next@gomoreplacing.com"", which is not a legitimate Costco email address.
+- The email contains a suspicious link ""http://www.gomoreplacing.com/shakes-vv"" that is not a legitimate Costco website.
+- The email is trying to create a sense of urgency by stating that the offer is ""limited-time"" and may expire without notice, which is a common tactic used by phishing emails.",True,1
+1761699762.1920913_41_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2484,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is c0stc0keurig-next@gomoreplacing.com, which is a suspicious domain (gomoreplacing.com) and does not match the typical domain of a legitimate Costco email.
+- The email contains a link to http://www.gomoreplacing.com/shakes-vv, which is a suspicious link and may be a phishing attempt.
+- The email uses urgent language, such as ""Don't miss this opportunity"" and ""limited-time thank you,"" to pressure the recipient into taking action.
+- The email requests the recipient to claim their gifts, which may be a phishing attempt to obtain personal information or login credentials.
+- The email contains spelling and formatting issues, such as the use of ""C0STC0"" instead of ""Costco"" and the inconsistent use of font styles and sizes.
+- The email impersonates Costco and Keurig, but the authentication information is not present.
+- The email contains a suspicious reply-to address, which is not the same as the sender address.
+SUMMARY: This email is a phishing attempt to trick the recipient into providing personal information or login credentials by impersonating Costco and Keurig.",True,1
+1761799223.2046544_45_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2817,True,0,ok,LABEL: 1,True,1
+1761799223.2046544_45_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2856,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is trying to create a sense of urgency by stating that the number of kits is limited and encouraging the recipient to claim theirs before supplies run out.
+- The email is asking the recipient to click on a link to claim their kit, which could be a phishing attempt to steal sensitive information or install malware.
+- The email is not addressed to the recipient by name, but rather uses a generic greeting, which is a common tactic used by phishers to make the email appear more legitimate.
+- The email contains a suspicious link ""http://www.ayoubsvt.com/zepiqwe"" which could be a phishing link.
+- The email is trying to create a sense of trust by stating that it is a state-sponsored program and that the kit is designed for AAA members, but this could be a tactic used by phishers to make the email appear more legitimate.",True,1
+1761799223.2046544_45_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2923,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""tripleemerge@ayoubsvt.com"", which is not a typical AAA email address.
+- The email contains a suspicious link ""http://www.ayoubsvt.com/zepiqwe"" which may be a phishing link.
+- The email uses urgent language, stating that ""Limited Supplies Available"" and encouraging the recipient to claim their kit before supplies run out.
+- The email requests the recipient to claim their kit, which may be a request for personal information or login credentials.
+- The email contains spelling and formatting issues, such as the use of ""CompIimentry"" instead of ""Complimentary"".
+- The email impersonates AAA, but the sender address is not a typical AAA email address.
+SUMMARY: This email is a phishing attempt impersonating AAA, with a suspicious link and urgent language.",True,1
+1761799223.2046544_51_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2960,True,0,ok,LABEL: 1,True,1
+1761799223.2046544_51_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2999,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""http://www.ayoubsvt.com/ohedusehic"" that is not a standard Ace Hardware link.
+- The email is trying to create a sense of urgency by stating that the offer is only available to the first 5,000 customers and that it won't last long.
+- The email is asking the recipient to click on a link to claim a reward, which is a common tactic used by phishing emails to trick users into revealing sensitive information.",True,1
+1761799223.2046544_51_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,3066,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""acehardwares-route@ayoubsvt.com"", which is different from the expected Ace Hardware domain.
+- The email contains a suspicious link ""http://www.ayoubsvt.com/ohedusehic"" which may be a phishing link.
+- The email uses urgent language and pressure tactics to encourage the recipient to act fast and claim the reward.
+- The email requests the recipient to visit a link to claim a reward, which is a common tactic used in phishing emails.
+- The email contains spelling and formatting issues, such as the use of ""cIaim"" instead of ""claim"".
+- The email is impersonating Ace Hardware and contains a fake reward offer.
+SUMMARY: The email is a phishing attempt impersonating Ace Hardware and trying to trick the recipient into visiting a suspicious link.",True,1
+1761799223.2046544_63_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2699,True,0,ok,LABEL: 1,True,1
+1761799223.2046544_63_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2738,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email has a suspicious link ""http://www.inastamed.com/deocokdez"" which is not related to the original content about steak selection and cooking approaches.
+- The email is trying to create a sense of urgency by stating that the complimentary steak box ships today and is only available for a limited time.
+- The email is trying to create a sense of exclusivity by stating that only 500 exclusive boxes are available, valued at over $600, completely on us.",True,1
+1761799223.2046544_63_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2805,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""Prime Omaha Steaks <primestep@inastamed.com>"", which is different from the reply-to address and the email content, suggesting a potential phishing attempt.
+- The email contains a suspicious link ""http://www.inastamed.com/deocokdez"" which is not a legitimate Omaha Steaks website.
+- The email uses urgent language, stating that the complimentary steak box ships today and that it's a limited-time offer.
+- The email requests the recipient to claim their free steak selection by clicking on the suspicious link.
+- The email contains spelling, grammar, and formatting issues, which is unusual for a legitimate company like Omaha Steaks.
+- The email impersonates Omaha Steaks, but the reply-to address and the email content suggest that it's not a genuine email from the company.
+SUMMARY: The email appears to be a phishing attempt to trick the recipient into clicking on a suspicious link and potentially revealing personal information.",True,1
+1761799223.2046544_67_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2940,True,0,ok,LABEL: 1,True,1
+1761799223.2046544_67_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2979,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""http://www.giscoders.com/vopbootowa"" which could be a phishing link.
+- The email is trying to create a sense of urgency by stating that the gift box ships today and that it's only available for a limited time.
+- The email is trying to create a sense of trust by using a legitimate company name (Omaha Steaks) and a fake email address (ossug@giscoders.com) that is similar to the company's domain name.",True,1
+1761799223.2046544_67_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,3046,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link: http://www.giscoders.com/vopbootowa, which may be a phishing link.
+- The email is trying to create a sense of urgency by stating that the gift box ships today and that it's only available for a limited time.
+- The email is asking the recipient to claim their exclusive gift, which may be a tactic to get the recipient to click on the suspicious link.
+- The email is using a fake sender address (ossug@giscoders.com) and a fake reply-to address, which is a common tactic used by phishers.
+- The email is trying to impersonate the Omaha Steaks brand, but the email content and the link are suspicious.
+- The email contains a lot of spelling and grammar issues, which is not typical of a legitimate email from a well-known brand like Omaha Steaks.
+SUMMARY: The email is a phishing attempt to trick the recipient into clicking on a suspicious link.",True,1
+1761857539.2093721_5_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2439,True,0,ok,LABEL: 1,True,1
+1761857539.2093721_5_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2478,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is trying to entice the recipient with a ""limited-time gratitude"" offer, which is a common tactic used in phishing emails to create a sense of urgency.
+- The email is asking the recipient to claim their gift by clicking on a link, which may lead to a malicious website or a phishing page.
+- The email is using a fake email address (c0stc0keurig@ayoubsvt.com) and a fake sender name (C0STC0 Keurig Value), which is a common characteristic of phishing emails.
+- The email is trying to create a sense of trust by using a well-known brand name (Costco) and a legitimate-sounding offer, but the email itself is not from Costco.
+- The email contains a suspicious link (http://www.ayoubsvt.com/legalizes) that may lead to a phishing page or a malicious website.",True,1
+1761857539.2093721_5_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2545,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is c0stc0keurig@ayoubsvt.com, which is a suspicious domain (ayoubsvt.com) and the sender name is C0STC0 Keurig Value, which is not a typical format for a legitimate sender name.
+- The email contains a link to http://www.ayoubsvt.com/legalizes, which is a suspicious domain and may be a phishing link.
+- The email uses urgent language, such as ""Don't miss this chance"" and ""limited-time gratitude"", to pressure the recipient into taking action.
+- The email requests the recipient to claim their gifts, which may be a request for personal information or login credentials.
+- The email contains spelling and formatting issues, such as the use of all capital letters and unusual formatting.
+- The email impersonates the Costco brand, but the sender address and domain are not legitimate.
+- The email contains a link to a suspicious domain, which may be a phishing link.
+SUMMARY: The email is a phishing attempt impersonating Costco to trick the recipient into revealing personal information or login credentials.",True,1
+1761926079.2140821_21_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2846,True,0,ok,LABEL: 0,True,0
+1761926079.2140821_21_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2885,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email has a suspicious link ""http://www.felicitylucas.com/uiwi"" which could be a phishing link.
+- The email is trying to create a sense of urgency by stating that the ""Complimentary Omaha Steak-Box Ships Today (Valued Over 600) Today Only"", which is a common tactic used by phishing emails.
+- The email is not addressed to the recipient by name, but rather a generic message, which is unusual for a legitimate email.",True,1
+1761926079.2140821_21_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2952,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is from a sender address ""steaksomahas@felicitylucas.com"" which is not a typical domain for a company like Omaha Steaks.
+- The email contains a link ""http://www.felicitylucas.com/uiwi"" which is suspicious as it is not a typical link for a company like Omaha Steaks.
+- The email does not contain any urgent language or pressure tactics.
+- The email does not request any login, payment, verification, or personal information.
+- The email does not contain any spelling, grammar, or formatting issues.
+- The email does not impersonate any brand or mismatch any identities.
+- The email contains a clear and legitimate message about Omaha Steaks and their products.
+SUMMARY: The email appears to be a legitimate message from Omaha Steaks, but the suspicious sender address and link suggest that it may be a spoofed email.",True,0
+1738900436.M627230P2155873_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,610,True,0,ok,LABEL: 0,True,0
+1738900436.M627230P2155873_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,649,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is from a legitimate hotel, Hotel Polaris, and provides information about their services and offers.
+- The email does not contain any suspicious links or attachments.
+- The tone and content of the email are professional and consistent with a hotel's marketing efforts.",True,0
+1738900436.M627230P2155873_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,716,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address and reply-to address seem to be from a legitimate domain, but it's a bit unusual and not directly related to the hotel's official domain.
+- The email contains a clear call-to-action (CTA) to book a stay or call a travel professional, which is a common practice for hotels.
+- The email does not contain any suspicious links or requests for personal information.
+- The language used is promotional and inviting, but not urgent or threatening.
+- The email appears to be well-formatted and free of spelling and grammar issues.
+- The brand identity seems to be consistent, with the hotel's name and logo used throughout the email.
+- There is no authentication information present in the email.
+
+SUMMARY: The email appears to be a legitimate promotional email from Hotel Polaris, inviting recipients to book a stay and take advantage of a special offer.",True,0
+1740508307.3036055_105_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,560,True,0,ok,LABEL: 1,True,1
+1740508307.3036055_105_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,599,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unverified sender address ""sale.7263227@fuelsavverelonmusk.net"", which does not match the company name ""United Health Group"".
+- The email contains a sense of urgency (""G E T S T A R T E D N O W!"") and a promise of a ""fantastic prize"" to create a false sense of importance and encourage the recipient to act quickly.
+- The email asks the recipient to click on a link to answer a few quick questions, which could potentially lead to phishing or malware attacks.",True,1
+1740508307.3036055_105_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,666,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address and reply-to address do not match the official United Health Group domain.
+- The email contains a suspicious link (""clicking here"") that may lead to a phishing website.
+- The email uses urgent language (""G E T S T A R T E D N O W!"") to pressure the recipient into taking action.
+- The email requests the recipient to answer questions regarding their experience with the company, which may be a tactic to gather personal information.
+- The email contains spelling, grammar, and formatting issues, which is unusual for a legitimate company email.
+- The email is impersonating the United Health Group brand but does not provide any authentication information.
+- The email contains a suspicious unsubscribe link that may be used to track the recipient's actions.
+SUMMARY: This email appears to be a phishing attempt due to its suspicious sender address, urgent language, and potential request for personal information.",True,1
+1740508633.3036187_307_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,303,True,0,ok,LABEL: 1,True,1
+1740508633.3036187_307_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,342,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unverified domain ""yeah.net"", which is not a typical domain for a legitimate company.
+- The email contains a suspiciously casual greeting and question (""How are u?""), which is not typical for a professional email.
+- The email includes multiple contact methods (Alibaba account, WeChat, WhatsApp) with phone numbers and account IDs, which is a common tactic used by scammers to harvest personal information.",True,1
+1740508633.3036187_307_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,409,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address and reply-to address: The sender address ""ada_logisticsgroup <ada_logisticsgroup@yeah.net>"" is not a legitimate email address for a company, and the domain ""yeah.net"" is not a well-known or reputable domain.
+- Suspicious links or domains: The email contains links to Alibaba, Wechat, and Whatsapp, but these links are not provided in the email content. However, the presence of these services in the email may be an attempt to create a sense of legitimacy.
+- Requests for personal information: The email asks for contact information, including a Wechat and Whatsapp number, which could be used for phishing or spamming purposes.
+- Brand impersonation: The email claims to be from a freight forwarder in China, but the legitimacy of this company is unclear.
+- Spelling, grammar, or formatting issues: The email contains several spelling and grammar errors, such as ""Dear  Sir/Msbruce"" and ""estimated in 2002"".
+- Urgent language or pressure tactics: The email does not contain any urgent language or pressure tactics, but it does ask the recipient to ""feel free to let me know"" if they have any shipments from China.
+
+SUMMARY: This email appears to be a phishing attempt due to its suspicious sender address, requests for personal information, and brand impersonation.",True,1
+1742310374.M66767P4041796_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,771,True,0,ok,LABEL: 1,True,1
+1742310374.M66767P4041796_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,810,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email has a suspicious subject line and content that seems unrelated to the actual topic of the email, which is about the Solar System.
+- The email starts with a provocative and attention-grabbing statement about a sex position, but then abruptly shifts to a topic about the Solar System, which is not relevant to the initial subject line.
+- The email contains a large block of text about the Solar System, which seems to be randomly inserted and is not related to the initial topic of the email, suggesting that the email may be a phishing attempt to distract the recipient from the actual content.",True,1
+1742310374.M66767P4041796_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,877,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""Erectile Dysfunction"" which is a suspicious and unrelated name to the content of the email.
+- The email contains a link to ""Find out here what this position is and prepare to be surprised."" which is a potential phishing link.
+- The email uses urgent language and pressure tactics by stating that a common sex position ""destroys erections immediately"" and that the recipient will be ""SHOCKED"" if they discover they have been using this position.
+- The email requests the recipient to click on a link to ""Discover what you must do to maintain an erection for more than 12 minutes and what you must never do in bed.""
+- The email contains a large amount of unrelated text about the Solar System, which is likely a tactic to distract the recipient from the actual content of the email.
+- The email does not match the recipient's email address, as the sender address is ""content@focusfit.sa.com"" and the recipient is ""bruce@untroubled.org"".
+- The email contains spelling, grammar, and formatting issues, which is a common trait of phishing emails.
+SUMMARY: This email is likely a phishing attempt to trick the recipient into clicking on a malicious link.",True,1
+1759430349.342747_39_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,842,True,0,ok,LABEL: 1,True,1
+1759430349.342747_39_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,881,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unknown sender ""Triple A Emergency Kit"" with a suspicious email address ""tripleemerge@playshouse.com"", which does not match the typical AAA email format.
+- The email contains a sense of urgency with a ""limited number of kits available"" and encourages the recipient to claim their kit before supplies run out, which is a common tactic used in phishing emails.
+- The email is trying to sell a product (the Premier Roadside Assistance Kit) and is not a genuine communication from AAA, as indicated by the presence of a ""From"" field with a different sender name ""Olivia Mercer"" and a different email thread about cooking recipes.",True,1
+1759430349.342747_39_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,948,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is a conversation between multiple individuals (Olivia, Ethan, Maya, and Liam) discussing recipes and cooking tips, which is a benign topic.
+- There is no mention of login, payment, verification, or personal information requests.
+- The email does not contain any suspicious links or domains.
+- The language used is casual and conversational, without any urgent or pressure tactics.
+- The spelling, grammar, and formatting are correct.
+- There is no brand impersonation or mismatched identities.
+- There is no authentication information present.
+SUMMARY: The email is a benign conversation about recipes and cooking tips among colleagues.",True,0
+1759986948.705671_13_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,1042,True,0,ok,LABEL: 0,True,0
+1759986948.705671_13_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1081,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unverified sender ""AARP Opportunity"" with a suspicious email address ""aarpopportun91@sadisticvixen.com"".
+- The email contains a link to unsubscribe, which is a common tactic used by phishing emails to trick users into revealing their email credentials.
+- The email is trying to sell a membership with a ""limited time offer"" and a ""free gift"", which is a common phishing tactic to create a sense of urgency and encourage users to take action without verifying the authenticity of the email.",True,1
+1759986948.705671_13_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1148,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address is ""aarpopportun91@sadisticvixen.com"", which is not a legitimate AARP email address.
+- The email contains a link to unsubscribe, but it is not a clear or direct link, and the email is trying to sell a membership.
+- The email is trying to create a sense of urgency with the subject line ""Last Attempt - Don't Miss Out!"".
+- The email is trying to sell a membership with a discounted price, but it is not clear what the normal price is.
+- The email contains a lot of information about AARP, but it is not clear what the purpose of the email is.
+- The email does not contain any requests for login, payment, verification, or personal information.
+- The email does not contain any spelling, grammar, or formatting issues.
+- The email does not contain any brand impersonation or mismatched identities.
+- The email does contain authentication information, but it is not clear what it is for.
+SUMMARY: The email appears to be a legitimate marketing email from AARP, but the sender address and the subject line suggest that it may be a phishing attempt.",True,0
+1759986948.705671_7_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,801,True,0,ok,LABEL: 1,True,1
+1759986948.705671_7_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,840,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unexpected sender (costco@shoprestigeportraits.com) instead of the actual Costco email address.
+- The email contains a suspicious offer of a free Keurig K-Elite Coffee Machine and a $100 Costco Reward, which seems too good to be true.
+- The email asks the recipient to ""CLAIM MY MEMBERSHIP KEURIG"" without providing a secure link or any further information about the offer.",True,1
+1759986948.705671_7_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,907,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""costco@shoprestigeportraits.com"", which is not a legitimate Costco email address. Costco's official email address is typically ""@costco.com"".
+- The email contains a suspicious link ""CLAIM MY MEMBERSHIP KEURIG"" which may be a phishing link.
+- The email uses urgent language and pressure tactics, stating that the offer is ""limited-time"" and ""may end without notice"".
+- The email requests the recipient to claim their gifts, which may be a request for personal information or login credentials.
+- The email contains spelling, grammar, or formatting issues, such as the use of ""✅"" and inconsistent capitalization.
+- The email impersonates Costco, using their brand name and logo, but with a mismatched identity (the sender address is not a legitimate Costco email address).
+SUMMARY: This email is a phishing attempt impersonating Costco, with a suspicious link and urgent language.",True,1
+1760388993.984095_1_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,911,True,0,ok,LABEL: 1,True,1
+1760388993.984095_1_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,950,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unknown sender (AAA Advisory Report <AAAAdvisoryReport@mbsarees.com>) and not from a trusted source.
+- The email contains a suspicious offer of a ""Complimentary Road Kit"" with a sense of urgency, which is a common tactic used in phishing emails.
+- The email contains a lot of repetitive and unclear text (e.g. ""A A A""), which may be an attempt to disguise the true purpose of the email.
+- The email does not contain any personalization or relevant information about the recipient, which is unusual for a legitimate email.
+- The email contains a fake ""Trusted Roadway Assistance"" logo and a fake ""A A A"" company, which is likely a scam.
+- The email is not related to the content of the rest of the email, which is about painting and art.",True,1
+1760388993.984095_1_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1017,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is a discussion thread about painting and art, with multiple senders and recipients.
+- The subject line and content do not mention any suspicious links, domains, or urgent language.
+- There are no requests for login, payment, verification, or personal information.
+- The email has proper formatting and grammar, with no spelling issues.
+- The senders and recipients are not impersonating any brand or identity.
+- The email is a genuine discussion thread between individuals with no malicious intent.
+SUMMARY: This email is a benign discussion thread about painting and art among friends.",True,0
+1760707991.1229868_7_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,918,True,0,ok,LABEL: 0,True,0
+1760707991.1229868_7_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,957,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link to ""redeem your complimentary set"" which could be a phishing attempt to collect sensitive information.
+- The email is trying to create a sense of urgency by stating ""Limited Stock Available"" to prompt the recipient into taking action without verifying the authenticity of the offer.
+- The email contains a mix of legitimate and irrelevant content, which is a common tactic used by phishers to make the email appear more legitimate.",True,1
+1760707991.1229868_7_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1024,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is a multi-threaded conversation between several individuals, indicating it is not a phishing attempt.
+- The email content is focused on sharing recipes and cooking tips, which is a benign topic.
+- The email does not contain any suspicious links or domains.
+- There is no request for login, payment, verification, or personal information.
+- The email has proper spelling, grammar, and formatting.
+- The email does not impersonate any brand or use mismatched identities.
+- There is no authentication information present.
+SUMMARY: This email is a benign conversation about cooking and sharing recipes among colleagues.",True,0
+1761079142.1483004_35_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,1134,True,0,ok,LABEL: 1,True,1
+1761079142.1483004_35_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1173,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link to a ""brief member questionnaire"" which could be a phishing attempt to gather sensitive information.
+- The email is from an unverified sender (C0STC0 Memo <C0STC0Memo@bhphto.com>) with a generic email address.
+- The email contains a lot of unrelated content that seems to be a personal reflection, which could be a tactic to distract the recipient from the actual phishing attempt.",True,1
+1761079142.1483004_35_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1240,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is C0STC0 Memo <C0STC0Memo@bhphto.com>, which contains suspicious characters and a domain (bhphto.com) that is not a typical legitimate domain.
+- The email contains a link to a Ninja CREAMi Ice Cream Creator, which is likely a phishing attempt to lure the recipient into providing personal information or downloading malware.
+- The email uses urgent language (""Last Chance"") and pressure tactics to encourage the recipient to participate in a survey.
+- The email requests the recipient to fill out a brief member questionnaire, which may be a phishing attempt to gather personal information.
+- The email contains a lot of irrelevant and poetic content, which may be an attempt to distract the recipient from the phishing attempt.
+- The email does not match the recipient's email address (bruce@untroubled.org) or the company's branding.
+- The email contains spelling, grammar, and formatting issues, which are not typical of legitimate emails.
+SUMMARY: The email is a phishing attempt to gather personal information or download malware, disguised as a survey from a company called Cos tco Wholesale.",True,1
+1761079142.1483004_61_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,1661,True,0,ok,LABEL: 0,True,0
+1761079142.1483004_61_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1700,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""CIaim your 12 months + Ninja CREAMi »"" which may be a phishing attempt to collect sensitive information.
+- The email is from an unknown sender ""C0STC0 SpeciaI"" with a generic email address ""C0STC0SpeciaI@morganproperies.com"" that does not match the content of the email.
+- The email contains a sense of urgency and limited-time offer, which is a common tactic used in phishing emails to create a sense of panic and prompt the recipient into taking action without thinking.",True,1
+1761079142.1483004_61_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1767,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link (""Tap the button to begin the short questionnaire"") that may lead to a phishing website.
+- The email is trying to create a sense of urgency by stating that the offer is ""available for a short time"" and that it's ""limited to the first 5,000 participants while supply lasts.""
+- The email is asking for personal information (name, email, and possibly other details) in exchange for a free membership and a Ninja CREAMi Ice Cream Maker.
+- The email is trying to create a sense of trust by using a friendly and conversational tone, but this is a common tactic used by phishing emails.
+- The email contains a mismatched identity, as the sender's address is ""C0STC0 SpeciaI"" but the company name is ""Cosstco Wholesale"".
+- The email contains a request for feedback in the form of a questionnaire, which may be used to harvest personal information.
+SUMMARY: The email appears to be a phishing attempt to gather personal information and potentially install malware on the recipient's device.",True,1
+1761228356.M285206P1593247_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,849,True,0,ok,LABEL: 1,True,1
+1761228356.M285206P1593247_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,888,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link to a ""Roadside Relief Collection"" that seems too good to be true.
+- The email is trying to create a sense of urgency by stating that ""Limited Supplies Available"" and that the recipient should ""secure yours before supplies are depleted.""
+- The email is not addressed to the recipient by name, but rather uses a generic greeting and a vague reference to the recipient being an ""A A A member.""",True,1
+1761228356.M285206P1593247_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,955,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address 'aaacourtesypti@scchoology.com' is suspicious and does not match the domain of AAA, which is typically 'aaa.com'.
+- The email contains a link to a 'Roadside Relief Collection' which may be a phishing attempt to gather personal information or payment details.
+- The email uses urgent language and pressure tactics by stating that 'Limited Supplies Available' and that the recipient should'secure yours before supplies are depleted'.
+- The email requests the recipient to redeem a gift bundle, which may be a phishing attempt to gather personal information or payment details.
+- The email contains spelling, grammar, or formatting issues, such as the use of 'A' instead of a proper name.
+- The email contains brand impersonation, as the sender address does not match the domain of AAA.
+- The email contains a suspicious attachment, 'Urgent Signal', which may be a phishing attempt to install malware.
+- The email contains a suspicious link, 'While this is a community-sponsored scheme', which may be a phishing attempt to gather personal information or payment details.
+- The email contains a suspicious reply-to address, which is not provided in the email.
+- The email contains a suspicious authentication information, as the email is not signed or encrypted.
+
+SUMMARY: The email appears to be a phishing attempt to gather personal information or payment details under the guise of a legitimate offer from AAA.",True,1
+1761333036.1668955_63_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,859,True,0,ok,LABEL: 0,True,0
+1761333036.1668955_63_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,898,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""Get My Gourmet Box→"" which could be a phishing link.
+- The email is trying to create a sense of urgency by stating ""One sampler per household. Offer concludes tomorrow."" to prompt the recipient into taking action without verifying the authenticity of the email.
+- The email is from an unverified sender ""OmahaSteaks Sampler <omahasteakss@nstabo.com>"" which could be a spoofed email address.",True,1
+1761333036.1668955_63_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,965,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is from a legitimate-looking sender address ""omahasteakss@nstabo.com"" but the domain ""nstabo.com"" is not associated with Omaha Steaks.
+- The email contains a link ""Get My Gourmet Box→"" but the URL is not provided, which is a common tactic used by phishers to avoid detection.
+- The email uses urgent language by stating ""Offer concludes tomorrow"" to create a sense of pressure.
+- The email requests no login, payment, verification, or personal information.
+- The email contains proper spelling, grammar, and formatting.
+- The email is impersonating the Omaha Steaks brand, but the domain ""nstabo.com"" does not match the official domain of Omaha Steaks.
+- There is no authentication information present in the email.
+
+SUMMARY: The email appears to be a legitimate promotional email from Omaha Steaks, but the use of a suspicious domain and a link without a URL raises some concerns.",True,0
+1761699727.1920909_7_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,987,True,0,ok,LABEL: 1,True,1
+1761699727.1920909_7_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1026,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unknown sender (acestag@brasilheirinhas.com) claiming to be from Ace Hardware, which is a suspicious sender domain.
+- The email contains a generic greeting and a reward offer that seems too good to be true, which is a common phishing tactic.
+- The email asks the recipient to click on a link to claim the reward, which could potentially lead to a phishing website or malware download.
+- The email contains a sense of urgency, stating that the offer is only available to the first 5,000 customers, which is a common phishing tactic to create a sense of FOMO (fear of missing out).
+- The email does not contain any personalization or relevant information that would suggest it is a legitimate email from Ace Hardware.",True,1
+1761699727.1920909_7_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1093,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address ""acestag@brasilheirinhas.com"" does not match the expected domain of Ace Hardware, which is likely to be ""acehardware.com"" or a similar top-level domain.
+- The email contains a suspicious link to claim a reward, which is a common tactic used in phishing emails.
+- The email uses urgent language and pressure tactics to encourage the recipient to act quickly, which is a red flag for phishing.
+- The email requests no login, payment, or personal information, but it does ask the recipient to visit a link, which could potentially lead to a phishing site.
+- The email contains spelling and formatting issues, such as the use of ""cIaim"" instead of ""claim"".
+- The email impersonates Ace Hardware, but the sender address and reply-to address do not match the expected format.
+- There is no authentication information present in the email.
+- The email is trying to create a sense of urgency and exclusivity by stating that the offer is only available to the first 5,000 customers who visit the link.
+- The email is trying to create a sense of trust by mentioning a member ID and current points, but this information is likely to be fake.
+- The email is trying to create a sense of excitement and anticipation by mentioning a reward and a special offer, but this is likely to be a phishing tactic.
+
+SUMMARY: The email is a phishing attempt by an impersonator of Ace Hardware, trying to trick the recipient into visiting a suspicious link to claim a reward.",True,1
+1761699762.1920913_149_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,935,True,0,ok,LABEL: 0,True,0
+1761699762.1920913_149_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,974,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is addressed to ""bruce@untroubled.org"" but the sender's name is ""Omaha Steaks Featured"" and the email content is about a complimentary steak box, which seems suspicious.
+- The email contains a link or an offer that is too good to be true (""completely complimentary!""), which is a common phishing tactic.
+- The email does not address the recipient by name, and the content is not personalized, which is unusual for a company like Omaha Steaks that is supposed to be offering a complimentary steak box.",True,1
+1761699762.1920913_149_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1041,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is a conversation between colleagues discussing steak preferences and cooking techniques, which is a benign topic.
+- The email addresses are all legitimate and match the names provided, indicating a genuine work-related conversation.
+- There are no suspicious links, domains, or requests for personal information.
+- The language used is professional and polite, without any urgent or pressure tactics.
+- The formatting and spelling are correct, indicating a well-written and edited email.
+- The email does not impersonate any brand or identity, and the authentication information is not present.
+SUMMARY: This email is a benign conversation between colleagues discussing steak preferences and cooking techniques.",True,0
+1761699762.1920913_17_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,812,True,0,ok,LABEL: 1,True,1
+1761699762.1920913_17_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,851,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unknown sender ""Triple Emergency Kits A"" with a suspicious email address ""tripleemerge@nippyboc.com"".
+- The email contains a generic greeting and a sense of urgency (""Limited Supplies Available"") to prompt the recipient into taking action.
+- The email is trying to sell a product (Executive Roadside Safety Kit) with a sense of exclusivity and importance, which is a common tactic used in phishing emails.",True,1
+1761699762.1920913_17_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,918,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from a sender address ""tripleemerge@nippyboc.com"" which does not match the AAA brand identity.
+- The email contains a suspicious link or domain ""nippyboc.com"" which is not a legitimate AAA domain.
+- The email uses urgent language and pressure tactics by stating ""Limited Supplies Available"" and encouraging the recipient to claim their kit before supplies run out.
+- The email requests no login, payment, verification, or personal information, but it does contain a request for the recipient to claim a complimentary kit.
+- The email contains spelling, grammar, or formatting issues, such as the use of ""much more"" without proper punctuation.
+- The email brand impersonates AAA, but the reply-to address is not a legitimate AAA address.
+- The email contains authentication information, but it is not a legitimate AAA authentication message.
+- The email is not a legitimate AAA message, as it is not addressed to a specific individual and does not contain any personalized information.
+- The email contains a suspicious ""From"" address ""Charlotte Green"" which is not a legitimate AAA employee.
+- The email contains a suspicious ""Date"" and ""Time"" which is not a legitimate AAA message.
+
+SUMMARY: This email is a phishing attempt impersonating AAA, with a suspicious sender address, domain, and content.",True,1
+1761699762.1920913_41_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,789,True,0,ok,LABEL: 1,True,1
+1761699762.1920913_41_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,828,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unverified sender ""C0STC0 Keurig Sale"" with a suspicious email address ""c0stc0keurig-next@gomoreplacing.com"".
+- The email contains a generic greeting and a sense of urgency (""limited-time thank you"" and ""claim your gifts now""), which are common tactics used in phishing emails.
+- The email promises a free Keurig K-Elite Coffee Machine and a $100 Costco Reward, which seems too good to be true and may be an attempt to lure the recipient into providing sensitive information.",True,1
+1761699762.1920913_41_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,895,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address ""c0stc0keurig-next@gomoreplacing.com"" is suspicious, as it contains misspelled characters and a non-standard domain ""gomoreplacing.com"".
+- The email contains a request for the recipient to ""CLAIM MY MEMBERSHIP KEURIG"", which is a suspicious link that may lead to a phishing website.
+- The email uses urgent language, stating that the offer is ""limited-time"" and may ""expire without notice"".
+- The email requests the recipient to claim a gift, which may be a tactic to obtain personal information or login credentials.
+- The email contains spelling, grammar, and formatting issues, such as the use of all capital letters and misspelled words.
+- The email impersonates the Costco brand, but the sender address and reply-to address do not match the official Costco domain.
+SUMMARY: The email is a phishing attempt to trick the recipient into claiming a gift and potentially revealing personal information.",True,1
+1761799223.2046544_45_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,825,True,0,ok,LABEL: 1,True,1
+1761799223.2046544_45_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,864,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from a sender claiming to be from AAA, but the email address is not a typical AAA email address (tripleemerge@ayoubsvt.com).
+- The email contains a sense of urgency, stating that the number of kits is limited and encouraging the recipient to claim theirs before supplies run out, which is a common tactic used in phishing emails.
+- The email is trying to create a sense of excitement and value by offering a free kit, which is not a typical way for AAA to communicate with its members.
+- The email does not contain any personalization or specific information that would suggest it is a legitimate email from AAA.
+- The email is trying to get the recipient to click on a link or take some action, but the link is not provided in the email.",True,1
+1761799223.2046544_45_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,931,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is not addressed to the recipient (bruce@untroubled.org) but rather to a generic recipient.
+- The email is not a reply to a previous message, and the sender's email address does not match the recipient's email domain.
+- The email contains a link to claim the kit, but it is not suspicious.
+- The email does not request any login, payment, verification, or personal information.
+- The email is well-formatted and free of spelling, grammar, or formatting issues.
+- The email does not impersonate a brand or use a mismatched identity.
+- The email does not contain any authentication information.
+- The email is a conversation between multiple individuals and does not contain any urgent language or pressure tactics.
+- The email is a discussion about hobbies and creative ideas, which is a benign topic.
+SUMMARY: The email is a benign conversation between colleagues discussing hobbies and creative ideas.",True,0
+1761799223.2046544_51_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,950,True,0,ok,LABEL: 1,True,1
+1761799223.2046544_51_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,989,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unknown sender (acehardwares-route@ayoubsvt.com) claiming to be from ACEHardware Store, which may be a phishing attempt.
+- The email contains a sense of urgency (""today only"") and a limited-time offer, which is a common tactic used in phishing emails.
+- The email asks the recipient to click on a link to claim the reward, which may lead to a malicious website or download malware.",True,1
+1761799223.2046544_51_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1056,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is not addressed to the recipient (bruce@untroubled.org) but rather to a different email address (acehardwares-route@ayoubsvt.com).
+- The email contains a suspicious link (""Claim Your $100 + Stanley Tool Set Now"") that is not clearly defined.
+- The email uses urgent language (""today only!"", ""Act fast, as this offer won’t last long"") to pressure the recipient into taking action.
+- The email requests no login, payment, verification, or personal information.
+- The email has proper spelling, grammar, and formatting.
+- The email does not impersonate a brand or use a mismatched identity.
+- There is no authentication information present.
+- The email is a promotional message from a company (ACEHardware Store) and does not contain any malicious content.
+- The email is not a phishing email, but rather a promotional email from a company.
+- The email is not related to the second part of the email which is a conversation between people about a book meetup.
+
+However, the email is not a phishing email, but rather a promotional email from a company. The email is trying to sell a product to the recipient, but it is not using any malicious tactics to do so.
+
+SUMMARY: The email is a promotional message from a company trying to sell a product to the recipient.",True,0
+1761799223.2046544_63_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,813,True,0,ok,LABEL: 0,True,0
+1761799223.2046544_63_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,852,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unknown sender ""Prime Omaha Steaks"" with a suspicious email address ""primestep@inastamed.com"", which does not match the typical domain of Omaha Steaks.
+- The email contains a generic greeting and a limited-time offer, which is a common tactic used in phishing emails to create a sense of urgency.
+- The email asks the recipient to claim a free steak selection, which is an unusual and suspicious request from a company like Omaha Steaks.",True,1
+1761799223.2046544_63_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,919,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is a conversation between colleagues discussing steak options and cooking styles, which is a benign topic.
+- The sender addresses and reply-to addresses are legitimate and match the conversation context.
+- There are no suspicious links or domains.
+- The language is not urgent or pressuring.
+- There are no requests for login, payment, verification, or personal information.
+- The spelling, grammar, and formatting are correct.
+- The email does not impersonate any brand or mismatch identities.
+- There is no authentication information present.
+SUMMARY: This email is a benign conversation between colleagues discussing steak options and cooking styles.",True,0
+1761799223.2046544_67_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,941,True,0,ok,LABEL: 0,True,0
+1761799223.2046544_67_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,980,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unknown sender ""Omaha Steaks Sale"" with a suspicious email address ""ossug@giscoders.com"", which does not match the typical domain of Omaha Steaks.
+- The email contains a sense of urgency with the subject line ""Your Omaha Steak-Box Ships Today Complimentery (VaIued Over 600.00) Today Only"", which is a common tactic used in phishing emails to create a sense of urgency.
+- The email is offering a ""complimentary"" gift, which is a common tactic used in phishing emails to trick the recipient into providing personal or financial information.",True,1
+1761799223.2046544_67_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1047,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address ""ossug@giscoders.com"" does not match the expected domain of Omaha Steaks, which is ""omahasteaks.com"".
+- The subject line contains suspicious language, including ""Complimentery (VaIued Over 600.00)"" and ""Today Only"", which is often used in phishing emails to create a sense of urgency.
+- The email contains a request for the recipient to claim an exclusive gift, which is a common tactic used in phishing emails to trick the recipient into divulging personal information.
+- The email contains spelling and formatting issues, such as the use of ""Complimentery"" instead of ""Complimentary"" and the incorrect use of ""VaIued"" instead of ""Valued"".
+- The email does not contain any authentication information, such as a valid Omaha Steaks logo or a secure link.
+- The email is not a genuine conversation between the recipients, as indicated by the different sender addresses and the lack of a clear thread.
+SUMMARY: The email appears to be a phishing attempt due to its suspicious sender address, language, and formatting issues.",True,1
+1761857539.2093721_5_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,823,True,0,ok,LABEL: 1,True,1
+1761857539.2093721_5_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,862,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unverified sender (c0stc0keurig@ayoubsvt.com) with a suspiciously formatted name (C0STC0 Keurig Value).
+- The email contains a generic greeting and a vague reference to an ""Autumn Recognition Event,"" which may be an attempt to create a sense of urgency.
+- The email promises a free Keurig K-Elite Coffee Machine and a $100 Costco Reward, which seems too good to be true and may be an attempt to lure the recipient into providing sensitive information.",True,1
+1761857539.2093721_5_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,929,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is c0stc0keurig@ayoubsvt.com, which is a suspicious domain (ayoubsvt.com) and the sender name is C0STC0 Keurig Value, which is a misspelling of the well-known brand Costco.
+- The email contains a link ""CLAIM MY MEMBERSHIP KEURIG"" which is likely a phishing link.
+- The email uses urgent language (""Don't miss this chance"") and pressure tactics (""This offer is only available to select recipients and may expire without notice"") to create a sense of urgency.
+- The email requests the recipient to claim their gifts, which is a request for action that may be a phishing attempt.
+- The email contains spelling, grammar, and formatting issues, such as the use of all capital letters and misspelled words.
+- The email impersonates the brand Costco and uses a fake email address, which is a brand impersonation.
+- The email does not contain any authentication information that would suggest it is legitimate.
+SUMMARY: This email is a phishing attempt impersonating Costco and attempting to trick the recipient into clicking on a suspicious link.",True,1
+1761926079.2140821_21_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,920,True,0,ok,LABEL: 0,True,0
+1761926079.2140821_21_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,959,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unknown sender ""Steaks Omaha Special"" with a suspicious email address ""steaksomahas@felicitylucas.com"".
+- The email contains a generic greeting and a promotional message with a sense of urgency (""Your Complimentry Omaha Steak-Box Ships Today (Valued Over 600) Today Only"").
+- There is no personalization or context that suggests the email is a genuine communication from Omaha Steaks.",True,1
+1761926079.2140821_21_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1026,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email's subject line ""Your Complimentry Omaha Steak-Box Ships Today (Valued Over 600) Today Only"" is overly promotional and uses all capital letters, which is a common tactic used in phishing emails to grab attention.
+- The email's sender address ""steaksomahas@felicitylucas.com"" does not match the typical domain of Omaha Steaks, which is ""omahasteaks.com"". This could be a sign of a phishing attempt.
+- The email requests no personal information, login credentials, or payment, but it does try to create a sense of urgency by stating that the steak-box ships today only.
+- The email's content is mostly about Omaha Steaks' products and services, but it does not provide any specific information about the recipient's account or order.
+- The email's formatting and spelling are correct, but the use of all capital letters in the subject line is still suspicious.
+- The email does not contain any authentication information, such as a verification code or a link to a secure website.
+- The email's content is not a typical phishing email, but the subject line and sender address are suspicious.
+
+SUMMARY: The email's subject line and sender address are suspicious, but the content does not contain any obvious phishing attempts.",True,1

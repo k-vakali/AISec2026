@@ -1,0 +1,743 @@
+email_id,parser_id,model_name,context_limit,prompt_id,input_tokens,fits,overflow_tokens,status,raw_output,parse_ok,pred_label
+1672634036.2920601_11_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,3942,True,0,ok,LABEL: 1,True,1
+1672634036.2920601_11_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,3981,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unverified sender ""Now On LOWES Hardware"" with a suspicious email address ""now-on-lowes-hardware@on-lowstool.info"".
+- The email contains a link to a suspicious website ""http://www.on-lowstool.info/Defoe-gunplay/33c5i23l95VO8Q613Mg44dclT1089v21jFv4GIf4rxvs4FhIHEsvZ7zQWdQee7DQIuA106wAwD0@"".
+- The email contains multiple links to suspicious websites ""http://www.on-lowstool.info/a614z2395B8Nq611m44dds1089x21IFv4GIf4rxvs4FhIHEsvZ7lQWdQee7nBg1Sh06hPBwD0/Olsen-carnivals"", ""http://www.on-lowstool.info/a614z2395B8Nq611m44dds1089x21IFv4GIf4rxvs4FhIHEsvZ7lQWdQee7nBg1Sh06hPBwD0/Olsen-carnivals"", ""http://www.on-lowstool.info/ringing-pocketbook/a9e4o2395Q8G6C11y44deo1089o21tFv4GIf4rxvs4FhIHEsvZ7qQWdQee7uP1Pog06E1OwzD"", ""http://www.on-lowstool.info/ringing-pocketbook/5766B2r39o5P8h5l12QN44e0L1089m21FFv4GIf4rxvs4FhIHEsvZ7QQWdQee7e1ZG0yl6KMAwkD"".
+- The email contains a suspicious image link ""http://www.on-lowstool.info/4495oL2395Rq7az13bq44idfv1089w21hFv4GIf4rxvs4FhIHEsvZ7RQWdQee5k1wl05f3@wD/Olsen-carnivals"".",True,1
+1672634036.2920601_11_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,4048,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""now-on-lowes-hardware@on-lowstool.info"", which is not a legitimate email address for Lowe's Hardware.
+- The reply-to address is not specified in the email.
+- The email contains suspicious links, including ""http://www.on-lowstool.info/Defoe-gunplay/33c5i23l95VO8Q613Mg44dclT1089v21jFv4GIf4rxvs4FhIHEsvZ7zQWdQee7DQIuA106wAwD0@"" and ""http://www.on-lowstool.info/a614z2395B8Nq611m44dds1089x21IFv4GIf4rxvs4FhIHEsvZ7lQWdQee7nBg1Sh06hPBwD0/Olsen-carnivals"", which may be phishing links.
+- The email uses urgent language, stating that the recipient is ""just a few clicks away to get The $100 Lowe's Card"".
+- The email requests that the recipient complete a survey, which may be a tactic to gather personal information.
+- The email contains spelling and formatting issues, such as the use of non-standard HTML tags and attributes.
+- The email appears to be impersonating Lowe's Hardware, but the sender address and links suggest that it is not a legitimate email from the company.
+SUMMARY: This email is likely a phishing attempt to trick the recipient into revealing personal information or clicking on suspicious links.",True,1
+1696255136.857613_13_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,3077,True,0,ok,LABEL: 1,True,1
+1696255136.857613_13_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,3116,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unknown sender ""Harbor Freight Supplies"" with a suspicious email address ""harbor-freight-supplies@mastertools.click"".
+- The email contains a link ""Start Here Now &gt; &gt; "" which is likely a phishing link, as it is not a clear or direct link to the Harbor Freight website.
+- The email contains a sense of urgency, stating that the offer is only available until October 2nd, which is a common tactic used in phishing emails to create a sense of panic and encourage the recipient to act quickly without verifying the authenticity of the email.",True,1
+1696255136.857613_13_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,3183,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""harbor-freight-supplies@mastertools.click"", which is a suspicious domain that does not match the typical domain of Harbor Freight Supplies.
+- The email contains multiple suspicious links, including ""http://www.mastertools.click/abb4H2395L86WP12E6116OI17a6X21fFv4GIf4rxvs4FhIHEsvZ7zQFRdQe6n1r0NI6izAw2D/sprints-identified"" and ""http://www.mastertools.click/admittance-apparitions/3964Y2395Vl86z11m6117j17a6z21sFv4GIf4rxvs4FhIHEsvZ7lQFRdQe5bpP106EBXwkD"", which may be phishing links.
+- The email uses urgent language, stating that the recipient has until October 2nd to secure the Pittsburgh 225 Piece Tool Set, which may be an attempt to create a sense of urgency and pressure the recipient into taking action.
+- The email requests that the recipient click on a link to ""Start Here Now"", which may be a phishing link.
+- The email contains spelling, grammar, and formatting issues, which is unusual for a legitimate email from a company like Harbor Freight Supplies.
+- The email contains a mismatched identity, as the sender address is not a typical domain for Harbor Freight Supplies.
+- The email contains authentication information, but it is not clear if it is legitimate or not.
+
+SUMMARY: This email is likely a phishing attempt due to its suspicious sender address, links, and language.",True,1
+1696277162.872167_9_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,1069,True,0,ok,LABEL: 0,True,0
+1696277162.872167_9_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1108,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link in the form of ""pls visit"" which could be a phishing attempt to trick the recipient into visiting a malicious website.
+- The email is using a generic greeting ""Dear friend"" and a vague statement ""Glad to write to you with keen hope to open a business relationship with you"" which could be a phishing attempt to establish a rapport with the recipient.
+- The email is asking the recipient to download an attachment ""products.pdf"" which could be a malicious file containing malware.",True,1
+1696277162.872167_9_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1175,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender's email address is yzsamzhang@163.com, which is a Chinese email service provider and does not seem to be related to the content of the email.
+- The email is a business proposal and does not contain any suspicious links or domains.
+- The language used is professional and polite, and there is no urgent language or pressure tactics.
+- The email does not request any login, payment, verification, or personal information.
+- The email is well-formatted and does not contain any spelling, grammar, or formatting issues.
+- The email is a legitimate business proposal and does not impersonate any brand or identity.
+- There is no authentication information present in the email.
+SUMMARY: The email appears to be a legitimate business proposal from a Chinese company.",True,0
+1696277168.872170_5_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2974,True,0,ok,LABEL: 1,True,1
+1696277168.872170_5_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,3013,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from a suspicious sender address ""kroger-customer-privilege@offerskrogrtop.click"", which does not match the typical format of a legitimate Kroger email.
+- The email contains multiple links with long and complex URLs, which are likely to be phishing links.
+- The email asks the recipient to click on a link to access a survey, which is a common tactic used in phishing attacks to trick users into revealing sensitive information.",True,1
+1696277168.872170_5_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,3080,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""kroger-customer-privilege@offerskrogrtop.click"", which is a suspicious domain that does not match the official Kroger domain.
+- The reply-to address is not specified in the email.
+- The email contains multiple suspicious links with long and complex URLs, which may be used to phish users.
+- The email uses urgent language and pressure tactics to encourage the recipient to click on the links.
+- The email requests the recipient to provide feedback, which may be a pretext for phishing.
+- The email contains spelling, grammar, and formatting issues, which are not typical of official communications from Kroger.
+- The email impersonates the Kroger brand and uses a mismatched identity.
+- The email contains authentication information, but it is not clear if it is legitimate or not.
+- The email contains a link to a survey, which may be a phishing attempt.
+SUMMARY: The email is a phishing attempt impersonating Kroger and containing suspicious links and a request for feedback.",True,1
+1696549187.1052961_3_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2369,True,0,ok,LABEL: 1,True,1
+1696549187.1052961_3_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2408,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link with a long and complex URL, which is likely to be a phishing link.
+- The email is promoting a product that is trying to solve a common problem (slow internet speed), but the solution seems too good to be true.
+- The email contains a ""Click Here to Visit Now - 50% Off & Free Shipping!"" button, which is a common tactic used in phishing emails to create a sense of urgency and encourage the user to click on the link.",True,1
+1696549187.1052961_3_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2475,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""WIFI UltraBoost <shorten@amirarowe.sa.com>"", which is a suspicious domain.
+- The email contains multiple links to the same domain ""http://www.AmiraRowe.sa.com"", which is a potential phishing link.
+- The email uses urgent language and pressure tactics, such as ""50% Off & Free Shipping!"" and ""Click Here to Visit Now"".
+- The email requests no login, payment, or personal information, but it is trying to sell a product.
+- The email contains spelling, grammar, and formatting issues, which is uncommon for a legitimate company.
+- The email is trying to impersonate a brand, but the domain and email content do not match the brand's official website.
+- The email contains authentication information, such as a unsubscribe link, but it is not a legitimate unsubscribe link.
+SUMMARY: This email is a phishing attempt to sell a product and steal sensitive information.",True,1
+1696601820.1074036_1_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,1465,True,0,ok,LABEL: 1,True,1
+1696601820.1074036_1_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1504,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link that may lead to a phishing website: ""http://www.TitanBoyd.sa.com/nnfcnofc/gpvecol18031pkjfvqlf/hddQc3E6Vwps92rMEq7uk2bcSCQnZ6wU7wCmJEJyzYY/QoEPvrOLlXAADy4nnwdMo-F5EPBxY4Iu6QVzMCR9PrM""
+- The email asks the recipient to click on a link to watch a free explanation video, which may be a tactic to trick the recipient into revealing sensitive information: ""Watch The Free Explanation Video""
+- The email provides a suspicious unsubscribe link that may be used to harvest email addresses: ""To stop future communications""",True,1
+1696601820.1074036_1_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1571,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains suspicious links with long, encoded URLs that may be used for phishing or malware distribution.
+- The email uses urgent language and pressure tactics to encourage the recipient to take action immediately.
+- The email requests the recipient to click on a link to watch a free explanation video, which may be a phishing attempt.
+- The email contains a request to stop future communications, which is a common tactic used by phishing emails to avoid being reported.
+- The email is trying to impersonate a legitimate brand (Cambridge University) to gain the recipient's trust.
+- The email contains a mismatched identity between the sender's email address (info@titanboyd.sa.com) and the claimed affiliation with Cambridge University.
+SUMMARY: The email is a phishing attempt that uses urgent language and pressure tactics to trick the recipient into clicking on suspicious links.",True,1
+1696816897.1169292_17_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2257,True,0,ok,LABEL: 1,True,1
+1696816897.1169292_17_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2296,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link in the button ""Get yours now with 50% discount and free shipping worldwide!"" which may lead to a phishing website.
+- The email is trying to create a sense of urgency with the phrase ""HURRY LIMITED-TIME OFFER"" to prompt the recipient into taking action without thinking.
+- The email is promoting a product called ""ReliefMate Pro"" and is asking the recipient to click on a link to get more details, which may be a phishing attempt to steal sensitive information.",True,1
+1696816897.1169292_17_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2363,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""bombshell@shallowgap.sa.com"", which is not a legitimate or well-known email address.
+- The email contains multiple suspicious links, including ""http://www.shallowgap.sa.com/rkijnrh/fglivec18059anjvlom/FPZZp8W65p0JCkFiAiT07U9jXjLOQ2XxqnjCRXBbp80/J9l_58tQJSKHosLGYDBwaV1xtbkY8IxH_G2_gjqkvnc"" and ""http://www.shallowgap.sa.com/rkijnrh/fglivec18058anjvlom/FPZZp8W65p0JCkFiAiT07U9jXjLOQ2XxqnjCRXBbp80/J9l_58tQJSKHosLGYDBwaV1xtbkY8IxH_G2_gjqkvnc"", which may be used to phish for personal or financial information.
+- The email uses urgent language, such as ""HURRY LIMITED-TIME OFFER"" and ""Get yours now with 50% discount and free shipping worldwide!"", to create a sense of pressure and encourage the recipient to take action without thinking.
+- The email requests that the recipient click on a link to get more information about a product, which may be a phishing attempt to steal personal or financial information.
+- The email contains spelling, grammar, and formatting issues, which is not typical of legitimate emails from well-known companies.
+- The email is trying to impersonate a legitimate company, ""Get Relief Now Inc."", but the email address and links are suspicious.
+SUMMARY: This email is likely a phishing attempt to steal personal or financial information by using suspicious links and urgent language.",True,1
+1696816914.1169295_11_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,3264,True,0,ok,LABEL: 1,True,1
+1696816914.1169295_11_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,3303,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains multiple suspicious links, which may be used to download malware or steal sensitive information.
+- The email is trying to create a sense of urgency by offering a 50% discount and free shipping worldwide, which is a common tactic used by phishing emails.
+- The email contains a ""stop future communications"" link, which may be used to trick the recipient into providing their email address or other sensitive information.",True,1
+1696816914.1169295_11_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,3370,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is mini4kdrone@limitbeard.sa.com, which is a suspicious domain.
+- The email contains multiple links to the same domain (http://www.limitbeard.sa.com/...), which could be a phishing attempt.
+- The email uses urgent language, such as ""Get yours now with 50% discount and free shipping worldwide!"" to create a sense of pressure.
+- The email requests the recipient to click on a link to get more details, which could lead to a phishing website.
+- The email contains spelling and grammar issues, such as ""what's the poin"" instead of ""what's the point"".
+- The email is trying to sell a product, but the links and domain are suspicious.
+- The email contains a request to stop future communications, which is a common tactic used by phishing emails.
+SUMMARY: This email is likely a phishing attempt due to its suspicious sender address, links, and language.",True,1
+1696816914.1169295_51_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,508,True,0,ok,LABEL: 1,True,1
+1696816914.1169295_51_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,547,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a personal WeChat and WhatsApp contact information, which is a common tactic used by phishers to establish a personal connection with the victim.
+- The email is from an unknown sender, and the company name is not well-known, which raises suspicions about the legitimacy of the email.
+- The email contains a generic greeting (""Dear friend"") and a vague subject line (""Re：new product new opportunity""), which are common characteristics of phishing emails.",True,1
+1696816914.1169295_51_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,614,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address is aA634738826 <aA634738826@163.com>, which is not a typical format for a company email address.
+- The email contains a mix of Chinese and English text, which may indicate a non-native speaker or a potential phishing attempt.
+- The email is trying to establish a business relationship, but it lacks a clear call-to-action or a specific request for information.
+- The email contains a Wechat and Whatsapp contact information, which is unusual for a business email.
+- The email is trying to build a rapport with the recipient by using a friendly tone and a casual greeting.
+SUMMARY: The email appears to be a legitimate business email, but its unusual format and content raise some suspicions.",True,0
+1696953233.1253158_5_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,1866,True,0,ok,LABEL: 1,True,1
+1696953233.1253158_5_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1905,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link that may be a phishing attempt: ""http://www.tastycoffeebrg.homes/coordinate-modernly/5945V23C95d8yI613W6I2d8qs17f7P21sFv4GIf4rxvs4FhIHEsvZ7QQqRQ9K5ei1F05qNqwD""
+- The email is trying to create a sense of urgency by offering a $100 gift card with a limited-time offer: ""You have until October 10th to enjoy our delicious beverages.""
+- The email is from a suspicious sender with a non-standard email address: ""todays_starbucks_perk@tastycoffeebrg.homes""",True,1
+1696953233.1253158_5_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1972,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address and reply-to address are not from a legitimate Starbucks domain.
+- The email contains suspicious links or domains, including ""tastycoffeebrg.homes"" which does not match the Starbucks domain.
+- The email uses urgent language, stating that the recipient has until October 10th to enjoy a $100 gift card, which is a pressure tactic.
+- The email requests the recipient to click on a link to start the survey, which could be a phishing attempt.
+- The email contains spelling, grammar, or formatting issues, such as inconsistent font sizes and styles.
+- The email impersonates the Starbucks brand, but the domain and links do not match the legitimate Starbucks website.
+- The email contains authentication information, such as a link to ""Start Here Now"", which could be a phishing attempt.
+SUMMARY: This email is a phishing attempt impersonating Starbucks, with suspicious links and domains, and pressure tactics to click on a link.",True,1
+1696964913.M843948P1240400_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,1922,True,0,ok,LABEL: 1,True,1
+1696964913.M843948P1240400_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1961,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link that redirects to a URL with a long string of characters, which is a common technique used in phishing attacks.
+- The email is promoting a product (MoskiX Band) and offering a limited-time discount, which is a common tactic used in phishing emails to create a sense of urgency and encourage the recipient to click on the link.
+- The email contains a link to unsubscribe, but the URL is not a standard unsubscribe link and may be used to track the recipient's email address or to send them more spam emails.",True,1
+1696964913.M843948P1240400_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2028,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link: ""http://www.pestrich.sa.com/wtmhxrifsg/wunksmoxa18232ifspgixg/AMjs_i5_JbTWmjpx5YtUyWMxJyXETMrFmzz9Wa4ulII/MEAhuwmEl6OR5GNQw4S9J8vNuBVlbDapTPKaKfBG9Eo"" which is likely a phishing link.
+- The email contains a request for a purchase with a limited-time offer, which is a common tactic used in phishing emails.
+- The email contains a link to unsubscribe, but the link is not a standard unsubscribe link and may be a phishing link.
+- The email contains a mismatched identity, as the sender address is ""newsletter@validask.shop"" but the email is promoting a product called ""MoskiX Band"".
+- The email contains a request for personal information, as the email is asking the recipient to click on a link to get a 50% discount and free shipping.
+SUMMARY: This email is likely a phishing email due to its suspicious links and mismatched identity.",True,1
+1696974601.1316821_3_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,1912,True,0,ok,LABEL: 1,True,1
+1696974601.1316821_3_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1951,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is trying to create a sense of urgency by stating that the Kobalt Tool Set is available until October 10th, which is a common tactic used in phishing emails.
+- The email contains a suspicious link ""http://www.ptt-toolsinfo.bond/d8b5uu2395o86XP12o62KecR17fbI21aFv4GIf4rxvs4FhIHEsvZ7uQPRQd97UnC1m0D6pJjwDM/afflicting-ash"" that is likely to be malicious.
+- The email is trying to trick the recipient into clicking on the link by using a sense of excitement and exclusivity, stating that the recipient is eligible for a ""specially arranged Kobalt Tool set"".
+- The email contains a fake unsubscribe link ""http://www.ptt-toolsinfo.bond/de56YM23t95D8W6M12K62e_dp17fbW21uFv4GIf4rxvs4FhIHEsvZ7FQPRQd97AqK1wk06SzklwD/reconnects-brutalize"" which is likely to be malicious.
+- The email is trying to create a sense of legitimacy by using a fake Lowe's logo and a fake address ""US 10010 126 E 23rd St New York, NY,"" which is likely to be fake.
+- The email contains a suspicious image link ""http://www.ptt-toolsinfo.bond/e3f6K2H3W95plB8512i6J2f0L17fbR21JFv4GIf4rxvs4FhIHEsvZ7UQPRQd97U1zLhX05SywDT/Grenier-imaginations"" that is likely to be malicious.",True,1
+1696974601.1316821_3_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2018,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address and reply-to address are suspicious, as they contain a mix of legitimate-sounding words and random characters.
+- The email contains multiple suspicious links, all pointing to the same domain (http://www.ptt-toolsinfo.bond), which is not a legitimate Lowe's domain.
+- The email uses urgent language, stating that the recipient must take prompt action to grab a chance, which is a common tactic used by phishing emails.
+- The email requests the recipient to click on a link to start the process, which could potentially lead to a phishing website.
+- The email contains spelling, grammar, and formatting issues, which is uncommon in legitimate emails from well-established companies like Lowe's.
+- The email impersonates Lowe's, but the domain used in the links is not a legitimate Lowe's domain, and the email contains a mismatched identity (a fake address at the bottom of the email).
+- The email does not contain any authentication information that would suggest it is legitimate.
+SUMMARY: This email is a phishing attempt impersonating Lowe's, with suspicious links and a mismatched identity.",True,1
+1697063836.1402633_3_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,1873,True,0,ok,LABEL: 1,True,1
+1697063836.1402633_3_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1912,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unverified sender ""Share Your Starbucks Thoughts"" with a suspicious email address ""share.your.starbucks.thoughts@maxmix-coffeer.bond"".
+- The email contains a link to a suspicious website ""http://www.maxmix-coffeer.bond/13d4O2395fk8o611C631ds1805k21QFv4GIf4rxvs4FhIHEsvZ7eQXRQQ97M10tWlA6nAzpwD/disobedient-aqueducts"" which may be a phishing site.
+- The email asks the recipient to click on a link to receive a $100 Gift Card, which is a common tactic used by phishing scammers to trick victims into revealing sensitive information.",True,1
+1697063836.1402633_3_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1979,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address and reply-to address are suspicious, as they are not from a legitimate Starbucks domain.
+- The email contains multiple suspicious links from the domain ""maxmix-coffeer.bond"", which does not appear to be a legitimate Starbucks domain.
+- The email uses urgent language, stating that the recipient has until October 11th to enjoy the gift card, which is an attempt to create a sense of pressure.
+- The email requests the recipient to click on a link to ""Start Here Now"", which is likely a phishing attempt to collect personal information or install malware.
+- The email contains spelling, grammar, and formatting issues, which is uncommon for a legitimate company like Starbucks.
+- The email impersonates Starbucks, but the domain and links do not match the legitimate Starbucks domain.
+SUMMARY: This email is a phishing attempt to trick the recipient into revealing personal information or installing malware.",True,1
+1697063836.1402633_7_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2395,True,0,ok,LABEL: 1,True,1
+1697063836.1402633_7_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2434,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unverified sender ""Feedback Hub At United Air."" with a suspicious email address ""feedback_hub_at_united_air@crows-flying.click"".
+- The email contains multiple links to suspicious websites ""http://www.crows-flying.click/*"", which may be used for phishing or malware distribution.
+- The email asks the recipient to click on a link to participate in a survey, which may be a tactic to trick the recipient into revealing sensitive information or downloading malware.",True,1
+1697063836.1402633_7_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2501,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address ""feedback_hub_at_united_air@crows-flying.click"" is suspicious, as it uses a non-standard format and the domain ""crows-flying.click"" does not match the expected domain of United Airlines.
+- The email contains multiple links to suspicious domains ""http://www.crows-flying.click/*"", which may be used for phishing or malware distribution.
+- The email uses urgent language and pressure tactics, such as ""Participate in Our Quick Survey Today!"" and ""Get Started Now"", to encourage the recipient to click on the links.
+- The email requests the recipient to click on a link to participate in a survey, which may be a phishing attempt to collect sensitive information.
+- The email contains spelling, grammar, and formatting issues, which are not typical of official communications from United Airlines.
+- The email uses brand impersonation, as it claims to be from United Airlines, but the sender address and links do not match the expected format.
+SUMMARY: This email is a phishing attempt to collect sensitive information from the recipient by impersonating United Airlines.",True,1
+1697126262.1479847_1_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2065,True,0,ok,LABEL: 1,True,1
+1697126262.1479847_1_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2104,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link in the ""Start Here Now"" button, which may lead to a phishing website.
+- The email is trying to create a sense of urgency by stating that the offer is only valid until October 12th, which is a common tactic used by phishing emails.
+- The email is trying to create a sense of trust by using a well-known brand name (Ace Hardware) and a legitimate-looking email template, but the links and email address are suspicious.",True,1
+1697126262.1479847_1_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2171,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address and reply-to address are not legitimate, as they contain suspicious domains (klfps-toolsinfo.click).
+- The email contains suspicious links (http://www.klfps-toolsinfo.click/*), which may be used for phishing or malware distribution.
+- The email uses urgent language, pressuring the recipient to take action within a limited time frame (October 12th).
+- The email requests the recipient to click on a link to ""Start Here Now"" and potentially provide personal information.
+- The email contains spelling, grammar, and formatting issues, which are uncommon in legitimate emails from well-established companies like Ace Hardware.
+- The email impersonates Ace Hardware, but the sender address and reply-to address do not match the official Ace Hardware domain.
+- The email contains a fake unsubscribe link (http://www.klfps-toolsinfo.click/discreetly-gardeners/13e5V23F95V8Kz612z634M6l180bV21wFv4GIf4rxvs4FhIHEsvZ7mQbRQQK6uX1C0p6ujwlPD).
+SUMMARY: This email is a phishing attempt impersonating Ace Hardware, with suspicious links and urgent language.",True,1
+1697412042.1652227_7_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2475,True,0,ok,LABEL: 1,True,1
+1697412042.1652227_7_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2514,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unknown sender ""Now On Harbor Freight"" with a suspicious email address ""now.on.harbor.freight@morecl-tools.bond"".
+- The email contains multiple links to external websites, including ""http://www.morecl-tools.bond/governmentally-dash/4c25s23w95m8rv613D6h3cL7I1822Z21LFv4GIf4rxvs4FhIHEsvZ7jQARQeo5I1r0A5q0wDN"" and ""http://www.morecl-tools.bond/22d5M23p95eX8V612B6_3c8K1822i21QFv4GIf4rxvs4FhIHEsvZ7nQARQeo5dU1J05BOwDL/cudgels-overtones"", which may be phishing sites.
+- The email contains a sense of urgency, stating that the recipient has until October 15th to secure the offered tools, which is a common tactic used by phishing emails to create a sense of panic and prompt the recipient into taking action without verifying the authenticity of the email.",True,1
+1697412042.1652227_7_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2581,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address and reply-to address are suspicious, as they contain a domain that is not associated with Harbor Freight (morecl-tools.bond).
+- The email contains multiple suspicious links with the domain morecl-tools.bond, which may be a phishing domain.
+- The email uses urgent language, stating that the recipient has a limited time to secure the offer, which is a common tactic used in phishing emails.
+- The email requests the recipient to click on a link to start the process, which may lead to a phishing website.
+- The email contains spelling, grammar, and formatting issues, which is uncommon in legitimate emails from well-established companies like Harbor Freight.
+- The email impersonates Harbor Freight, but the domain and links used are not associated with the company.
+- The email contains a request for the recipient to click on a link to start the process, which may lead to a phishing website.
+SUMMARY: This email is a phishing attempt impersonating Harbor Freight, with suspicious links and urgent language.",True,1
+1697557758.1757938_1_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2209,True,0,ok,LABEL: 1,True,1
+1697557758.1757938_1_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2248,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an untrusted domain ""the_ups_evaluation_hub@uptoshipping.click"", which is not a legitimate UPS email domain.
+- The email contains multiple links that are not secure (http) and point to a suspicious website ""http://www.uptoshipping.click"".
+- The email asks the recipient to click on a link to participate in a survey, which is a common phishing tactic to trick users into revealing sensitive information.
+- The email contains a suspicious image link that points to a website with a similar suspicious domain ""http://www.uptoshipping.click"".
+- The email contains a fake UPS logo and a fake survey link, which are attempts to mimic a legitimate UPS email.",True,1
+1697557758.1757938_1_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2315,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""the_ups_evaluation_hub@uptoshipping.click"", which is not a legitimate UPS email address.
+- The links in the email are all pointing to the same domain ""http://www.uptoshipping.click"", which is suspicious and not a legitimate UPS domain.
+- The email is using a pressure tactic by offering a $100 gift in exchange for completing a survey.
+- The email is requesting the recipient to click on a link to initiate the survey, which could potentially lead to a phishing attack.
+- The email contains spelling and formatting issues, which is unusual for a legitimate company like UPS.
+- The email is impersonating UPS and using their branding, but the domain and links are not legitimate.
+SUMMARY: This email is a phishing attempt impersonating UPS, with suspicious links and pressure tactics to complete a survey.",True,1
+1697583472.1771207_5_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2020,True,0,ok,LABEL: 1,True,1
+1697583472.1771207_5_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2059,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unknown sender with a suspicious email address (worldcargo2022@163.com).
+- The email contains a generic greeting and a list of services, which seems to be a sales pitch rather than a personal or professional communication.
+- The email includes a phone number (008615012873667) and a physical address, which could be used for further communication or to gather personal information.
+- The email asks the recipient to contact the sender for more information, which could be a tactic to gather personal information or to initiate a phishing attack.",True,1
+1697583472.1771207_5_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2126,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address is worldcargo2022@163.com, which is a Chinese email provider and does not seem to be a well-known or reputable company.
+- The email is trying to sell shipping services, but it does not contain any suspicious links or domains.
+- The language used is professional and polite, and there is no urgent language or pressure tactics.
+- The email is asking for contact information, but it is not requesting login, payment, verification, or personal information.
+- The spelling, grammar, and formatting are generally correct, although the use of HTML tags and multiple font styles is unusual.
+- The brand impersonation is not present, as the email is not pretending to be from a well-known company.
+- There is no authentication information present in the email.
+SUMMARY: The email appears to be a legitimate marketing email from a freight forwarding company.",True,0
+1697840947.1897358_15_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,1907,True,0,ok,LABEL: 1,True,1
+1697840947.1897358_15_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1946,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""http://www.orangesquad.bond/8094i2395D8s6M11F6479t1846t21zFv4GIf4rxvs4FhIHEsvZ7mQIRRod7Jqr1Qq06R3UwLD/murdering-canonical"" which is repeated multiple times in the email, indicating a potential phishing attempt.
+- The email is trying to create a sense of urgency and excitement by offering a reward, which is a common tactic used by phishing emails.
+- The email is from a sender that does not match the company name, ""Feedback Hub From Home Depot"" does not match the typical format of Home Depot's official emails.",True,1
+1697840947.1897358_15_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2013,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address and reply-to address are not from a legitimate Home Depot domain, but rather from ""orangesquad.bond"", which is a suspicious domain.
+- The email contains suspicious links, all of which point to ""http://www.orangesquad.bond/"", which is a domain not associated with Home Depot.
+- The email uses urgent language, stating that the reward is available for a limited time and that it will only take 30 seconds to share feedback.
+- The email requests feedback from the recipient, which could be a way to gather personal information.
+- The email contains spelling, grammar, and formatting issues, which is unusual for a legitimate company like Home Depot.
+- The email brand impersonates Home Depot, but the domain and links do not match the legitimate Home Depot website.
+- The email does not contain any authentication information that would suggest it is legitimate.
+SUMMARY: This email is likely a phishing attempt due to its suspicious sender address, links, and language.",True,1
+1698243150.3230_3_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,4692,True,0,ok,LABEL: 1,True,1
+1698243150.3230_3_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,4731,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email asks the recipient to handle a large sum of money (£1,600,000.00) on behalf of the sender, which is a common tactic used in phishing scams.
+- The sender claims to be a widow with a terminal illness and is trying to donate her wealth to charity, but this is likely a ruse to gain the recipient's trust.
+- The email contains a suspicious link (drannacooper07@gmail.com) that the recipient is asked to reply to, which could be used to harvest sensitive information or install malware on the recipient's device.",True,1
+1698243150.3230_3_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,4798,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender's email address, Benconsultium06@outlook.com, is not a legitimate email address for a wealthy widow.
+- The email contains a request for the recipient to handle a large sum of money (£1,600,000.00) on behalf of the sender, which is a common tactic used in phishing scams.
+- The email is trying to create a sense of urgency by stating that the sender has only 3 months left to live and that the recipient must act quickly to receive the money.
+- The email contains a request for the recipient to reply to a different email address, drannacooper07@gmail.com, which may be a fake email address.
+- The email contains a lot of unnecessary and repetitive HTML code, which is a common characteristic of phishing emails.
+- The email is trying to create a sense of trust by stating that the sender is a widow who wants to use her wealth to help the poor and assist the sick.
+SUMMARY: This email is a phishing scam attempting to trick the recipient into handling a large sum of money on behalf of a wealthy widow.",True,1
+1698432395.106973_3_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,1869,True,0,ok,LABEL: 1,True,1
+1698432395.106973_3_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,1908,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link that may lead to a phishing website: ""http://www.rushcarrot.sa.com/pbxptndoh/jdrsqr16707poqhuoxl/zc-2DeDvfTR_fnvyRZw_yemUmhwAzdd8vajV_O3zr4Q/Qdw-zKZrt_ttck4L1Q1T1OIkOwk1eqXVTWEEfNCR58M""
+- The email contains a long and suspicious URL, which is a common trait of phishing emails.
+- The email is trying to create a sense of urgency by offering a ""50% discount and free shipping worldwide"" to prompt the recipient into taking action without verifying the authenticity of the email.",True,1
+1698432395.106973_3_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,1975,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""getbackpack@rushcarrot.sa.com"" which is not a well-known brand and has a suspicious domain ""rushcarrot.sa.com"".
+- The email contains multiple suspicious links with long URLs and a pattern of ""zc-2DeDvfTR_fnvyRZw_yemUmhwAzdd8vajV_O3zr4Q/Qdw-zKZrt_ttck4L1Q1T1OIkOwk1eqXVTWEEfNCR58M"" which may be used for tracking or phishing.
+- The email uses urgent language and pressure tactics by offering a ""Special Low Price"" and ""50% discount and free shipping worldwide!"" to create a sense of FOMO (fear of missing out).
+- The email requests the recipient to click on the link to ""Get yours now"" which may lead to a phishing website or a malware download.
+- The email contains spelling, grammar, or formatting issues, such as the use of multiple center tags and inconsistent font sizes.
+- The email impersonates a brand ""GET BACK PACK Inc."" but the domain ""rushcarrot.sa.com"" does not match the brand's expected domain.
+SUMMARY: The email is likely a phishing attempt due to its suspicious sender address, links, and language.",True,1
+1698554428.142925_17_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2037,True,0,ok,LABEL: 1,True,1
+1698554428.142925_17_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2076,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unverified sender ""Store Information At Iowes"" with a suspicious email address ""store.information.at.iowes@lobtoolsinfo.bond"".
+- The email contains multiple links to suspicious websites, including ""http://www.lobtoolsinfo.bond/c5K6d2w3s95d8T6R11R6559g1889Z21yFv4GIf4rxvs4FhIHEsvZ7IQ4RRK97R1HrMI06BUywDW/tangents-grunted"" and ""http://www.lobtoolsinfo.bond/hopefulness-ledger/3004X2395eo8Y612WN655aF1889r21gFv4GIf4rxvs4FhIHEsvZ7YQ4RRK97rI1mZG06hPl0wD"".
+- The email contains a sense of urgency and a limited-time offer, which is a common tactic used in phishing scams.
+- The email contains a suspicious image link ""http://www.lobtoolsinfo.bond/Oliver-Kyoto/8285H239M5Uk8V512D65o5dW1889k21kFv4GIf4rxvs4FhIHEsvZ7oQ4RRK96Q1wl0S5w@zwD"".
+- The email contains a fake ""Lowe's"" logo and branding, which is a common tactic used in phishing scams to make the email appear legitimate.",True,1
+1698554428.142925_17_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2143,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address and reply-to address are suspicious, as they contain a domain that is not a typical Lowe's domain (lobtoolsinfo.bond).
+- The email contains multiple suspicious links (http://www.lobtoolsinfo.bond/c5K6d2w3s95d8T6R11R6559g1889Z21yFv4GIf4rxvs4FhIHEsvZ7IQ4RRK97R1HrMI06BUywDW/tangents-grunted, http://www.lobtoolsinfo.bond/c5K6d2w3s95d8T6R11R6559g1889Z21yFv4GIf4rxvs4FhIHEsvZ7IQ4RRK97R1HrMI06BUywDW/tangents-grunted, http://www.lobtoolsinfo.bond/hopefulness-ledger/3004X2395eo8Y612WN655aF1889r21gFv4GIf4rxvs4FhIHEsvZ7YQ4RRK97rI1mZG06hPl0wD) that are likely phishing links.
+- The email uses urgent language, stating that the offer expires on October 28th and that the recipient should ""Take quick action"".
+- The email requests that the recipient click on a link to ""Start Here Now"" in order to redeem the offer.
+- The email contains spelling, grammar, and formatting issues, which is unusual for a legitimate company like Lowe's.
+- The email contains a mismatched identity, as the sender address and reply-to address do not match the typical Lowe's domain.
+- The email does not contain any authentication information that would suggest it is legitimate.
+
+SUMMARY: This email is likely a phishing attempt due to its suspicious sender address, multiple phishing links, urgent language, and mismatched identity.",True,1
+1698621475.163999_9_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,label,2138,True,0,ok,LABEL: 1,True,1
+1698621475.163999_9_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,2177,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link with a long and complex URL, which may be a phishing attempt to trick the recipient into revealing sensitive information.
+- The email is trying to create a sense of urgency and exclusivity by offering a ""special offer"" and a ""gift"" in exchange for filling out a survey, which is a common tactic used by phishing scammers.
+- The email is from a sender with a suspicious email address, ""discover_the_att_evaluation_center@dbgmobil.bond"", which may be a fake or spoofed email address.",True,1
+1698621475.163999_9_P1,P1,meta-llama/Llama-3.1-8B-Instruct,128000,guided,2244,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is ""discover_the_att_evaluation_center@dbgmobil.bond"", which is not a legitimate AT&T email address.
+- The email contains multiple suspicious links with long, encoded URLs, including ""http://www.dbgmobil.bond/stiletto-pulling/80a5jx2395X8TM612HG6572x188fr21lFv4GIf4rxvs4FhIHEsvZ7uQFRRKK5qi1v06n@w0JD"".
+- The email uses urgent language, stating ""Don't let this opportunity pass you by!"" and ""As a gesture of our gratitude, we want to extend to you the chance to receive an exclusive gift from AT&T.""
+- The email requests the recipient to fill out a brief survey, which may be a phishing attempt to gather personal information.
+- The email contains spelling, grammar, and formatting issues, which is uncommon for legitimate emails from large companies like AT&T.
+- The email impersonates AT&T, but the sender address and the links provided do not match the legitimate AT&T website.
+SUMMARY: This email is a phishing attempt impersonating AT&T, with suspicious links and urgent language to trick the recipient into providing personal information.",True,1
+1672634036.2920601_11_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,241,True,0,ok,LABEL: 1,True,1
+1672634036.2920601_11_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,280,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from a suspicious sender address ""now-on-lowes-hardware@on-lowstool.info"", which is not a legitimate LOWES email address.
+- The email contains a generic greeting and a vague statement ""We appreciate your opinion"", which is not personalized.
+- The email contains a link ""CLICK HERE TO START"" without specifying what the link is for, which is a common phishing tactic to trick users into clicking on malicious links.",True,1
+1672634036.2920601_11_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,347,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address and reply-to address: The sender address ""now-on-lowes-hardware@on-lowstool.info"" does not match the typical domain of Lowe's (lowes.com), and the domain ""on-lowstool.info"" seems to be a variation of the Lowe's domain.
+- Suspicious link: The email contains a link ""CLICK HERE TO START"" which is likely a phishing link, as it does not provide any information about the survey or the link's destination.
+- Urgent language or pressure tactics: The email uses phrases like ""You are just a few clicks away"" and ""20-Second Service Survey"" to create a sense of urgency and encourage the recipient to act quickly.
+- Requests for personal information: Although not explicitly stated, the survey may be designed to collect personal information from the recipient.
+- Spelling, grammar, or formatting issues: The email contains a typo in the sender address (""on-lowstool.info"" instead of ""lowes.com"").
+- Brand impersonation or mismatched identities: The email claims to be from Lowe's, but the sender address and domain do not match the official Lowe's domain.
+SUMMARY: This email appears to be a phishing attempt impersonating Lowe's to trick the recipient into clicking on a suspicious link.",True,1
+1696255136.857613_13_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,278,True,0,ok,LABEL: 1,True,1
+1696255136.857613_13_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,317,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is sent from a suspicious domain ""mastertools.click"", which may be a phishing domain.
+- The email contains a sense of urgency (""Act swiftly and grasp this chance!"") to create a false sense of importance and prompt the recipient into taking action without verifying the authenticity of the email.
+- The email contains a link ""Start Here Now"" which may be a phishing link, but there is no actual link provided in the email content.",True,1
+1696255136.857613_13_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,384,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address and reply-to address: ""harbor-freight-supplies@mastertools.click"" does not match the typical domain of Harbor Freight, which is ""harborfreight.com"".
+- Suspicious link: ""Start Here Now > > "" is a generic link that could be malicious.
+- Urgent language or pressure tactics: The email uses phrases like ""Act swiftly"" and ""You have until October 2nd"" to create a sense of urgency.
+- Brand impersonation or mismatched identities: The email claims to be from Harbor Freight but uses a suspicious sender address and reply-to address.
+- Spelling, grammar, or formatting issues: The email contains several formatting issues, such as the use of ""–"" instead of a standard hyphen and the presence of random text at the end.
+- Requests for login, payment, verification, or personal information: The email does not explicitly request any sensitive information, but it does encourage the recipient to ""express your opinions"" and ""take full advantage of this offer"", which could be a tactic to gather information.
+SUMMARY: This email appears to be a phishing attempt due to its suspicious sender address, generic link, and urgent language.",True,1
+1696277162.872167_9_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,247,True,0,ok,LABEL: 0,True,0
+1696277162.872167_9_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,286,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is a response to a previous conversation, indicated by ""Re: OEM custom metal stamping, deep drawing, bending, welding, casting"" in the subject line.
+- The tone of the email is professional and polite, which is typical of legitimate business communication.
+- The email does not contain any suspicious links, attachments, or urgent requests for action, which are common phishing tactics.",True,0
+1696277162.872167_9_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,353,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender's email address is yzsamzhang@163.com, which is a legitimate email service provider (163.com), but it's not a well-known or trusted business email domain.
+- The email contains a generic greeting (""Dear friend"") and a vague subject line, which could be an attempt to avoid raising suspicion.
+- The email requests the recipient to visit a link (""pls visit"") to learn more about the company, which could be a phishing attempt.
+- However, the email does not contain any urgent language, pressure tactics, or requests for sensitive information.
+- The email's formatting and spelling appear to be correct.
+- The email does not impersonate a well-known brand or identity.
+- There is no authentication information present in the email.
+
+SUMMARY: The email appears to be a legitimate business inquiry, but its generic nature and request to visit a link raise some suspicions.",True,0
+1696277168.872170_5_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,390,True,0,ok,LABEL: 1,True,1
+1696277168.872170_5_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,429,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""Start Here Now > >"" which could be a phishing link.
+- The email asks the recipient to click on a link to access a survey, which is a common tactic used by phishers to trick users into revealing sensitive information.
+- The email contains a fake address ""10010 126 E 23rd St New York, NY, US"" which is likely a red herring to make the email appear legitimate.",True,1
+1696277168.872170_5_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,496,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address and reply-to address are suspicious, as they contain a misspelled domain name ""offerskrogrtop.click"" which is not a legitimate Kroger domain.
+- The email contains a link ""Start Here Now"" which is not a secure link and may lead to a phishing website.
+- The email uses urgent language and pressure tactics to encourage the recipient to click on the link and provide feedback.
+- The email requests the recipient to access a survey, which may be a phishing attempt to gather personal information.
+- The email contains spelling, grammar, and formatting issues, which is uncommon for a legitimate company like Kroger.
+- The email contains a mismatched identity, as the sender claims to be the Kroger Survey Team, but the email address is not a legitimate Kroger email address.
+- The email contains a request for feedback, which may be a phishing attempt to gather personal information.
+- The email contains a request to visit a physical location, which is not a typical request from a company like Kroger.
+- The email contains a suspicious link ""here"" which may lead to a phishing website.
+
+SUMMARY: This email is likely a phishing attempt to gather personal information from the recipient.",True,1
+1696549187.1052961_3_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,314,True,0,ok,LABEL: 1,True,1
+1696549187.1052961_3_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,353,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is trying to sell a product, a ""Super Booster 300Mbps Wireless WiFi Repeater"", which is a common tactic used in phishing emails to lure victims into clicking on links or providing personal information.
+- The email contains a suspicious link, ""Click Here to Visit Now"", which could be a phishing link attempting to redirect the user to a malicious website.
+- The email is trying to create a sense of urgency with a limited-time offer (""50% Off & Free Shipping!"") to prompt the user into taking action without thinking twice, which is a common phishing tactic.",True,1
+1696549187.1052961_3_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,420,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address: ""shorten@amirarowe.sa.com"" is not a typical domain for a company like WIFI UltraBoost, and the email address seems to be a shortened version of a legitimate-sounding name.
+- Urgent language: The email uses phrases like ""50% Off & Free Shipping!"" and ""Click Here to Visit Now"" to create a sense of urgency, which is a common tactic used in phishing emails.
+- Request for action: The email asks the recipient to click on a link to visit the website, which could potentially lead to a phishing website or malware download.
+- Brand impersonation: The email claims to be from WIFI UltraBoost Co., but the sender address and the unsubscribe link do not match the company's typical branding.
+- Lack of authentication information: There is no clear indication of who sent the email or how to verify its authenticity.
+SUMMARY: This email appears to be a phishing attempt due to its suspicious sender address, urgent language, and request for action.",True,1
+1696601820.1074036_1_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,331,True,0,ok,LABEL: 1,True,1
+1696601820.1074036_1_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,370,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a generic greeting and lacks personalization, which is unusual for a legitimate email.
+- The email asks the recipient to take an action (watch a video) without providing any clear information about the sender or their relationship with the recipient.
+- The email contains a suspicious unsubscribe link and a physical mailing address, which is often used by spammers to harvest email addresses.",True,1
+1696601820.1074036_1_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,437,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is info@titanboyd.sa.com, which is not a well-known or trusted domain, and the reply-to address is not specified.
+- The email contains a suspicious link (""Watch The Free Explanation Video"") that may lead to a phishing website.
+- The email uses urgent language and pressure tactics to encourage the recipient to take action immediately.
+- The email requests the recipient to stop future communications by sending post-mail to a physical address, which is unusual and may be a tactic to harvest personal information.
+- The email contains spelling and formatting issues, such as the use of multiple lines for a single sentence.
+- The email does not clearly identify the sender as a legitimate organization, and the mention of ""Cambridge University"" may be a brand impersonation.
+- The email contains a request for the recipient to take action (watching a video) without providing any authentication information.
+
+SUMMARY: This email appears to be a phishing attempt using a health-related scam to trick the recipient into clicking on a suspicious link.",True,1
+1696816897.1169292_17_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,511,True,0,ok,LABEL: 0,True,0
+1696816897.1169292_17_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,550,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link (""Click on the button below for more details"") that could lead to a phishing website.
+- The email is promoting a product (""ReliefMate Pro"") and offering a limited-time discount, which is a common tactic used in phishing emails to create a sense of urgency.
+- The email is from an unknown sender (""Get Relief Now <bombshell@shallowgap.sa.com>"") and does not provide any personalization or context, which is unusual for a legitimate email.",True,1
+1696816897.1169292_17_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,617,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address is ""bombshell@shallowgap.sa.com"" which seems suspicious and does not match the reply-to address ""Unsubscribe here"" which is a generic link.
+- The email contains a promotional offer for a product called ReliefMate Pro, but it does not request any login, payment, or personal information.
+- The email uses a sense of urgency with the phrase ""HURRY LIMITED-TIME OFFER"" but it does not use aggressive language.
+- The email contains a link to click on for more details, but it does not appear to be a malicious link.
+- The email is well-formatted and does not contain any spelling or grammar issues.
+- The email does not impersonate any known brands or identities.
+- There is no authentication information present in the email.
+
+SUMMARY: The email appears to be a promotional email for a product, but it lacks the typical characteristics of a phishing email.",True,0
+1696816914.1169295_11_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,579,True,0,ok,LABEL: 1,True,1
+1696816914.1169295_11_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,618,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link (""Click on the button below for more details"") that could lead to a phishing website.
+- The email asks the recipient to click on a link to get more details, which is a common tactic used by phishers to trick users into revealing sensitive information.
+- The email contains a ""unsubscribe"" link that asks the recipient to send an email to a specific address, which could be used to harvest email addresses for spamming purposes.",True,1
+1696816914.1169295_11_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,685,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address'mini4kdrone@limitbeard.sa.com' is not a well-known or trusted domain, and it does not match the email's content, which seems to be promoting a product from a company called 'XPRO Drone' or 'DroneX'.
+- The email contains a suspicious link that is not explicitly stated, but the phrase ""Click on the button below for more details"" suggests that there might be a link that could be malicious.
+- The email uses urgent language and pressure tactics by offering a 50% discount and free shipping worldwide, which is a common tactic used in phishing emails.
+- The email requests the recipient to ""stop future communications"" by sending an email to a specific address, which could be a way to harvest email addresses.
+- The email contains spelling and grammar issues, such as ""qualit"" instead of ""quality"" and ""poin"" instead of ""point"".
+- The email does not provide any authentication information, and the sender's identity is not verified.
+- The email contains a mismatched identity, as the sender's name is ""Mini 4K drone"" but the email content is promoting a product from a company called 'XPRO Drone' or 'DroneX'.
+SUMMARY: This email is likely a phishing attempt due to its suspicious sender address, urgent language, and pressure tactics.",True,1
+1696816914.1169295_51_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,277,True,0,ok,LABEL: 0,True,0
+1696816914.1169295_51_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,316,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link (""new product new opportunity"") that could be a lure to trick the recipient into clicking on it.
+- The email asks for feedback, which could be a way to gather sensitive information from the recipient.
+- The email includes personal contact information (Wechat and Whatsapp numbers) from an unknown sender, which is a common tactic used by scammers to establish a rapport with their victims.",True,1
+1696816914.1169295_51_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,383,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address 'aA634738826@163.com' is not a professional email address, which is often used by spammers.
+- The email contains a suspicious link or domain (Wechat:abc634738826 and Whatsapp:+86-1886763773) that could be used for phishing or malware distribution.
+- The email uses urgent language (""Have nice day"" is not a typical greeting for a business email) and pressure tactics (""Waiting for your feedback"").
+- The email requests for feedback, which could be a way to gather personal information.
+- The email contains spelling, grammar, or formatting issues (e.g., ""Re：new product new opportunity"" instead of ""Re: New Product New Opportunity"").
+- The brand impersonation is not clear, but the email is trying to sell a product, which could be a scam.
+- There is no authentication information present in the email.
+SUMMARY: This email appears to be a phishing attempt due to its suspicious sender address, links, and language.",True,1
+1696953233.1253158_5_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,259,True,0,ok,LABEL: 1,True,1
+1696953233.1253158_5_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,298,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unverified sender with a suspicious email address ""todays_starbucks_perk@tastycoffeebrg.homes"" which does not match the typical Starbucks email format.
+- The email contains a sense of urgency (""Don't miss out on this chance!"") and a limited-time offer (""You have until October 10th"") which is a common tactic used in phishing emails.
+- The email asks the recipient to ""Start Here Now"" without providing a clear link or instructions, which could be a phishing link.",True,1
+1696953233.1253158_5_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,365,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address 'todays_starbucks_perk@tastycoffeebrg.homes' is suspicious and does not match the official Starbucks domain.
+- The email contains a request for participation in a survey, which is a common tactic used in phishing emails to gather personal information.
+- The email uses urgent language, stating that the recipient has until October 10th to participate, which is an attempt to create a sense of pressure.
+- The email contains a link to ""Start Here Now"" which could be a malicious link.
+- The email requests the recipient to participate in a survey, which could be a phishing attempt to gather personal information.
+- The email contains spelling and formatting issues, such as the extra line ""you can leave with sadness"" and the random address at the end.
+- The email does not contain any authentication information from Starbucks.
+- The email contains a brand impersonation, as the sender address does not match the official Starbucks domain.
+SUMMARY: This email appears to be a phishing attempt due to its suspicious sender address, urgent language, and request for participation in a survey.",True,1
+1696964913.M843948P1240400_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,462,True,0,ok,LABEL: 0,True,0
+1696964913.M843948P1240400_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,501,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a ""HURRY LIMITED-TIME OFFER"" which is a common tactic used in phishing emails to create a sense of urgency and prompt the recipient into taking action without verifying the authenticity of the offer.
+- The email includes a link to ""Click on the button below for more details"" which could potentially lead to a malicious website or a phishing page, attempting to steal sensitive information from the recipient.
+- The email is promoting a product with a suspiciously high discount (50% off) and free shipping worldwide, which could be a red flag for a phishing attempt to lure the recipient into making a purchase on a potentially fake website.",True,1
+1696964913.M843948P1240400_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,568,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address is newsletter@validask.shop, which is a valid domain (validask.shop) and seems to be related to the product MoskiX Band.
+- The email does not contain any suspicious links or domains.
+- The language used is promotional, but not urgent or threatening.
+- There is no request for login, payment, verification, or personal information.
+- The email has proper spelling, grammar, and formatting.
+- The brand identity is consistent throughout the email.
+- There is no authentication information present.
+
+SUMMARY: This email appears to be a legitimate promotional email for a product called MoskiX Band.",True,0
+1696974601.1316821_3_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,277,True,0,ok,LABEL: 1,True,1
+1696974601.1316821_3_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,316,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unverified sender with a suspicious email address ""stay.uptodate.with.lowes.store.information@ptt-toolsinfo.bond"", which does not match the typical format of a Lowe's email address.
+- The email contains a sense of urgency (""Don't delay; take prompt action"") to create a false sense of importance and prompt the recipient into taking action without verifying the authenticity of the email.
+- The email contains a suspicious link (""Start Here Now >>"") that could potentially lead to a phishing website or malware download.",True,1
+1696974601.1316821_3_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,383,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address and reply-to address: The sender address contains a mix of company name and unrelated words, and the domain ""ptt-toolsinfo.bond"" seems suspicious.
+- Urgent language or pressure tactics: The email uses phrases like ""Don't delay"" and ""take prompt action"" to create a sense of urgency.
+- Requests for personal information: Although not explicitly stated, the email asks the recipient to participate in a survey, which may be a way to collect personal information.
+- Brand impersonation or mismatched identities: The email claims to be from Lowe's, but the sender address and domain do not match the official Lowe's domain.
+- Spelling, grammar, or formatting issues: The email contains a sentence with a non-sequitur (""you can leave with sadness"") and a random address at the end.
+- Suspicious links or domains: The email contains a link (""Start Here Now >>"") that may be a phishing link.
+SUMMARY: This email appears to be a phishing attempt due to its suspicious sender address, urgent language, and potential request for personal information.",True,1
+1697063836.1402633_3_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,251,True,0,ok,LABEL: 1,True,1
+1697063836.1402633_3_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,290,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unverified sender address ""share.your.starbucks.thoughts@maxmix-coffeer.bond"", which does not match the typical Starbucks email format.
+- The email contains a sense of urgency (""Don't miss out on this chance!"") and a limited-time offer (""You have until October 11th""), which is a common tactic used in phishing emails to create a sense of panic.
+- The email asks the recipient to ""Start Here Now"", which is a vague and suspicious instruction that could be a link to a malicious website.",True,1
+1697063836.1402633_3_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,357,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address and reply-to address: The sender address ""share.your.starbucks.thoughts@maxmix-coffeer.bond"" does not match the typical Starbucks email format, and the domain ""maxmix-coffeer.bond"" seems to be a misspelling or a variation of the Starbucks domain.
+- Urgent language or pressure tactics: The email uses phrases like ""Don't miss out on this chance!"" and ""You have until October 11th"" to create a sense of urgency.
+- Requests for login, payment, verification, or personal information: Although the email does not explicitly ask for sensitive information, it encourages the recipient to ""Start Here Now,"" which could potentially lead to a phishing page.
+- Spelling, grammar, or formatting issues: The email contains inconsistent formatting, with some lines being indented and others not.
+- Brand impersonation or mismatched identities: The email claims to be from ""The Starbucks Team,"" but the sender address does not match the typical Starbucks format.
+SUMMARY: The email appears to be a phishing attempt due to its suspicious sender address, urgent language, and potential for brand impersonation.",True,1
+1697063836.1402633_7_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,408,True,0,ok,LABEL: 1,True,1
+1697063836.1402633_7_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,447,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link, which is not explicitly stated but is implied by the instruction to ""click on the link below."" This is a common phishing tactic to trick users into revealing sensitive information.
+- The email is trying to create a sense of urgency and excitement by offering ""exciting travel vouchers"" in exchange for participating in a survey. This is a common phishing tactic to entice users into taking action without verifying the authenticity of the email.
+- The email contains grammatical errors and repetitive language, which is unusual for a professional email from a well-established company like United Airlines. This suggests that the email may not be legitimate.",True,1
+1697063836.1402633_7_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,514,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address ""feedback_hub_at_united_air@crows-flying.click"" is suspicious, as it uses a non-standard domain name ""crows-flying.click"" instead of a typical United Airlines domain.
+- The email contains multiple instances of urgent language, such as ""Participate in Our Quick Survey Today!"" and ""Get Started Now"", which are often used in phishing emails to create a sense of pressure.
+- The email requests the recipient to click on a link to participate in a survey, which could potentially lead to a phishing website or malware download.
+- The email contains spelling and grammar issues, such as ""It' s"" instead of ""It's"" and ""you can leave with sadness"", which are often indicative of phishing emails.
+- The email does not match the typical format and branding of a legitimate United Airlines email.
+- The email contains a mismatched identity, as the sender address does not match the typical United Airlines sender address.
+SUMMARY: The email appears to be a phishing attempt due to its suspicious sender address, urgent language, and requests for the recipient to click on a link.",True,1
+1697126262.1479847_1_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,272,True,0,ok,LABEL: 1,True,1
+1697126262.1479847_1_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,311,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link ""Start Here Now > >"", which could be a phishing link.
+- The email is trying to create a sense of urgency by stating that the offer is only valid until October 12th, which is a common tactic used by phishing emails.
+- The email is asking the recipient to take action quickly, which is another common tactic used by phishing emails to create a sense of urgency and prompt the recipient into taking action without thinking.",True,1
+1697126262.1479847_1_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,378,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address and reply-to address: The sender address 'ace-hardware-reliability@klfps-toolsinfo.click' and the subject line do not match the typical format of a legitimate Ace Hardware email.
+- Urgent language or pressure tactics: The email uses phrases like ""Take quick action"" and ""You have until October 12th"" to create a sense of urgency.
+- Requests for login, payment, verification, or personal information: Although the email does not explicitly ask for sensitive information, it encourages the recipient to ""Finish the survey"" which could potentially be a phishing tactic to gather information.
+- Brand impersonation or mismatched identities: The email claims to be from Ace Hardware but uses a suspicious sender address and reply-to address.
+- Spelling, grammar, or formatting issues: The email has a few formatting issues, such as the use of "" > >"" at the end of the link and the inconsistent use of capitalization.
+- Authentication information if present: There is no authentication information present in the email.
+SUMMARY: This email appears to be a phishing attempt due to its suspicious sender address, urgent language, and potential request for sensitive information.",True,1
+1697412042.1652227_7_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,266,True,0,ok,LABEL: 1,True,1
+1697412042.1652227_7_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,305,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from a sender with a suspicious email address ""now.on.harbor.freight@morecl-tools.bond"", which does not match the typical format of a legitimate Harbor Freight email address.
+- The email contains a sense of urgency with a limited-time offer, which is a common tactic used in phishing emails to prompt the recipient into taking action without thinking.
+- The email contains a suspicious link ""Start Here Now > >"", which could potentially lead to a malicious website or download malware.",True,1
+1697412042.1652227_7_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,372,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address: ""now.on.harbor.freight@morecl-tools.bond"" does not match the typical domain of Harbor Freight.
+- Urgent language: ""Act promptly and grab this chance!"" creates a sense of urgency.
+- Suspicious link: ""Start Here Now > >"" is a generic link that could be malicious.
+- Brand impersonation: The email claims to be from Harbor Freight, but the sender address is suspicious.
+- Spelling, grammar, or formatting issues: The email contains grammatical errors and inconsistent formatting.
+- Lack of authentication information: There is no verification or authentication information provided in the email.
+SUMMARY: This email appears to be a phishing attempt due to suspicious sender address, urgent language, and potential malicious link.",True,1
+1697557758.1757938_1_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,327,True,0,ok,LABEL: 1,True,1
+1697557758.1757938_1_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,366,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unverified domain ""uptoshipping.click"" which is not a standard UPS domain.
+- The email contains a suspicious link ""Begin The Survey Here >"" which could be a phishing link.
+- The email promises a $100 Gift in exchange for completing a survey, which is a common tactic used in phishing emails to lure victims into providing sensitive information.",True,1
+1697557758.1757938_1_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,433,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address and reply-to address are suspicious, as they contain a non-standard domain name ""uptoshipping.click"".
+- The email contains a link ""Begin The Survey Here >"", which could be a phishing link.
+- The email uses urgent language, stating ""another day to leave"" to create a sense of pressure.
+- The email requests the recipient to participate in a survey, which may be a tactic to gather personal information.
+- The email contains spelling, grammar, or formatting issues, such as the inconsistent spacing and the phrase ""another day to leave"".
+- The email appears to be impersonating the UPS brand, but the domain name and formatting are inconsistent with the official UPS communication.
+SUMMARY: The email is likely a phishing attempt due to its suspicious sender address, potential phishing link, and pressure tactics.",True,1
+1697583472.1771207_5_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,386,True,0,ok,LABEL: 0,True,0
+1697583472.1771207_5_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,425,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspicious link to a phone number (whatsapp id) which could be a phishing attempt to collect personal information.
+- The email is from an unverified email address (worldcargo2022@163.com) which could be a spoofed email address.
+- The email contains a generic greeting (""Dear"") and lacks personalization, which is unusual for a legitimate business email.",True,1
+1697583472.1771207_5_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,492,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address and reply-to address are from a legitimate email service provider (163.com), but the domain is not directly related to the company name (worldcargo2022).
+- The email contains a list of services offered by the company, which seems legitimate.
+- The email does not contain any suspicious links or domains.
+- The language used is professional, and there is no urgent tone or pressure tactics.
+- The email does not request any login, payment, verification, or personal information.
+- The spelling, grammar, and formatting are correct.
+- The email does not impersonate any well-known brand, and the identity of the sender seems to match the company name.
+- There is no authentication information present in the email.
+
+SUMMARY: The email appears to be a legitimate business inquiry from a freight forwarding company.",True,0
+1697840947.1897358_15_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,285,True,0,ok,LABEL: 1,True,1
+1697840947.1897358_15_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,324,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unverified sender with a suspicious email address ""feedback-hub-from-home-depot@orangesquad.bond"", which does not match Home Depot's official email format.
+- The email contains a generic and overly promotional message, which is not typical of a genuine feedback request from a company like Home Depot.
+- The email includes a suspicious link ""Start Here Now >>"" which could be a phishing link, and the phrase ""we'll send it to you right away"" is often used in phishing scams to create a sense of urgency.",True,1
+1697840947.1897358_15_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,391,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address and reply-to address: The sender address is ""feedback-hub-from-home-depot@orangesquad.bond"" which does not match Home Depot's typical domain.
+- Suspicious link: The link ""Start Here Now >>"" is not provided, but the instruction to click on it is, which is a common phishing tactic.
+- Urgent language: The email creates a sense of urgency by stating that getting the reward will only take 30 seconds of time.
+- Brand impersonation: The email claims to be from Home Depot, but the sender address does not match the company's typical domain.
+- Lack of authentication information: There is no indication of how Home Depot is verifying the authenticity of the email or the reward.
+- Spelling, grammar, or formatting issues: The email contains a sentence ""you can leave with sadness"" which seems out of place and may be a red herring.
+SUMMARY: This email appears to be a phishing attempt impersonating Home Depot to trick the recipient into clicking on a suspicious link.",True,1
+1698243150.3230_3_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,689,True,0,ok,LABEL: 1,True,1
+1698243150.3230_3_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,728,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email asks the recipient to handle a large sum of money (£1,600,000.00) without providing any official documentation or verification of the sender's identity or wealth.
+- The sender claims to be a widow with a terminal illness and wants to donate her wealth to charity, which is a common tactic used by scammers to gain the recipient's trust.
+- The email requests the recipient to reply to a different email address (drannacooper07@gmail.com) rather than the sender's original email address, which is a red flag for phishing attempts.",True,1
+1698243150.3230_3_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,795,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender's email address, Benconsultium06@outlook.com, does not match the name provided in the email, Dr. Ana Capper.
+- The email contains a request for the recipient to handle a large sum of money (£1,600,000.00) and use it for charity work, which is a common tactic used in phishing scams.
+- The email uses urgent language, stating that the sender has only 3 months left to live and needs to transfer the money soon.
+- The email requests that the recipient reply to a different email address, drannacooper07@gmail.com, which may be an attempt to avoid detection.
+- The email contains a mix of spelling and grammar issues, which is unusual for a legitimate email from a wealthy individual.
+- The email contains a request for the recipient to handle a large sum of money, which is a common tactic used in phishing scams.
+- The email contains a mismatched identity, as the sender claims to be Dr. Ana Capper, but the email address does not match.
+- The email contains a request for the recipient to use the money for charity work, which may be a legitimate request, but the email's suspicious nature and tactics suggest that it is a phishing scam.
+- The email contains a request for the recipient to reply to a different email address, which may be an attempt to avoid detection.
+- The email contains a mix of spelling and grammar issues, which is unusual for a legitimate email from a wealthy individual.
+- The email contains a request for the recipient to handle a large sum of money, which is a common tactic used in phishing scams.
+- The email contains a mismatched identity, as the sender claims to be Dr. Ana Capper, but the email address does not match.
+- The email contains a request for the recipient to use the money for charity work, which may be a legitimate request, but the email's suspicious nature and tactics suggest that it is a phishing scam.
+- The email contains a request for the recipient to reply to a different email address, which may be an attempt to avoid detection.
+- The email contains a mix of spelling and grammar issues, which is unusual for a legitimate email from a wealthy individual.
+- The email contains a request for the recipient to handle a large sum of money, which is a common tactic used in phishing scams.
+- The email contains a mismatched identity, as the sender claims to be Dr. Ana Capper, but the email address does not match",True,1
+1698432395.106973_3_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,403,True,0,ok,LABEL: 0,True,0
+1698432395.106973_3_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,442,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is trying to sell a product, but it's not clear what the actual product is or how it's being sold. This could be a tactic to distract from the true purpose of the email.
+- The email contains a link to ""Get yours now"" but the link is not provided, which is a common phishing tactic to avoid raising suspicion.
+- The email contains a generic unsubscribe link, which is often used in phishing emails to make the email appear legitimate.",True,1
+1698432395.106973_3_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,509,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address is ""getbackpack@rushcarrot.sa.com"" which seems suspicious as it's not a well-known brand and the domain ""rushcarrot.sa.com"" is not associated with any reputable company.
+- The email contains a promotional message with a 50% discount and free shipping, which is a common tactic used in phishing emails to create a sense of urgency.
+- The email does not request any login, payment, or personal information, but it does ask the recipient to ""Get yours now"" which could be an attempt to create a sense of urgency.
+- The email has a professional format and does not contain any spelling, grammar, or formatting issues.
+- The brand ""GET BACK PACK"" is not well-known, but it's not a clear impersonation of a well-known brand either.
+- The email does not contain any suspicious links or authentication information.
+
+SUMMARY: The email appears to be a promotional message for a new backpack product, but its suspicious sender address and promotional tactics raise some concerns.",True,0
+1698554428.142925_17_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,248,True,0,ok,LABEL: 1,True,1
+1698554428.142925_17_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,287,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unverified sender ""Store Information At Iowes"" with a suspicious email address ""store.information.at.iowes@lobtoolsinfo.bond"".
+- The email contains a sense of urgency with a ""Last Reminder"" and an expiration date, which is a common tactic used in phishing emails.
+- The email is trying to entice the recipient with an exclusive offer of a free tool set, which is likely a scam to obtain personal information or install malware.",True,1
+1698554428.142925_17_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,354,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious sender address and reply-to address: The sender address ""store.information.at.iowes@lobtoolsinfo.bond"" does not match the Lowe's brand name, and the domain ""lobtoolsinfo.bond"" seems unrelated to Lowe's.
+- Suspicious links: The email contains a link ""Start Here Now > > "" which is not clearly visible and may be a phishing link.
+- Urgent language or pressure tactics: The email uses phrases like ""Last Reminder"" and ""Take quick action"" to create a sense of urgency.
+- Brand impersonation: The email claims to be from Lowe's, but the sender address and reply-to address do not match the Lowe's brand name.
+- Spelling, grammar, or formatting issues: The email contains a non-standard ampersand (&ndash;) and a non-standard link format.
+- Authentication information: No authentication information is present in the email.
+SUMMARY: This email appears to be a phishing attempt impersonating Lowe's to trick the recipient into clicking on a suspicious link.",True,1
+1698621475.163999_9_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,label,322,True,0,ok,LABEL: 1,True,1
+1698621475.163999_9_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,evidence,361,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is from an unverified sender address ""discover_the_att_evaluation_center@dbgmobil.bond"", which does not match the typical AT&T email format.
+- The email contains a generic greeting and a vague statement about an exclusive deal, which is a common tactic used in phishing emails to create a sense of urgency and curiosity.
+- The email asks the recipient to take a survey to claim a special offer, which is a common phishing tactic to collect sensitive information from the recipient.",True,1
+1698621475.163999_9_P2,P2,meta-llama/Llama-3.1-8B-Instruct,128000,guided,428,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address and reply-to address are suspicious, as they contain a domain ""dbgmobil.bond"" which is not a typical domain for a well-known company like AT&T.
+- The email contains a request for the recipient to take a survey, which may be a phishing tactic to gather personal information.
+- The email uses urgent language, such as ""Don't let this opportunity pass you by!"" to create a sense of pressure.
+- The email contains a mismatched identity, as it claims to be from the ""Discover The ATT Evaluation Center"" but the sender address suggests a different entity.
+- The email contains spelling, grammar, and formatting issues, such as the use of informal language (""Yayy"", ""we' ll miss you"") and a mismatched signature.
+- The email does not contain any authentication information to verify its legitimacy.
+SUMMARY: This email appears to be a phishing attempt due to its suspicious sender address, urgent language, and request for a survey.",True,1

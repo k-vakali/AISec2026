@@ -1,0 +1,536 @@
+email_id,parser_id,model_name,context_limit,prompt_id,input_tokens,fits,overflow_tokens,status,raw_output,parse_ok,pred_label
+email_2023_000020_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,979,True,0,ok,LABEL: 1,True,1
+email_2023_000020_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,1018,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email is sent from a suspicious domain (hosting@panonika.si) pretending to be from MetaMask.
+- The verification link leads to a suspicious URL (https://vk.sv/7Mt81d), which is not a known MetaMask domain.
+- The email threatens account suspension, which is a common tactic in phishing attempts to create urgency.",True,1
+email_2023_000020_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,1085,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address (hosting@panonika.si) does not match the brand (MetaMask).
+- There is a suspicious link (https://vk.sv/7Mt81d) which is not a legitimate MetaMask URL.
+- The email uses urgent language, stating that unverified accounts will be suspended.
+- It requests verification, which could be a tactic to trick users into providing personal information.
+- There are spelling errors (""Wednesday, 04 Febuary, 2023"").
+SUMMARY: This email is likely phishing due to the mismatched sender address, suspicious link, urgent language, and spelling errors.",True,1
+email_2023_000047_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2983,True,0,ok,LABEL: 0,True,0
+email_2023_000047_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,3022,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email mentions receiving a fax message and does not ask for any personal information or direct action from the recipient.
+- There are no suspicious links or attachments in the email.
+- The email is from a legitimate business address (RingCentral support email) and includes a disclaimer about acknowledging agreement to their Terms of Use, which is typical for business communications.",True,0
+email_2023_000047_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,3089,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address and reply-to address are consistent with RingCentral's domain.
+- There are no suspicious links or domains in the email.
+- The language used is not urgent or pressuring.
+- The email does not request any login, payment, verification, or personal information.
+- No spelling, grammar, or formatting issues are observed.
+- The email is consistent with legitimate RingCentral communication.
+
+SUMMARY: This email appears to be a legitimate notification from RingCentral regarding a new fax message.",True,0
+email_2023_000057_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,7167,True,0,ok,LABEL: 1,True,1
+email_2023_000057_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,7206,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email uses a suspicious and generic sender email address (Sharepoints_verfication@mail.com).
+- The URL provided in the email is unusual and contains translated parts that do not look legitimate (translate.goog).
+- The email contains a button with a suspicious URL that does not match typical security practices for password verification.",True,1
+email_2023_000057_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,7273,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious sender address: The sender address ""IT REPORTS <Sharepoints_verfication@mail.com>"" is unusual and does not match a typical IT support email domain.
+- Urgent language: The email uses urgent language by stating that the email service may be interrupted until the account is verified.
+- Phishing link: The email contains a suspicious link in plain text: `https://5ai4xitvaesxbzzb6leidp3e24h6y2m4hakca3snkxdwkn7e-ipfs-dweb-link.translate.goog/manyexcelecrpty.html?_x_tr_hp=bafybeiafkg&_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp#jose@monkey.org`
+- Mismatched domain in the link: The domain in the suspicious link (`5ai4xitvaesxbzzb6leidp3e24h6y2m4hakca3snkxdwkn7e-ipfs-dweb-link.translate.goog`) does not match any legitimate Microsoft or SharePoint domain.
+- Brand impersonation: The email attempts to impersonate IT support but uses a non-standard and suspicious domain.
+- Unusual unsubscribe link: The unsubscribe link is unusually long and complex, which is often a sign of phishing.
+- Lack of official branding: The email lacks proper branding and does not look like it comes from a recognized company.
+SUMMARY: The email is highly suspicious and appears to be a phishing attempt due to the unusual sender address, urgent language, and the presence of a suspicious link.",True,1
+email_2023_000060_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2568,True,0,ok,LABEL: 0,True,0
+email_2023_000060_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2607,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a generic greeting ""Dear jose@monkey.org"" without personalization.
+- The email contains a suspicious link that is obfuscated and could be used to redirect to a malicious site.
+- The message suggests that emails are being deleted automatically after 14 days, which is an unusual and potentially manipulative statement to prompt immediate action.",True,1
+email_2023_000060_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2674,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address ""monkey.org"" does not match the reply-to address ""cyb@noti.net"".
+- There is a suspicious link in the email that redirects to a domain with a different structure (""https://neduet.hosting.acm.org//.well-known/save/domain.html#jose@monkey.org"").
+- The email uses urgent language, stating that emails will be deleted automatically after 14 days.
+- It requests login information, which is a common tactic used in phishing emails.
+- The email contains mismatched identities, as it mentions ""monkey.org"" but the link points to a different domain.
+- Poor formatting and use of non-standard fonts and styles suggest a lack of professional design, which is often a sign of phishing attempts.
+
+SUMMARY: The email is likely phishing due to the mismatched sender and reply-to addresses, suspicious link, urgent language, request for login information, and poor formatting.",True,1
+email_2023_000087_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,1735,True,0,ok,LABEL: 1,True,1
+email_2023_000087_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,1774,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a generic and suspicious sender address (""monkey.org Server"" <adminii@fuslon-thai.com>).
+- The email contains a link with an unusual and potentially malicious URL (""https://l4a2ap5dzfzi2j5faklifwiilqzulai7zzxua-ipfs-dweb-link.translate.goog"").
+- It requests re-confirmation using the same password, which is a common phishing tactic to trick users into providing their credentials.",True,1
+email_2023_000087_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,1841,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address and reply-to address do not match typical domain practices (e.g., ""adminii@fuslon-thai.com"" vs. ""monkey.org"").
+- The email contains a suspicious link with a non-standard URL (""https://gfngnf"").
+- There is an urgent tone as the account is said to be removed due to lack of verification.
+- The email requests re-confirmation using the same password, which is a common phishing tactic.
+- The email contains spelling and grammatical errors (""innitiated"" instead of ""initiated"").
+- The domain in the link does not appear to be associated with monkey.org, indicating potential domain spoofing.
+
+SUMMARY: This email is likely phishing due to the suspicious link, urgent language, and mismatched sender/reply-to addresses.",True,1
+email_2023_000102_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,4149,True,0,ok,LABEL: 0,True,0
+email_2023_000102_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,4188,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The email uses a generic greeting (""Dear jose"") without personalization.
+- The URL provided in the email is suspicious and uses an IPFS address, which is uncommon for typical mailbox notifications.
+- The email instructs the recipient to click on a link to update their mailbox, which is a common phishing tactic.",True,0
+email_2023_000102_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,4255,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The subject line does not indicate any urgency or critical action required.
+- The sender address and reply-to address are suspicious and do not match typical email addresses for mailbox administration (e.g., ""administrator@monkey.org"" instead of ""mailbox@monkey.org"").
+- There are no requests for login, payment, verification, or personal information.
+- The email mentions updating the mailbox but does not ask for any sensitive information.
+- The URL provided in the email contains a suspicious domain (""bafybeiay4jqodxv3plk2k2qjldadtvj7c6zd44jczdort3xhjdcna2zhvy.ipfs.cf-ipfs.com"") which does not appear to be a standard URL for mailbox updates.
+- The email is formatted with some unusual styles and tags that are not typical of legitimate emails.
+- The email explicitly states that it should not be replied to, which is a common practice in phishing emails to prevent users from sending sensitive information.
+
+SUMMARY: The email appears to be a phishing attempt due to the suspicious URL and the mismatched sender address, despite the lack of direct requests for personal information.",True,0
+email_2023_000162_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,1796,True,0,ok,LABEL: 1,True,1
+email_2023_000162_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,1835,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains a suspicious link that redirects to an IPFS (InterPlanetary File System) address, which is unusual and could be a phishing attempt.
+- The message claims that undelivered emails will be deleted in 15 hours, which is an urgent and common tactic used in phishing emails to prompt immediate action.
+- The email uses a generic and vague reason for the issue (""an incoming mail server error!!!""), without providing specific details that would be expected from a legitimate IT department.",True,1
+email_2023_000162_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,1902,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address and reply-to address do not match typical IT helpdesk addresses (e.g., they use a domain that is not commonly associated with official IT support).
+- There is a suspicious link in the email that redirects to a domain unrelated to the claimed sender's domain (http://solotek.com.tr/).
+- The email uses urgent language, stating that unreceived emails will be deleted soon.
+- The email contains a request to release delayed messages, which could be a tactic to trick the recipient into clicking a malicious link.
+- The email has poor formatting and uses a template that is not consistent with professional IT communications.
+- The domain in the link (dweb.link) does not appear to be related to the claimed sender's domain (agrilivestock.net), and it is unusual for an IT helpdesk to use such a domain for communication.
+
+SUMMARY: The email is likely phishing due to the suspicious link, urgent language, and mismatched sender information.",True,1
+email_2023_000208_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,3633,True,0,ok,LABEL: 1,True,1
+email_2023_000208_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,3672,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains a suspicious URL that is obfuscated and does not clearly reveal its destination.
+- The email uses generic greetings (""Dear Customer"") and lacks personalization.
+- There is no official-looking branding or contact information provided in the email.",True,1
+email_2023_000208_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,3739,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address is suspicious and does not match a legitimate financial institution's domain.
+- The email contains a link that uses URL encoding to obfuscate its true destination.
+- There is a sense of urgency to enter the identification code within 24 hours.
+- The email requests the user to click on a button to update their account, which could lead to a phishing site.
+- The brand impersonation is evident as the email appears to be from a financial institution but the domain in the link is not recognizable.
+- The email lacks proper authentication information such as a secure connection indicator (HTTPS).
+
+SUMMARY: This email is likely phishing due to the suspicious sender, obfuscated link, sense of urgency, and lack of proper authentication.",True,1
+email_2023_000213_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,7032,True,0,ok,LABEL: 0,True,0
+email_2023_000213_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,7071,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is from an official-looking IT server admin and mentions a specific user and their email address, which suggests it might be legitimate.
+- The email provides a clear and specific reason for the blocked messages (validation error), and does not ask for personal information or direct the recipient to suspicious links or websites.
+- The email includes a ""Release"" button, but it is not used to direct the user to a malicious site; instead, it appears to be part of the interface for managing quarantined emails within the organization's system.",True,0
+email_2023_000213_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,7138,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email mentions that it is from an internal server admin and does not request any login, payment, verification, or personal information.
+- There are no suspicious links or domains present in the email.
+- The language used is neutral and informative, without any urgent language or pressure tactics.
+- The email is generated by an internal system and is intended for notification purposes only.
+- The email does not contain any spelling, grammar, or formatting issues that are typical of phishing emails.
+- The email does not impersonate any external brands or mismatch identities.
+
+SUMMARY: The email appears to be a legitimate notification from the internal server administration regarding quarantined messages.",True,0
+email_2023_000262_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,3404,True,0,ok,LABEL: 1,True,1
+email_2023_000262_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,3443,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains a suspicious link asking to download a file from ""https://cloud.neat.com/api/v5/downloads?token=eyJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIjoiNjRlN2IxMWRlOTBjMmIxYTY3MmZlYmMzIiwiaXRlbV9pZCI6IjY0ZTdiMWNlMDZmODRiMDA0N2VlZTY3NCIsIm1vZGUiOiJmcmllbmRseSIsImV4cCI6MTY5MzUxMjI4NX0.FOg8QIVLLCW-gvLmsf_MprHilyNOc1aEbfcQfN9Mlhk"".
+- The email uses a generic greeting and does not provide any specific details about the sender or the recipient.
+- There is a tracking pixel embedded in the HTML version of the email, which is often used by scammers to monitor who opens their emails.",True,1
+email_2023_000262_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,3510,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address (no-reply@neatcloud.com) does not match the domain in the subject (cloud.neat.com).
+- There is a suspicious link asking to download a file, which could be malicious.
+- The email uses urgent language by stating the link will expire in one week.
+- The email contains a request for action (clicking a link to download a file).
+- There are grammatical errors (""George belly sent you a file"", ""The link will expire in one week"").
+- The email appears to be impersonating a legitimate service but is likely a phishing attempt due to the mismatched sender and domain.
+SUMMARY: The email exhibits multiple phishing indicators, including a mismatched sender and domain, an urgent call to action, and grammatical errors.",True,1
+email_2023_000272_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,1289,True,0,ok,LABEL: 1,True,1
+email_2023_000272_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,1328,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses urgent language and claims it's the ""last chance"" to take advantage of an offer.
+- It contains a misleading subject line suggesting a ""90% OFF Limited Deal"" which is not clearly stated in the body of the email.
+- The unsubscribe link is present but appears suspicious due to its formatting and color (white text on a white background), which could be an attempt to trick users into clicking it.",True,1
+email_2023_000272_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,1395,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email does not request any login, payment, verification, or personal information.
+- There are no suspicious links or domains in the email.
+- The language used is promotional rather than urgent or pressuring.
+- The unsubscribe link is present and functional.
+- The sender address and subject line do not indicate any brand impersonation or mismatched identities.
+- The email appears to be a legitimate marketing message from a health-related company.
+
+SUMMARY: This email is a benign marketing message promoting a health product.",True,0
+email_2023_000277_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,1832,True,0,ok,LABEL: 0,True,0
+email_2023_000277_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,1871,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email contains a secure link that redirects to ""cloudflare-ipfs.com"". While this domain is generally trusted, it's unusual for DocuSign to use such a link directly.
+- The email instructs the recipient not to share the email, link, or access code, which is a common tactic in phishing emails to prevent detection and spread.
+- The email does not provide any context or reason for the documents being reviewed, which can be a red flag as legitimate emails often include more details about the purpose of the document.",True,0
+email_2023_000277_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,1938,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address does not match the official DocuSign domain (e.g., it uses `no-reply@monkey.org` instead of a domain like `docsigndomain.com`).
+- The secure link provided points to an IPFS address (`https://cloudflare-ipfs.com/ipfs/QmSMP62wh1gGArS5hWDUensB2b3ZQiuMCD6GE2CVe44Rru`) rather than a typical DocuSign URL.
+- There is no mention of any urgent language or pressure tactics.
+- The email does not request any login, payment, verification, or personal information.
+- The HTML content is well-formatted without obvious spelling or grammar errors.
+- The email appears to be from a service that is not associated with DocuSign, as indicated by the sender and the IPFS link.
+
+SUMMARY: The email is likely benign but the sender's domain and the IPFS link are suspicious and do not align with official DocuSign communications.",True,0
+email_2023_000360_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,10427,True,0,ok,LABEL: 1,True,1
+email_2023_000360_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,10466,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains a suspicious URL (`https://pub-a8ed7885114f43bb97f4bf4057dd6dcf.r2.dev/bgt.html#jose@monkey.org`) that could be used for phishing.
+- The email includes a request for urgent action without any context or details about the order.
+- The email is sent from a non-standard domain (`e-shop@nomura-nousan.co.jp`), which does not match typical LinkedIn business practices.",True,1
+email_2023_000360_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,10533,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email is from a sender address that does not match LinkedIn's official domain (e-shop@nomura-nousan.co.jp).
+- There is an urgent language used (""New Order Request For"", ""You have 423 connections in common"", ""urgent order"").
+- Suspicious links are present (e.g., `https://pub-a8ed7885114f43bb97f4bf4057dd6dcf.r2.dev/bgt.html#jose@monkey.org` and `https://s3.amazonaws.com/appforest_uf/f1668071910566x136025853984276910/indexRRRRR.html#jose@monkey.org`), which could be used for phishing.
+- The email contains a mix of Chinese and English text, which may indicate an attempt to impersonate a legitimate business.
+- The unsubscribe and help links do not lead to LinkedIn's official domain but rather to suspicious URLs.
+- The overall formatting and structure of the email appear to be poorly constructed and contain multiple errors, suggesting it might be a phishing attempt.
+
+SUMMARY: The email exhibits several red flags typical of phishing attempts, including a suspicious sender, urgent language, and misleading links.",True,1
+email_2023_000366_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,959,True,0,ok,LABEL: 1,True,1
+email_2023_000366_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,998,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email address in the ""From"" field does not match the recipient's domain (monkey.org).
+- The email contains a suspicious link that redirects to a non-standard URL structure.
+- The urgency and request for immediate action are typical of phishing tactics.",True,1
+email_2023_000366_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,1065,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address and reply-to address do not match (monkey.org vs predcopr.us).
+- There is a suspicious link in the email that redirects to a non-standard URL structure.
+- The email uses urgent language (""Immediate Action Required"").
+- It requests the user to perform an action related to refreshing their email server.
+- The email contains a mismatched identity as it appears to be from ""monkey.org"" but the link redirects to a domain associated with ""ghulamtraders.com"".
+- The email uses a non-standard and potentially malicious URL structure.
+
+SUMMARY: The email is likely phishing due to the mismatched sender and reply-to addresses, the presence of a suspicious link, urgent language, and a request for server refreshment which could be a tactic to gain unauthorized access.",True,1
+email_2023_000375_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,1771,True,0,ok,LABEL: 0,True,0
+email_2023_000375_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,1810,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email address and domain in the ""From"" field do not match (it's from ""cPanel on monkey.org"" but the URL links to ""infura-ipfs.io"").
+- The email contains a suspicious link that does not directly correspond to the domain mentioned in the ""From"" field.
+- The email is sent from a non-standard port (2083 and 2096), which is uncommon for legitimate notifications.",True,1
+email_2023_000375_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,1877,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address and reply-to address do not match (sender is ""cPanel on monkey.org"" but the URL points to ""infura-ipfs.io"").
+- The email contains a suspicious link with a domain that does not match the claimed sender (""https://portal.infura-ipfs.io/ipfs/bafkreiflzq3tslqdgx42eyfdhff6akqmqnnnc3po5a6tmizv6x3p4r6mw4"").
+- There is no urgent language or pressure tactics used in the email.
+- The email does not request any login, payment, verification, or personal information.
+- The email has a formatting issue with the date and time of the notification (Tuesday, November 14th,2023).
+- The copyright notice at the end of the email is from cPanel, which matches the sender's name, but the URL is suspicious.
+
+SUMMARY: The email is likely benign, but the mismatched URLs and formatting issues raise concerns about potential spoofing.",True,0
+email_2023_000394_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,23731,True,0,ok,LABEL: 0,True,0
+email_2023_000394_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,23770,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email is sent from an unusual domain (marshalls@em.marshalls.com), which is not typical for legitimate companies.
+- The URLs in the email are obfuscated and contain long, complex strings that are suspicious and could indicate phishing.
+- The email contains multiple links to different sections of the website, but all links lead to the same URL structure (https://links.em.sierra.com/...), which is unusual and may be a sign of template-based phishing.",True,0
+email_2023_000394_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,23837,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address is ""Peacock <marshalls@em.marshalls.com>"", which does not match the typical domain of Marshalls (e.g., marshalls.com).
+- The email contains suspicious links with long, encoded URLs (e.g., `https://links.em.sierra.com/...`), which are often used in phishing attempts.
+- The email uses urgent language (""Your Membership has expired!""), pressuring tactics to act quickly.
+- There are no clear requests for login, payment, verification, or personal information, but the overall structure seems promotional rather than informative.
+- The email has multiple spelling and grammatical errors (e.g., ""See apply_syf_com_cs_groups_public_docu for details"").
+- The footer includes a mix of brand names (Marshalls, T.J.Maxx, HomeGoods) and mismatched identities, which could indicate impersonation.
+- The email is heavily formatted with images and links, which is common in legitimate marketing emails but can also be a tactic to avoid detection.
+
+SUMMARY: The email appears to be a phishing attempt due to the mismatched sender address, suspicious URL structure, and presence of grammatical errors.",True,0
+email_2023_000413_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2340,True,0,ok,LABEL: 1,True,1
+email_2023_000413_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2379,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email is sent from a generic Google Drive address, which is unusual and suspicious.
+- The subject line contains a threatening message about disabling an online account due to unrecognized log-in attempts, which is a common phishing tactic.
+- The email includes a clickable link that could lead to a malicious website or download, as indicated by the presence of both a plain text and HTML version of the email with embedded links.",True,1
+email_2023_000413_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2446,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address and reply-to address do not match typical Google addresses (e.g., it uses a non-standard domain).
+- The email contains urgent language suggesting that the recipient's account has been disabled due to unrecognized log-in attempts.
+- There is a request to open a document which could be a phishing attempt.
+- The email uses a mismatched identity for the sender, as the name ""Bakker Jensen"" does not correspond to the email address provided.
+- The URL in the link is suspicious and could potentially lead to a malicious site.
+SUMMARY: This email is likely phishing due to the suspicious sender address, urgent language, and potential for malicious links.",True,1
+email_2023_000020_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,231,True,0,ok,LABEL: 1,True,1
+email_2023_000020_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,270,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a suspicious domain (panonika.si) that does not match the legitimate MetaMask domain.
+- The subject line and body mention suspending the account, which is a common tactic in phishing emails to create urgency.
+- There is a call to action to verify the account using a link, but no legitimate URL is provided in the email content.",True,1
+email_2023_000020_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,337,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious domain in the sender address (hosting@panonika.si)
+- Urgent language and pressure tactics (""your MetaMask wallet has not yet been verified"" and ""Unverified accounts will be suspended"")
+- Request for verification
+- Spelling error (""04 Febuary"" instead of ""04 February"")
+- Mismatched identity (The email claims to be from MetaMask, but the domain in the sender address is not associated with MetaMask)
+
+SUMMARY: The email is likely phishing due to the suspicious sender domain, urgent language, request for verification, spelling errors, and mismatched identity.",True,1
+email_2023_000047_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,335,True,0,ok,LABEL: 0,True,0
+email_2023_000047_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,374,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The email address does not match the official RingCentral support email domain (e.g., it should be support@ringcentral.com).
+- The subject line and body do not provide any context or information about the nature of the fax message, which is unusual for legitimate communications.
+- There is a call to action to download an attachment, but no specific reason or context provided for why this action is necessary.",True,0
+email_2023_000047_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,441,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The sender address and reply-to address do not match typical RingCentral email practices.
+- There are no suspicious links or domains in the email.
+- No urgent language or pressure tactics are used.
+- No requests for login, payment, verification, or personal information are present.
+- The email does not contain any obvious spelling, grammar, or formatting issues.
+- The email appears to be a legitimate notification about a new fax message.
+
+SUMMARY: The email seems to be a benign notification about a new fax message, but the sender address discrepancy warrants further investigation.",True,0
+email_2023_000057_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,189,True,0,ok,LABEL: 1,True,1
+email_2023_000057_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,228,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a generic ""IT REPORTS"" sender address, which is suspicious and not specific.
+- The subject line ""Password Expired Notice"" is a common phishing tactic to prompt immediate action.
+- The email provides a button labeled ""Same Password"" without any clear instructions or security measures to ensure the user's safety, which is a red flag.
+- The note about potential interruption of email service until verification is a scare tactic often used in phishing attempts to hurry the recipient into taking action.",True,1
+email_2023_000057_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,295,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious sender address (misspelling of ""SharePoint"")
+- Presence of a button with unclear action (""Same Password"")
+- Urgent language (""Your email service may be interrupted until you verify your account"")
+- Mismatched identity (the email claims to be from ""IT REPORTS"" but the domain in the sender address is incorrect)
+SUMMARY: The email contains several red flags indicative of phishing.",True,1
+email_2023_000060_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,267,True,0,ok,LABEL: 0,True,0
+email_2023_000060_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,306,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a generic greeting ""Dear"" without addressing the recipient by name.
+- The subject line is suspicious, mentioning a specific date and time in a way that seems too precise for a legitimate message.
+- The email contains a link labeled ""CLICK VIEW EMAILS portal"" which could be malicious.
+- The email suggests reviewing and managing ""Your EMAILS"" (with a capital 'E') which is unusual and likely a typo.",True,1
+email_2023_000060_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,373,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address and reply-to address do not match (monkey.org vs. noti.net).
+- There is a request for login information (""You'll need to Login with your details to be able to access this Emails"").
+- The email contains a suspicious link (""CLICK VIEW EMAILS portal"").
+- The email uses urgent language (""Emails will be deleted automatically after 14 days"").
+- There are spelling and grammatical errors (""Your EMAILS"", ""botton VIEW EMAILS"").
+- The domain in the suspicious link is not legitimate and does not match the claimed organization (monkey.org).
+
+SUMMARY: The email is likely phishing due to the mismatched addresses, request for login information, urgent language, and presence of suspicious links and poor grammar.",True,1
+email_2023_000087_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,257,True,0,ok,LABEL: 0,True,0
+email_2023_000087_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,296,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a generic and suspicious sender address (""monkey.org Server"" <adminii@fuslon-thai.com>).
+- There is a grammatical error in the phrase ""innitiated"" which is likely a typo for ""initiated.""
+- The email requests re-confirmation using the same password, which is a common phishing tactic to trick users into re-entering their credentials.",True,1
+email_2023_000087_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,363,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address and reply-to address do not match (adminii@fuslon-thai.com vs monkey.org Server).
+- Urgent language: ""The password of your email account will expire on 04/05/2023.""
+- Suspicious link or domain: No links are present, but the domain in the sender's address (fuslon-thai.com) seems unusual and does not match the expected domain (monkey.org).
+- Request for re-confirmation: The email asks for re-confirmation using the same password, which is a common phishing tactic.
+- Spelling and grammar issues: ""innitiated"" instead of ""initiated,"" and ""re-confirm your account"" instead of ""reconfirm your account.""
+- Brand impersonation: The email appears to be impersonating the official webmail service of monkey.org, but the domain in the sender's address is different.
+
+SUMMARY: This email is likely phishing due to the mismatched sender and reply-to addresses, urgent language, suspicious domain, and grammatical errors.",True,1
+email_2023_000102_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,297,True,0,ok,LABEL: 0,True,0
+email_2023_000102_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,336,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a suspicious domain name ""winstargrouip.net"" which does not match the legitimate ""monkey.org"".
+- The subject line and body contain grammatical errors and awkward phrasing (""mailbox"" instead of ""mail box"", ""noitification"" instead of ""notification"").
+- There is a strong sense of urgency with a 24-hour deadline to avoid closure of the mailbox.
+- The email contains a link that redirects users to review their messages, which could be a phishing tactic to steal login credentials.
+- The note at the end instructs the user not to reply, which is common in phishing attempts to prevent the sender from receiving any feedback about the email's legitimacy.",True,1
+email_2023_000102_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,403,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious sender address (misspelling of ""StarGroup"" as ""winstargrouip"")
+- Urgent language and pressure tactics (""update your mail-box within 24 hours to avoid closure"")
+- Mismatched domain in the subject line and body (""monkey.org"" vs. ""winstargrouip.net"")
+- Spelling errors (""noitification"" instead of ""notification"")
+- Suspicious URL in the body (""Review Messages Here"" without a specific link)
+- Brand impersonation (use of ""monkey.org"" which is likely a typo or fake domain)
+SUMMARY: The email exhibits multiple signs of phishing, including a suspicious sender address, urgent language, and brand impersonation.",True,1
+email_2023_000162_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,228,True,0,ok,LABEL: 1,True,1
+email_2023_000162_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,267,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses urgent language and a deadline (emails will be deleted in 15 hours).
+- It suggests that emails are stuck on a server, which is a common phishing tactic to create a sense of urgency.
+- The email contains a suspicious link or action item to ""Release Delayed Messages,"" which is a red flag for phishing attempts.",True,1
+email_2023_000162_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,334,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious domain in the subject (monkey.org vs. agrilivestock.net)
+- Urgent language (""undelivered emails will be deleted from the server within 15 hours"")
+- Pressure tactics (""This was due to an incoming mail server error!!!"")
+- Requests for action (""Release Delayed Messages"")
+SUMMARY: The email appears to be phishing due to domain mismatch and urgent pressure tactics.",True,1
+email_2023_000208_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,212,True,0,ok,LABEL: 1,True,1
+email_2023_000208_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,251,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains a generic greeting (""Dear Customer"") rather than addressing the recipient by name.
+- There is a call to action to click on a button to update the account, which could be a link to a malicious site.
+- The email asks for urgent action (the code expires in 24 hours) and implies that failure to act will result in account issues, which is a common tactic in phishing attempts.",True,1
+email_2023_000208_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,318,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address and reply-to address do not match (admin@vehiclesaddict.com vs. Online Banking Team).
+- There is a suspicious link ""Update My Account"" without any URL provided in the text.
+- The email uses urgent language, pressuring the recipient to act quickly.
+- The email requests action from the user without proper context or explanation.
+- Poor spelling and grammar (""Thank you for being a valued customer. Sinerily,"") which is a common indicator of phishing emails.
+- Brand impersonation; the email appears to be from a financial institution but the domain does not match typical banking practices.
+
+SUMMARY: The email exhibits multiple phishing indicators including suspicious links, urgency, poor grammar, and brand impersonation.",True,1
+email_2023_000213_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,462,True,0,ok,LABEL: 0,True,0
+email_2023_000213_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,501,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a generic and impersonal greeting (""You have 27 new messages"").
+- It contains a request to click on a link to release quarantined emails, which is a common tactic used in phishing attacks.
+- The email suggests that if the message lands in the spam folder, the recipient should move it to the inbox, which is a misleading instruction often used by phishers to gain control over the user's inbox.",True,1
+email_2023_000213_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,568,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The email does not request any login, payment, verification, or personal information.
+- There are no suspicious links or domains present.
+- The language used is neutral and does not include urgent or pressure tactics.
+- The email appears to be a system-generated notification from the organization's own email server.
+- The sender address and subject line suggest this is an internal communication rather than an external phishing attempt.
+- No brand impersonation or mismatched identities are evident.
+SUMMARY: The email is a benign system-generated notification about quarantined messages.",True,0
+email_2023_000262_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,334,True,0,ok,LABEL: 0,True,0
+email_2023_000262_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,373,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains a generic greeting and does not address the recipient by name.
+- There is a request to click on a link to download a file, which is a common tactic used in phishing attacks.
+- The email includes a contact number and asks the recipient to contact them if they believe the message is in error, but this is not a typical practice for legitimate businesses.
+- The email is sent from a generic ""no-reply"" address, which is often used by phishing emails to avoid direct replies.
+- The email uses informal language (""George belly sent you"") and lacks proper formatting, which can be indicative of phishing attempts.",True,1
+email_2023_000262_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,440,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The subject line uses urgent language (""Payment Received"") and implies action is needed.
+- The email contains a suspicious link that could be used to direct the user to a malicious site.
+- There is a request to download a file from an unknown sender.
+- The email uses a generic greeting (""Hello"") instead of addressing the recipient by name.
+- There is a mismatch between the sender's address (no-reply@neatcloud.com) and the brand identity (Neat).
+- The email includes a contact us option, which is unusual for an automated message and may be a tactic to appear legitimate.
+- The email is poorly formatted, with inconsistent capitalization and spacing.
+
+SUMMARY: The email exhibits multiple phishing indicators, including urgent language, a suspicious link, and poor formatting, making it likely a phishing attempt.",True,1
+email_2023_000272_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,257,True,0,ok,LABEL: 1,True,1
+email_2023_000272_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,296,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses urgent language and a limited-time offer to prompt immediate action.
+- There is a spelling error in ""have"" (likely meant to be ""has"").
+- The unsubscribe link is included but does not provide a clear indication that clicking it will remove the user from the mailing list.",True,1
+email_2023_000272_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,363,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The subject line includes a misleading deal with ""90% OFF"" which is not typical for legitimate sales.
+- The email uses a generic greeting and does not provide a clear path to verify the sender's identity.
+- There is a mismatch between the sender's name and the email address (Get a Smooth Digestion vs. Super_Gut_Save@healthapollo.co).
+- The email contains a suspicious link without any context or description.
+- The unsubscribe link is provided but lacks a clear and direct way to confirm its legitimacy.
+SUMMARY: The email appears to be a promotional message rather than a phishing attempt due to the lack of critical phishing indicators such as urgent language, direct requests for personal information, or clear brand impersonation.",True,0
+email_2023_000277_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,191,True,0,ok,LABEL: 0,True,0
+email_2023_000277_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,230,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The email is from a non-official domain (no-reply@monkey.org).
+- The email does not provide any specific document or action that requires immediate attention or personal information.
+- The email encourages the recipient not to share the email, link, or access code, which is a common practice in legitimate services but could also be a tactic to avoid suspicion.",True,0
+email_2023_000277_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,297,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address does not match the official DocuSign domain (e.g., it uses @monkey.org instead of @docusign.com).
+- There are no suspicious links or domains mentioned in the email.
+- No urgent language or pressure tactics are used.
+- No requests for login, payment, verification, or personal information are made.
+- The email contains some minor spelling and grammatical errors (""This message was sent to you using the DocuSign Electronic Signature Service"" should be ""This message was sent to you using the DocuSign Electronic Signature service"").
+- The email does not appear to be impersonating any official DocuSign identity or brand.
+
+SUMMARY: The email appears to be from a non-official source and contains a mismatched domain, but does not request sensitive information or use urgent language, thus it is likely benign.",True,0
+email_2023_000360_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,296,True,0,ok,LABEL: 0,True,0
+email_2023_000360_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,335,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The email appears to be a standard business communication and does not contain any suspicious links or requests for personal information.
+- There is no indication that the email originated from a LinkedIn Business account; it seems more like a direct email from a company.
+- The unsubscribe and help options suggest this is a marketing or transactional email rather than a phishing attempt.",True,0
+email_2023_000360_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,402,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The email appears to be a standard LinkedIn notification.
+- There are no suspicious links or domains.
+- The language does not contain any urgent or pressure tactics.
+- No requests for login, payment, verification, or personal information.
+- No spelling, grammar, or formatting issues noted.
+- The email is clearly labeled as a LinkedIn notification and includes proper authentication information.
+SUMMARY: This email is benign and appears to be a standard LinkedIn notification.",True,0
+email_2023_000366_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,171,True,0,ok,LABEL: 0,True,0
+email_2023_000366_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,210,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email address ""info@predcopr.us"" does not match the domain in the ""From"" field ""monkey.org"".
+- The subject line and body of the email contain urgent language and require immediate action, which is a common tactic in phishing attempts.
+- The email provides no context or explanation for why the user needs to refresh their email server, and it asks for session information without any prior mention or request for such details.",True,1
+email_2023_000366_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,277,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address (info@predcopr.us) does not match the domain in the subject (monkey.org).
+- There is an urgent language with a request for immediate action.
+- The email asks the recipient to perform a task (refresh their email server) without providing clear instructions or context.
+- There are no legitimate authentication details provided for the requested action.
+SUMMARY: This email is likely phishing due to the mismatched sender and domain, urgent language, and lack of clear instructions and authentication details.",True,1
+email_2023_000375_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,357,True,0,ok,LABEL: 0,True,0
+email_2023_000375_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,396,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The email address and domain in the ""From"" field do not match (knahfyomva@anouncespacedrisa.site vs cPanel on monkey.org).
+- The URL provided for the Email Disk Usage tool uses a non-standard port (2096) which is uncommon for typical webmail interfaces.
+- The email contains a link to disable notifications, which is often a tactic used in phishing to make the email appear more legitimate.",True,0
+email_2023_000375_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,463,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious domain in the reply-to address (anouncespacedrisa.site)
+- Urgent language (""You should remove some emails from the mailbox as soon as possible"")
+- Mismatched sender and reply-to addresses
+- Suspicious link (https://monkey.org:2096/?goto_app=Email_DiskUsage)
+- Brand impersonation (cPanel on monkey.org)
+- Formatting issues (incorrect date format: ""Tuesday, November 14th, 2023"")
+
+SUMMARY: The email appears to be phishing due to the suspicious domain, urgent language, mismatched addresses, and other formatting and branding inconsistencies.",True,1
+email_2023_000394_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,2457,True,0,ok,LABEL: 1,True,1
+email_2023_000394_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2496,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a generic greeting (""Your Membership has expired!"").
+- There are multiple instances of ""Shop Now"" without any context or link to a specific action.
+- The email contains a suspicious URL in the footer that redirects to an external website rather than a secure branded link.
+- The email is sent from a non-standard domain (marshalls@em.marshalls.com) which could indicate a phishing attempt.
+- The email encourages downloading a mobile app but does not provide a direct link or any additional context about why this is necessary.",True,1
+email_2023_000394_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,2563,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address (marshalls@em.marshalls.com) does not match the domain (marshalls.com).
+- There is a suspicious link in the email: <https://www.marshalls.com/us/store/jump/topic/contact-us/3200004>, which could be used to redirect to a malicious site.
+- The email uses urgent language, stating ""Your Membership has expired!"".
+- The email contains multiple ""Shop Now"" buttons, which is a common tactic in phishing emails to prompt immediate action.
+- The email is poorly formatted with excessive ""Shop Now"" text and lacks proper spacing.
+- The footer includes a mismatched domain name (em.marshalls.com vs marshalls.com).
+
+SUMMARY: The email is likely phishing due to domain mismatch, suspicious links, urgent language, poor formatting, and brand impersonation.",True,1
+email_2023_000413_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,278,True,0,ok,LABEL: 1,True,1
+email_2023_000413_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,317,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a suspicious and generic sender name ""Bakker Jensen (via Google Drive)"".
+- The subject line contains a PDF document name that suggests account suspension, which is a common phishing tactic.
+- The email asks the recipient to open a file named ""We have Disabled Your Online Account ID Due to Unrecognized Log-In.pdf"", which is a red flag as it implies urgent action is needed.
+- The email provides an option to block the sender, which is unusual and could be a way to trick the recipient into taking action.",True,1
+email_2023_000413_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,384,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious sender address and reply-to address (different from typical Google addresses)
+- Mismatched identity in the subject line and body of the email
+- Urgent language (""Disabled Your Online Account ID"")
+- Suspicious domain in the reply-to address (manageacchel.gives is not a known legitimate domain)
+- Request for action (to open a PDF and potentially provide personal information)
+- Brand impersonation (Google's branding used but with a suspicious domain)
+SUMMARY: The email appears to be phishing due to the suspicious sender and reply-to addresses, urgent language, and brand impersonation.",True,1

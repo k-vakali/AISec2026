@@ -1,0 +1,545 @@
+email_id,parser_id,model_name,context_limit,prompt_id,input_tokens,fits,overflow_tokens,status,raw_output,parse_ok,pred_label
+email_2025_000133_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,4782,True,0,ok,LABEL: 1,True,1
+email_2025_000133_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,4821,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email sender's address is suspicious and does not appear to be from a legitimate PayPal domain.
+- The email contains a large amount of blank space in the HTML content, which is unusual and could indicate an attempt to hide malicious links or content.
+- The email uses a generic greeting and does not provide any specific details about the user's account or recent activity that would justify the request for information.",True,1
+email_2025_000133_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,4888,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious domain in the link (https://jon-team.afleq.com/)
+- Mismatched identity; the email claims to be from PayPal but uses a generic and unusual sender address
+- No specific request for information, just a vague statement about needing more information
+- Spacing and formatting issues in the HTML content, with multiple empty paragraphs
+SUMMARY: The email is likely phishing due to the suspicious domain and mismatched identity.",True,1
+email_2025_000134_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,45394,True,0,ok,LABEL: 0,True,0
+email_2025_000134_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,45433,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The email contains a mix of legitimate and suspicious elements, but the primary indicator is the presence of a PayPal login link within the body of the email, which is unusual for a lottery confirmation email.
+- The email is poorly formatted with multiple layers of nested tables, which is common in phishing attempts to bypass email filters.
+- The subject line is encoded in UTF-8, which is a common practice in phishing emails to avoid detection by some email clients.
+- The email is sent from a generic address (Elio Mogollon <elio.mogollon@evolucioneleyendo.pe>) rather than a known PayPal domain, which is a red flag.
+- The email instructs the user to log into their PayPal account, which is inconsistent with the context of a lottery confirmation email.
+
+Given these points, the email appears to be a phishing attempt attempting to mimic a legitimate PayPal notification while directing the user to a suspicious login link.",True,0
+email_2025_000134_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,45500,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The sender address is not from a legitimate PayPal domain.
+- The email contains a suspicious link that redirects through `track.senderbulk.com`, which is often used for tracking and not for authentic PayPal actions.
+- The email uses urgent language, stating that certain functions in the PayPal account are restricted.
+- There is a request for login information, which is a common phishing tactic.
+- The email is poorly formatted with multiple layers of nested tables and non-standard encoding in the subject line.
+- The email includes a brand impersonation element, as it appears to be from PayPal but contains elements that do not match official PayPal communication.
+SUMMARY: The email is attempting to trick the user into providing login information by mimicking a PayPal notification, which is a clear sign of phishing.",True,0
+email_2025_000231_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,3012,True,0,ok,LABEL: 0,True,0
+email_2025_000231_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,3051,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains a suspicious URL with multiple instances of ""https"" (http://https//shoutout.wix.com/so/35PSF57wM/c?w=rh6P1Tj1bZPorIyXa4eEw8iruJDyhyQGknWet1hNLBI.eyJ1IjoiaHR0cHM6Ly9jaG9nYXRoLmNvLnVrL29idXN6enovaW5kZXguaHRtbCIsInIiOiJjYjlmMjc5ZS1kNGMwLTRmMzItODc1Ni1mY2I4YTUyMTk1MzUiLCJtIjoibWFpbCIsImMiOiI0NDBiOWE3Zi03OGUwLTRjN6ntOGEifQ#[Email])
+- The email uses a generic greeting and does not provide any specific context or reason for the update.
+- There is a call to action to update mail settings without providing clear instructions or a secure link.",True,1
+email_2025_000231_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,3118,True,0,ok,"LABEL: 1
+EVIDENCE:
+- Suspicious URL in the email body (http://https//shoutout.wix.com/so/35PSF57wM/c?w=rh6P1Tj1bZPorIyXa4eEw8iruJDyhyQGknWet1hNLBI.eyJ1IjoiaHR0cHM6Ly9jaG9nYXRoLmNvLnVrL29idXN6enovaW5kZXguaHRtbCIsInIiOiJjYjlmMjc5ZS1kNGMwLTRmMzItODc1Ni1mY2I4YTUyMTk1MzUiLCJtIjoibWFpbCIsImMiOiI0NDBiOWE3Zi03OGUwLTRjNjctOTE5ZS01NWE3ODg4NzQ4MzAifQ#)
+- Urgent language: ""Please check your email settings and apply the necessary changes to avoid any disruptions""
+- Brand impersonation: The email appears to be from ""monkey.org"" but uses a suspicious URL that does not match typical cPanel hosting support communication
+- Formatting issues: The email has multiple instances of improper HTML structure and uses non-standard characters in URLs
+SUMMARY: The email contains a suspicious URL and uses urgent language and brand impersonation, indicating it is likely a phishing attempt.",True,1
+email_2025_000244_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,8361,True,0,ok,LABEL: 1,True,1
+email_2025_000244_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,8400,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a suspicious URL that appears to be obfuscated and potentially malicious (https://rose15-sxyz-xyz.translate.goog/?_x_tr_sl=auto&_x_tr_tl=es&_x_tr_hl=no).
+- The email address in the ""From"" field is not legitimate and appears to be a random hotmail account (Aidan Ridell <gcrhuasqi044@hotmail.com>).
+- The email contains irrelevant and promotional content about jewelry, which is unusual for an account lock notification.",True,1
+email_2025_000244_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,8467,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address is suspicious and does not match any legitimate service provider (e.g., hotmail, att.net, cox.net).
+- The subject line contains urgent language (""Account Locked – Follow Up Required"").
+- There is a request to log in using a suspicious link: `wuww.ifntfergacgtiqveabrhokbers.csom`.
+- The email uses a mismatched identity, as it appears to be from someone named ""yfzrjeo"" but is sent to multiple recipients with different email addresses.
+- The email contains poor spelling and grammar, such as ""dwear"", ""peenydisng"", ""udpdiaties"", ""cyonzsudltratxion"", ""raectoryds"", ""phleyase"", ""ljog"", ""yzou"", ""psrosmpated"", ""rkevoiew"", ""cjonjfihrm"", ""ulpdxatwed"", ""tzerxms"", ""tlax"", ""cmonssuxltqatwion"", ""mway"", ""tbemcpokraary"", ""ldimuitxatxioins"".
+- The email includes a block of text that seems out of place and irrelevant to the phishing attempt, which could be an attempt to distract from the suspicious link.
+- The HTML content has numerous instances of obfuscated text and hidden elements, which is often a tactic used in phishing emails to bypass simple filters.
+
+SUMMARY: The email is highly suspicious due to its use of a fake sender, urgent language, and a clearly manipulated and obfuscated link.",True,1
+email_2025_000245_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,1391,True,0,ok,LABEL: 0,True,0
+email_2025_000245_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,1430,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains a suspicious URL that does not match typical Social Security Administration (SSA) domain names.
+- The email uses exclamation marks in the header for emphasis, which is not a common practice for official communications.
+- There is no mention of the sender's official contact information or a way to verify the legitimacy of the email.",True,1
+email_2025_000245_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,1497,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address (noreply@mailsprovidor.com) does not match a legitimate Social Security Administration (SSA) email domain.
+- The link in the email (https://wjwd3d5k.r.us-east-1.awstrack.me/L0/...) contains unusual characters and subdomains that do not align with typical SSA URLs.
+- The email uses urgent language by prompting the recipient to ""review your account details and confirm that they are up to date.""
+- There is no mention of official channels for contacting support, which is a red flag for phishing attempts.
+- The HTML structure and styling are generic and do not provide specific evidence of being from a trusted source like the SSA.
+
+SUMMARY: The email is likely phishing due to the suspicious sender address, unusual URL, use of urgent language, and lack of official contact information.",True,1
+email_2025_000250_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2350,True,0,ok,LABEL: 0,True,0
+email_2025_000250_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2389,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The URL in the email is suspicious and does not match the expected domain (contains ""vercel.app"" which is unusual for monkey.org).
+- The unsubscribe link also contains an unusual domain (""webmail-authncte.vercel.app"").
+- The email uses a generic greeting ""jose@monkey.org,"" which is a common tactic in phishing attempts to make the email seem more personal but can also be a sign of mass-sent phishing emails.",True,1
+email_2025_000250_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2456,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The sender address and reply-to address match the domain (mailer@bravixwp.com and monkey.org).
+- The email mentions that it has been scanned and is authentic, which is a positive indicator.
+- There are no suspicious links or domains in the email.
+- The language is not urgent or pressuring.
+- The email does not request login, payment, verification, or personal information.
+- The URL provided in the HTML part of the email is not from the official monkey.org domain but rather from a different domain (webmail-authncte.vercel.app), which could be a red flag if it were a phishing attempt.
+- The email contains minor formatting issues with the URLs, but this alone is not sufficient evidence for phishing.
+- The email appears to be from a legitimate source based on the content and context.
+
+SUMMARY: The email seems to be from a legitimate source and does not contain any clear signs of phishing.",True,0
+email_2025_000318_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2243,True,0,ok,LABEL: 1,True,1
+email_2025_000318_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2282,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a suspicious domain name (greshammobiledetailing.com) that does not match FedEx's official domain.
+- The URL provided in the email is misleading and contains unusual subdirectories related to technical topics like network protocols and hardware components, which are irrelevant to package delivery.
+- The email is attempting to trick the recipient into clicking a link to reschedule a package delivery, which is a common tactic used in phishing attacks to steal personal information.",True,1
+email_2025_000318_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2349,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is from FedEx but uses a suspicious domain (greshammobiledetailing.com).
+- There are multiple suspicious links in the email (http://www.greshammobiledetailing.com/http2/quic/spdy/h2/h3/tls/ssl/chip/golan?x=am9zZUBtb25rZXkub3Jn and http://www.greshammobiledetailing.com/cpu/gpu/ram/pci/usb/nvme/hash/fsck?x=am9zZUBtb25rZXkub3Jn).
+- The email uses urgent language, pressuring the recipient to reschedule the delivery within 24 hours.
+- The email contains a request for the recipient to click on a link to reschedule the delivery, which could lead to potential phishing activities.
+- The HTML content has a mismatched brand identity, using FedEx's name but linking to a different domain.
+- There are no legitimate authentication details provided in the email.
+
+SUMMARY: The email is highly suspicious due to the use of a fake domain, multiple suspicious links, and urgent language, indicating it is likely a phishing attempt.",True,1
+email_2025_000319_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,1799,True,0,ok,LABEL: 1,True,1
+email_2025_000319_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,1838,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains a suspicious URL that appears to be obfuscated and could be redirecting to a malicious site.
+- The deadline for action is set to tomorrow, which is a common tactic in phishing emails to create urgency.
+- The email is sent from a generic ""CVS Member Points"" address rather than a specific CVS account or official domain.",True,1
+email_2025_000319_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,1905,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious domain in the URL (http://www.hazyhuttn.com/jpeg/png/gif/bmp/tiff/raw/filter/ipx/span?x=am9zZUBtb25rZXkub3Jn)
+- Urgent language and pressure tactics (""must be used by TODAY"", ""if you do not click the button below by TOMORROW"")
+- Mismatched sender and reply-to addresses (From: CVS Member Points <CVSMemberPoints@hazyhuttn.com>)
+- Spelling and grammar issues (""AccumuIation"" instead of ""Accumulation"")
+- Brand impersonation (The email appears to be from CVS but uses a suspicious domain)
+
+SUMMARY: The email is likely phishing due to the presence of a suspicious URL, urgent language, mismatched sender and reply-to addresses, and poor spelling/grammar.",True,1
+email_2025_000339_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,4530,True,0,ok,LABEL: 1,True,1
+email_2025_000339_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,4569,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains a suspicious link: `https://pub-fcee17d5850f41d091c934ed22707e1a.r2.dev/san.html#jose@monkey.org` which could be used to redirect to a malicious site.
+- The email provides non-secure (non-SSL/TLS) server settings with a URL (`http://mail.mthreebm.com`) that does not match the company's usual domain (`monkey.org`).
+- The email uses a generic support address (`info@mthreebm.com`) instead of a specific one related to the company's domain (`monkey.org`).",True,1
+email_2025_000339_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,4636,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email is from a generic ""IT HelpDesk"" with a suspicious domain ""sani.lat"".
+- The email contains a link that redirects to a suspicious URL ""https://pub-fcee17d5850f41d091c934ed22707e1a.r2.dev/san.html#jose@monkey.org"".
+- The email suggests using non-SSL settings which are not recommended and could be a phishing attempt.
+- The email provides alternative non-SSL server settings with a different domain ""mail.mthreebm.com"" which is suspicious.
+- The email uses a generic and impersonal tone, which is common in phishing attempts.
+- There are no clear spelling, grammar, or formatting issues, but the overall structure seems unusual for a legitimate email.
+
+SUMMARY: This email appears to be a phishing attempt due to the suspicious domain, redirection link, and the use of non-recommended non-SSL server settings.",True,1
+email_2025_000395_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2360,True,0,ok,LABEL: 0,True,0
+email_2025_000395_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2399,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The invoice date is in the future (September 08, 2025).
+- The email uses a generic greeting and does not address the recipient by name.
+- The email contains a suspicious call-to-action asking to contact ""+1 (804) 531-8211"" for issues with the transaction, which is not a typical number for PayPal support.",True,1
+email_2025_000395_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2466,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email does not contain any suspicious links or domains.
+- The sender address (119615@ijhs.in) does not match a legitimate PayPal or Coinbase domain.
+- The email uses urgent language but does not explicitly pressure the recipient to take immediate action.
+- There is no request for login, payment, verification, or personal information.
+- The formatting and design are consistent with a typical invoice template.
+- The email appears to be a spoofed message from a non-legitimate source, attempting to mimic a legitimate transaction notification.
+
+SUMMARY: The email is likely a phishing attempt due to the sender's address being suspicious and the overall structure mimicking a legitimate transaction notification.",True,0
+email_2025_000412_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2378,True,0,ok,LABEL: 0,True,0
+email_2025_000412_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2417,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email is sent from an unexpected source (`Invoice PayPal <25324050455455@cbtis46.edu.mx>`), which is not a valid PayPal email address.
+- The email contains a suspicious description of a transaction (""Btc Purchased""), which is unusual for a typical invoice from PayPal.
+- The email includes a phone number (+1 (802) 488-9412) that does not match PayPal's official customer support numbers.
+- The email uses a generic and non-descriptive subject line (""Your Product is Now Active – ID NUJ4DZE""), which is not typical for legitimate PayPal communications.",True,1
+email_2025_000412_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2484,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is not from a legitimate PayPal domain (it contains an educational institution's address).
+- The email uses a suspicious link/domain (no actual URL is provided, but it could be embedded in the HTML which is not visible here).
+- There is urgent language (""If you have any questions about your order, please contact us within 12 hr"").
+- The email contains a request for verification (""Don’t recognize this transaction? Contact PayPal +1 (802) 488-9412 For dispute/claim"").
+- The email has a mismatched identity, as it claims to be from PayPal but uses an educational institution's email address.
+- The contact number provided does not match PayPal’s official customer service numbers.
+
+SUMMARY: The email is likely phishing due to the sender's domain being from an educational institution, the use of urgent language, and a mismatched identity.",True,1
+email_2025_000420_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2372,True,0,ok,LABEL: 0,True,0
+email_2025_000420_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2411,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email is sent from an unusual domain (Invice PayPal instead of PayPal).
+- The subject line mentions ""Product Activated: Confirmation ID NUJ4DZE,"" which is not typical for a standard PayPal invoice.
+- The description of the transaction mentions ""Btc Purchased,"" which is not a common item for a PayPal invoice and suggests a potential scam involving Bitcoin.
+- The contact number provided (+1 (833) 978-0074) does not match PayPal's official customer support numbers, which often start with +1 (800) or +1 (855).",True,1
+email_2025_000420_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2478,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is suspicious and does not match PayPal's typical domain (e.g., @paypal.com).
+- The subject line ""Product Activated: Confirmation ID NUJ4DZE"" is unusual and does not clearly indicate what the email is about.
+- The URL in the transaction details is not provided but implies a link to verify the transaction, which is a common phishing tactic.
+- The email uses urgent language (""If you have any questions about your order, please contact us within 12 hr"").
+- There are formatting issues, such as the use of HTML styling that is not consistent with official PayPal communications.
+- The email appears to be impersonating PayPal but is likely a fraudulent attempt given the mismatched domain and other inconsistencies.
+
+SUMMARY: The email is labeled as phishing due to the suspicious sender address, formatting issues, and the presence of urgent language and potential for misleading links.",True,1
+email_2025_000425_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2746,True,0,ok,LABEL: 1,True,1
+email_2025_000425_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2785,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a suspicious domain name (updatewokr.freshworksmail.com) that does not match a legitimate Netflix URL.
+- The email contains a link that, when inspected, redirects to a suspicious URL (http://updatewokr-c6a55ca15df01d3.fwtrack.com/email/track/click).
+- The email is in Hungarian and uses non-standard spelling (""Előfizetőnk"" instead of ""előfizető"").
+- There is no official Netflix branding or contact information provided in the email.",True,1
+email_2025_000425_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2852,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address uses a suspicious domain name ""updatewokr.freshworksmail.com"" which does not match a legitimate Netflix email address.
+- The email contains a link that is suspicious and does not lead to a known Netflix URL.
+- The email uses urgent language, pressuring the recipient to update their payment information immediately.
+- There are spelling and grammatical errors in the email, such as ""Előfizetőnk"" misspelled as ""Előfizetőnk"" (should be ""Előfizetője"").
+- The email is impersonating Netflix but the URL in the link is not from a recognized Netflix domain.
+- The email includes a welcome message with a suspicious link that does not appear to be from a legitimate source.
+
+SUMMARY: The email is highly suspicious due to its use of a fake domain, urgent language, and poor spelling/grammar, indicating it is likely a phishing attempt.",True,1
+email_2025_000432_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2976,True,0,ok,LABEL: 1,True,1
+email_2025_000432_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,3015,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a suspicious domain name (updatewokr.freshworksmail.com) that does not match a legitimate Netflix domain.
+- The URL in the email (https://fwtrack.accountsanti-freeze.info/fsales/email/track/click) appears to be malicious and is likely part of a phishing attempt.
+- The email contains grammatical errors (""NETFLlX"" instead of ""Netflix"", ""szolgáltatás"" which is Hungarian but used out of context).
+- The email is sent from a generic ""Ügyfélszolgálat Központ"" address rather than a specific support email address associated with Netflix.",True,1
+email_2025_000432_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,3082,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious sender address: The sender's email address is misspelled as ""Ügyfélszolgálat Központ <sales-crm@updatewokr.freshworksmail.com>"", which does not match the official Netflix domain.
+- Urgent language: The email uses phrases like ""Kérjük, frissítse fizetési adatait, hogy folyamatosan hozzáférhessen fiókjához"" (Please update your payment details to continue accessing your account), creating a sense of urgency.
+- Suspicious link: The link provided in the email is ""https://fwtrack.accountsanti-freeze.info/fsales/email/track/click?hash=..."". This domain does not match Netflix's official domain and could be a phishing attempt.
+- Brand impersonation: The email mimics Netflix's branding but uses a different domain name, which is a common tactic in phishing.
+- Spelling and grammar issues: There are several spelling errors such as ""NETFLlX"" and ""NetfIix"", indicating a possible attempt to deceive the recipient.
+- Mismatched URL in welcome message: The URL in the welcome message also appears suspicious and does not match Netflix's official website.
+SUMMARY: The email is likely phishing due to the suspicious sender address, domain in the link, and brand impersonation with spelling errors.",True,1
+email_2025_000435_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,3431,True,0,ok,LABEL: 1,True,1
+email_2025_000435_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,3470,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email address in the ""From"" field is suspicious and does not match a legitimate DHL domain.
+- The URL in the email is not from a known DHL website but instead redirects to a domain that looks suspicious (""https://fwtrack.accountsanti-freeze.info"").
+- The email contains a request to update billing information, which is a common tactic used in phishing attacks to steal sensitive data.
+- The use of a generic greeting and a warning about package delivery issues without any specific details can be a sign of a phishing attempt.
+- The footer includes a tracking image that could be used to monitor if the email was opened, a common practice in phishing emails to confirm receipt and engagement.",True,1
+email_2025_000435_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,3537,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address and reply-to address are suspicious (updatewokr.freshworksmail.com vs. jose@monkey.org).
+- There are multiple suspicious links in the email, including [https://fwtrack.accountsanti-freeze.info/fsales/email/track/click?hash=...].
+- The email uses urgent language and pressure tactics (""Fontos: Teendő szükséges"", ""Elnézést kérünk az esetleges kellemetlenségekért"").
+- It requests the user to update their billing information, which is a common tactic used in phishing.
+- The email contains poor spelling and grammar (""küldtük"" instead of ""küldtünk"").
+- Brand impersonation is evident as the email mimics DHL's style but uses a different domain name.
+- The URL in the link does not match any official DHL domain.
+SUMMARY: This email is likely phishing due to the suspicious sender/reply-to addresses, urgent language, request for sensitive information, and poor quality of the content.",True,1
+email_2025_000461_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2875,True,0,ok,LABEL: 1,True,1
+email_2025_000461_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2914,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses urgent language (""Sürgős"") and demands immediate action to avoid package delivery issues.
+- The email contains a suspicious URL that is not clearly linked to Magyar Posta, which could be used for phishing purposes.
+- The email instructs the recipient to click on a link to ""Fizesse vámdíjat"" (Pay the fee), which is a common tactic in phishing attempts.",True,1
+email_2025_000461_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,2981,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address is suspicious, using a domain that does not match Magyar Posta's typical email domain (e.g., `humagyarapost.freshworksmail.io` instead of `magyarposta.hu`).
+- There is a request for payment with a link (`https://fwtrack.ngproperties.co.uk/fsales/email/track/click?hash...`) which appears to be a phishing attempt.
+- The email uses urgent language (""Sürgős: Vámfizetés szükséges"") and pressure tactics to prompt immediate action.
+- The link in the email is embedded within suspicious text and redirects to a domain that does not belong to Magyar Posta.
+- There are no legitimate contact details provided in the email, and the signature at the end is generic and does not provide any clear way to verify the sender’s identity.
+- The email contains grammatical errors and a mismatch in the brand identity, as the URL and the overall structure do not align with typical Magyar Posta communications.
+
+SUMMARY: This email is likely a phishing attempt due to the suspicious sender address, urgent language, and the presence of a fraudulent payment link.",True,1
+email_2025_000475_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,label,2950,True,0,ok,LABEL: 1,True,1
+email_2025_000475_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2989,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a suspicious and misspelled sender email address (accinrequeridaenvo+2kspms03@chrismtas2026.freshworksmail.io).
+- The URL in the email is suspicious and does not appear to be a legitimate Netflix link (https://fwtrack.ngproperties.co.uk/fsales/email/track/click?hash=...).
+- The email contains a welcome message with a link that is also suspicious and does not match typical Netflix communication practices.
+- The subject line and body of the email are urgent and demand immediate action, which is a common tactic used in phishing attempts.
+- There are spelling errors (""NETFLlX"" instead of ""Netflix"") and unusual characters in the domain names, which could indicate a spoofed email.",True,1
+email_2025_000475_P1,P1,Qwen/Qwen2.5-7B-Instruct,131072,guided,3056,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address and reply-to address are suspicious (using random characters and a non-standard domain).
+- There is a request for immediate action to update payment information.
+- The URL in the email is suspicious and does not appear to be a legitimate Netflix domain.
+- There are spelling errors (""NETFLlX"" instead of ""Netflix"").
+- The email uses urgent language and pressure tactics (""Azonnali teendő"", ""FIGYELEM – AZONNALI INTÉZKEDÉS"").
+- The email contains a welcome message link that redirects to a suspicious domain.
+SUMMARY: This email is likely phishing due to the suspicious sender information, urgent request for payment details, and presence of a malicious URL.",True,1
+email_2025_000133_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,137,True,0,ok,LABEL: 0,True,0
+email_2025_000133_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,176,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email address appears suspicious and not from a recognized domain.
+- The subject line is generic and does not provide specific details about what information is needed.
+- There is no call to action or specific URL provided in the email body, which is often a key component of phishing attempts.",True,1
+email_2025_000133_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,243,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious sender address (uses random numbers and an unusual domain).
+- Mismatched identity (the email claims to be from PayPal but the sender address does not look legitimate).
+- Request for verification (the email asks for information, which is a common tactic in phishing attempts).
+
+SUMMARY: The email is likely phishing due to the suspicious sender address and request for verification without a legitimate source.",True,1
+email_2025_000134_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,2493,True,0,ok,LABEL: 0,True,0
+email_2025_000134_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,2532,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email contains a suspicious link that redirects to a web.de page, which is not typical for a legitimate lottery confirmation.
+- The email is addressed to ""Benjamin Helling"" but uses ""Benjamin_Helling@web.de"" as the recipient, suggesting a potential typo-squatting attempt.
+- The email includes multiple instances of the same information block, which could indicate a template-based phishing attempt.
+- The email is from a generic address and does not provide a clear, official contact method for Lotto Brandenburg.
+- The email includes a copyright notice at the end, which is unusual for a direct communication and might be an attempt to make the email look more official.",True,0
+email_2025_000134_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,2599,True,0,ok,"LABEL: 0
+EVIDENCE:
+- The email appears to be from a legitimate lottery organization, Lotto Brandenburg.
+- The email contains no suspicious links or domains.
+- There is no urgency or pressure tactics used.
+- The email does not request any login, payment, verification, or personal information.
+- The email is formatted correctly and does not contain obvious spelling or grammar errors.
+- The email includes detailed information about the order, which is consistent with a legitimate confirmation message.
+- The sender's email address is from a domain related to the organization (avt-bildung.de).
+- The email provides contact information for further inquiries, which is typical of legitimate organizations.
+- The email mentions that it is confidential and asks the recipient to notify the sender if received by mistake, which is a common practice in official communications.
+
+SUMMARY: The email is a benign confirmation message from Lotto Brandenburg regarding a successful Eurojackpot order.",True,0
+email_2025_000231_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,382,True,0,ok,LABEL: 1,True,1
+email_2025_000231_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,421,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains a suspicious URL with multiple 'http://' tags, which is often a sign of phishing attempts.
+- The email address in the ""From"" field is not typical for a legitimate organization; it uses a less common domain ""monkey.org"".
+- The email requests immediate action without providing clear instructions or context, which is a common tactic in phishing emails.",True,1
+email_2025_000231_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,488,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address and reply-to address do not match (monkey.org vs. toshichi@toshichi.or.jp).
+- Suspicious link in the email body (http://https://...).
+- Urgent language suggesting immediate action is needed.
+- Request for the recipient to update their email settings, which could be a phishing attempt to gain access to sensitive information.
+- Spelling and grammatical errors (""hhttp://https://"", ""Need help? You can contact us by replying to this email."").
+- Mismatched identity as the email appears to be from a hosting support but uses a domain unrelated to typical hosting services.
+
+SUMMARY: The email is likely phishing due to the mismatched sender and reply-to addresses, a suspicious link, urgent language, and other red flags such as spelling and grammatical errors.",True,1
+email_2025_000244_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,1035,True,0,ok,LABEL: 0,True,0
+email_2025_000244_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,1074,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The email contains a suspiciously formatted and misspelled subject line with multiple instances of ""d"" and ""s"".
+- The sender's email address is not legitimate and appears to be a random combination of characters.
+- The email body includes irrelevant and promotional content about jewelry and Women's Day, which is unusual for an account lock notification.",True,1
+email_2025_000244_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,1141,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address is suspicious and does not match the subject line.
+- There are multiple recipient addresses listed, but the email appears to be sent from a different address (3592532317@qq.com).
+- The email contains urgent language and pressure tactics, urging the recipient to act quickly.
+- The email includes a suspicious link that is not properly formatted and could lead to a malicious site.
+- There are several spelling and grammatical errors throughout the email.
+- The email ends with irrelevant and promotional content about jewelry and women's day, which is out of context with the subject line.
+
+SUMMARY: The email exhibits multiple phishing indicators including a mismatched sender address, urgent language, a suspicious link, and poor grammar, making it highly likely to be a phishing attempt.",True,1
+email_2025_000245_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,248,True,0,ok,LABEL: 0,True,0
+email_2025_000245_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,287,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses exclamation marks (!) excessively, which is often a phishing tactic to grab attention.
+- The subject line includes the recipient's name in a way that could be considered suspicious, as it might indicate the email is trying to appear more personalized than it is.
+- The email contains a generic message about updating an account without providing specific details or context, which can be a red flag for phishing attempts.",True,1
+email_2025_000245_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,354,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address uses a generic ""noreply"" email, which is often a red flag for phishing.
+- There are multiple exclamation marks used in the subject and body, which can be a sign of urgency or pressure tactics.
+- The email contains a suspicious link without any clear indication of its legitimacy.
+- The email requests the recipient to view their Social Security Statement, which could be a pretext for phishing.
+- The use of ""SS.Administration"" instead of a recognized official name like ""Social Security Administration"" suggests brand impersonation.
+SUMMARY: The email exhibits several phishing indicators, including a suspicious sender address, pressure tactics, and potential brand impersonation.",True,1
+email_2025_000250_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,275,True,0,ok,LABEL: 0,True,0
+email_2025_000250_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,314,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The email claims to be from ""Mailbox Manager"" but uses a suspicious domain name ""mailer@bravixwp.com"".
+- The unsubscribe link is not provided in a standard manner, which can be a phishing tactic.
+- The URL provided in the email is suspicious due to the use of ""https;//"" instead of ""https://"".",True,0
+email_2025_000250_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,381,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The email claims to be from ""Mailbox Manager"" but uses a suspicious domain ""bravixwp.com"".
+- The URL provided in the email contains a typo (""https;//webmail.monkey.org/increase_storage"").
+- The email uses an urgent language with ""Action Required"" and implies that some emails may be restricted.
+SUMMARY: The email appears to be phishing due to the suspicious domain, URL typo, and urgent language.",True,0
+email_2025_000318_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,580,True,0,ok,LABEL: 0,True,0
+email_2025_000318_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,619,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The email uses a suspicious domain name (greshammobiledetailing.com instead of FedEx's official domain).
+- The subject line and body text are mismatched; the email appears to be about a package delivery issue but the content is about rescheduling a delivery, which is unusual.
+- There is no legitimate FedEx contact information provided in the email, such as a customer service phone number or official address.",True,0
+email_2025_000318_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,686,True,0,ok,"LABEL: <0>
+EVIDENCE:
+- The sender address (Fed-Ex <FedEx@greshammobiledetailing.com>) does not match a legitimate FedEx domain.
+- The email contains a suspicious link to reschedule the delivery.
+- There is an urgent language element pressuring the recipient to act quickly.
+- The email requests action (rescheduling) without providing any context or reason.
+- The formatting of the email is inconsistent and contains misspellings (""Fed"", ""July 30th"", ""missed"").
+- The email appears to be impersonating FedEx.
+
+SUMMARY: The email is likely phishing due to the mismatched sender address, presence of a suspicious link, urgent language, lack of context, and poor formatting.",True,0
+email_2025_000319_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,526,True,0,ok,LABEL: 0,True,0
+email_2025_000319_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,565,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses urgent language to prompt immediate action (""Expires in 2 Days if Not Accessed Here Now"", ""If you do not click the button below by TOMORROW"").
+- The sender's email address is suspicious (CVSMemberPoints@hazyhuttn.com), which does not match a typical CVS email domain.
+- The email contains a link that the user is instructed to visit immediately to avoid losing points, which is a common tactic in phishing attempts to encourage quick clicks.",True,1
+email_2025_000319_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,632,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious sender address (CVSMemberPoints@hazyhuttn.com) does not match a legitimate CVS email domain.
+- Urgent language or pressure tactics (""If you do not click the button below by TOMORROW, you'll lose all of your remaining Extra-Care points from 2024."")
+- Requests for action (clicking a link to keep rewards)
+- Spelling and grammar issues (""Visit Here Now to Keep Your Rewards"" instead of ""Visit [URL] to Keep Your Rewards"")
+- Mismatched identities (the email appears to be related to a customer's account but is sent from someone discussing historic shipwrecks)
+
+SUMMARY: The email is likely phishing due to the suspicious sender address, urgent language, and mismatched context with the content of the email.",True,1
+email_2025_000339_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,376,True,0,ok,LABEL: 1,True,1
+email_2025_000339_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,415,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email provides two sets of server settings, one secure and one non-secure, but does not specify which set should be used.
+- It instructs the user to reset their incoming server settings to a different domain (mail.mthreebm.com instead of monkey.org).
+- The email contains a generic ""info"" address in the non-SSL settings section, which is unusual and could indicate a phishing attempt.",True,1
+email_2025_000339_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,482,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address and reply-to address do not match (info@sani.lat vs. jose@monkey.org).
+- There are multiple suspicious links or domains mentioned in the non-SSL settings section.
+- The email contains a request for login information (username and password).
+- The email suggests resetting server settings, which could lead to loss of control over the email account.
+- There are spelling and grammatical errors (""Client Configuration settings error"", ""service disruption"").
+- The email appears to be impersonating a legitimate IT HelpDesk but uses a domain that does not match (sani.lat vs. monkey.org).
+
+SUMMARY: This email is likely phishing due to the mismatched sender and reply-to addresses, requests for sensitive information, and other suspicious elements.",True,1
+email_2025_000395_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,437,True,0,ok,LABEL: 0,True,0
+email_2025_000395_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,476,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains a fabricated invoice number and date of issue that do not match the current year.
+- The email mentions sending a payment to Coinbase Corporation, which is not consistent with the billing address provided (PayPal Stripe User).
+- The email includes a suspicious phone number (+1 (804) 531-8211) for contacting about issues, which does not correspond to PayPal's known customer service numbers.",True,1
+email_2025_000395_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,543,True,0,ok,"LABEL: 1
+EVIDENCE:
+- The sender address (119615@ijhs.in) does not match PayPal's official domain.
+- There are no legitimate PayPal branding elements or official contact information provided.
+- The email contains urgent language (""If you have any questions about your order, please contact us within 12 hr"").
+- The email requests verification of a transaction that seems unusual (a payment to Coinbase Corporation through PayPal).
+- There are multiple formatting issues, such as the use of lowercase letters and symbols instead of proper words (e.g., ""PayPal"", ""Stripe"" without spaces).
+- The email appears to be impersonating PayPal but uses a suspicious domain and contact number.
+
+SUMMARY: This email is likely phishing due to the sender's domain mismatch, urgency, and formatting issues.",True,1
+email_2025_000412_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,451,True,0,ok,LABEL: 0,True,0
+email_2025_000412_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,490,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email appears to be spoofed as it uses a random Mexican educational institution email address instead of a legitimate PayPal email domain.
+- The invoice details and transaction description do not match typical PayPal communication; PayPal would not send invoices for Bitcoin purchases directly.
+- The email contains a suspicious phone number (+1 (802) 488-9412) that does not belong to PayPal's official customer support contacts.",True,1
+email_2025_000412_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,557,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address does not match the domain of PayPal (cbtis46.edu.mx vs. paypal.com).
+- The email contains a suspicious link or domain (the URL is not provided but the sender is from an educational institution, which is unusual for PayPal).
+- There is no legitimate invoice or transaction information from PayPal; instead, it mentions Coinbase Corporation.
+- The email uses urgent language, pressuring the recipient to contact them within 12 hours.
+- There are spelling and formatting issues (e.g., ""k\nPay\nPal\ns"" instead of ""PayPal"").
+- Brand impersonation as the email appears to be from PayPal but contains information that does not align with typical PayPal communications (such as mentioning Bitcoin purchase).
+
+SUMMARY: This email is likely phishing due to the sender's domain mismatch, suspicious content, and formatting errors.",True,1
+email_2025_000420_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,439,True,0,ok,LABEL: 0,True,0
+email_2025_000420_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,478,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a fake PayPal domain (Invice PayPal instead of PayPal Inc.).
+- The invoice date is in the future (October 29, 2025), which is unusual and suspicious.
+- The email contains a description of a Bitcoin purchase, which is not typical for a standard invoice from PayPal.",True,1
+email_2025_000420_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,545,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious sender address (Invice PayPal instead of PayPal)
+- Mismatched domain in sender address (colegiocdj.com instead of paypal.com)
+- Urgent language (""If you have any questions about your order, please contact us within 12 hr"")
+- Suspicious link or domain (The email does not provide a direct link but the domain is suspicious)
+- Brand impersonation (The email mimics PayPal's style but uses incorrect branding and contact details)
+- Formatting issues (The email has inconsistent spacing and formatting)
+
+SUMMARY: The email is likely phishing due to the suspicious sender address, domain mismatch, urgent language, and brand impersonation.",True,1
+email_2025_000425_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,304,True,0,ok,LABEL: 1,True,1
+email_2025_000425_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,343,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a suspicious domain name (updatewokr.freshworksmail.com) that does not match Netflix's official domain.
+- The email address is misspelled (""Ügyfélszolgálat ° <sales-crm@updatewokr.freshworksmail.com>"").
+- There is a spelling error in ""updatewokr"" instead of ""update.work"".
+- The email contains a generic greeting and does not use the recipient's name.
+- The subject line and body mention ""Netflix"" but the email is not coming from an official Netflix email address.",True,1
+email_2025_000425_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,410,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious sender address (updatewokr.freshworksmail.com does not match Netflix's domain)
+- Urgent language (""Fontos: Frissítse fizetési adatait, hogy elkerülje a fiók felfüggesztését"")
+- Request for payment information (""A legutóbbi fizetés nem sikerült. Kérjük, frissítse fizetési adatait"")
+- Brand impersonation (The email uses ""NETFLIX"" but the domain is suspicious)
+- Spelling and grammar issues (""Ügyfélszolgálat °"", ""Előfizetőnk José@monkey.org"")
+- Mismatched identities (The email claims to be from Netflix but the domain is different and suspicious)
+
+SUMMARY: The email is highly suspicious and appears to be a phishing attempt due to multiple red flags including a suspicious sender domain, urgent language, and brand impersonation.",True,1
+email_2025_000432_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,394,True,0,ok,LABEL: 1,True,1
+email_2025_000432_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,433,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email contains misspellings (""updatewokr"", ""NETFLlX"", ""NetfIix"") which are common in phishing attempts.
+- The email uses a generic greeting and does not address the recipient by name.
+- The domain in the sender's email address is suspicious and does not match the legitimate Netflix domain (it should be something like update.netflix.com or netflix.com).
+- The email is urging the user to update their payment information, which is a common tactic in phishing emails to trick users into providing sensitive data.",True,1
+email_2025_000432_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,500,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious domain in ""updatewokr.freshworksmail.com""
+- Misspelled company name (Netflix instead of updatewokr)
+- Urgent language (""Tisztelt Ügyfelünk! Értesítjük, hogy a legutóbbi fizetési kísérlet során hiba történt."")
+- Misspelled word in the URL (""Fizetési adatok frissítése"")
+- Mismatched email content and branding
+- Suspicious link in the email body (URL is not provided but the text ""Fizetési adatok frissítése"" suggests there might be one)
+
+SUMMARY: The email contains multiple suspicious elements including misspellings, a suspicious domain, and urgent language, indicating it is likely phishing.",True,1
+email_2025_000435_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,647,True,0,ok,LABEL: 1,True,1
+email_2025_000435_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,686,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email address is suspicious and appears to be generated randomly (e.g., ""loukarkoborgiba+1mccpd1c@updatewokr.freshworksmail.com"").
+- There is a request to update billing information, which is a common tactic in phishing emails.
+- The email contains a link asking to update billing data, which is a red flag as it could lead to credential theft.",True,1
+email_2025_000435_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,753,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious domain in ""updatewokr.freshworksmail.com"" (likely a typo-squared domain)
+- Request for payment (""kisebb adminisztratív díj"" mentioned)
+- Urgent language and pressure tactics (""Fontos"", ""Szeretnénk tájékoztatni"", ""Elnézést kérünk az esetleges kellemetlenségekért, és köszönjük gyors intézkedését"")
+- Brand impersonation (Mention of DHL but the email does not look official)
+- Spelling and grammar issues (""szeretnénk"", ""kérjük, hagyja figyelmen kívül ezt az üzenetet"", ""© 2025 . Minden jog fenntartva."")
+- Mismatched sender and reply-to addresses
+SUMMARY: The email is likely phishing due to multiple red flags including a suspicious domain, request for payment, and poor spelling/grammar.",True,1
+email_2025_000461_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,403,True,0,ok,LABEL: 1,True,1
+email_2025_000461_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,442,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email uses a suspicious domain name (humagyarapost.freshworksmail.io) which does not match the legitimate domain of Magyar Posta.
+- The email contains a request for immediate payment, which is a common tactic in phishing attempts.
+- The email instructs the recipient to click on a link to ""Fizesse vámdíjat"" (Pay the VAT), which could be a malicious link designed to steal information.",True,1
+email_2025_000461_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,509,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- Suspicious domain in the reply-to address (humagyarapost.freshworksmail.io)
+- Urgent language (""Sürgős"", ""Tisztelt Ügyfelünk!"")
+- Request for payment (""Fizetendő vám- és kezelési díj"")
+- Use of a shortened payment button link instead of a full URL
+- Mismatched identity; the email appears to be from ""MagyarPosta"" but the reply-to address is not standard
+- Automated message disclaimer (""Ez egy automatikusan generált üzenet, kérjük, erre a levélre ne válaszoljon."")
+SUMMARY: The email is likely phishing due to the suspicious domain and request for payment without a clear, secure link.",True,1
+email_2025_000475_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,label,381,True,0,ok,LABEL: 1,True,1
+email_2025_000475_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,evidence,420,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The email address is suspicious and contains unusual characters and a domain that does not match Netflix's typical domain.
+- The subject line uses Hungarian language (""Azonnali teendő"") which is unexpected if this were a legitimate Netflix communication.
+- The URL in the email is misspelled (NETFLlX instead of Netflix), which is a common tactic used in phishing attempts to mislead recipients into thinking it's a legitimate link.
+- The use of ""FIGYELEM"" (WARNING) in all caps with an exclamation mark could be an attempt to create urgency and fear, prompting immediate action.",True,1
+email_2025_000475_P2,P2,Qwen/Qwen2.5-7B-Instruct,131072,guided,487,True,0,ok,"LABEL: <1>
+EVIDENCE:
+- The sender address contains suspicious characters and a domain that does not match Netflix's official domain (e.g., ""freshworksmail.io"" instead of ""netflix.com"").
+- The email uses urgent language (""Azonnali teendő: Fizetési információk hiányosak"", ""FIGYELEM – AZONNALI INTÉZKEDÉS"").
+- There is a request for payment information (""frissítse fizetési adatait"").
+- The email contains a spelling error (""NETFLlX"" instead of ""NETFLIX"").
+- The link in the email is suspicious and likely phishing (""Frissítés most"").
+
+SUMMARY: This email is suspected to be phishing due to the suspicious sender address, urgent language, request for payment information, spelling errors, and a suspicious link.",True,1
